@@ -1,0 +1,13 @@
+baseURL: http://example.org/
+languageCode: de-DE
+title: Einführung in Swift und SwiftUI
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+params:
+  slogan: we love Swift!
+  headerTitle: Einführung in Swift und SwiftUI
+  footerCopyright: Copyright 2023 by volker

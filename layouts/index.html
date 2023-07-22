@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h1>{{ .Site.Title }}</h1>
+                <!-- Textfarbe secondary und text von h2 auf h3 verkleinert -->
+                <h2 class="text-secondary" h3>{{ .Params.subtitle }}</h2>
+            </div>
+            {{ .Content }}
+
+            <!--- Button test -->
+            <!--
+              <a class="btn btn-primary" href="#" role="button">Link</a>      
+            -->
+            
+        </div>
+    </div>
+</div>
+{{ end }}
