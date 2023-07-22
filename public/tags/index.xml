@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Einführung in Swift und SwiftUI</title>
-    <link>http://example.org/tags/</link>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/</link>
     <description>Recent content in Tags on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-DE</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-DE</language><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
