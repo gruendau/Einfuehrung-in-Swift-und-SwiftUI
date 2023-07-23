@@ -2,10 +2,11 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="text-center">
-                <h1>{{ .Site.Title }}</h1>
-                <!-- Textfarbe secondary und text von h2 auf h3 verkleinert -->
-                <h2 class="text-secondary" h3>{{ .Params.subtitle }}</h2>
+            <!-- Padding vertical py -->
+            <div class="text-left py-2">
+                <h1>{{ .Title }}</h1>
+                <!-- Textfarbe secondary und text von h2 auf h5 verkleinert -->
+                <h2 class="text-secondary h3 h4 h5">{{ .Params.subtitle }}</h2>
             </div>
             {{ .Content }}
 

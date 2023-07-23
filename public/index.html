@@ -24,8 +24,8 @@
             <span class="h2 text-primary">
                 Einführung in Swift und SwiftUI
                 
-                <a class="btn btn-primary btn-sm" href="/einfuehrung-in-swift-und-swiftui/" role="button">Home</a>
-                <a class="btn btn-primary btn-sm" href="/einfuehrung-in-swift-und-swiftui/contact" role="button">Kontakt</a>
+                    <a class="btn btn-primary btn-sm" href="/einfuehrung-in-swift-und-swiftui/" role="button">Home</a>
+                    <a class="btn btn-primary btn-sm" href="/einfuehrung-in-swift-und-swiftui/contact" role="button">Kontakt</a>
             </span>
         </div>
     </div>
@@ -33,15 +33,31 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="text-center">
-                <h1>Einführung in Swift und SwiftUI</h1>
+            
+            <div class="text-left py-2">
+                <h1>Einleitung</h1>
                 
-                <h2 class="text-secondary" h3>Wir wollen gemeinsam die Programmiersprache Swift kennenlernen</h2>
+                <h2 class="text-secondary h3 h4 h5">Einstiegsseite der Einführung in Swift und SwiftUI</h2>
             </div>
-            <h1 id="home">Home</h1>
-<p>&hellip; und etwas <strong>Text</strong> für den Anfang!</p>
-<p>Es wird der Inhalt von content/_index.md angezeigt.</p>
-<!-- Button test -->
+            <p>Einführung in die 2014 vorgestellte Programmiersprache <a href="https://de.wikipedia.org/wiki/Swift_(Programmiersprache)">Swift</a>, die inzwischen <a href="https://de.wikipedia.org/wiki/Objective-C">Objective-C</a> bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI <a href="https://de.wikipedia.org/wiki/SwiftUI">SwiftUI</a>, das bei Apple das etablierte GUI UIKit ergänzt und ablöst.</p>
+<p><code>Die Seiten werden seit Juni 2023 aufgebaut.</code></p>
+<h2 id="klassen">Klassen</h2>
+<p>Eine <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures" title="swift.org">Klasse</a> &lt;<em>class</em>&gt; ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &lt;<em>properties</em>&gt; und Methoden &lt;<em>methodes</em>&gt;. Für die Deklarierung wird das Schlüsselwort <code>class</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#75715e">// Allgemein</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EineKlasse</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Definition des Inhalts der Klasse</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Beispiel</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> name: String = <span style="color:#e6db74">&#34;volker&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Methode</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">gruesse</span> () -&gt; String {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hallo &#34;</span> <span style="color:#f92672">+</span> name
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><!-- Button test -->
 <!--
   <a class="btn btn-primary" href="/contact" role="button">Link</a>
 -->
