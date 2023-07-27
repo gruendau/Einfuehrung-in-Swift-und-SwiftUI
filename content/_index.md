@@ -1,17 +1,25 @@
 ---
 title: "Einleitung"
 date: 2023-07-22T18:33:41+02:00
-draft: true
+draft: false
 subtitle: "Einstiegsseite der Einführung in Swift und SwiftUI"
 ---
 
-Einführung in die 2014 vorgestellte Programmiersprache [Swift](https://de.wikipedia.org/wiki/Swift_(Programmiersprache)), die inzwischen [Objective-C](https://de.wikipedia.org/wiki/Objective-C) bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI [SwiftUI](https://de.wikipedia.org/wiki/SwiftUI), das bei Apple das etablierte GUI UIKit ergänzt und ablöst. 
+Einführung in die 2014 vorgestellte Programmiersprache **Swift** [{w}][w1], die inzwischen **Objective-C** [{w}][w2] bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI[^1] **SwiftUI** [{w}][w3], das bei Apple das etablierte GUI **UIKit** ergänzt und ablöst. 
+
+[w1]: https://de.wikipedia.org/wiki/Swift_(Programmiersprache) "wikipedia"
+[w2]: https://de.wikipedia.org/wiki/Objective-C "wikipedia"
+[w3]: https://de.wikipedia.org/wiki/SwiftUI "wikipedia"
+
+[^1]: GUI: Graphical User Interface [{w}](https://de.wikipedia.org/wiki/Grafische_Benutzeroberfläche) "wikipedia"
 
 `Die Seiten werden seit Juni 2023 aufgebaut.`
 
 ## Klassen
 
-Eine [Klasse](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures "swift.org") <_class_> ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften <_properties_> und Methoden <_methodes_>. Für die Deklarierung wird das Schlüsselwort `class` genutzt.    
+Eine Klasse <_class_> [{d}][d1] ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften <_properties_> und Methoden <_methodes_>. Für die Deklarierung wird das Schlüsselwort `class` genutzt.   
+
+[d1]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures "swift.org"
 
 ```swift
 // Allgemein
@@ -29,6 +37,10 @@ class Person {
     }
 }
 ```
+
+... und hier geht der Text irgendwie weiter!
+
+
 
 <!-- Button test -->
 <!--

@@ -2,6 +2,9 @@ baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
 languageCode: de-DE
 title: Einführung in Swift und SwiftUI
 
+css: ["css/main.css"]
+js: ["js/main.js"]
+
 markup:
   goldmark:
     renderer:
