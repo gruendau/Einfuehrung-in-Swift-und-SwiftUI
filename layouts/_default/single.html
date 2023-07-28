@@ -1,15 +1,24 @@
 {{ define "main" }}
-<div class="container">
+
+<!-- single.html -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" 
+          href="/css/main.css">
+
+<div style= "background-color: #DDDDDD;" 
+     class="container-fluid px-2">
     <div class="row">
         <div class="col">
-            <h1>{{ .Title }}</h1>
-            <!-- Subtitle h2 nur wenn subtitle vorhanden. -->
-            {{ with .Params.subtitle }}
-            <!-- Textfarbe secondary und text von h2 auf h3 verkleinert -->
-            <h2 class="text-secondary" h3>{{ . }}</h2>
-            {{ end }}
+            
+            <!-- Title, Subtitle -->
+            {{ partial "title-subtitle" . }}
+
+            <!-- Content -->
             {{ .Content }}
+
         </div>
     </div>
 </div>
+
 {{ end }}

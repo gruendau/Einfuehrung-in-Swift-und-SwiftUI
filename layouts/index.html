@@ -1,21 +1,21 @@
 {{ define "main" }}
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <!-- Padding vertical py -->
-            <div class="text-left py-2">
-                <h1>{{ .Title }}</h1>
-                <!-- Textfarbe secondary und text von h2 auf h5 verkleinert -->
-                <h2 class="text-secondary h3 h4 h5">{{ .Params.subtitle }}</h2>
-            </div>
-            {{ .Content }}
 
-            <!--- Button test -->
-            <!--
-              <a class="btn btn-primary" href="#" role="button">Link</a>      
-            -->
+<!-- index.html -->
+
+<div style= "background-color: #DDDDDD;" 
+     class="container-fluid px-2">
+     <div class="row">
+        <div class="col">
+                
+            <!-- Title, Subtitle -->
+            {{ partial "title-subtitle" . }}
+
+            <!-- Content -->
             
+            {{ .Content }}
+         
         </div>
     </div>
 </div>
+
 {{ end }}

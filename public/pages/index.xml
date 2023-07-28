@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Einleitung on Einführung in Swift und SwiftUI</title>
-    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/</link>
-    <description>Recent content in Einleitung on Einführung in Swift und SwiftUI</description>
+    <title>Pages on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/</link>
+    <description>Recent content in Pages on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
-    <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kontakt</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/contact/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/contact/</guid>
-      <description>eMail:
-bootstrap 5</description>
-    </item>
-    
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Links zu Swift- und SwiftUI in deutscher Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/german/</link>
@@ -44,15 +34,6 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/apple/</guid>
       <description>
 Thema Links Anmerkung Apple home github Developer developer Develop developer XCode developer Swift developer language library source-code SwiftUI developer tutorial Documentation developer Foundation Swift SwiftUI UIKit MapKit Charts XCode Videos developer OS iOS macOS WWDC 2014-2023 2023 - 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 SF-Symbols developer </description>
-    </item>
-    
-    <item>
-      <title>Über mich</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/about/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/about/</guid>
-      <description>Ich bin Volker und Hobby Programmierer.</description>
     </item>
     
     <item>
