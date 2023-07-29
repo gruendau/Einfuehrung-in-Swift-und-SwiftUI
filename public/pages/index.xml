@@ -8,7 +8,26 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Links zu Swift- und SwiftUI in deutscher Sprache</title>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/swift/introduction/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/swift/introduction/</guid>
+      <description>xxx</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/</guid>
+      <description>Inhalt:
+Apple Deutsch Englisch Stanford </description>
+    </item>
+    
+    <item>
+      <title>Links in deutscher Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/german/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -17,7 +36,7 @@
     </item>
     
     <item>
-      <title>Swift- und SwiftUI-Links in englischer Sprache</title>
+      <title>Links in englischer Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/english/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -27,7 +46,7 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
     </item>
     
     <item>
-      <title>Swift- und SwiftUI-Links von Apple</title>
+      <title>Links von Apple</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/apple/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -37,14 +56,24 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
     </item>
     
     <item>
-      <title>Vorlesungen der Stanford University zu Swift and SwiftUI</title>
+      <title>Test</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/swift/test/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/swift/test/</guid>
+      <description>Klassen Eine Klasse &amp;lt;class&amp;gt; {d} ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &amp;lt;properties&amp;gt; und Methoden &amp;lt;methodes&amp;gt;. Für die Deklarierung wird das Schlüsselwort class genutzt.
+// Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } &amp;hellip; und hier geht der Text irgendwie weiter!</description>
+    </item>
+    
+    <item>
+      <title>Vorlesungen der Stanford University</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/stanford/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/pages/links/stanford/</guid>
-      <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos habe ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
+      <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
 Thank you Paul, thank you Stanford!
-Swift3/UIKit - Spring 2017 Swift4/UIKit - Fall 2017 Swift5/SwiftUI - Spring 2020 Swift5/SwiftUI - Spring 2021 Stanford CS193p - Swift 3 with UIKit - Spring 2017 01 Introduction to iOS 10, Xcode 8 and Swift 3 von Paul Hegarty, 84 min 02 MVC; iOS, Xcode and Swift Demonstration von Paul Hegarty, 85 min 03 More Swift and the Foundation Framework von Paul Hegarty, 85 min 04 Views von Paul Hegarty, 81 min 05 Gestures and Multiple MVCs von Paul Hegarty, 81 min 06 Multiple MVCs, View Controller Lifecycle von Paul Hegarty, 84 min 07 Error Handling, Extensions, Protocols, Delegation von Paul Hegarty, 79 min 08 Multithreading and Text Field von Paul Hegarty, 77 min 09 Table View von Paul Hegarty, 90 min 10 Core Data von Paul Hegarty, 91 min 11 Core Data Demo von Paul Hegarty, 76 min 12 Autolayout von Paul Hegarty, 51 min 13 Timer and Animation von Paul Hegarty, 81 min 14 Dynamic Animation Demo von Paul Hegarty, 82 min 15 More Segues von Paul Hegarty, 83 min 16 Alerts and Action Sheets von Paul Hegarty, 72 min 17 Accessibility von Paul Hegarty, 43 min [rauf][top] [runter][bottom]</description>
+Swift3/UIKit - Spring 2017 Swift4/UIKit - Fall 2017 Swift5/SwiftUI - Spring 2020 Swift5/SwiftUI - Spring 2021 Stanford CS193p - Swift 3 with UIKit - Spring 2017 01 Introduction to iOS 10, Xcode 8 and Swift 3 von Paul Hegarty, 84 min 02 MVC; iOS, Xcode and Swift Demonstration von Paul Hegarty, 85 min 03 More Swift and the Foundation Framework von Paul Hegarty, 85 min 04 Views von Paul Hegarty, 81 min 05 Gestures and Multiple MVCs von Paul Hegarty, 81 min 06 Multiple MVCs, View Controller Lifecycle von Paul Hegarty, 84 min 07 Error Handling, Extensions, Protocols, Delegation von Paul Hegarty, 79 min 08 Multithreading and Text Field von Paul Hegarty, 77 min 09 Table View von Paul Hegarty, 90 min 10 Core Data von Paul Hegarty, 91 min 11 Core Data Demo von Paul Hegarty, 76 min 12 Autolayout von Paul Hegarty, 51 min 13 Timer and Animation von Paul Hegarty, 81 min 14 Dynamic Animation Demo von Paul Hegarty, 82 min 15 More Segues von Paul Hegarty, 83 min 16 Alerts and Action Sheets von Paul Hegarty, 72 min 17 Accessibility von Paul Hegarty, 43 min rauf runter</description>
     </item>
     
     <item>

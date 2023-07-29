@@ -1,12 +1,16 @@
 ---
-title: Vorlesungen der Stanford University zu Swift and SwiftUI 
+title: Vorlesungen der Stanford University
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: 
+subtitle: Vorlesungen zu Swift, SwiftUI and UIKit
+
+left: ../english
+up: ../links
+right: ../apple
 ---
 
-Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos habe ein anspruchsvolles Niveau und sollten dreimal angeschaut werden ... zum Staunen, zum Verstehen und schlußendlich zum Genießen.
+Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden ... zum Staunen, zum Verstehen und schlußendlich zum Genießen.
 
 Thank you Paul, thank you Stanford! 
 
@@ -36,7 +40,7 @@ Thank you Paul, thank you Stanford!
 [16 Alerts and Action Sheets](https://www.youtube.com/watch?v=irNWTSJXzy4) von Paul Hegarty, 72 min <br>
 [17 Accessibility](https://www.youtube.com/watch?v=lCvUwkjgkhU) von Paul Hegarty, 43 min <br>
 
-[__`rauf`__][top] [__`runter`__][bottom]
+[rauf](#top) [runter](#bottom)
 
 ---
 
@@ -64,7 +68,7 @@ Thank you Paul, thank you Stanford!
 [Friday Session 2 Github and Source Control Workflow](https://www.youtube.com/watch?v=MK24ENt0vts) von Junjie, 25 min <br>
 [Friday Session 3 Instruments](https://www.youtube.com/watch?v=mgqvjN874dQ) von Jason, 29 min <br>
 
-[__`rauf`__][top] [__`runter`__][bottom]
+[rauf](#top) [runter](#bottom)
 
 ---
 
@@ -87,7 +91,7 @@ Thank you Paul, thank you Stanford!
 [13 Persistence](https://www.youtube.com/watch?v=fTNPRhGGP-0) von Paul Hegarty, 62 min <br>
 [14 UIKit Integration](https://www.youtube.com/watch?v=GRX5Dha_Clw) von Paul Hegarty, 62 min <br>
 
-[__`rauf`__][top] [__`runter`__][bottom]
+[rauf](#top) [runter](#bottom)
 
 ---
 
@@ -111,3 +115,7 @@ Thank you Paul, thank you Stanford!
 [14 Document Architecture](https://www.youtube.com/watch?v=Ou25reI71zU) von Paul Hegarty, 77 min <br>
 [15 UIKit Integration](https://www.youtube.com/watch?v=ba7sJ74vDtA) von Paul Hegarty, 76 min <br>
 [16 Multiplatform (macOS + iOS)](https://www.youtube.com/watch?v=At6M7nUQ09E) von Paul Hegarty, 46 min <br>
+
+[rauf](#top) [runter](#bottom)
+
+<br>

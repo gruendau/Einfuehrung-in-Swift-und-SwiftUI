@@ -19,40 +19,10 @@ Einführung in die 2014 vorgestellte Programmiersprache **`Swift`** [{w}][w1], d
 
 `Die Seiten werden seit Juni 2023 aufgebaut.`
 
-## Klassen
+Viel Freude beim Lesen 🥰!
 
-Eine Klasse <_class_> [{d}][d1] ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften <_properties_> und Methoden <_methodes_>. Für die Deklarierung wird das Schlüsselwort `class` genutzt.   
-
-[d1]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures "swift.org"
-
-```swift
-// Allgemein
-class EineKlasse {
-   // Definition des Inhalts der Klasse
-}
-
-// Beispiel
-class Person {
-    // Property
-    var name: String = "volker"
-    // Methode
-    func gruesse () -> String {
-        return "Hallo " + name
-    }
-}
-```
-
-... und hier geht der Text irgendwie weiter!
+Inhalt: 
+* [Swift](./pages/swift/introduction) <br>
+* [Links](./pages/links) <br>
 
 
-Badge 
-<div class="badge bg-primary text-wrap" style="width: 6rem;">
-    I am a badge
-</div>
-
-
-
-<!-- Button test -->
-<!--
-  <a class="btn btn-primary" href="/contact" role="button">Link</a>
--->

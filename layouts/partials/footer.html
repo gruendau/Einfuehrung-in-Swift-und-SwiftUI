@@ -1,15 +1,37 @@
 <!-- footer -->
 
-<!-- bg-Color: https://getbootstrap.com/docs/5.0/utilities/background/#background-color -->
-<!-- text-Color: https://getbootstrap.com/docs/5.0/utilities/colors/#colors -->
-<div class="container-fluid bg-warning p-2">
+<div class="container-fluid bg-warning pt-2 px-2">
     <div class="row">
         <div class="col">
             
             <!-- Copyright -->
             <span class="text-primary fs-6">
-                {{ .Site.Params.footerCopyright }}
+
+                <div class="d-flex justify-content-between">
+
+                    <!-- links Copyright -->
+                    <div class="col-example">
+                        <!-- Copyright -->
+                        Copyright &copy;2023 by volker
+                    </div>
+
+                    <!--- mitte -->
+                    <div class="col-example"></div>
+
+                    <!-- rechts Impressum -->
+                    <div class="col-example">
+                        <!-- Impressum -->
+                        <a href="/einfuehrung-in-swift-und-swiftui/impressum">
+                           impressum
+                        </a>
+                    </div>
+
+                </div>
+
             </span>
+
+            <!-- Sprungmarke -->
+            <h3 id="bottom"></h3>
 
         </div>
     </div>

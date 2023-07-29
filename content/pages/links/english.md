@@ -1,9 +1,13 @@
 ---
-title: Swift- und SwiftUI-Links in englischer Sprache
+title: Links in englischer Sprache
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: 
+subtitle: Auflistung von englisch-sprachigen Blogs, ... zum Themenbereich Swift und SwiftUI
+
+left: ../german
+up: ../links
+right: ../stanford
 ---
 
 Text ...

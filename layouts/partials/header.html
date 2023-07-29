@@ -3,11 +3,14 @@
 <!-- bg-Color: https://getbootstrap.com/docs/5.0/utilities/background/#background-color -->
 <!-- text-Color: https://getbootstrap.com/docs/5.0/utilities/colors/#colors -->
 
-<div class="container-fluid bg-warning p-2 ">
+<div class="container-fluid position-sticky bg-warning px-2 pb-2">
     <div class="row">
         <!-- Padding p-2 -->
         <div class="col">
             <span class="h2 text-primary">
+
+                <!-- Sprungmarke -->
+                <h3 id="top"></h3>
 
                 <!-- Title -->
                 {{ .Site.Params.headerTitle }}
@@ -15,41 +18,51 @@
                 <br>
 
                 <!-- Buttons -->
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/" 
-                   role="button">
-                   Home
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/about" 
-                   role="button">
-                   Über mich
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/contact" 
-                   role="button">
-                   Kontakt
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/pages/links/apple" 
-                   role="button">
-                   Links Apple 
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/pages/links/english" 
-                   role="button">
-                   Links EN 
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/pages/links/german" 
-                   role="button">
-                   Links DE
-                </a>
-                <a class="btn btn-primary btn-sm" 
-                   href="/einfuehrung-in-swift-und-swiftui/pages/links/stanford" 
-                   role="button">
-                   Links Stanford 
-                   </a>
+
+                <div class="d-flex justify-content-between">
+
+                    <!-- links Navigation -->
+                    <div class="col-example">
+                        <a class="btn btn-primary btn-sm" 
+                           href="/einfuehrung-in-swift-und-swiftui/" 
+                           role="button">
+                           home
+                        </a>
+                        <a class="btn btn-primary btn-sm" 
+                           href="{{ .Page.Params.left }}" 
+                           role="button">
+                           links
+                        </a>
+                        <a class="btn btn-primary btn-sm" 
+                           href="{{ .Page.Params.up }}" 
+                           role="button">
+                           hoch
+                        </a>
+                        <a class="btn btn-primary btn-sm" 
+                           href="{{ .Page.Params.right }}" 
+                           role="button">
+                           rechts
+                        </a>
+                    </div>
+
+                    <!--- mitte -->
+                    <div class="col-example"></div>
+
+                    <!-- rechts Links -->
+                    <div class="col-example">
+                        <a class="btn btn-primary btn-sm" 
+                           href="/einfuehrung-in-swift-und-swiftui/about" 
+                           role="button">
+                           über mich
+                        </a>
+                        <a class="btn btn-primary btn-sm" 
+                           href="/einfuehrung-in-swift-und-swiftui/contact"
+                           role="button">
+                           kontakt
+                        </a>
+                    </div>
+
+                </div>
 
             </span>
         </div>

@@ -1,9 +1,13 @@
 ---
-title: Swift- und SwiftUI-Links von Apple
+title: Links von Apple
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
 subtitle: Links von Apple zum Themenbereich Swift, SwiftUI, UIKit, ...
+
+left: ../stanford
+up: ../
+right: ../german
 ---
 
 <br>
