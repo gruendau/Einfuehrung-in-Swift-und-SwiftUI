@@ -85,17 +85,18 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
     </item>
     
     <item>
-      <title>Über mich</title>
+      <title>Über</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/about/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/about/</guid>
-      <description>Ich bin Volker und programmiere in meiner Freizeit einwenig.
-Die Webseite
-ist privat und verfolgt keine geschäftlichen Interessen.
+      <description>Ich bin Volker, wohne in Niedergründau/Hessen und programmiere einwenig in meiner Freizeit.
+Diese Webseite
 ist eine statische Webseite die mit Hugo generiert wurde.
+ist privat und verfolgt keine geschäftlichen Interessen.
 setzt keine Cookies ein.
-erfasst und sammelt keine Daten von Besuchern.</description>
+erfasst und sammelt keine Daten von Besuchern.
+ist auf GitHub öffentlich abgespeichert.</description>
     </item>
     
     <item>

@@ -1,5 +1,5 @@
 ---
-title: Über mich
+title: Über
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
@@ -10,16 +10,22 @@ up: ../
 right: /
 ---
 
-Ich bin Volker und programmiere in meiner Freizeit einwenig. 
+Ich bin Volker, wohne in Niedergründau/Hessen und programmiere einwenig in meiner Freizeit. 
 
-Die Webseite 
+Diese Webseite 
 
-* ist privat und verfolgt keine geschäftlichen Interessen.
+* ist eine `statische Webseite` die mit [Hugo][l1] generiert wurde.
 
-* ist eine statische Webseite die mit Hugo generiert wurde.
+* ist `privat` und verfolgt keine geschäftlichen Interessen.
 
-* setzt keine Cookies ein. 
+* setzt `keine Cookies` ein. 
 
-* erfasst und sammelt keine Daten von Besuchern.
+* erfasst und `sammelt keine Daten von Besuchern`.
+
+* ist auf [GitHub][l2] öffentlich abgespeichert.
 
 <br>
+
+<!-- Links -->
+[l1]: https://gohugo.io
+[l2]: https://github.com/gruendau/einfuehrung-in-swift-und-swiftui/
