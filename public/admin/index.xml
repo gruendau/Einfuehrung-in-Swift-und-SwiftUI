@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Admin on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</link>
+    <description>Recent content in Admin on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test/</guid>
+      <description>Klassen Eine Klasse &amp;lt;class&amp;gt; {d} ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &amp;lt;properties&amp;gt; und Methoden &amp;lt;methodes&amp;gt;. Für die Deklarierung wird das Schlüsselwort class genutzt.
+// Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } &amp;hellip; und hier geht der Text irgendwie weiter!</description>
+    </item>
+    
+    <item>
+      <title>ToDos</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/open/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/open/</guid>
+      <description>Text &amp;hellip;
+Letztes Update-Datum der Seite anzeigen. Pfad anzeigen. Sticky Header. Sticky Footer. Navigation. Archetypes für Swift Custom Buttons. Custom Links. Farbensätze (light, dark). CSS Einbindung. Ausführbarer Code. Code koperbar machen. </description>
+    </item>
+    
+  </channel>
+</rss>
