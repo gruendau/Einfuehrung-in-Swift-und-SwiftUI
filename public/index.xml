@@ -91,19 +91,13 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/about/</guid>
-      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit.
+      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
 Diese Webseite
-Geschäftsmodell
-ist privat und verfolgt keine geschäftlichen Interessen. Aufbau
-ist eine statische Webseite die mit Hugo generiert wurde.
-wird über GitHub-Pages Server von GitHub bereitgestellt.
-ist als Quellcode über ein GitHub-Repository öffentlich zugängig.
-Datenschutz
-setzt keine Cookies ein.
-erfasst und sammelt keine Daten von Besuchern.
-Impressum
-hat kein Impressum. Copyright
-&amp;hellip; </description>
+enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
+ist für mich und vielleicht auch für die Besucher ein Nachschlagwerk und eine Anleitung.
+wird seit Juli 2023 Schritt für Schritt aufgebaut.
+Aufbau
+ist eine statische Webseite die mit Hugo generiert wurde.</description>
     </item>
     
     <item>
