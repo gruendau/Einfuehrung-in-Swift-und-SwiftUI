@@ -6,7 +6,7 @@ draft: false
 subtitle: Auflistung von englisch-sprachigen Blogs, ...
 
 left: ../german
-up: ../
+up: ../intro
 right: ../stanford
 ---
 

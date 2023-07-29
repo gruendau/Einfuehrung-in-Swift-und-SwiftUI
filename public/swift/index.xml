@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Swift on Einführung in Swift und SwiftUI</title>
+    <title>Swifts on Einführung in Swift und SwiftUI</title>
     <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/</link>
-    <description>Recent content in Swift on Einführung in Swift und SwiftUI</description>
+    <description>Recent content in Swifts on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/index.xml" rel="self" type="application/rss+xml" />
@@ -23,6 +23,88 @@
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction/</guid>
       <description>xxx</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/intro/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/intro/</guid>
+      <description>Inhalt:
+Apple Deutsch Englisch Stanford </description>
+    </item>
+    
+    <item>
+      <title>Links in deutscher Sprache</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/german/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/german/</guid>
+      <description> Name Autor Links Anmerkung Bodo Schönfeld home youtube github twitter instagram email Der Swift Blog home tutorial 2014-2017 Holger Hinzberg home github twitter email LET&amp;rsquo;S DEV home blog twitter facebook instagram email Martin Lexow youtube twitter instagram mastodon reddit email Paul Hudson home Thomas Sillmann home youtube github email https://www.predic8.de/iOS-swift-app-tutorial.htm http://swift.guru/ https://letsdev.de/blog/swift-ui-einfache-schnelle-umsetzung-von-user-interfaces </description>
+    </item>
+    
+    <item>
+      <title>Links in englischer Sprache</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/english/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/english/</guid>
+      <description>Text &amp;hellip;
+Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexander Grebenyuk home blog github twitter mastodon Alexey Naumov home blog github twitter Andrew Bancroft home github twitter Antoine von der Lee home github twitter twitter stack instagram email AppCoda home blog github twitter facebook instagram Artturi Jalli home github gist email - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Benoit Pasquier home github twitter Bolt UIX home youtube github twitter facebook instagram medium byby.</description>
+    </item>
+    
+    <item>
+      <title>Links von Apple</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/apple/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/apple/</guid>
+      <description>
+Thema Links Anmerkung Apple home github Developer developer Develop developer XCode developer Swift developer language library source-code SwiftUI developer tutorial Documentation developer Foundation Swift SwiftUI UIKit MapKit Charts XCode Videos developer OS iOS macOS WWDC 2014-2023 2023 - 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 SF-Symbols developer </description>
+    </item>
+    
+    <item>
+      <title>Schlüsselwörter</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/intro/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/intro/</guid>
+      <description>Text &amp;hellip;
+Inhalt:
+some </description>
+    </item>
+    
+    <item>
+      <title>Some</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some/</guid>
+      <description>Some the &amp;ldquo;don&amp;rsquo;t care type&amp;rdquo;.
+Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/intro/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/intro/</guid>
+      <description>Text &amp;hellip;
+Inhalt:
+einführung schlüsselwörter links a-z </description>
+    </item>
+    
+    <item>
+      <title>Vorlesungen der Stanford University</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/stanford/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/stanford/</guid>
+      <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
+Thank you Paul, thank you Stanford!
+Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction to iOS 10, Xcode 8 and Swift 3 84 min 02 MVC; iOS, Xcode and Swift Demonstration 85 min 03 More Swift and the Foundation Framework 85 min 04 Views 81 min 05 Gestures and Multiple MVCs 81 min 06 Multiple MVCs, View Controller Lifecycle 84 min 07 Error Handling, Extensions, Protocols, Delegation 79 min 08 Multithreading and Text Field 77 min 09 Table View 90 min 10 Core Data 91 min 11 Core Data Demo 76 min 12 Autolayout 51 min 13 Timer and Animation 81 min 14 Dynamic Animation Demo 82 min 15 More Segues 83 min 16 Alerts and Action Sheets 72 min 17 Accessibility 43 min rauf runter</description>
     </item>
     
   </channel>

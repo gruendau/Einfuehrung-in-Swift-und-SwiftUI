@@ -22,16 +22,21 @@ Einführung in die 2014 vorgestellte Programmiersprache **`Swift`** [{w}][w1], d
 Viel Freude beim Lesen 🥰!
 
 Inhalt: 
-* [swift](./swift) <br>
+* [swift](./swift/intro) <br>
   [einführung](./swift/introduction) 
-  [schlüsselwörter](./swift/keywords) 
-  [links](./swift/links) 
+  [schlüsselwörter](./swift/keywords/intro) 
+  [links](./swift/links/intro) 
   [a-z](./swift/az) 
-* [werkzeuge](./tools) <br>
+* [werkzeuge](./tools/intro) <br>
   [xcode](./tools/xcode)
 
 Anderes: 
-* [site](./site) 
-* [admin](./admin) 
+* [site](./site/intro) <br> 
+  [über](./site/about)
+  [kontakt](./site/contact)
+  [impressum](./site/impressum)
+* [admin](./admin/intro) <br>
+  [todos](./admin/open)
+  [test](./admin/test) 
 
 

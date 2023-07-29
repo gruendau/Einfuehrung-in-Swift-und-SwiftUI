@@ -6,12 +6,12 @@ draft: false
 subtitle: 
 
 left: 
-up: ../
+up: ../../
 right: 
 ---
 
 Text ...
 
 Inhalt: 
-* [todos](./open)
-* [test](./test) 
+* [todos](../open)
+* [test](../test) 

@@ -6,7 +6,7 @@ draft: false
 subtitle: Links von Apple zu Swift, SwiftUI, UIKit, ...
 
 left: ../stanford
-up: ../
+up: ../intro
 right: ../german
 ---
 

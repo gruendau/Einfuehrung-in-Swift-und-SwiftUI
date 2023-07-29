@@ -6,7 +6,7 @@ draft: false
 subtitle: Alles über mich und die Webseite
 
 left: ../impressum
-up: ../
+up: ../intro
 right: ../contact
 ---
 
@@ -26,11 +26,11 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 
 * ist eine `statische Webseite` die mit [Hugo][l1] generiert wurde.
 
-* wird über `GitHub-Pages` Server von [GitHub][l2] kostenfrei bereitgestellt.
+* wird über [`GitHub-Pages`][l2] Server von [GitHub][l3] kostenfrei bereitgestellt.
 
-* wird mit [git][l3] `versioniert` und auf GitHub gespeichert.
+* wird mit [Git][l4] `versioniert` und auf GitHub gespeichert.
 
-* ist als `Quellcode` über das GitHub-[Repository][l4] öffentlich zugängig.
+* ist als `Quellcode` über das GitHub-[Repository][l5] öffentlich zugängig.
 
 
 &nbsp;&nbsp; **Datenschutz**
@@ -54,11 +54,30 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 
 * ...
 
+<br>
+
+###### Links
+* Hugo: [home][l1] [docu][d1] [wiki][w1]
+* GitHub-Pages: [home][l2] [docu][d2] [wiki][w2]
+* GitHub: [home][l3] [docu][d3] [wiki][w3]
+* Git: [home][l4] [docu][d4] [wiki][w4]
 
 <br>
 
 <!-- Links -->
 [l1]: https://gohugo.io
 [l2]: https://pages.github.com
-[l3]: https://git-scm.com
-[l4]: https://github.com/gruendau/einfuehrung-in-swift-und-swiftui/
+[l3]: https://github.com
+[l4]: https://git-scm.com
+[l5]: https://github.com/gruendau/einfuehrung-in-swift-und-swiftui/
+
+[w1]: https://de.wikipedia.org/wiki/Hugo_(Software)
+[w2]: https://en.wikipedia.org/wiki/GitHub
+[w3]: https://de.wikipedia.org/wiki/GitHub
+[w4]: https://de.wikipedia.org/wiki/Git
+
+[d1]: https://gohugo.io/documentation/
+[d2]: https://docs.github.com/de/pages
+[d3]: https://docs.github.com/de
+[d4]: https://git-scm.com/docs/git/de
+

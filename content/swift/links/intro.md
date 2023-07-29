@@ -6,14 +6,14 @@ draft: false
 subtitle: Links zum Themenbereich Swift, SwiftUI, UIKit, ...
 
 left: 
-up: ../
+up: ../../intro
 right: 
 ---
 
 Inhalt: 
-* [Apple](./apple) <br>
-* [Deutsch](./german) <br>
-* [Englisch](./english) <br>
-* [Stanford](./stanford) <br>
+* [Apple](../apple) 
+* [Deutsch](../german) 
+* [Englisch](../english) 
+* [Stanford](../stanford) 
 
 <br>

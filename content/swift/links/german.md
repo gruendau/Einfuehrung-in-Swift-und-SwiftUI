@@ -6,7 +6,7 @@ draft: false
 subtitle: Auflistung von deutsch-sprachigen Blogs, ... 
 
 left: ../apple
-up: ../
+up: ../intro
 right: ../english
 ---
 

@@ -6,7 +6,7 @@ draft: false
 subtitle: Vorlesungen zu Swift, SwiftUI and UIKit
 
 left: ../english
-up: ../
+up: ../intro
 right: ../apple
 ---
 

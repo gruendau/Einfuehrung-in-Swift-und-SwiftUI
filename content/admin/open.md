@@ -6,7 +6,7 @@ draft: false
 subtitle: 
 
 left: 
-up: ../
+up: ../intro
 right: 
 ---
 

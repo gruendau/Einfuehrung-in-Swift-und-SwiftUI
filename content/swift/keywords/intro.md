@@ -1,15 +1,16 @@
 ---
-title: Werkzeuge
+title: Schlüsselwörter
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
 subtitle: 
 
 left: 
-up: ../
+up: ../../intro
 right: 
 ---
 
 Text ...
 
-[xcode](./xcode)
+Inhalt: 
+* [some](../some) 
