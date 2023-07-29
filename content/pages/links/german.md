@@ -3,10 +3,10 @@ title: Links in deutscher Sprache
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: Auflistung von deutsch-sprachigen Blogs, ... zum Themenbereich Swift und SwiftUI
+subtitle: Auflistung von deutsch-sprachigen Blogs, ... 
 
 left: ../apple
-up: ../links
+up: ../
 right: ../english
 ---
 

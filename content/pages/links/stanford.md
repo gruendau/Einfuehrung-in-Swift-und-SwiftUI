@@ -6,39 +6,43 @@ draft: false
 subtitle: Vorlesungen zu Swift, SwiftUI and UIKit
 
 left: ../english
-up: ../links
+up: ../
 right: ../apple
 ---
 
 Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden ... zum Staunen, zum Verstehen und schlußendlich zum Genießen.
 
-Thank you Paul, thank you Stanford! 
+`Thank you Paul, thank you Stanford!` 
 
-- [`Swift3/UIKit - Spring 2017`](#Stanford-CS193p---Swift-3-with-UIKit---Spring-2017) 
-- [`Swift4/UIKit - Fall 2017`](#Stanford-CS193p---Swift-4-with-UIKit---Fall-2017) 
-- [`Swift5/SwiftUI - Spring 2020`](#Stanford-CS193p---Swift-5-with-SwiftUI---Spring-2020) 
-- [`Swift5/SwiftUI - Spring 2021`](#Stanford-CS193p---Swift-5-with-SwiftUI---Spring-2021)
+<!-- 
+* [`Swift3/UIKit - Spring 2017`](#Stanford-CS193p---Swift-3-with-UIKit---Spring-2017) 
+* [`Swift4/UIKit - Fall 2017`](#Stanford-CS193p---Swift-4-with-UIKit---Fall-2017) 
+* [`Swift5/SwiftUI - Spring 2020`](#Stanford-CS193p---Swift-5-with-SwiftUI---Spring-2020) 
+* [`Swift5/SwiftUI - Spring 2021`](#Stanford-CS193p---Swift-5-with-SwiftUI---Spring-2021) 
+-->
 
+##### Stanford CS193p - Swift 3 with UIKit - Spring 2017
+| Video | Dauer |
+| --- | --- |
+| [01 Introduction to iOS 10, Xcode 8 and Swift 3](https://www.youtube.com/watch?v=HNZt7yzbSrI) |84 min |
+| [02 MVC; iOS, Xcode and Swift Demonstration](https://www.youtube.com/watch?v=4iNHsR6ePYw) | 85 min |
+| [03 More Swift and the Foundation Framework](https://www.youtube.com/watch?v=sgURk0MzacE) | 85 min |
+| [04 Views](https://www.youtube.com/watch?v=QhbcgaO5d74) | 81 min |
+| [05 Gestures and Multiple MVCs](https://www.youtube.com/watch?v=UWN2m6BC8e8) | 81 min |
+| [06 Multiple MVCs, View Controller Lifecycle](https://www.youtube.com/watch?v=Bm6llsTfUPM) | 84 min |
+| [07 Error Handling, Extensions, Protocols, Delegation](https://www.youtube.com/watch?v=d83KZk816lk) &nbsp;&nbsp;| 79 min |
+| [08 Multithreading and Text Field](https://www.youtube.com/watch?v=AoyrFl-Ud-4) | 77 min |
+| [09 Table View](https://www.youtube.com/watch?v=Sm3jupdLJBY) | 90 min |
+| [10 Core Data](https://www.youtube.com/watch?v=L02Ty79Xdvw) | 91 min |
+| [11 Core Data Demo](https://www.youtube.com/watch?v=D9kFvJix30M) | 76 min |
+| [12 Autolayout](https://www.youtube.com/watch?v=1A1620jNKR8) | 51 min |
+| [13 Timer and Animation](https://www.youtube.com/watch?v=8JJW0l6e6dE) | 81 min |
+| [14 Dynamic Animation Demo](https://www.youtube.com/watch?v=6Ac2-P6-Q_8) | 82 min |
+| [15 More Segues](https://www.youtube.com/watch?v=Yag9Mjs-u7M) | 83 min |
+| [16 Alerts and Action Sheets](https://www.youtube.com/watch?v=irNWTSJXzy4) | 72 min |
+| [17 Accessibility](https://www.youtube.com/watch?v=lCvUwkjgkhU) | 43 min |
 
-#### Stanford CS193p - Swift 3 with UIKit - Spring 2017
-> [01 Introduction to iOS 10, Xcode 8 and Swift 3](https://www.youtube.com/watch?v=HNZt7yzbSrI) von Paul Hegarty, 84 min <br>
-[02 MVC; iOS, Xcode and Swift Demonstration](https://www.youtube.com/watch?v=4iNHsR6ePYw) von Paul Hegarty, 85 min <br>
-[03 More Swift and the Foundation Framework](https://www.youtube.com/watch?v=sgURk0MzacE) von Paul Hegarty, 85 min <br>
-[04 Views](https://www.youtube.com/watch?v=QhbcgaO5d74) von Paul Hegarty, 81 min <br>
-[05 Gestures and Multiple MVCs](https://www.youtube.com/watch?v=UWN2m6BC8e8) von Paul Hegarty, 81 min <br>
-[06 Multiple MVCs, View Controller Lifecycle](https://www.youtube.com/watch?v=Bm6llsTfUPM) von Paul Hegarty, 84 min <br>
-[07 Error Handling, Extensions, Protocols, Delegation](https://www.youtube.com/watch?v=d83KZk816lk) von Paul Hegarty, 79 min <br>
-[08 Multithreading and Text Field](https://www.youtube.com/watch?v=AoyrFl-Ud-4) von Paul Hegarty, 77 min <br>
-[09 Table View](https://www.youtube.com/watch?v=Sm3jupdLJBY) von Paul Hegarty, 90 min <br>
-[10 Core Data](https://www.youtube.com/watch?v=L02Ty79Xdvw
-) von Paul Hegarty, 91 min <br>
-[11 Core Data Demo](https://www.youtube.com/watch?v=D9kFvJix30M) von Paul Hegarty, 76 min <br>
-[12 Autolayout](https://www.youtube.com/watch?v=1A1620jNKR8) von Paul Hegarty, 51 min <br>
-[13 Timer and Animation](https://www.youtube.com/watch?v=8JJW0l6e6dE) von Paul Hegarty, 81 min <br>
-[14 Dynamic Animation Demo](https://www.youtube.com/watch?v=6Ac2-P6-Q_8) von Paul Hegarty, 82 min <br>
-[15 More Segues](https://www.youtube.com/watch?v=Yag9Mjs-u7M) von Paul Hegarty, 83 min <br>
-[16 Alerts and Action Sheets](https://www.youtube.com/watch?v=irNWTSJXzy4) von Paul Hegarty, 72 min <br>
-[17 Accessibility](https://www.youtube.com/watch?v=lCvUwkjgkhU) von Paul Hegarty, 43 min <br>
+<br> 
 
 [rauf](#top) [runter](#bottom)
 
