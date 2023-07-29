@@ -3,10 +3,11 @@ title: "Impressum"
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-left: /
+left: ../contact
 up: ../
-right: /
+right: ../about
 ---
 
 Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
-Daher ist ein Impressum nicht erforderlich.
+
+Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.
