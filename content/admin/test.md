@@ -6,7 +6,7 @@ draft: false
 subtitle: Links von Apple zum Themenbereich Swift, SwiftUI, UIKit, ...
 
 left: 
-up: 
+up: ../
 right: 
 ---
 
