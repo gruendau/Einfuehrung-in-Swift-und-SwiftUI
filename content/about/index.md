@@ -5,27 +5,49 @@ draft: false
 
 subtitle: Alles über mich und die Webseite
 
-left: /
+left: ../impressum
 up: ../
-right: /
+right: ../contact
 ---
 
-Ich bin Volker, wohne in Niedergründau/Hessen und programmiere einwenig in meiner Freizeit. 
+Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit. 
 
 Diese Webseite 
 
-* ist eine `statische Webseite` die mit [Hugo][l1] generiert wurde.
+&nbsp;&nbsp; **Geschäftsmodell**
 
 * ist `privat` und verfolgt keine geschäftlichen Interessen.
 
+
+&nbsp;&nbsp; **Aufbau**
+
+* ist eine `statische Webseite` die mit [Hugo][l1] generiert wurde.
+
+* wird über `GitHub-Pages` Server von [GitHub][l2] bereitgestellt.
+
+* ist als `Quellcode` über ein GitHub-[Repository][l3] öffentlich zugängig.
+
+
+&nbsp;&nbsp; **Datenschutz**
+
 * setzt `keine Cookies` ein. 
 
-* erfasst und `sammelt keine Daten von Besuchern`.
+* erfasst und `sammelt keine Daten` von Besuchern.
 
-* ist auf [GitHub][l2] öffentlich abgespeichert.
+
+&nbsp;&nbsp; **Impressum**
+
+* hat kein Impressum.
+
+
+&nbsp;&nbsp; **Copyright**
+
+* ...
+
 
 <br>
 
 <!-- Links -->
 [l1]: https://gohugo.io
-[l2]: https://github.com/gruendau/einfuehrung-in-swift-und-swiftui/
+[l2]: https://pages.github.com
+[l3]: https://github.com/gruendau/einfuehrung-in-swift-und-swiftui/
