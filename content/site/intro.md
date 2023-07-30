@@ -13,6 +13,7 @@ right:
 Text ...
 
 Inhalt:
+* [copyright](../copyright)
 * [über](../about)
 * [kontakt](../contact)
 * [impressum](../impressum)

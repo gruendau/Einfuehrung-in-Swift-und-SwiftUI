@@ -5,7 +5,7 @@ draft: false
 
 left: ../contact
 up: ../intro
-right: ../about
+right: ../copyright
 ---
 
 Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.

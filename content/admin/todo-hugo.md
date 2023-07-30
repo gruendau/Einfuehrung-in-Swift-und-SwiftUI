@@ -21,9 +21,10 @@ Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Hugo Website" a
 * Navigation <br>
 [ ] Navigation. <br >
 [x] Pfad im Header anzeigen. <span class="csAnnotation">2023-07-30 </span> <br>
-[ ] Seite rauf/runter in Header. <br>
+[ ] Seite runter in main funktioniert nicht. <br>
 [ ] Mode-Änderung light/dark in Header. <br>
 [ ] Header-Menü Erweiterung. <br>
+
 
 * Funktionen <br>
 [ ] Ausführbarer Code. <br>
