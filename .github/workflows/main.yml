@@ -2,6 +2,8 @@
 name: Deploy Hugo site to Pages
 
 on:
+  dynamic:
+  
   # Runs on pushes targeting the default branch
   push:
     branches:
