@@ -1,0 +1,23 @@
+<!-- partial link.html -->
+
+<sub>
+    <font size="2">
+        <!-- RelPermalink of page without baseURL-->
+        ../{{ strings.TrimPrefix (relURL "") .Page.RelPermalink }}
+    </font>
+</sub>
+
+<!--
+    {{ .Page.Permalink }}
+    https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/intro/
+-->
+
+<!--
+    {{ .Page.RelPermalink }}
+    /einfuehrung-in-swift-und-swiftui/swift/intro/
+-->
+
+<!--
+    ../{{ strings.TrimPrefix (relURL "") .Page.RelPermalink }}
+    ../swift/intro/
+-->
