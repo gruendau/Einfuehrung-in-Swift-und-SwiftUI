@@ -8,11 +8,19 @@
   </head>
   <body>
     
+    <!-- Header -->
     {{- partial "header" . -}}
 
+    <!-- Content -->
     {{- block "main" . }}{{- end }}
+
+    <!-- Footer -->
     {{- partial "footer" . -}}
+
+    <!--
     {{- partial "script-footer" . -}}
+    -->
+
   </body>
 </html>
 
