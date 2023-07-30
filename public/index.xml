@@ -24,7 +24,7 @@
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/intro/</guid>
       <description>Text &amp;hellip;
 Inhalt:
-todos test </description>
+todos hugo todos swift test </description>
     </item>
     
     <item>
@@ -149,13 +149,24 @@ einführung schlüsselwörter links a-z </description>
     </item>
     
     <item>
-      <title>ToDos</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/open/</link>
+      <title>ToDos Hugo</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/open/</guid>
-      <description>Text &amp;hellip;
-Letztes Update-Datum der Seite anzeigen. Pfad anzeigen. Sticky Header. Sticky Footer. Navigation. Archetypes für Swift Custom Buttons. Custom Links. Farbensätze (light, dark). CSS Einbindung. Ausführbarer Code. Code koperbar machen. </description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo/</guid>
+      <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Hugo Website&amp;rdquo; abgearbeitet werden sollen.
+Layout Letztes Update-Datum der Seite anzeigen. Sticky Header. Sticky Footer. Rahmen um Titel und Untertitel. Navigation Navigation. Pfad im Header anzeigen. Seite rauf/runter in Header. Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links. Custom Tables. Diverses Textsuche. Archetypes für swift Sektion
+Farbensätze (light, dark). CSS Einbindung.</description>
+    </item>
+    
+    <item>
+      <title>ToDos Swift</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-swift/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-swift/</guid>
+      <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Einführung in Swift und SwiftUI&amp;rdquo; abgearbeitet werden sollen.
+?</description>
     </item>
     
     <item>
@@ -167,7 +178,7 @@ Letztes Update-Datum der Seite anzeigen. Pfad anzeigen. Sticky Header. Sticky Fo
       <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
 Diese Webseite
 enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
-ist für mich und vielleicht auch für die Besucher ein Nachschlagwerk und eine Anleitung.
+ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
 wird seit Juli 2023 Schritt für Schritt aufgebaut.
 Aufbau
 ist eine statische Webseite die mit Hugo generiert wurde.</description>
