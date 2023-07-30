@@ -43,7 +43,7 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 
 * erfasst und `sammelt keine Daten` von Besuchern.
 
-* `nutzt nicht` Hugos [Goggle Analythics][l6] Komponenten.
+* `nutzt nicht` Hugos [Goggle Analytics][l6] Komponenten.
 
 
 &nbsp;&nbsp; **Geschäftsmodell**
