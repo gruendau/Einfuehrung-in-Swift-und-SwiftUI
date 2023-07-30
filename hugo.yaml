@@ -1,15 +1,34 @@
+# hugo.yaml
+
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
 languageCode: de-DE
 title: Einführung in Swift und SwiftUI
 
+# ---------------------------------------
+# CSS   
+# --------------------------------------- 
 css: ["css/main.css"]
+
+# ---------------------------------------
+# Javascript   
+# --------------------------------------- 
 js: ["js/main.js"]
 
+# ---------------------------------------
+# Site Parameter    
+# --------------------------------------- 
+params:
+  slogan: we love Swift!
+  headerTitle: Einführung in Swift und SwiftUI
+
+# ---------------------------------------
+# Goldmark Markdown
+# ---------------------------------------
+# Link: https://github.com/yuin/goldmark/
+
+# Allow HTML-Code
 markup:
   goldmark:
     renderer:
       unsafe: true
-      
-params:
-  slogan: we love Swift!
-  headerTitle: Einführung in Swift und SwiftUI
+
