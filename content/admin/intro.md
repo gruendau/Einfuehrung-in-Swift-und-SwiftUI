@@ -13,5 +13,6 @@ right:
 Text ...
 
 Inhalt: 
-* [todos](../open)
+* [todos hugo](../todo-hugo)
+* [todos swift](../todo-swift)
 * [test](../test) 
