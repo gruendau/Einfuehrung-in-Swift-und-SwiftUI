@@ -26,11 +26,11 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 
 * ist eine `statische Webseite` die mit [Hugo][l1] generiert wurde.
 
-* nutzt [Bootstrap 5][l7] als `Frontend-CSS`-Framework.
+* nutzt [Bootstrap 5][l7] als `CSS-Framework`.
 
 * nutzt eine `selbstentwickelte` Oberfläche.
 
-* wird über [`GitHub-Pages`][l2] Server von [GitHub][l3] kostenfrei bereitgestellt.
+* wird über [`GitHub-Pages`][l2] Server von [GitHub][l3] `kostenfrei` bereitgestellt.
 
 * wird mit [Git][l4] `versioniert` und auf GitHub gespeichert.
 
