@@ -30,7 +30,7 @@ Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Sta
 | [04 Views](https://www.youtube.com/watch?v=QhbcgaO5d74) | 81 min |
 | [05 Gestures and Multiple MVCs](https://www.youtube.com/watch?v=UWN2m6BC8e8) | 81 min |
 | [06 Multiple MVCs, View Controller Lifecycle](https://www.youtube.com/watch?v=Bm6llsTfUPM) | 84 min |
-| [07 Error Handling, Extensions, Protocols, Delegation](https://www.youtube.com/watch?v=d83KZk816lk) &nbsp;&nbsp;| 79 min |
+| [07 Error Handling, Extensions, Protocols, Delegation](https://www.youtube.com/watch?v=d83KZk816lk) &nbsp;&nbsp; | 79 min |
 | [08 Multithreading and Text Field](https://www.youtube.com/watch?v=AoyrFl-Ud-4) | 77 min |
 | [09 Table View](https://www.youtube.com/watch?v=Sm3jupdLJBY) | 90 min |
 | [10 Core Data](https://www.youtube.com/watch?v=L02Ty79Xdvw) | 91 min |
@@ -48,6 +48,99 @@ Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Sta
 
 ---
 
+#### Stanford CS193p - Swift 4 with UIKit - Fall 2017 
+| Video | Dauer |
+| --- | --- |
+| [01 Introduction to iOS 11, Xcode 9 and Swift 4](https://www.youtube.com/watch?v=TZL5AmwuwlA) | 82 min | 
+| [02 MVC](https://www.youtube.com/watch?v=gI3pz7eFgfo) | 72 min | 
+| [03 Swift Programming Language](https://www.youtube.com/watch?v=VIEzNBPmQKk) | 84 min | 
+| [04 More Swift](https://www.youtube.com/watch?v=Y8ss6118RQY) | 81 min | 
+| [05 Gestures and Multiple MVCs](https://www.youtube.com/watch?v=UWN2m6BC8e8) | 81 min | 
+| [06 Multiple MVCs, View Controller Lifecycle](https://www.youtube.com/watch?v=Bm6llsTfUPM) | 84 min | 
+| [07 Multiple MVCs, Timer, and Animation](https://www.youtube.com/watch?v=RAcLKlwK7VY) | 77 min | 
+| [08 Animation](https://www.youtube.com/watch?v=wERNQyfJYLo) | 87 min | 
+| [09 View Controller Lifecycle and Scroll View](https://www.youtube.com/watch?v=B281mrPUGjg) | 74 min | 
+| [10 Multithreading and Autolayout](https://www.youtube.com/watch?v=jDYp9toF_7A) | 77 min | 
+| [11 Drag and Drop, Table View, and Collection View](https://www.youtube.com/watch?v=noowieVV8nA) &nbsp;&nbsp; | 80 min | 
+| [12 Text Field and Drag and Drop, Table View](https://www.youtube.com/watch?v=xkpuJejkWUI) | 74 min | 
+| [13 Persistence and Documents](https://www.youtube.com/watch?v=l9trenVwb6s) | 72 min | 
+| [14 Persistence and Documents Demo](https://www.youtube.com/watch?v=8eCgxDWq99o) | 80 min | 
+| [15 Alerts, Notifications, Application Lifecycle](https://www.youtube.com/watch?v=0zTE9dbUo14) | 81 min | 
+| [16 More Segues](https://www.youtube.com/watch?v=rfywphKQPew) | 76 min | 
+| [17 Core Motion and Camera](https://www.youtube.com/watch?v=cjVp2vM_I0Y) | 76 min | 
+
+<br> 
+
+| Video | Dauer |
+| --- | --- |
+| [Friday Session 1 Debugging and Xcode Tips and Tricks](https://www.youtube.com/watch?v=CRxHhx_pubY) &nbsp;&nbsp; | 33 min | 
+| [Friday Session 2 Github and Source Control Workflow](https://www.youtube.com/watch?v=MK24ENt0vts) | 25 min | 
+| [Friday Session 3 Instruments](https://www.youtube.com/watch?v=mgqvjN874dQ) | 29 min | 
+
+<br> 
+
+[rauf](#top) [runter](#bottom)
+
+---
+
+#### Stanford CS193p - Swift 5 with SwiftUI - Spring 2020
+
+[CS193p 2020](https://cs193p.sites.stanford.edu/2020) Stanford's CS193p course, Developing Applications for iOS, explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI.
+
+| Video | Dauer |
+| --- | --- |
+| [01 Course Logistics and Introduction to SwiftUI](https://www.youtube.com/watch?v=jbtqIBpUG7g) &nbsp;&nbsp; | 62 min | 
+| [02 MVVM and the Swift Type System](https://www.youtube.com/watch?v=4GjXq2Sr55Q) | 103 min | 
+| [03 Reactive UI + Protocols + Layout](https://www.youtube.com/watch?v=SIYdYpPXil4) | 87 min | 
+| [04 Grid + enum + Optionals](https://www.youtube.com/watch?v=eHEeWzFP6O4) | 82 min | 
+| [05 ViewBuilder + Shape + ViewModifier](https://www.youtube.com/watch?v=oDKDGCRdSHc) | 62 min | 
+| [06 Animation](https://www.youtube.com/watch?v=3krC2c56ceQ) | 90 min | 
+| [07 Multithreading EmojiArt](https://www.youtube.com/watch?v=tmx-OwkBWxA) | 91 min | 
+| [08 Gestures JSON](https://www.youtube.com/watch?v=mz-rNLWJ0bk) | 76 min | 
+| [09 Data Flow](https://www.youtube.com/watch?v=0i152oA3T3s) | 73 min | 
+| [10 Navigation + TextField](https://www.youtube.com/watch?v=CKexGQuIO7E) | 103 min | 
+| [11 Picker](https://www.youtube.com/watch?v=fCfC6m7XUew) | 49 min | 
+| [12 Core Data](https://www.youtube.com/watch?v=yOhyOpXvaec) | 94 min | 
+| [13 Persistence](https://www.youtube.com/watch?v=fTNPRhGGP-0) | 62 min | 
+| [14 UIKit Integration](https://www.youtube.com/watch?v=GRX5Dha_Clw) | 62 min | 
+
+<br> 
+
+[rauf](#top) [runter](#bottom)
+
+---
+
+#### Stanford CS193p - Swift 5 with SwiftUI - Spring 2021
+
+[CS193p 2021](https://cs193p.sites.stanford.edu) Stanford's CS193p course, Developing Applications for iOS, explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI.
+
+| Video | Dauer |
+| --- | --- |
+| [01 Getting started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) | 82 min | 
+| [02 Learning more about SwiftUI](https://www.youtube.com/watch?v=3lahkdHEhW8) | 85 min | 
+| [03 MVVM and the Swift type system](https://www.youtube.com/watch?v=--qKOhdgJAs) | 96 min | 
+| [04 Memorize Game Logic](https://www.youtube.com/watch?v=oWZOFSYS5GE) | 91 min | 
+| [05 Properties Layout @ViewBuilder](https://www.youtube.com/watch?v=ayQl_F_uMS4) | 86 min | 
+| [06 Protocols Shapes](https://www.youtube.com/watch?v=Og9gXZpbKWo) | 82 min | 
+| [07 ViewModifier Animation](https://www.youtube.com/watch?v=PoeaUMGAx6c) | 70 min | 
+| [08 Animation Demonstration](https://www.youtube.com/watch?v=-N1UR7Y105g) | 84 min | 
+| [09 EmojiArt Drag and Drop Multithreading](https://www.youtube.com/watch?v=eNS5EzgK3lY) &nbsp;&nbsp; | 93 min | 
+| [10 Multithreading Demo Gestures](https://www.youtube.com/watch?v=iszjyoo3SYI) | 85 min | 
+| [11 Error Handling Persistence](https://www.youtube.com/watch?v=pT5yiBu2xbU) | 106 min | 
+| [12 Bindings Sheet Navigation EditMode](https://www.youtube.com/watch?v=s3tMkz1clOA) | 111 min | 
+| [13 Publisher More Persistence](https://www.youtube.com/watch?v=wX3ruVLlWPg) | 60 min | 
+| [14 Document Architecture](https://www.youtube.com/watch?v=Ou25reI71zU) | 77 min | 
+| [15 UIKit Integration](https://www.youtube.com/watch?v=ba7sJ74vDtA) | 76 min | 
+| [16 Multiplatform (macOS + iOS)](https://www.youtube.com/watch?v=At6M7nUQ09E) | 46 min | 
+
+<br> 
+
+[rauf](#top) [runter](#bottom)
+
+
+
+
+<!--
 #### Stanford CS193p - Swift 4 with UIKit - Fall 2017 
 > [01 Introduction to iOS 11, Xcode 9 and Swift 4](https://www.youtube.com/watch?v=TZL5AmwuwlA) von Paul Hegarty, 82 min <br>
 [02 MVC](https://www.youtube.com/watch?v=gI3pz7eFgfo) von Paul Hegarty, 72 min <br>
@@ -119,7 +212,4 @@ Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Sta
 [14 Document Architecture](https://www.youtube.com/watch?v=Ou25reI71zU) von Paul Hegarty, 77 min <br>
 [15 UIKit Integration](https://www.youtube.com/watch?v=ba7sJ74vDtA) von Paul Hegarty, 76 min <br>
 [16 Multiplatform (macOS + iOS)](https://www.youtube.com/watch?v=At6M7nUQ09E) von Paul Hegarty, 46 min <br>
-
-[rauf](#top) [runter](#bottom)
-
-<br>
+-->
