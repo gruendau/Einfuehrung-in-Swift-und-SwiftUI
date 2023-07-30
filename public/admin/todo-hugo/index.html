@@ -15,6 +15,11 @@
 
 <style>
 
+  span.csAnnotation {
+    font-size: 10px;
+    color: green;
+  }
+
   body {
     background-color: #DDDDDD;
   }
@@ -44,12 +49,13 @@
   <body>
     
     
+    <header>
 
 
 
 
 <div class="csBorder">
-<div class="container-fluid rounded position-sticky bg-warning px-2 pb-2">
+<div class="container-fluid rounded bg-warning px-2 pb-2 fixed-top">
     
     <div class="row">
         
@@ -115,7 +121,11 @@
         </div>
     </div>
 </div>
-</div>
+</div></header>
+
+    
+    <main class="mt-5 pt-5 mb-5 pb-2">
+      
 
 
 
@@ -148,14 +158,14 @@
 <li>
 <p>Layout <br>
 <input disabled="" type="checkbox"> Letztes Update-Datum der Seite anzeigen. <br>
-<input disabled="" type="checkbox"> Sticky Header. <br>
-<input disabled="" type="checkbox"> Sticky Footer. <br>
+<input checked="" disabled="" type="checkbox"> Fixed Header and Footer. <span class="csAnnotation">2023-07-30 </span> <br>
+<input checked="" disabled="" type="checkbox"> Rahmen um Header and Footer. <span class="csAnnotation">2023-07-30 </span> <br>
 <input disabled="" type="checkbox"> Rahmen um Titel und Untertitel. <br></p>
 </li>
 <li>
 <p>Navigation <br>
-<input disabled="" type="checkbox"> Navigation. <br>
-<input disabled="" type="checkbox"> Pfad im Header anzeigen. <br>
+<input disabled="" type="checkbox"> Navigation. <br >
+<input checked="" disabled="" type="checkbox"> Pfad im Header anzeigen. <span class="csAnnotation">2023-07-30 </span> <br>
 <input disabled="" type="checkbox"> Seite rauf/runter in Header. <br>
 <input disabled="" type="checkbox"> Mode-Änderung light/dark in Header. <br>
 <input disabled="" type="checkbox"> Header-Menü Erweiterung. <br></p>
@@ -198,11 +208,13 @@ TEMPLATE
 </div>
 
 
+    </main>
 
     
+    <footer>
 
 <div class="csBorder">
-<div class="container-fluid rounded bg-warning pt-2 px-2">
+<div class="container-fluid rounded bg-warning pt-2 px-2 fixed-bottom">
     <div class="row">
         <div class="col">
             
@@ -238,7 +250,9 @@ TEMPLATE
         </div>
     </div>
 </div>
-</div>
+</div></footer>
+
+    
 
   </body>
 </html>

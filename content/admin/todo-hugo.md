@@ -14,13 +14,13 @@ Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Hugo Website" a
 
 * Layout <br>
 [ ] Letztes Update-Datum der Seite anzeigen. <br>
-[ ] Sticky Header. <br>
-[ ] Sticky Footer. <br>
+[x] Fixed Header and Footer. <span class="csAnnotation">2023-07-30 </span> <br>
+[x] Rahmen um Header and Footer. <span class="csAnnotation">2023-07-30 </span> <br>
 [ ] Rahmen um Titel und Untertitel. <br>
 
 * Navigation <br>
-[ ] Navigation. <br>
-[x] Pfad im Header anzeigen. <span class="csAnnotation">  2023-07-30 </span> <br>
+[ ] Navigation. <br >
+[x] Pfad im Header anzeigen. <span class="csAnnotation">2023-07-30 </span> <br>
 [ ] Seite rauf/runter in Header. <br>
 [ ] Mode-Änderung light/dark in Header. <br>
 [ ] Header-Menü Erweiterung. <br>

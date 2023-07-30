@@ -9,13 +9,20 @@
   <body>
     
     <!-- Header -->
-    {{- partial "header" . -}}
+    <header>
+      {{- partial "header" . -}}
+    </header>
 
     <!-- Content -->
-    {{- block "main" . }}{{- end }}
+    <main class="mt-5 pt-5 mb-5 pb-2">
+      <!-- mt-5 pt-5 is for fixed header -->
+      {{- block "main" . }}{{- end }}
+    </main>
 
     <!-- Footer -->
-    {{- partial "footer" . -}}
+    <footer>
+      {{- partial "footer" . -}}
+    </footer>
 
     <!--
     {{- partial "script-footer" . -}}
