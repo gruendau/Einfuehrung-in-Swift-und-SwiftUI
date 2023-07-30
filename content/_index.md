@@ -36,7 +36,8 @@ Anderes:
   [kontakt](./site/contact)
   [impressum](./site/impressum)
 * [admin](./admin/intro) <br>
-  [todos](./admin/open)
+  [todos hugo](./admin/todo-hugo)
+  [todos swift](./admin/todo-swift)
   [test](./admin/test) 
 
 

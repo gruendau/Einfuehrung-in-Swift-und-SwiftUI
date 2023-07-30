@@ -3,10 +3,13 @@
 <!-- bg-Color: https://getbootstrap.com/docs/5.0/utilities/background/#background-color -->
 <!-- text-Color: https://getbootstrap.com/docs/5.0/utilities/colors/#colors -->
 
-<div class="container-fluid position-sticky bg-warning px-2 pb-2">
+<div class="csBorder">
+<div class="container-fluid rounded position-sticky bg-warning px-2 pb-2">
+    
     <div class="row">
         <!-- Padding p-2 -->
         <div class="col">
+
             <span class="h2 text-primary">
 
                 <!-- Sprungmarke -->
@@ -23,25 +26,17 @@
 
                     <!-- links Navigation -->
                     <div class="col-example">
-                        <a class="btn btn-primary btn-sm" 
-                           href="/einfuehrung-in-swift-und-swiftui/" 
-                           role="button">
-                           home
+                        <a class="btn btn-primary btn-sm" href="/einfuehrung-in-swift-und-swiftui/" role="button">
+                            home
                         </a>
-                        <a class="btn btn-primary btn-sm" 
-                           href="{{ .Page.Params.left }}" 
-                           role="button">
-                           links
+                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.left }}" role="button">
+                            links
                         </a>
-                        <a class="btn btn-primary btn-sm" 
-                           href="{{ .Page.Params.up }}" 
-                           role="button">
-                           hoch
+                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.up }}" role="button">
+                            hoch
                         </a>
-                        <a class="btn btn-primary btn-sm" 
-                           href="{{ .Page.Params.right }}" 
-                           role="button">
-                           rechts
+                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.right }}" role="button">
+                            rechts
                         </a>
                     </div>
 
@@ -67,6 +62,8 @@
                 </div>
 
             </span>
+
         </div>
     </div>
+</div>
 </div>
