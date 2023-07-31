@@ -4,62 +4,246 @@
 <b>Auflistung der Hugo Page Variablen</b> <br>
 https://gohugo.io/variables/page/ <br><br>
 
-Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
-, URL: <span class="red">{{ .Page.RelPermalink }}</span> <br><br>
+Info über die Seite Title: <span class="csRed">{{ .Page.Title }}</span>
+, URL: <span class="csRed">{{ .Page.RelPermalink }}</span> <br><br>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">AlternativeOutputFormats:</span> {{ .Page.AlternativeOutputFormats }} <br>
-    <span class="red">Aliases:</span>                  {{ .Page.Aliases }} <br>
-    <span class="red">Ancestors:</span>                {{ .Page.Ancestors }} <br>
-    <span class="red">BundleType:</span>               {{ .Page.BundleType }} <br>
-    <span class="red">Content:</span>                  {{ .Page.Content }} <br>
-    <span class="red">Data:</span>                     {{ .Page.Data }} <br>
-    <span class="red">Date: </span>                    {{ .Page.Date }} <br>
-    <span class="red">Description:</span>              {{ .Page.Description }} <br>
-    <span class="red">Draft: </span>                   {{ .Page.Draft }} <br>
-    <span class="red">ExpiryDate:</span>               {{ .Page.ExpiryDate }} <br>
-    <span class="red">File:</span>                     {{ .Page.File }} <br>
-    <span class="red">Fragments:</span>                {{ .Page.Fragments }} <br>
-    <span class="red">FuzzyWordCount: </span>          {{ .Page.FuzzyWordCount }} <br>
-    <span class="red">IsHome: </span>                  {{ .Page.IsHome }} <br>
-    <span class="red">IsNode:</span>                   {{ .Page.IsNode }} <br>
-    <span class="red">IsPage: </span>                  {{ .Page.IsPage }} <br>
-    <span class="red">IsSection:</span>                {{ .Page.IsSection }} <br>
-    <span class="red">IsTranslated:</span>             {{ .Page.IsTranslated }} <br>
-    <span class="red">Keywords:</span>                 {{ .Page.Keywords }} <br>
-    <span class="red">Kind:</span>                     {{ .Page.Kind }} <br>
-    <span class="red">Language:</span>                 {{ .Page.Language }} <br>
-    <span class="red">Lastmod:</span>                  {{ .Page.Lastmod }} <br>
-    <span class="red">LinkTitle:</span>                {{ .Page.LinkTitle }} <br>
-    <span class="red">Next:</span>                     {{ .Page.Next }} <br>
-    <span class="red">NextInSection:</span>            {{ .Page.NextInSection }} <br>
-    <span class="red">OutputFormats:</span>            {{ .Page.OutputFormats }} <br>
-    <span class="red">Pages:</span>                    {{ .Page.Pages }} <br>
-    <span class="red">Permalink:</span>                {{ .Page.Permalink }} <br>
-    <span class="red">Plain:</span>                    {{ .Page.Plain }} <br>
-    <span class="red">PlainWords:</span>               {{ .Page.Type }} <br>
-    <span class="red">Prev:</span>                     {{ .Page.Prev }} <br>
-    <span class="red">PrevInSection:</span>            {{ .Page.PrevInSection }} <br>
-    <span class="red">PublishDate:</span>              {{ .Page.PublishDate }} <br>
-    <span class="red">RawContent:</span>               {{ .Page.RawContent }} <br>
-    <span class="red">ReadingTime:</span>              {{ .Page.ReadingTime }} <br>
-    <span class="red">Resources:</span>                {{ .Page.Resources }} <br>
-    <span class="red">Ref:</span>                      FEHLER <br>
-    <span class="red">RelPermalink:</span>             {{ .Page.RelPermalink }} <br>
-    <span class="red">RelRef:</span>                   FEHLER <br>
-    <span class="red">Site:</span>                     {{ .Page.Site }} <br>
-    <span class="red">Sites:</span>                    {{ .Page.Sites }} <br>
-    <span class="red">Sites.First:</span>              {{ .Page.Sites.First }} <br>
-    <span class="red">Summary:</span>                  {{ .Page.Summary }} <br>
-    <span class="red">TableOfContents:</span>          {{ .Page.TableOfContents }} <br>
-    <span class="red">Title:</span>                    {{ .Page.Title }} <br>
-    <span class="red">Translations:</span>             {{ .Page.Translations }} <br>
-    <span class="red">TranslationKey:</span>           {{ .Page.TranslationKey }} <br>
-    <span class="red">Truncated:</span>                {{ .Page.Truncated }} <br>
-    <span class="red">Type:</span>                     {{ .Page.Type }} <br>
-    <span class="red">Weight: </span>                  {{ .Page.Weight }} <br>
-    <span class="red">WordCount:</span>                {{ .Page.WordCount }} <br>
+    <span class="csKey">AlternativeOutputFormats:</span> <br> 
+    <span class="csKeyDesc">contains all alternative formats for a given page; this variable is especially useful 
+        link rel list in your site’s <head>. (See Output Formats.)</span>  <br>
+    {{ .Page.AlternativeOutputFormats }} <br><br>
+
+    <span class="csKey">Aliases:</span> <br> 
+    <span class="csKeyDesc">aliases of this page.</span> <br>
+    {{ .Page.Aliases }} <br><br>
+
+    <span class="csKey">Ancestors:</span> <br> 
+    <span class="csKeyDesc">get the ancestors of each page, simplify breadcrumb navigation implementation complexity.</span> <br>
+    {{ .Page.Ancestors }} <br><br>
+
+    <span class="csKey">BundleType:</span> <br> 
+    <span class="csKeyDesc">the bundle type: leaf, branch, or an empty string if the page is not a bundle.</span> <br>
+    {{ .Page.BundleType }} <br><br>
+
+    <span class="csKey">Content:</span> <br>
+    <span class="csKeyDesc">the content itself, defined below the front matter.</span> <br>
+    {{ .Page.Content }} <br><br>
+
+    <span class="csKey">Data:</span> <br> 
+    <span class="csKeyDesc">the data specific to this type of page.</span> <br>
+    {{ .Page.Data }} <br><br>
+
+    <span class="csKey">Date:</span> <br>
+    <span class="csKeyDesc">the date associated with the page; .Date pulls from the date field in a content’s 
+        front matter. See also .ExpiryDate, .PublishDate, and .Lastmod.</span> <br>
+    {{ .Page.Date }} <br><br>
+
+    <span class="csKey">Description:</span> <br> 
+    <span class="csKeyDesc">the description for the page.</span> <br>
+    {{ .Page.Description }} <br><br>
+
+    <span class="csKey">Draft: </span> <br>
+    <span class="csKeyDesc">a boolean, true if the content is marked as a draft in the front matter.</span> <br>
+    {{ .Page.Draft }} <br><br>
+
+    <span class="csKey">ExpiryDate:</span> <br>
+    <span class="csKeyDesc">the date on which the content is scheduled to expire; .ExpiryDate pulls from 
+        the expirydate field in a content’s front matter. See also .PublishDate, .Date, and .Lastmod.</span> <br>
+    {{ .Page.ExpiryDate }} <br><br>
+
+    <span class="csKey">File:</span> <br> 
+    <span class="csKeyDesc">filesystem-related data for this content file. See also File Variables.</span> <br>
+    {{ .Page.File }} <br><br>
+
+    <span class="csKey">Fragments:</span> <br> 
+    <span class="csKeyDesc">Fragments returns the fragments for this page. See Page Fragments.</span> <br>
+    {{ .Page.Fragments }} <br><br>
+
+    <span class="csKey">FuzzyWordCount: </span> <br> 
+    <span class="csKeyDesc">the approximate number of words in the content.</span> <br>
+    {{ .Page.FuzzyWordCount }} <br><br>
+
+    <span class="csKey">IsHome: </span> <br>
+    <span class="csKeyDesc">true in the context of the homepage.</span> <br>
+    {{ .Page.IsHome }} <br><br>
+
+    <span class="csKey">IsNode:</span> <br> 
+    <span class="csKeyDesc">always false for regular content pages.</span> <br>
+    {{ .Page.IsNode }} <br><br>
+
+    <span class="csKey">IsPage: </span> <br>
+    <span class="csKeyDesc">always true for regular content pages.</span> <br>
+    {{ .Page.IsPage }} <br><br>
+
+    <span class="csKey">IsSection:</span> <br> 
+    <span class="csKeyDesc">true if .Kind is section.</span> <br>
+    {{ .Page.IsSection }} <br><br>
+
+    <span class="csKey">IsTranslated:</span> <br> 
+    <span class="csKeyDesc">true if there are translations to display.</span> <br>
+    {{ .Page.IsTranslated }} <br><br>
+
+    <span class="csKey">Keywords:</span> <br> 
+    <span class="csKeyDesc">the meta keywords for the content.</span> <br>
+    {{ .Page.Keywords }} <br><br>
+
+    <span class="csKey">Kind:</span> <br> 
+    <span class="csKeyDesc">the page’s kind. Possible return values are page, home, section, taxonomy, 
+        or term. Note that there are also RSS, sitemap, robotsTXT, and 404 kinds, but these are only available during 
+        the rendering of each of these respective page’s kind and therefore not available in any of the Pages collections.</span> <br>
+    {{ .Page.Kind }} <br><br>
+
+    <span class="csKey">Language:</span> <br>
+    <span class="csKeyDesc">a language object that points to the language’s definition in the site configuration. 
+        .Language.Lang gives you the language code.</span> <br>
+    {{ .Page.Language }} <br><br>
+
+    <span class="csKey">Lastmod:</span> <br> 
+    <span class="csKeyDesc">the date the content was last modified. .Lastmod pulls from the lastmod field 
+        in a content’s front matter. If lastmod is not set, and .GitInfo feature is disabled, the front matter 
+        date field will be used.
+        If lastmod is not set, and .GitInfo feature is enabled, .GitInfo.AuthorDate will be used instead.
+        See also .ExpiryDate, .Date, .PublishDate, and .GitInfo.</span> <br>
+    {{ .Page.Lastmod }} <br><br>
+
+    <span class="csKey">LinkTitle:</span> <br> 
+    <span class="csKeyDesc">access when creating links to the content. If set, Hugo will use the linktitle 
+        from the front matter before title.</span> <br>
+    {{ .Page.LinkTitle }} <br><br>
+
+    <span class="csKey">Next:</span> <br>
+    <span class="csKeyDesc">Points up to the next regular page (sorted by Hugo’s default sort). 
+        Example: {{ with .Next }}{{ .Permalink }}{{ end }}. Calling .Next from the first page returns nil.</span> <br>
+    {{ .Page.Next }} <br><br>
+
+    <span class="csKey">NextInSection:</span> <br> 
+    <span class="csKeyDesc">Points up to the next regular page below the same top level section (e.g. in /blog)). 
+        Pages are sorted by Hugo’s default sort. Example: {{ with .NextInSection }}{{ .Permalink }}{{ end }}. 
+        Calling .NextInSection from the first page returns nil.</span> <br>
+    {{ .Page.NextInSection }} <br><br>
+
+    <span class="csKey">OutputFormats:</span> <br> 
+    <span class="csKeyDesc">contains all formats, including the current format, for a given page. 
+        Can be combined the with .Get function to grab a specific format. (See Output Formats.)</span>
+    {{ .Page.OutputFormats }} <br><br>
+
+    <span class="csKey">Pages:</span> <br> 
+    <span class="csKeyDesc">a collection of associated pages. This value will be nil within the context 
+        of regular content pages. See .Pages.</span> <br>
+    {{ .Page.Pages }} <br><br>
+
+    <span class="csKey">Permalink:</span> <br> 
+    <span class="csKeyDesc">the Permanent link for this page.</span> <br>
+    {{ .Page.Permalink }} <br><br>
+
+    <span class="csKey">Plain:</span> <br> 
+    <span class="csKeyDesc">the Page content stripped of HTML tags and presented as a string. 
+        You may need to pipe the result through the htmlUnescape function when rendering this 
+        value with the HTML output format.</span> <br>
+    {{ .Page.Plain }} <br><br>
+
+    <span class="csKey">PlainWords:</span> <br> 
+    <span class="csKeyDesc">the slice of strings that results from splitting .Plain into words, 
+        as defined in Go’s strings.Fields.</span> <br>
+    {{ .Page.Type }} <br><br>
+
+    <span class="csKey">Prev:</span> <br> 
+    <span class="csKeyDesc">Points down to the previous regular page (sorted by Hugo’s default sort). 
+        Example: {{ if .Prev }}{{ .Prev.Permalink }}{{ end }}. Calling .Prev from the last page returns nil.</span> <br>
+    {{ .Page.Prev }} <br><br>
+
+    <span class="csKey">PrevInSection:</span> <br> 
+    <span class="csKeyDesc">Points down to the previous regular page below the same top level section (e.g. /blog). 
+        Pages are sorted by Hugo’s default sort. Example: {{ if .PrevInSection }}{{ .PrevInSection.Permalink }}{{ end }}. 
+        Calling .PrevInSection from the last page returns nil.</span> <br>
+    {{ .Page.PrevInSection }} <br><br>
+
+    <span class="csKey">PublishDate:</span> <br> 
+    <span class="csKeyDesc">the date on which the content was or will be published; 
+        .Publishdate pulls from the publishdate field in a content’s front matter. 
+        See also .ExpiryDate, .Date, and .Lastmod.</span> <br>
+    {{ .Page.PublishDate }} <br><br>
+
+    <span class="csKey">RawContent:</span> <br> 
+    <span class="csKeyDesc">raw markdown content without the front matter. Useful with remarkjs.com.</span> <br>
+    {{ .Page.RawContent }} <br><br>
+
+    <span class="csKey">ReadingTime:</span> <br> 
+    <span class="csKeyDesc">the estimated time, in minutes, it takes to read the content.</span> <br>
+    {{ .Page.ReadingTime }} <br><br>
+
+    <span class="csKey">Resources:</span> <br> 
+    <span class="csKeyDesc">resources such as images and CSS that are associated with this page.</span> <br>
+    {{ .Page.Resources }} <br><br>
+
+    <span class="csKey">Ref:</span> <br> 
+    <span class="csKeyDesc">returns the permalink for a given reference (e.g., .Ref "sample.md"). 
+        .Ref does not handle in-page fragments correctly. See Cross References.</span> <br>
+    FEHLER <br><br>
+
+    <span class="csKey">RelPermalink:</span> <br> 
+    <span class="csKeyDesc">the relative permanent link for this page.</span> <br>
+    {{ .Page.RelPermalink }} <br><br>
+
+    <span class="csKey">RelRef:</span> <br> 
+    <span class="csKeyDesc">returns the relative permalink for a given reference (e.g., RelRef "sample.md"). 
+        .RelRef does not handle in-page fragments correctly. See Cross References.</span> <br>
+    FEHLER <br><br>
+
+    <span class="csKey">Site:</span> <br> 
+    <span class="csKeyDesc">see Site Variables.</span> <br>
+    {{ .Page.Site }} <br><br>
+
+    <span class="csKey">Sites:</span> <br> 
+    <span class="csKeyDesc">returns all sites (languages). A typical use case would be to link back to the main language: 
+        <a href="{{ .Sites.First.Home.RelPermalink }}">...</a>.</span> <br>
+    {{ .Page.Sites }} <br><br>
+
+    <span class="csKey">Sites.First:</span> <br> 
+    <span class="csKeyDesc">returns all sites (languages). A typical use case would be to link back to the main language: 
+        <a href="{{ .Sites.First.Home.RelPermalink }}">...</a>.</span> <br>
+    {{ .Page.Sites.First }} <br><br>
+
+    <span class="csKey">Summary:</span> <br> 
+    <span class="csKeyDesc">a generated summary of the content for easily showing a snippet in a summary view. 
+        The breakpoint can be set manually by inserting <!--more--> at the appropriate place in the content page, 
+        or the summary can be written independent of the page text. See Content Summaries for more details.</span> <br>
+    {{ .Page.Summary }} <br><br>
+
+    <span class="csKey">TableOfContents:</span> <br> 
+    <span class="csKeyDesc">the rendered table of contents for the page.</span> <br>
+    {{ .Page.TableOfContents }} <br><br>
+
+    <span class="csKey">Title:</span> <br> 
+    <span class="csKeyDesc">the title for this page.</span> <br>
+    {{ .Page.Title }} <br><br>
+
+    <span class="csKey">Translations:</span> <br> 
+    <span class="csKeyDesc">a list of translated versions of the current page. See Multilingual Mode for more information.</span> <br>
+    {{ .Page.Translations }} <br><br>
+
+    <span class="csKey">TranslationKey:</span> <br> 
+    <span class="csKeyDesc">the key used to map language translations of the current page. See Multilingual 
+        Mode for more information.</span> <br>
+    {{ .Page.TranslationKey }} <br><br>
+
+    <span class="csKey">Truncated:</span> <br> 
+    <span class="csKeyDesc">a boolean, true if the .Summary is truncated. Useful for showing a “Read more…” 
+        link only when necessary. See Summaries for more information.</span> <br>
+    {{ .Page.Truncated }} <br><br>
+
+    <span class="csKey">Type:</span> <br> 
+    <span class="csKeyDesc">the content type of the content (e.g., posts).</span> <br>
+    {{ .Page.Type }} <br><br>
+
+    <span class="csKey">Weight: </span> 
+    <span class="csKeyDesc">assigned weight (in the front matter) to this content, used in sorting.</span> <br>
+    {{ .Page.Weight }} <br><br>
+
+    <span class="csKey">WordCount:</span> <br> 
+    <span class="csKeyDesc">the number of words in the content.</span> <br>
+    {{ .Page.WordCount }} <br>
     --------------------------------------------------- <br>
 </div>
 
