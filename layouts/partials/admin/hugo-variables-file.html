@@ -9,15 +9,45 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">Path:</span> {{ .File.Path }} <br>
-    <span class="red">Dir:</span> {{ .File.Dir }} <br>
-    <span class="red">LogicalName:</span> {{ .File.LogicalName }} <br>
-    <span class="red">BaseFileName:</span> {{ .File.BaseFileName }} <br>
-    <span class="red">TranslationBaseName:</span> {{ .File.TranslationBaseName }} <br>
-    <span class="red">Ext:</span> {{ .File.Ext }} <br>
-    <span class="red">Lang:</span> {{ .File.Lang }} <br>
-    <span class="red">ContentBaseName:</span> {{ .File.ContentBaseName }} <br>
-    <span class="red">Filename:</span> {{ .File.Filename }} <br>
-    <span class="red">UniqueID:</span> {{ .File.UniqueID }} <br>
+    <span class="csKey">Path:</span> <br>
+    <span class="csKeyDesc">the file path, relative to the content directory.</span> <br>
+    {{ .File.Path }} <br><br>
+
+    <span class="csKey">Dir:</span> <br>
+    <span class="csKeyDesc">the file path, excluding the file name, relative to the content directory.</span> <br>
+    {{ .File.Dir }} <br><br>
+
+    <span class="csKey">LogicalName:</span> <br>
+    <span class="csKeyDesc">the file name.</span> <br>
+    {{ .File.LogicalName }} <br><br>
+
+    <span class="csKey">BaseFileName:</span> <br>
+    <span class="csKeyDesc">the file name, excluding the extension.</span> <br>
+    {{ .File.BaseFileName }} <br><br>
+
+    <span class="csKey">TranslationBaseName:</span> <br>
+    <span class="csKeyDesc">the file name, excluding the extension and language identifier.
+    </span> <br>
+    {{ .File.TranslationBaseName }} <br><br>
+
+    <span class="csKey">Ext:</span> <br>
+    <span class="csKeyDesc">the file extension.</span> <br>
+    {{ .File.Ext }} <br><br>
+
+    <span class="csKey">Lang:</span> <br>
+    <span class="csKeyDesc">the language associated with the given file.</span> <br>
+    {{ .File.Lang }} <br><br>
+
+    <span class="csKey">ContentBaseName:</span> <br>
+    <span class="csKeyDesc">if the page is a branch or leaf bundle, the name of the containing directory, else the .TranslationBaseName.</span> <br>
+    {{ .File.ContentBaseName }} <br><br>
+
+    <span class="csKey">Filename:</span> <br>
+    <span class="csKeyDesc">the absolute file path.</span> <br>
+    {{ .File.Filename }} <br><br>
+
+    <span class="csKey">UniqueID:</span> <br>
+    <span class="csKeyDesc">the MD5 hash of .File.Path.</span> <br>
+    {{ .File.UniqueID }} <br>
     --------------------------------------------------- <br>
 </div>
