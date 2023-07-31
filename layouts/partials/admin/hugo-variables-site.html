@@ -1,4 +1,4 @@
-<!-- partial hugo-variables-page.html -->
+<!-- partial hugo-variables-site.html -->
 
 --------------------------------------------------- <br>
 <b>Auflistung der Hugo Site Variablen</b> <br>
@@ -9,29 +9,110 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">AllPages:</span>              {{ .Site.AllPages }} <br>
-    <span class="red">BaseURL:</span>               {{ .Site.BaseURL }} <br>
-    <span class="red">BuildDrafts:</span>           {{ .Site.BuildDrafts }} <br>
-    <span class="red">Copyright:</span>             {{ .Site.Copyright }} <br>
-    <span class="red">Data:</span>                  {{ .Site.Data }} <br>
-    <span class="red">DisqusShortname:</span>       {{ .Site.DisqusShortname }} <br>
-    <span class="red">GoogleAnalytics:</span>       {{ .Site.GoogleAnalytics }} <br>
-    <span class="red">Home:</span>                  {{ .Site.Home }} <br>
-    <span class="red">IsMultiLingual:</span>        {{ .Site.IsMultiLingual }} <br>
-    <span class="red">IsServer:</span>              {{ .Site.IsServer }} <br>
-    <span class="red">Language.Lang:</span>         {{ .Site.Language.Lang }} <br>
-    <span class="red">Language.LanguageName:</span> {{ .Site.Language.LanguageName }} <br>
-    <span class="red">Language.Weight:</span>       {{ .Site.Language.Weight }} <br>
-    <span class="red">Language:</span>              {{ .Site.Language }} <br>
-    <span class="red">LanguageCode:</span>          {{ .Site.LanguageCode }} <br>
-    <span class="red">LanguagePrefix:</span>        {{ .Site.LanguagePrefix }} <br>
-    <span class="red">Languages:</span>             {{ .Site.Languages }} <br>
-    <span class="red">LastChange:</span>            {{ .Site.LastChange }} <br>
-    <span class="red">Menus:</span>                 {{ .Site.Menus }} <br>
-    <span class="red">Pages:</span>                 {{ .Site.Pages }} <br>
-    <span class="red">RegularPages:</span>          {{ .Site.RegularPages }} <br>
-    <span class="red">Sections:</span>              {{ .Site.Sections }} <br>
-    <span class="red">Taxonomies:</span>            {{ .Site.Taxonomies }} <br>
-    <span class="red">Title:</span>                 {{ .Site.Title }} <br>
+    <span class="csKey">AllPages:</span> <br>
+    <span class="csKeyDesc">array of all pages, regardless of their translation.</span> <br>
+    {{ .Site.AllPages }} <br><br>
+
+    <span class="csKey">BaseURL:</span> <br>
+    <span class="csKeyDesc">the base URL for the site as defined in the site configuration.</span> <br>
+    {{ .Site.BaseURL }} <br><br>
+
+    <span class="csKey">BuildDrafts:</span> <br>
+    <span class="csKeyDesc">a boolean (default: false) to indicate whether to build drafts as 
+        defined in the site configuration.</span> <br>
+    {{ .Site.BuildDrafts }} <br><br>
+
+    <span class="csKey">Copyright:</span> <br>
+    <span class="csKeyDesc">a string representing the copyright of your website as defined in 
+        the site configuration.
+    </span> <br>
+    {{ .Site.Copyright }} <br><br>
+
+    <span class="csKey">Data:</span> <br>
+    <span class="csKeyDesc">custom data, see Data Templates.</span> <br>
+    {{ .Site.Data }} <br><br>
+
+    <span class="csKey">DisqusShortname:</span> <br>
+    <span class="csKeyDesc">a string representing the shortname of the Disqus shortcode as defined 
+        in the site configuration.</span> <br>
+    {{ .Site.DisqusShortname }} <br><br>
+
+    <span class="csKey">GoogleAnalytics:</span> <br>
+    <span class="csKeyDesc">a string representing your tracking code for Google Analytics as defined in the site configuration.</span> <br>
+    {{ .Site.GoogleAnalytics }} <br><br>
+
+    <span class="csKey">Home:</span> <br>
+    <span class="csKeyDesc">reference to the homepage’s page object.</span> <br>
+    {{ .Site.Home }} <br><br>
+
+    <span class="csKey">IsMultiLingual:</span> <br>
+    <span class="csKeyDesc">whether there are more than one language in this site. See Multilingual for more information.</span> <br>
+    {{ .Site.IsMultiLingual }} <br><br>
+
+    <span class="csKey">IsServer:</span> <br>
+    <span class="csKeyDesc">a boolean to indicate if the site is being served with Hugo’s built-in server. See hugo server for more information.</span> <br>
+    {{ .Site.IsServer }} <br><br>
+
+    <span class="csKey">Language.Lang:</span> <br>
+    <span class="csKeyDesc">the language code of the current locale (e.g., en).</span> <br>
+    {{ .Site.Language.Lang }} <br><br>
+
+    <span class="csKey">Language.LanguageName:</span> <br>
+    <span class="csKeyDesc">the full language name (e.g. English).</span> <br>
+    {{ .Site.Language.LanguageName }} <br><br>
+
+    <span class="csKey">Language.Weight:</span> <br>
+    <span class="csKeyDesc">the weight that defines the order in the .Site.Languages list.</span> <br>
+    {{ .Site.Language.Weight }} <br><br>
+
+    <span class="csKey">Language:</span> <br>
+    <span class="csKeyDesc">indicates the language currently being used to render the website. 
+        This object’s attributes are set in site configurations’ language definition.</span> <br>
+    {{ .Site.Language }} <br><br>
+
+    <span class="csKey">LanguageCode:</span> <br>
+    <span class="csKeyDesc">a string representing the language tag as defined in the site configuration.</span> <br>
+    {{ .Site.LanguageCode }} <br><br>
+
+    <span class="csKey">LanguagePrefix:</span> <br>
+    <span class="csKeyDesc">this can be used to prefix URLs to point to the correct language. 
+        It will even work when only one defined language. See also the functions absLangURL and relLangURL.</span> <br>
+    {{ .Site.LanguagePrefix }} <br><br>
+
+    <span class="csKey">Languages:</span> <br>
+    <span class="csKeyDesc">an ordered list (ordered by defined weight) of languages.</span> <br>
+    {{ .Site.Languages }} <br><br>
+
+    <span class="csKey">LastChange:</span> <br>
+    <span class="csKeyDesc">a string representing the date/time of the most recent change to your site. 
+        This string is based on the date variable in the front matter of your content pages.</span> <br>
+    {{ .Site.LastChange }} <br><br>
+
+    <span class="csKey">Menus:</span> <br>
+    <span class="csKeyDesc">all the menus in the site.</span> <br>
+    {{ .Site.Menus }} <br><br>
+
+    <span class="csKey">Pages:</span> <br>
+    <span class="csKeyDesc">array of all content ordered by Date with the newest first. 
+        This array contains only the pages in the current language. See .Site.Pages.</span> <br>
+    {{ .Site.Pages }} <br><br>
+
+    <span class="csKey">RegularPages:</span> <br>
+    <span class="csKeyDesc">a shortcut to the regular page collection. .Site.RegularPages is 
+        equivalent to where .Site.Pages "Kind" "page". See .Site.Pages.</span> <br>
+    {{ .Site.RegularPages }} <br><br>
+
+    <span class="csKey">Sections:</span> <br>
+    <span class="csKeyDesc">top-level directories of the site.</span> <br>
+    {{ .Site.Sections }} <br><br>
+
+    <span class="csKey">Taxonomies:</span> <br>
+    <span class="csKeyDesc">the taxonomies for the entire site. Also see section Access taxonomy 
+        data from any template.</span> <br>
+    {{ .Site.Taxonomies }} <br><br>
+
+    <span class="csKey">Title:</span> <br>
+    <span class="csKeyDesc">a string representing the title of the site.</span> <br>
+    {{ .Site.Title }} <br>
     --------------------------------------------------- <br>
 </div>
