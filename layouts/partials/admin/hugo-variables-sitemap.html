@@ -9,8 +9,16 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">ChangeFreq:</span> {{ .Sitemap.ChangeFreq }} <br>
-    <span class="red">Priority:</span> {{ .Sitemap.Priority }} <br>
-    <span class="red">Filename:</span> {{ .Sitemap.Filename }} <br>
+    <span class="csKey">ChangeFreq:</span> <br>
+    <span class="csKeyDesc">the page change frequency.</span> <br>
+    {{ .Sitemap.ChangeFreq }} <br><br>
+
+    <span class="csKey">Priority:</span> <br>
+    <span class="csKeyDesc">the priority of the page.</span> <br>
+    {{ .Sitemap.Priority }} <br><br>
+
+    <span class="csKey">Filename:</span> <br>
+    <span class="csKeyDesc">the sitemap file name.</span> <br>
+    {{ .Sitemap.Filename }} <br>
     --------------------------------------------------- <br>
 </div>
