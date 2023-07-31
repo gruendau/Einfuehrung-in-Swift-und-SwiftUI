@@ -9,6 +9,33 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">Singular:</span> {{ .Data.Singular }} <br>
+    <b>Taxonomy templates</b><br>
+    <span class="csKey">Singular:</span> <br>
+    <span class="csKeyDesc">the singular name of the taxonomy (e.g., tags => tag).</span> <br>
+    {{ .Data.Singular }} <br><br>
+
+    <span class="csKey">Plural:</span> <br>
+    <span class="csKeyDesc">the plural name of the taxonomy (e.g., tags => tags).</span> <br>
+    {{ .Data.Plural }} <br><br>
+
+    <span class="csKey">Pages:</span> <br>
+    <span class="csKeyDesc">the collection of term pages related to this taxonomy. Aliased by .Pages.</span> <br>
+    {{ .Data.Pages }} <br><br>
+    
+    <span class="csKey">Terms:</span> <br>
+    <span class="csKeyDesc">a map of terms and weighted pages related to this taxonomy.</span> <br>
+    {{ .Data.Terms }} <br><br>
+    
+    <span class="csKey">Terms.Alphabetical:</span> <br>
+    <span class="csKeyDesc">A map of terms and weighted pages related to this taxonomy, 
+        sorted alphabetically in ascending order. Reverse the sort order 
+        with.Data.Terms.Alphabetical.Reverse.</span> <br>
+    {{ .Data.Terms.Alphabetical }} <br><br>
+    
+    <span class="csKey">Terms.ByCount:</span> <br>
+    <span class="csKeyDesc">a map of terms and weighted pages related to this taxonomy, 
+        sorted by count in ascending order. Reverse the sort order 
+        with.Data.Terms.ByCount.Reverse.</span> <br>
+    {{ .Data.Terms.ByCount }} <br>
     --------------------------------------------------- <br>
 </div>
