@@ -9,6 +9,28 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
 
 <div>
     --------------------------------------------------- <br>
-    <span class="red">AuthorName:</span> {{ .GitInfo.AuthorName }} <br>
+    <span class="red">AbbreviatedHash:</span> <br>
+    the abbreviated commit hash (e.g., 866cbcc) <br>    
+    &nbsp;&nbsp; {{ .GitInfo.AbbreviatedHash }} <br><br>
+
+    <span class="red">AuthorName:</span> 
+    the author’s name, respecting .mailmap <br>    
+    &nbsp;&nbsp; {{ .GitInfo.AuthorName }} <br><br>
+
+    <span class="red">AuthorEmail:</span> 
+    the author’s email address, respecting .mailmap <br>    
+    &nbsp;&nbsp; {{ .GitInfo.AuthorEmail }} <br><br>
+
+    <span class="red">AuthorDate:</span> <br>
+    <i>the author date</i> <br>    
+    {{ .GitInfo.AuthorDate }} <br><br>
+
+    <span class="red">Hash:</span> 
+    the commit hash (e.g., 866cbc...) <br>    
+    &nbsp;&nbsp; {{ .GitInfo.Hash }} <br><br>
+
+    <span class="red">Subject:</span> 
+    commit message subject (e.g., tpl: Add custom index function) <br>    
+    &nbsp;&nbsp; {{ .GitInfo.Subject }} <br><br>
     --------------------------------------------------- <br>
 </div>
