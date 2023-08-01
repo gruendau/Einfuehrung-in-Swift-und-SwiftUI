@@ -3,6 +3,8 @@ title: Links von Apple
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
+weight: 10
+
 subtitle: Links von Apple zu Swift, SwiftUI, UIKit, ...
 
 left: ../stanford

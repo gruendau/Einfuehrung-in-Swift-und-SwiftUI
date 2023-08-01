@@ -3,6 +3,8 @@ title: Vorlesungen der Stanford University
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
+weight: 40
+
 subtitle: Vorlesungen zu Swift, SwiftUI and UIKit
 
 left: ../english
