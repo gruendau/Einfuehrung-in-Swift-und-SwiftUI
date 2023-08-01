@@ -2,6 +2,7 @@
 name: Deploy Hugo site to Pages
 
 on:
+  # implemented by me from an github workflow
   dynamic:
   
   # Runs on pushes targeting the default branch
