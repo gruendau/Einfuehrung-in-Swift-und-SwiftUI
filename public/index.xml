@@ -27,13 +27,11 @@
     
     <item>
       <title>Admin</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/intro/</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/intro/</guid>
-      <description>Text &amp;hellip;
-Inhalt:
-todos hugo todos swift test </description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -154,36 +152,6 @@ Links: Some keyword in Swift: Opaque types explained with code examples Antoine 
       <description>Text &amp;hellip;
 Inhalt:
 einführung schlüsselwörter links a-z </description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test/</guid>
-      <description>Klassen Eine Klasse &amp;lt;class&amp;gt; {d} ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &amp;lt;properties&amp;gt; und Methoden &amp;lt;methodes&amp;gt;. Für die Deklarierung wird das Schlüsselwort class genutzt.
-// Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } &amp;hellip; und hier geht der Text irgendwie weiter!</description>
-    </item>
-    
-    <item>
-      <title>ToDos Hugo</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo/</guid>
-      <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Hugo Website&amp;rdquo; abgearbeitet werden sollen.
-Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07-30 Rahmen um Header and Footer. 2023-07-30 Rahmen um Titel und Untertitel. Navigation Navigation. Pfad im Header anzeigen. 2023-07-30 Seite runter in main funktioniert nicht. 2023-07-30 Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links. Custom Tables.</description>
-    </item>
-    
-    <item>
-      <title>ToDos Swift</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-swift/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-swift/</guid>
-      <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Einführung in Swift und SwiftUI&amp;rdquo; abgearbeitet werden sollen.
-?</description>
     </item>
     
     <item>
