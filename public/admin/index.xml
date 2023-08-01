@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Einführung in Swift und SwiftUI</title>
+    <title>Admin on Einführung in Swift und SwiftUI</title>
     <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</link>
-    <description>Recent content on Einführung in Swift und SwiftUI</description>
+    <description>Recent content in Admin on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-DE</language><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Admin</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/intro/</link>

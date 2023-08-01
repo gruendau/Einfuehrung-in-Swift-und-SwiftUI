@@ -23,19 +23,52 @@
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
                 -->
 
-				{{ range $paginator.Pages }}
+                <!--
+                    {x{ range $paginator.Pages  }}
+                -->
+
+				{{ range .Pages }}
 				<section class="list-item">
 					<h5 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h5>
-					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					
+
                     <!--
-                    <br>{{ template "partials/pagedescription.html" . }}
+					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					-->
+
+                    {{- range .Data.Pages -}}
+                    {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+                    <!--
+                    <li class="post">
+                    -->
+                        &nbsp;&nbsp;
+                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                        <!--
+                        <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} 
+                            <span class="draft-label">DRAFT</span> 
+                            {{ end }}
+                        </span>
+                        -->
+                    <!--
+                    </li>
+                    -->
+                    {{- end -}}
+                    
+                {{- end -}}
+                
+
+                    <!--
+                    <br>{x{ template "partials/pagedescription.html" . }}
 					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
                     -->
 
 				</section>
+                <br>
 				{{ end }}
-				{{ template "partials/paginator.html" . }}
+
+                <!--
+				{x{ template "partials/paginator.html" . }}
+                -->
+
 			</main>
 			{{ partial "footer.html" . }}
 		</div>
