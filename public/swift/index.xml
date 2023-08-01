@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Einleitung on Einführung in Swift und SwiftUI</title>
-    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/</link>
-    <description>Recent content in Einleitung on Einführung in Swift und SwiftUI</description>
+    <title>Swifts on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/</link>
+    <description>Recent content in Swifts on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
-    <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>New Index</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/new/</link>
-      <pubDate>Tue, 01 Aug 2023 17:23:56 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/new/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A-Z</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</link>
@@ -26,50 +17,12 @@
     </item>
     
     <item>
-      <title>Admin</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copyright</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright/</guid>
-      <description>Text &amp;hellip;</description>
-    </item>
-    
-    <item>
       <title>Einführung</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction/</guid>
       <description>xxx</description>
-    </item>
-    
-    <item>
-      <title>Impressum</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum/</guid>
-      <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
-Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
-    </item>
-    
-    <item>
-      <title>Kontakt</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact/</guid>
-      <description>eMail:
-bootstrap 5</description>
     </item>
     
     <item>
@@ -123,17 +76,6 @@ some </description>
     </item>
     
     <item>
-      <title>Site</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/intro/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/intro/</guid>
-      <description>Text &amp;hellip;
-Inhalt:
-copyright über kontakt impressum </description>
-    </item>
-    
-    <item>
       <title>Some</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -155,21 +97,6 @@ einführung schlüsselwörter links a-z </description>
     </item>
     
     <item>
-      <title>Über</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about/</guid>
-      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
-Diese Webseite
-enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
-ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
-wird seit Juli 2023 Schritt für Schritt aufgebaut.
-Aufbau
-ist eine statische Webseite die mit Hugo generiert wurde.</description>
-    </item>
-    
-    <item>
       <title>Vorlesungen der Stanford University</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/stanford/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -178,25 +105,6 @@ ist eine statische Webseite die mit Hugo generiert wurde.</description>
       <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
 Thank you Paul, thank you Stanford!
 Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction to iOS 10, Xcode 8 and Swift 3 84 min 02 MVC; iOS, Xcode and Swift Demonstration 85 min 03 More Swift and the Foundation Framework 85 min 04 Views 81 min 05 Gestures and Multiple MVCs 81 min 06 Multiple MVCs, View Controller Lifecycle 84 min 07 Error Handling, Extensions, Protocols, Delegation 79 min 08 Multithreading and Text Field 77 min 09 Table View 90 min 10 Core Data 91 min 11 Core Data Demo 76 min 12 Autolayout 51 min 13 Timer and Animation 81 min 14 Dynamic Animation Demo 82 min 15 More Segues 83 min 16 Alerts and Action Sheets 72 min 17 Accessibility 43 min rauf runter</description>
-    </item>
-    
-    <item>
-      <title>Werkzeuge</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro/</guid>
-      <description>Text &amp;hellip;
-xcode</description>
-    </item>
-    
-    <item>
-      <title>XCode</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode/</guid>
-      <description>Text &amp;hellip;</description>
     </item>
     
   </channel>
