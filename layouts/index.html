@@ -1,29 +1,44 @@
-{{ define "main" }}
-
-<!-- index.html -->
-
-<div class="container-fluid px-2">
-     <div class="row">
-        <div class="col">
-
-            <!-- Sprungmarke -->
-            <h3 id="top"></h3>
-            
-            <!--
-            {{ partial "admin/hugo-variables-taxonomy" . }}
-            -->
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
 
             <!-- Title, Subtitle -->
             {{ partial "title-subtitle" . }}
+			
+			<main class="list">
+                
+                <!--
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+					{{- end -}}
+				</div>
+                -->
 
-            <!-- Content -->
-            {{ .Content }}
+                <!--
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+                -->
 
-            <!-- Sprungmarke -->
-            <h3 id="bottom"></h3>
+				{{ range $paginator.Pages }}
+				<section class="list-item">
+					<h5 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h5>
+					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					
+                    <!--
+                    <br>{{ template "partials/pagedescription.html" . }}
+					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+                    -->
 
-        </div>
-    </div>
-</div>
-
-{{ end }}
+				</section>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>

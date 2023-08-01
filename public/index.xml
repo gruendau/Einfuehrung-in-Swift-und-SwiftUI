@@ -8,6 +8,15 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A-Z</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</guid>
+      <description>Text &amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Links von Apple</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/apple/</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -55,15 +64,6 @@ Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction t
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/intro/</guid>
       <description>Inhalt:
 Apple Deutsch Englisch Stanford </description>
-    </item>
-    
-    <item>
-      <title>A-Z</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</guid>
-      <description>Text &amp;hellip;</description>
     </item>
     
     <item>
