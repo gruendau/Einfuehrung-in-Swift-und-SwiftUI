@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/new/</loc>
+<<<<<<< HEAD
     <lastmod>2023-08-01T18:42:30+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</loc>
@@ -67,6 +68,72 @@
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode/</loc>
     <lastmod>2023-08-01T18:42:30+02:00</lastmod>
+=======
+    <lastmod>2023-08-01T17:45:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/</loc>
+    <lastmod>2023-07-29T23:18:17+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright/</loc>
+    <lastmod>2023-07-30T19:54:02+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum/</loc>
+    <lastmod>2023-07-30T19:54:02+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/intro/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/german/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/english/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/apple/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/intro/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/intro/</loc>
+    <lastmod>2023-07-30T19:54:02+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/</loc>
+    <lastmod>2023-07-30T19:54:02+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/intro/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/</loc>
+    <lastmod>2023-07-30T20:46:39+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about/</loc>
+    <lastmod>2023-07-30T18:14:30+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/stanford/</loc>
+    <lastmod>2023-07-30T20:46:39+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode/</loc>
+    <lastmod>2023-07-30T01:22:21+02:00</lastmod>
+>>>>>>> parent of 0f7a6b8 (update all index)
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/</loc>
     <lastmod>2023-08-01T18:42:30+02:00</lastmod>
