@@ -33,7 +33,7 @@ params:
   showHugoVariablesShotcode: true
   showHugoVariablesSitemap: true
   showHugoVariablesTaxonomy: true
-
+  showHugoVariables: true
 
 
 # ---------------------------------------

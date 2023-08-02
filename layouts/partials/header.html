@@ -16,9 +16,6 @@
 
                 <br>
 
-                
-               
-
                 <!-- Buttons -->
                 <div class="d-flex justify-content-between">
 
@@ -36,7 +33,10 @@
                         <a class="btn btn-primary btn-sm" href="{{ if .NextInSection }}{{ .NextInSection.Permalink }}{{ end }}" role="button">
                             vor
                         </a>
-                        {{ partial "link" . }}
+                        {{ partial "show/link" . }}
+                        {{ partial "show/wordcount" . }}
+                        {{ partial "show/readingtime" . }}
+                        {{ partial "show/weight" . }}
                     </div>
 
                     <!--- mitte -->

@@ -38,4 +38,8 @@ Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
     {{- if .Site.Params.showHugoVariablesTaxonomy -}}
         {{ partial "admin/hugo-variables-taxonomy" . }}
     {{- end -}}
+
+    {{- if .Site.Params.showHugoVariables -}}
+        {{ partial "admin/hugo" . }}
+    {{- end -}}
 </span>

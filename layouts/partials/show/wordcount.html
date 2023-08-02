@@ -1,0 +1,12 @@
+<!-- partial wordcount.html -->
+
+<sub>
+    <font size="2">
+        <!-- Anzahl der Wörter auf der Seite -->
+        {{ if eq .Page.WordCount 1 }}
+            {{ .Page.WordCount }}wort
+        {{ else }}
+            {{ .Page.WordCount }}wörter
+        {{ end }}
+    </font>
+</sub>

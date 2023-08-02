@@ -5,7 +5,7 @@ draft: false
 
 subtitle: Links von Apple zum Themenbereich Swift, SwiftUI, UIKit, ...
 
-weight: 30
+weight: 100
 ---
 
 ## Klassen

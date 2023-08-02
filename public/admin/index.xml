@@ -28,6 +28,15 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</guid>
+      <description>Text ...</description>
+    </item>
+    
+    <item>
       <title>Test</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>

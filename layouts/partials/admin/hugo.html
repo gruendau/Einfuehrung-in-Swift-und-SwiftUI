@@ -1,0 +1,49 @@
+<!-- partial hugo.html -->
+
+--------------------------------------------------- <br>
+<b>Auflistung der Hugo Variablen</b> <br>
+Link: https://gohugo.io/functions/hugo/
+
+
+<div>
+    --------------------------------------------------- <br>
+    <span class="csKey">BuildDate:</span> <br>
+    <span class="csKeyDesc">the compile date of the current Hugo binary formatted per RFC 3339 (e.g., 2023-05-23T08:14:20Z).</span> <br>
+    {{ hugo.BuildDate }} <br><br>
+
+    <span class="csKey">CommitHash:</span> <br>
+    <span class="csKeyDesc">the Git commit hash of the Hugo binary (e.g., 0a95d67...).</span> <br>
+    {{ hugo.CommitHash }} <br><br>
+
+    <span class="csKey">Deps:</span> <br>
+    <span class="csKeyDesc">See hugo.Deps.</span> <br>
+    {{ hugo.Deps }} <br><br>
+
+    <span class="csKey">Environment:</span> <br>
+    <span class="csKeyDesc">the current running environment as defined through the --environment CLI flag (e.g., development, production).</span> <br>
+    {{ hugo.Environment }} <br><br>
+
+    <span class="csKey">Generator:</span> <br>
+    <span class="csKeyDesc">renders an HTML meta element identifying the software that generated the site (e.g., <meta name="generator" content="Hugo 0.112.0">).</span> <br>
+    {{ hugo.Generator }} <br><br>
+
+    <span class="csKey">GoVersion:</span> <br>
+    <span class="csKeyDesc">the Go version used to compile the Hugo binary (e.g., go1.20.4). </span> <br>
+    {{ hugo.GoVersion }} <br><br>
+
+    <span class="csKey">IsExtended:</span> <br>
+    <span class="csKeyDesc">returns true if the Hugo binary is the extended version.</span> <br>
+    {{ hugo.IsExtended }} <br><br>
+
+    <span class="csKey">IsProduction:</span> <br>
+    <span class="csKeyDesc">returns true if hugo.Environment is set to the production environment.</span> <br>
+    {{ hugo.IsProduction }} <br><br>
+
+    <span class="csKey">Version:</span> <br>
+    <span class="csKeyDesc">the current version of the Hugo binary.</span> <br>
+    {{ hugo.Version }} <br><br>
+
+    <span class="csKey">WorkingDir:</span> <br>
+    <span class="csKeyDesc">the project working directory (e.g., /home/user/projects/my-hugo-site).</span> <br>
+    {{ hugo.WorkingDir }} <br>
+</div>
