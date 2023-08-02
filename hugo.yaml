@@ -5,6 +5,30 @@ languageCode: de-DE
 title: Einführung in Swift und SwiftUI
 
 # ---------------------------------------
+# Site Parameter    
+# --------------------------------------- 
+params:
+  slogan: we love Swift!
+  headerTitle: Einführung in Swift und SwiftUI
+
+  # Anzeigen
+  #   Layout
+  showLayoutFiles: true
+
+  #   Hugo Variablen
+  showHugoVariablesAll: false
+  showHugoVariablesFile: true
+  showHugoVariablesSite: true
+  showHugoVariablesPage: true
+  showHugoVariablesGit: true
+  showHugoVariablesMenu: false
+  showHugoVariablesShotcode: true
+  showHugoVariablesSitemap: true
+  showHugoVariablesTaxonomy: true
+
+
+
+# ---------------------------------------
 # CSS   
 # --------------------------------------- 
 css: ["css/main.css"]
@@ -14,12 +38,7 @@ css: ["css/main.css"]
 # --------------------------------------- 
 js: ["js/main.js"]
 
-# ---------------------------------------
-# Site Parameter    
-# --------------------------------------- 
-params:
-  slogan: we love Swift!
-  headerTitle: Einführung in Swift und SwiftUI
+
 
 # ---------------------------------------
 # Goldmark Markdown

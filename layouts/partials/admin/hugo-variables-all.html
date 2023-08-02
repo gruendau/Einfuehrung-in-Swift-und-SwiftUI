@@ -1,0 +1,41 @@
+<!-- partial hugo-variables-all.html -->
+
+--------------------------------------------------- <br>
+<h3>Auflistung der Hugo Variablen</h3> <br>
+
+Info über die Seite Title: <span class="red">{{ .Page.Title }}</span>
+, URL: <span class="red">{{ .Page.RelPermalink }}</span> <br><br>
+
+<span>
+    {{- if .Site.Params.showHugoVariablesFile -}}
+        {{ partial "admin/hugo-variables-file" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesSite -}}
+        {{ partial "admin/hugo-variables-site" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesPage -}}
+        {{ partial "admin/hugo-variables-page" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesGit -}}
+        {{ partial "admin/hugo-variables-git" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesMenu -}}
+        {{ partial "admin/hugo-variables-menu" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesShortcode -}}
+        {{ partial "admin/hugo-variables-shortcode" . }}
+    {{- end -}}
+
+    {{- if .Site.Params.showHugoVariablesSitemap -}}
+        {{ partial "admin/hugo-variables-sitemap" . }}
+    {{- end -}}
+    
+    {{- if .Site.Params.showHugoVariablesTaxonomy -}}
+        {{ partial "admin/hugo-variables-taxonomy" . }}
+    {{- end -}}
+</span>

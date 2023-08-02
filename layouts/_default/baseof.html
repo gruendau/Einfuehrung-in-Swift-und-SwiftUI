@@ -16,10 +16,19 @@
     <!-- Content -->
     <main class="mt-5 pt-5 mb-5 pb-2">
 
-      <span class="csKey">  layout: baseof.html</span>
+      <!-- Layout Files anzeigen -->
+      {{- if .Site.Params.showLayoutFiles -}}
+        <span class="csKey">&nbsp;&nbsp;layout: baseof.html</span>
+      {{- end -}}
 
       <!-- mt-5 pt-5 is for fixed header -->
       {{- block "main" . }}{{- end }}
+      
+      <!-- Hugo Variablen anzeigen -->
+      {{- if .Site.Params.showHugoVariablesAll -}}
+        {{ partial "admin/hugo-variables-all" . }}
+      {{- end -}}
+
     </main>
 
     <!-- Footer -->
