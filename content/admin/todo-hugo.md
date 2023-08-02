@@ -3,13 +3,9 @@ title: ToDos Hugo
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-kind: page
-
 subtitle: Ideen und offene Punkte für die Hugo Website
 
-left: 
-up: ../intro
-right: 
+weight: 10
 ---
 
 Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Hugo Website" abgearbeitet werden sollen.

@@ -5,9 +5,7 @@ draft: false
 
 subtitle: Ideen und offene Punkte für den Swift Inhalt
 
-left: 
-up: ../intro
-right: 
+weight: 20
 ---
 
 Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Einführung in Swift und SwiftUI" abgearbeitet werden sollen.

@@ -1,19 +1,27 @@
 # hugo.yaml
 
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
+# baseURL: https://gruendau.github.io/
 languageCode: de-DE
 title: Einführung in Swift und SwiftUI
+
+# URL
+# https://privat.albicker.org/blog/2017-02-03-hugo-die-plage-mit-den-urls.html
+uglyURLs: true        # /admin.html
+relativeURLs: false
+canonifyURLs: false   # /admin/   <-- Hugo default Einstellung
 
 # ---------------------------------------
 # Site Parameter    
 # --------------------------------------- 
 params:
+  # home: einfuehrung-in-swift-und-swiftui/
   slogan: we love Swift!
   headerTitle: Einführung in Swift und SwiftUI
 
-  # Anzeigen
+  # Admin
   #   Layout
-  showLayoutFiles: true
+  showLayoutFiles: false
 
   #   Hugo Variablen
   showHugoVariablesAll: false

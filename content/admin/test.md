@@ -5,9 +5,7 @@ draft: false
 
 subtitle: Links von Apple zum Themenbereich Swift, SwiftUI, UIKit, ...
 
-left: 
-up: ../intro
-right: 
+weight: 30
 ---
 
 

@@ -6,4 +6,4 @@ draft: false
 subtitle: Links zu Swift, SwiftUI, UIKit, Objective-C und anderen Kits
 ---
 
-<span class="csKey">content: links/_index.md </span>
+Inhalt:

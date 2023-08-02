@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sites on Einführung in Swift und SwiftUI</title>
-    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/</link>
-    <description>Recent content in Sites on Einführung in Swift und SwiftUI</description>
+    <title>Webseite on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site.html</link>
+    <description>Recent content in Webseite on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Copyright</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright/</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright/</guid>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</guid>
       <description>Text &amp;hellip;</description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum/</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum/</guid>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</guid>
       <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
 Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
     </item>
     
     <item>
       <title>Kontakt</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact/</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact/</guid>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</guid>
       <description>eMail:
 bootstrap 5</description>
     </item>
     
     <item>
-      <title>Site</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/intro/</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/intro/</guid>
-      <description>Text &amp;hellip;
-Inhalt:
-copyright über kontakt impressum </description>
-    </item>
-    
-    <item>
       <title>Über</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about/</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about/</guid>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</guid>
       <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
 Diese Webseite
 enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.

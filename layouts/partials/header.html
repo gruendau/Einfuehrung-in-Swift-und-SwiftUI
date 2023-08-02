@@ -16,6 +16,9 @@
 
                 <br>
 
+                
+               
+
                 <!-- Buttons -->
                 <div class="d-flex justify-content-between">
 
@@ -24,13 +27,13 @@
                         <a class="btn btn-primary btn-sm" href="{{ .Site.BaseURL }}" role="button">
                             home
                         </a>
-                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.left }}" role="button">
+                        <a class="btn btn-primary btn-sm" href="{{ if .PrevInSection }}{{ .PrevInSection.Permalink }}{{ end }}" role="button">
                             zurück
                         </a>
-                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.up }}" role="button">
+                        <a class="btn btn-primary btn-sm" href="{{ if .Parent }}{{ .Parent.Permalink }}{{ end }}" role="button">
                             hoch
                         </a>
-                        <a class="btn btn-primary btn-sm" href="{{ .Page.Params.right }}" role="button">
+                        <a class="btn btn-primary btn-sm" href="{{ if .NextInSection }}{{ .NextInSection.Permalink }}{{ end }}" role="button">
                             vor
                         </a>
                         {{ partial "link" . }}
