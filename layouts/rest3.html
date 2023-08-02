@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+
+            <!-- Title, Subtitle -->
+            {{ partial "title-subtitle" . }}
+			
+			<main class="list">
+                
+                <!--
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+					{{- end -}}
+				</div>
+                -->
+
+                <!--
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+                -->
+
+                <!--
+                    {x{ range $paginator.Pages  }}
+                -->
+
+				{{ range .Pages }}
+				<section class="list-item">
+					<h5 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h5>
+
+                    <!--
+					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+					-->
+                    &nbsp;&nbsp;
+                    {{- range .Data.Pages -}}
+                    <!--
+                    {x{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+                    -->
+                    <!--
+                    <li class="post">
+                    -->
+                        
+                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                        <!--
+                        <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} 
+                            <span class="draft-label">DRAFT</span> 
+                            {{ end }}
+                        </span>
+                        -->
+                    <!--
+                    </li>
+                    -->
+                    <!--
+                    {x{- end -}}
+                    -->
+                    
+                {{- end -}}
+                
+
+                    <!--
+                    <br>{x{ template "partials/pagedescription.html" . }}
+					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+                    -->
+
+				</section>
+                <br>
+				{{ end }}
+
+                <!--
+				{x{ template "partials/paginator.html" . }}
+                -->
+
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>

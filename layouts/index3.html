@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+
+            <!-- Title, Subtitle -->
+            {{ partial "title-subtitle" . }}
+			
+			<main class="list">
+                
+				{{ range .Pages }}
+				<section class="list-item">
+					<h5 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h5>
+
+                    &nbsp;&nbsp;
+                    {{- range .Data.Pages -}}
+                        &nbsp;
+                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                    {{- end -}}
+
+				</section>
+                <br>
+				{{ end }}
+
+			</main>
+
+			{{ partial "footer.html" . }}
+		</div>
+		
+	</body>
+</html>

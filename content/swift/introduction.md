@@ -5,9 +5,7 @@ draft: false
 
 subtitle: 
 
-left: 
-up: ../intro
-right: 
+weight: 10
 ---
 
 xxx

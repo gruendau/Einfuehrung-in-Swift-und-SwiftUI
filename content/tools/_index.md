@@ -5,11 +5,7 @@ draft: false
 
 subtitle: 
 
-left: 
-up: ../../
-right: 
+weight: 20
 ---
 
-Text ...
-
-[xcode](../xcode)
+Inhalt:

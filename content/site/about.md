@@ -5,9 +5,7 @@ draft: false
 
 subtitle: Alles über mich und die Webseite
 
-left: ../impressum
-up: ../intro
-right: ../contact
+weight: 20
 ---
 
 Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit ... so auch diese Webseite.

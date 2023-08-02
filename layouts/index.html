@@ -1,77 +1,56 @@
-<!DOCTYPE html>
-<html>
-	{{ partial "header.html" . }}
-	<body>
-		<div class="content">
-			{{ partial "head.html" . }}
+{{ define "main" }}
+
+<!-- index.html -->
+
+<div class="container-fluid px-2">
+     <div class="row">
+        <div class="col">
+
+            <!-- Sprungmarke -->
+            <h3 id="top"></h3>
 
             <!-- Title, Subtitle -->
             {{ partial "title-subtitle" . }}
-			
-			<main class="list">
+
+            <!-- Content -->
+            {{ .Content }}
+
+            <div class="list">
                 
-                <!--
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
-					{{- end -}}
-				</div>
-                -->
-
-                <!--
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-                -->
-
-                <!--
-                    {x{ range $paginator.Pages  }}
-                -->
-
 				{{ range .Pages }}
 				<section class="list-item">
-					<h5 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h5>
-
-                    <!--
-					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					-->
-
-                    {{- range .Data.Pages -}}
-                    {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
-                    <!--
-                    <li class="post">
-                    -->
-                        &nbsp;&nbsp;
-                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
-                        <!--
-                        <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} 
-                            <span class="draft-label">DRAFT</span> 
-                            {{ end }}
-                        </span>
-                        -->
-                    <!--
-                    </li>
-                    -->
-                    {{- end -}}
+					<b><a href="{{ .RelPermalink }}">{{.Title}}</a></b>
                     
-                {{- end -}}
-                
-
-                    <!--
-                    <br>{x{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
-                    -->
-
+                    {{- range .Data.Pages -}}
+                    <section class="list-item">
+                        &nbsp;
+                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                        
+                        &nbsp;&nbsp;
+                        {{- range .Data.Pages -}}
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                        
+                        {{- end -}}
+                    </section>
+                    {{- end -}}
 				</section>
                 <br>
 				{{ end }}
 
-                <!--
-				{x{ template "partials/paginator.html" . }}
-                -->
+			</div>
 
-			</main>
-			{{ partial "footer.html" . }}
-		</div>
-		
-	</body>
-</html>
+            <!-- Hugo Variablen anzeigen -->
+            {{- if .Site.Params.showHugoVariablesAll -}}
+                {{ partial "admin/hugo-variables-all" . }}
+            {{- end -}}
+
+            <!-- Sprungmarke -->
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+{{ end }}

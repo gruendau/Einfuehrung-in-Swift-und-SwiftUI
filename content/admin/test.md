@@ -8,9 +8,6 @@ subtitle: Links von Apple zum Themenbereich Swift, SwiftUI, UIKit, ...
 weight: 30
 ---
 
-
-
-
 ## Klassen
 
 Eine Klasse <_class_> [{d}][d1] ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften <_properties_> und Methoden <_methodes_>. Für die Deklarierung wird das Schlüsselwort `class` genutzt.   

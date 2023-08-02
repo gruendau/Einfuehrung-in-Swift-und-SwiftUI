@@ -6,7 +6,9 @@ draft: false
 subtitle: "Einstiegsseite der Einführung in Swift und SwiftUI"
 ---
 
+<!--
 <span class="csKey">content: content/_index.md </span>
+-->
 
 Einführung in die 2014 vorgestellte Programmiersprache **`Swift`** [{w}][w1], die inzwischen **`Objective-C`** [{w}][w2] bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI **`SwiftUI`** [{w}][w3], das bei Apple das etablierte GUI **`UIKit`** ergänzt und ablöst. 
 
@@ -20,27 +22,4 @@ Einführung in die 2014 vorgestellte Programmiersprache **`Swift`** [{w}][w1], d
 
 Viel Freude beim Lesen 🥰!
 
-<!--
-
-Inhalt: 
-* [swift](./swift/intro) <br>
-  [einführung](./swift/introduction) 
-  [schlüsselwörter](./swift/keywords/intro) 
-  [links](./swift/links/intro) 
-  [a-z](./swift/az) 
-* [werkzeuge](./tools/intro) <br>
-  [xcode](./tools/xcode)
-
-Anderes: 
-* [site](./site/intro) <br> 
-  [über](./site/about)
-  [kontakt](./site/contact)
-  [impressum](./site/impressum)
-* [admin](./admin/intro) <br>
-  [todos hugo](./admin/todo-hugo)
-  [todos swift](./admin/todo-swift)
-  [test](./admin/test) 
-
--->
-
-
+Inhalt:

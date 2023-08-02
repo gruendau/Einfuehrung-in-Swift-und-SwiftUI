@@ -8,12 +8,21 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A-Z</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az.html</link>
+      <title>Copyright</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az.html</guid>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</guid>
       <description>Text &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction.html</guid>
+      <description>xxx</description>
     </item>
     
     <item>
@@ -37,6 +46,15 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
     </item>
     
     <item>
+      <title>A-Z</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/az.html</guid>
+      <description>Text &amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Links in englischer Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/english.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -54,6 +72,31 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-swift.html</guid>
       <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Einführung in Swift und SwiftUI&amp;rdquo; abgearbeitet werden sollen.
 ?</description>
+    </item>
+    
+    <item>
+      <title>Über</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</guid>
+      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
+Diese Webseite
+enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
+ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
+wird seit Juli 2023 Schritt für Schritt aufgebaut.
+Aufbau
+ist eine statische Webseite die mit Hugo generiert wurde.</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</guid>
+      <description>eMail:
+bootstrap 5</description>
     </item>
     
     <item>
@@ -76,6 +119,16 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
     </item>
     
     <item>
+      <title>Impressum</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</guid>
+      <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
+Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
+    </item>
+    
+    <item>
       <title>Vorlesungen der Stanford University</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/links/stanford.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -87,44 +140,6 @@ Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction t
     </item>
     
     <item>
-      <title>Copyright</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</guid>
-      <description>Text &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Einführung</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/introduction.html</guid>
-      <description>xxx</description>
-    </item>
-    
-    <item>
-      <title>Impressum</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</guid>
-      <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
-Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
-    </item>
-    
-    <item>
-      <title>Kontakt</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</guid>
-      <description>eMail:
-bootstrap 5</description>
-    </item>
-    
-    <item>
       <title>Some</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -132,31 +147,6 @@ bootstrap 5</description>
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/swift/keywords/some.html</guid>
       <description>Some the &amp;ldquo;don&amp;rsquo;t care type&amp;rdquo;.
 Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
-    </item>
-    
-    <item>
-      <title>Über</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</guid>
-      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
-Diese Webseite
-enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
-ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
-wird seit Juli 2023 Schritt für Schritt aufgebaut.
-Aufbau
-ist eine statische Webseite die mit Hugo generiert wurde.</description>
-    </item>
-    
-    <item>
-      <title>Werkzeuge</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro.html</guid>
-      <description>Text &amp;hellip;
-xcode</description>
     </item>
     
     <item>

@@ -17,13 +17,18 @@
     </item>
     
     <item>
-      <title>Impressum</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</link>
+      <title>Über</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</guid>
-      <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
-Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</guid>
+      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
+Diese Webseite
+enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
+ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
+wird seit Juli 2023 Schritt für Schritt aufgebaut.
+Aufbau
+ist eine statische Webseite die mit Hugo generiert wurde.</description>
     </item>
     
     <item>
@@ -37,18 +42,13 @@ bootstrap 5</description>
     </item>
     
     <item>
-      <title>Über</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</link>
+      <title>Impressum</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html</guid>
-      <description>Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einwenig in meiner Freizeit &amp;hellip; so auch diese Webseite.
-Diese Webseite
-enthält eine Einführung in Swift und SwiftUI sowie Objective-C, UIKit und andere Kits in deutscher Sprache.
-ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschlagewerk und eine Anleitung.
-wird seit Juli 2023 Schritt für Schritt aufgebaut.
-Aufbau
-ist eine statische Webseite die mit Hugo generiert wurde.</description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html</guid>
+      <description>Diese Webseite ist privat und verfolgt keine gewerblichen und keine kommerziellen Zwecke.
+Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nicht gefordert.</description>
     </item>
     
   </channel>

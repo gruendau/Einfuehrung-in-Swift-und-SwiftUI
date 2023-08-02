@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on Einführung in Swift und SwiftUI</title>
+    <title>Werkzeuge on Einführung in Swift und SwiftUI</title>
     <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools.html</link>
-    <description>Recent content in Tools on Einführung in Swift und SwiftUI</description>
+    <description>Recent content in Werkzeuge on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Werkzeuge</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/intro.html</guid>
-      <description>Text &amp;hellip;
-xcode</description>
-    </item>
-    
     <item>
       <title>XCode</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode.html</link>
