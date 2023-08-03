@@ -42,7 +42,7 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo.html</guid>
       <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Hugo Website&amp;rdquo; abgearbeitet werden sollen.
-Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07-30 Rahmen um Header and Footer. 2023-07-30 Rahmen um Titel und Untertitel. Navigation Navigation. Pfad im Header anzeigen. 2023-07-30 Seite runter in main funktioniert nicht. 2023-07-30 Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links. Custom Tables.</description>
+Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07-30 Rahmen um Header and Footer. 2023-07-30 Rahmen um Titel und Untertitel. Navigation Navigation. 2023-08-02 Pfad im Header anzeigen. 2023-07-30 Seite runter in main funktioniert nicht. 2023-07-30 Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links.</description>
     </item>
     
     <item>
@@ -90,15 +90,6 @@ ist eine statische Webseite die mit Hugo generiert wurde.</description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</guid>
-      <description>Text ...</description>
-    </item>
-    
-    <item>
       <title>Kontakt</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -136,6 +127,24 @@ Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nic
       <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
 Thank you Paul, thank you Stanford!
 Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction to iOS 10, Xcode 8 and Swift 3 84 min 02 MVC; iOS, Xcode and Swift Demonstration 85 min 03 More Swift and the Foundation Framework 85 min 04 Views 81 min 05 Gestures and Multiple MVCs 81 min 06 Multiple MVCs, View Controller Lifecycle 84 min 07 Error Handling, Extensions, Protocols, Delegation 79 min 08 Multithreading and Text Field 77 min 09 Table View 90 min 10 Core Data 91 min 11 Core Data Demo 76 min 12 Autolayout 51 min 13 Timer and Animation 81 min 14 Dynamic Animation Demo 82 min 15 More Segues 83 min 16 Alerts and Action Sheets 72 min 17 Accessibility 43 min rauf runter</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/links.html</link>
+      <pubDate>Thu, 03 Aug 2023 22:40:58 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/links.html</guid>
+      <description> What is .gitkeep? How to Track and Push Empty Folders in Git Kealan Paar, 2021 What is DNS? Basics for Beginners Kealan Paar, 2023 Unicode Characters – What Every Developer Should Know About Encoding Kealan Paar, 2021 What is Functional Programming? A Beginner&amp;rsquo;s JavaScript Guide Kealan Paar, 2020 Git Reverting to Previous Commit – How to Revert to Last Commit Ihechikara Vincent Abba, 2022 </description>
+    </item>
+    
+    <item>
+      <title>Test Data</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-data.html</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-data.html</guid>
+      <description>Data youtube.html {{ partial &amp;ldquo;youtube&amp;rdquo; . }}</description>
     </item>
     
     <item>

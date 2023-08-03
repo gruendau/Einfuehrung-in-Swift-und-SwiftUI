@@ -14,7 +14,7 @@
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/todo-hugo.html</guid>
       <description>Auflistung der Ideen und Punkte die noch im Rahmen des Projekts &amp;ldquo;Hugo Website&amp;rdquo; abgearbeitet werden sollen.
-Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07-30 Rahmen um Header and Footer. 2023-07-30 Rahmen um Titel und Untertitel. Navigation Navigation. Pfad im Header anzeigen. 2023-07-30 Seite runter in main funktioniert nicht. 2023-07-30 Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links. Custom Tables.</description>
+Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07-30 Rahmen um Header and Footer. 2023-07-30 Rahmen um Titel und Untertitel. Navigation Navigation. 2023-08-02 Pfad im Header anzeigen. 2023-07-30 Seite runter in main funktioniert nicht. 2023-07-30 Mode-Änderung light/dark in Header. Header-Menü Erweiterung. Funktionen Ausführbarer Code. Code kopierbar machen. Custom Elemente Custom Buttons. Custom Links.</description>
     </item>
     
     <item>
@@ -28,12 +28,21 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/links.html</link>
+      <pubDate>Thu, 03 Aug 2023 22:40:58 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/hugo.html</guid>
-      <description>Text ...</description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/links.html</guid>
+      <description> What is .gitkeep? How to Track and Push Empty Folders in Git Kealan Paar, 2021 What is DNS? Basics for Beginners Kealan Paar, 2023 Unicode Characters – What Every Developer Should Know About Encoding Kealan Paar, 2021 What is Functional Programming? A Beginner&amp;rsquo;s JavaScript Guide Kealan Paar, 2020 Git Reverting to Previous Commit – How to Revert to Last Commit Ihechikara Vincent Abba, 2022 </description>
+    </item>
+    
+    <item>
+      <title>Test Data</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-data.html</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-data.html</guid>
+      <description>Data youtube.html {{ partial &amp;ldquo;youtube&amp;rdquo; . }}</description>
     </item>
     
     <item>

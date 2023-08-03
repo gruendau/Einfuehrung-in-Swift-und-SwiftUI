@@ -6,8 +6,6 @@ draft: false
 subtitle: 
 
 weight: 100
-
-type: list
 ---
 
 Inhalt: 
