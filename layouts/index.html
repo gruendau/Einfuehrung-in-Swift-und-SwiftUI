@@ -19,19 +19,28 @@
                 
 				{{ range .Pages }}
 				<section class="list-item">
-					<b><a href="{{ .RelPermalink }}">{{.Title}}</a></b>
-                    
+					<b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+                    &nbsp;
+                    <!--
+                    <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                    -->
                     {{- range .Data.Pages -}}
                     <section class="list-item">
                         &nbsp;
-                        <a href="{{ .RelPermalink }}">{{.Title}}</a> 
-                        
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+                        &nbsp;
+                        <!--
+                        <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                        -->
                         &nbsp;&nbsp;
                         {{- range .Data.Pages -}}
                         <br>
                             &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="{{ .RelPermalink }}">{{.Title}}</a> 
-                        
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+                            &nbsp;
+                            <!--
+                            <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                            -->
                         {{- end -}}
                     </section>
                     {{- end -}}
