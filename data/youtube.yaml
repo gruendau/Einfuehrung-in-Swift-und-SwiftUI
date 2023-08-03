@@ -1,4 +1,4 @@
-yt1:
+yt1: 
   video: FyPgSuwIMWQ
   title: 20 Data Files
   subtitle:
@@ -7,8 +7,9 @@ yt1:
   author: Mike Dane
   company: Giraffe Academy
   language: en
+  tags: [hugo, data]
 
-yt2:
+yt2: 
   video: qtIqKaDlqXo
   title: 01 Introduction to Hugo
   subtitle:
@@ -17,6 +18,7 @@ yt2:
   author: Mike Dane
   company: Giraffe Academy
   language: en
+  tags: [hugo]
 
 yt3:
   video: FyPgSuwIMWQ
@@ -27,3 +29,4 @@ yt3:
   author:
   company:
   language:
+  tags: [hugo]
