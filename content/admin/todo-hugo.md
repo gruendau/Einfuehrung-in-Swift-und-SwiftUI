@@ -17,7 +17,7 @@ Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Hugo Website" a
 [ ] Rahmen um Titel und Untertitel. <br>
 
 * Navigation <br>
-[ ] Navigation. <br >
+[x] Navigation. <span class="csAnnotation">2023-08-02 </span> <br>
 [x] Pfad im Header anzeigen. <span class="csAnnotation">2023-07-30 </span> <br>
 [x] Seite runter in main funktioniert nicht. <span class="csAnnotation">2023-07-30 </span> <br>
 [ ] Mode-Änderung light/dark in Header. <br>
@@ -35,7 +35,7 @@ Auflistung der Ideen und Punkte die noch im Rahmen des Projekts "Hugo Website" a
 
 * Diverses <br>
 [ ] Textsuche. <br>
-[ ] Archetypes für swift Sektion<br>
+[ ] Archetypes für swift Sektions<br>
 [ ] Farbensätze (light, dark). <br>
 [ ] CSS Einbindung. <br>
 [ ] Copyright. <br>
