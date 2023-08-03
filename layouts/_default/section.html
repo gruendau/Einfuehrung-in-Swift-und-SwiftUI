@@ -9,7 +9,7 @@
 
             <!-- Layout Files anzeigen -->
             {{- if .Site.Params.showLayoutFiles -}}
-                <span class="csKey">layout: list.html</span>
+                <span class="csKey">layout: section.html</span>
             {{- end -}}
 
             <!--
@@ -21,25 +21,15 @@
 
             {{- if not .Site.Params.showHugoVariablesAll -}}
                 <!-- Content -->
-                {{ .Content }}
+                {x{ .Content }}
 
-                <ul class="posts">
-
-                    {{- range .Data.Pages -}}
-                        {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
-                        <li class="post">
-                            <a href="{{ .RelPermalink }}">{{.Title}}</a> 
-                            <!--
-                            <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} 
-                                <span class="draft-label">DRAFT</span> 
-                                {{ end }}
-                            </span>
-                            -->
-                        </li>
-                        {{- end -}}
-                    {{- end -}}
-                    
-                </ul>
+                <h1>{{ .Title }}</h1>
+                <p>{{ .Summary }}</p>
+                <div>
+                    {{ range .Pages }}
+                        {{ .Render "li" }}
+                    {{ end }}
+                </div>
 
             {{- end -}}
 
@@ -64,6 +54,3 @@
 -->
 
 {{ end }}
-
-
-
