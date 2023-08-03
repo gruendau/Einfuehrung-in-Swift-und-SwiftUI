@@ -1,0 +1,20 @@
+<!-- partial youtube.html -->
+
+
+
+{{ range .Site.Data.youtube }}
+{{ . }} <br>
+{{ end }}
+<br>
+{{ range .Site.Data.youtube }}
+    video: {{ .video }} <br>
+    titel: {{ .title }} <br>
+    {{ with .length }} 
+    länge: {{ . }} min <br>
+    {{ end }} 
+    <br>
+{{ end }} <br>
+<br>
+<br>
+.Site.Data.youtube.yt1.video <br>
+{{ .Site.Data.youtube.yt1.video }}
