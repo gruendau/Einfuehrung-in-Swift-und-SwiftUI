@@ -14,14 +14,20 @@
     </header>
 
     <!-- Content -->
-    <main class="mt-5 pt-5 mb-5 pb-2">
+    <!-- Fixed header -->
+    {{ if .Site.Params.fixedHeader }}
+      <main class="mt-5 pt-5 mb-5 pb-2" >
+    {{ else }}
+      <main class="mt-0 pt-2 mb-5 pb-2">
+    {{ end }}
+    <!-- mt-5 pt-5 is for fixed header -->
+    
 
       <!-- Layout Files anzeigen -->
       {{- if .Site.Params.showLayoutFiles -}}
         <span class="csKey">&nbsp;&nbsp;layout: baseof.html</span>
       {{- end -}}
 
-      <!-- mt-5 pt-5 is for fixed header -->
       {{- block "main" . }}{{- end }}
       
       <!-- Hugo Variablen anzeigen -->
