@@ -20,7 +20,10 @@ params:
   headerTitle: Einführung in Swift und SwiftUI
 
   # Layout
-  fixedHeader: true
+  fixedHeader: false
+  fixedFooter: false
+
+  stickyHeader: false
 
   # Admin
   #   Layout

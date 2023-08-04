@@ -1,0 +1,25 @@
+<!-- partial fixed-header-fixed-footer.html -->
+
+{{ with .Site.Params }}
+
+    <!-- fixed header, fixed footer -->
+    {{ if ( and .fixedHeader .fixedFooter ) }}
+        <main class="mt-5 pt-5 mb-5 pb-2" >
+    {{ end }}
+
+    <!-- header, fixed footer -->
+    {{ if ( and ( not .fixedHeader ) .fixedFooter ) }}
+        <main class="mt-0 pt-2 mb-5 pb-2">
+    {{ end }}
+
+    <!-- fixed header, footer -->
+    {{ if ( and .fixedHeader ( not .fixedFooter ) ) }}
+        <main class="mt-5 pt-5 mb-0 pb-2">
+    {{ end }}
+
+    <!-- header, footer -->
+    {{ if ( and ( not .fixedHeader ) ( not .fixedFooter ) ) }}
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    {{ end }}
+
+{{ end }}

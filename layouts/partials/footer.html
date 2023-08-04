@@ -1,6 +1,12 @@
-<!-- footer -->
+<!-- partial footer.html -->
 
-<div class="fixed-bottom ">
+<!-- Fixed footer -->
+{{ if .Site.Params.fixedFooter }}
+    <div class="fixed-bottom">
+{{ else }}
+    <div>
+{{ end }}
+
 <div class="csBorder">
 <div class="container-fluid rounded bg-warning">
 <div class="px-2 pt-1 pb-1">
