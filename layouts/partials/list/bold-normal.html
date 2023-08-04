@@ -1,0 +1,11 @@
+<!-- partial bold-normal.html -->
+
+{{ if eq .Kind "page" }}
+    <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ else }}
+    <b><a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+{{ end }}
+
+
+
+    

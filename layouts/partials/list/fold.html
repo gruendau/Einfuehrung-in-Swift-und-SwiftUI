@@ -1,0 +1,10 @@
+<!-- partial fold.html -->
+
+{{ if eq .Kind "page" }}
+    <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ else }}
+<details>
+    <summary>
+    <b><a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+</summary>
+{{ end }}

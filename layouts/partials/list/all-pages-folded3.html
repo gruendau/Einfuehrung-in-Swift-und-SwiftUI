@@ -1,4 +1,4 @@
-<!-- partial all-pages-folded.html -->
+<!-- partial all-pages-folded3.html -->
 
 <div class="list">
 
@@ -6,7 +6,7 @@
     {{ range .Pages }}
     <details>
         <summary>
-            <b><a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+            {{ partial "list/bold-normal" . }}
         </summary>
         <!--
         <span class="csKeyDesc">{{ .Params.subtitle }}</span>
@@ -18,7 +18,7 @@
         <details>
             <summary>
                 &nbsp;&nbsp;&nbsp;
-                <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ partial "list/bold-normal" . }}
             </summary>
             <!--
              &nbsp;
@@ -30,7 +30,7 @@
             <details>
                 <summary>
                     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                    <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    {{ partial "list/bold-normal" . }}
                 </summary>
                 <!--
                  &nbsp;
@@ -41,8 +41,8 @@
                 {{ range .Pages }}
                 <details>
                     <summary>
-                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                        <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        {{ partial "list/bold-normal" . }}
                     </summary>
                     <!--
                      &nbsp;
@@ -53,7 +53,7 @@
                     {{ range .Pages }}
                     <section class="list-item">
                         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                        <a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a> 
+                        {{ partial "list/bold-normal" . }}
                         &nbsp;
                         <!--
                         <span class="csKeyDesc">{{ .Params.subtitle }}</span>
@@ -74,16 +74,3 @@
     {{ end }}
 
 </div>
-
-
-<!--
-Link: <br>
-https://www.html-seminar.de/html-befehle-details-summary.htm
-
-<details>
-  <summary>Zusammenfassung Punkt 1</summary>
-  <p>Hier kommt der ausführliche Inhalt zum Punkt 1</p>
-</details>
--->
-
-
