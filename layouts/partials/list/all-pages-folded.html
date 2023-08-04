@@ -1,0 +1,90 @@
+<!-- partial all-pages-folded.html -->
+
+<div class="list">
+
+    <!-- 1. Ebene -->
+    {{ range .Pages }}
+    <details>
+        <summary>
+            <b><a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+        </summary>
+        <!--
+        <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+        padding-left: 10;
+        -->
+
+        <!-- 2. Ebene -->
+        {{- range .Pages -}}
+        <details>
+            <summary>
+                &nbsp;&nbsp;&nbsp;
+                <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </summary>
+            <!--
+             &nbsp;
+            <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+            -->
+            
+            <!-- 3. Ebene -->
+            {{- range .Pages -}}
+            <details>
+                <summary>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </summary>
+                <!--
+                 &nbsp;
+                <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                -->
+                
+                <!-- 5. Ebene -->
+                {{- range .Pages -}}
+                <details>
+                    <summary>
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        <a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </summary>
+                    <!--
+                     &nbsp;
+                    <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                    -->
+
+                    <!-- 6. Ebene -->
+                    {{- range .Pages -}}
+                    <section class="list-item">
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        <a style="text-decoration: none" href="{{ .RelPermalink }}">{{ .Title }}</a> 
+                        &nbsp;
+                        <!--
+                        <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                        -->
+
+                    </section> 
+                    {{- end -}}
+
+                </details>
+                {{- end -}}
+
+            </details>  
+            {{- end -}}
+
+        </details>
+        {{- end -}}
+        
+    </details>
+    {{ end }}
+
+</div>
+
+
+<!--
+Link: <br>
+https://www.html-seminar.de/html-befehle-details-summary.htm
+
+<details>
+  <summary>Zusammenfassung Punkt 1</summary>
+  <p>Hier kommt der ausführliche Inhalt zum Punkt 1</p>
+</details>
+-->
+
+
