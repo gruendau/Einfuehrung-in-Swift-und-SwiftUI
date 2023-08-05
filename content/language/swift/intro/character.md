@@ -7,7 +7,7 @@ subtitle:
 
 weight: 10
 
-tags: [swift, class]
+tags: [swift, character]
 ---
 
 ## Zeichen
