@@ -10,7 +10,19 @@ subtitle: "Einstiegsseite der Einführung in Swift und SwiftUI"
 <span class="csKey">content: content/_index.md </span>
 -->
 
-Einführung in die 2014 vorgestellte Programmiersprache **`Swift`**, die inzwischen **`Objective-C`** bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI **`SwiftUI`**, das bei Apple das etablierte GUI **`UIKit`** ergänzt und ablöst. 
+Einführung in die 2014 vorgestellte Programmiersprache `Swift`, die inzwischen `Objective-C` bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI `SwiftUI`, das bei Apple das etablierte GUI `UIKit` ergänzt und ablöst. 
+
+Viel Freude beim Lesen!
+
+#### Motivation
+Swift ist eine moderne Programmiersprache die alles kann. SwiftUI ist ein ebenso modernes GUI. Beises wird vor allem für die `iPhone-Programmierung` eingesetzt.
+
+Den unzähligen, frei verfügbaren, kostenlosen `englischen Anleitungen`, den `Anleitungen von Apple` und denn wenigen `deutschen Anleitungen` möchte ich eine `weitere deutsche Anleitung` hinzufügen, um vor allem Anfängern und auch mir selber den Einstieg in die Swift-Programmierung etwas zu erleichtern.
+
+Mit dem Aufbau dieser Anleitung wurde im Juni 2023 begonnen ... und es dauert und ...
+
+#### Widmung
+Diese Anleitung ist meiner liebsten Tante Hanna gewidmet.
 
 <!-- Links -->
 [w1]: https://de.wikipedia.org/wiki/Swift_(Programmiersprache) "wikipedia"
@@ -18,10 +30,6 @@ Einführung in die 2014 vorgestellte Programmiersprache **`Swift`**, die inzwisc
 [w3]: https://de.wikipedia.org/wiki/SwiftUI "wikipedia"
 [w4]: https://de.wikipedia.org/wiki/Grafische_Benutzeroberfläche "wikipedia"
 
-`Die Seiten werden seit Juni 2023 aufgebaut.`
-
-Viel Freude beim Lesen 🥰!
-
 <br>
 
-##### Inhalt:
+#### Inhalt
