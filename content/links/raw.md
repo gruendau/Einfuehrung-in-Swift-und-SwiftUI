@@ -10,6 +10,9 @@ subtitle:
 tags: [link]
 ---
 
+Wie werde ich iOS Entwickler? <br>
+[`"How to become an iOS Developer"`](https://github.com/pitt500/how-to-become-an-ios-developer) _<sub>`by Pedro Rojas, 2021`</sub>_
+
 iOS Development Toolbox <br>
 [A collaborative list of tools for iOS development](https://infinum.com/handbook/ios/tools/development-toolbox) iOS Handbook, 2020 <br>
 
