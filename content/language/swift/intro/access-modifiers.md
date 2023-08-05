@@ -7,7 +7,7 @@ subtitle:
 
 weight: 10
 
-tags: [swift, access-modifiers]
+tags: [swift, access-modifier]
 ---
 
 ## Zugriffsmodifizierer
