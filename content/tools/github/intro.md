@@ -12,6 +12,33 @@ tags: [github]
 
 ## GitHub
 
+GitHub ist ein Onlinedienst zur kollaborativen Versionsverwaltung für Softwareprojekte. GitHub gehört zu Microsoft und hat über 80 Mio. Nutzer.
+
+[`einführung`](./github-intro "GitHub-intro")
+[`gh-pages`](./github-gh_pages "github-gh_pages")
+[`jekyll`](./github-jekyll "github-jekyll")
+[`markdown`](./github-markdown "github-markdown")
+[`mermaid`](./github-mermaid "github-mermaid")
+[`links`](./github-links "github-links")
+
+<br>
+
+GitHub Seiten: <br>
+[Topics - browse popular topics on GitHub](https://github.com/topics) <br>
+[Trending- see what the GitHub community is most excited about today](https://github.com/trending) <br>
+[Collections - curated lists and insight into burgeoning industries, topics, and communities](https://github.com/collections) <br>
+
+[Swift - Swift Repositories auf GitHub](https://github.com/topics/swift) <br>
+
+[Glossary - dieses Glossar führt in die gängige Git- und GitHub-Terminologie ein](https://docs.github.com/de/get-started/quickstart/github-glossary) <br>
+[Blog - Blog auf GitHub](https://github.blog/) <br>
+
+
+<br>
+
+##### Links:
+[`wiki`](https://de.wikipedia.org/wiki/GitHub)
+
 #### Github
 [`Anleitung`](https://docs.github.com/de/get-started "get started") 
 
