@@ -28,7 +28,7 @@ params:
 
     # Admin
     #   Layout
-    showLayoutFiles: false
+    showLayoutFiles: true
 
     #   Hugo Variablen
     showHugoVariablesAll: false
