@@ -1,0 +1,438 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>brew - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/commands.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/cli/commands/brew.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        brew
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <p>Paketverwaltung <a href="https://brew.sh/index_de">Homebrew</a>.</p>
+<!-- Links --> <br>
+<h5 id="links">Links:</h5>
+<p><a href="https://de.wikipedia.org/wiki/Homebrew_(Paketverwaltung)"><code>wiki</code></a> <em><sub>von wiki</sub></em><br>
+<a href="https://brew.sh/index_de"><code>home</code></a> <em><sub>von homebrew</sub></em> <br>
+<a href="https://github.com/Homebrew/brew"><code>github</code></a> <em><sub>von homebrew</sub></em></p>
+<pre tabindex="0"><code>compiling openssl_missing.c
+compiling ossl.c
+In file included from ossl.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_asn1.c
+In file included from ossl_asn1.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_bio.c
+In file included from ossl_bio.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_bn.c
+In file included from ossl_bn.c:11:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_cipher.c
+In file included from ossl_cipher.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_config.c
+In file included from ossl_config.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_digest.c
+In file included from ossl_digest.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_engine.c
+In file included from ossl_engine.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+1 warning generated.
+compiling ossl_hmac.c
+In file included from ossl_hmac.c:10:
+In file included from ./ossl.h:177:
+./openssl_missing.h:195:11: warning: &#39;TS_VERIFY_CTS_set_certs&#39; macro redefined [-Wmacro-redefined]
+#  define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&gt;certs=(crts))
+          ^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here
+#  define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert)
+          ^
+ossl_hmac.c:249:35: error: incomplete definition of type &#39;struct evp_md_ctx_st&#39;
+    pkey = EVP_PKEY_CTX_get0_pkey(EVP_MD_CTX_get_pkey_ctx(ctx));
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./openssl_missing.h:230:41: note: expanded from macro &#39;EVP_MD_CTX_get_pkey_ctx&#39;
+#  define EVP_MD_CTX_get_pkey_ctx(x) (x)-&gt;pctx
+                                     ~~~^
+/usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/types.h:107:16: note: forward declaration of &#39;struct evp_md_ctx_st&#39;
+typedef struct evp_md_ctx_st EVP_MD_CTX;
+               ^
+1 warning and 1 error generated.
+make[2]: *** [ossl_hmac.o] Error 1
+make[1]: *** [ext/openssl/all] Error 2
+make: *** [build-ext] Error 2
+!!! Compiling ruby 3.2.2 failed!
+test@Tests-MBP ~ %
+</code></pre>
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

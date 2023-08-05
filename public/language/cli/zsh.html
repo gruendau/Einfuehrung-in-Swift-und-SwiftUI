@@ -1,0 +1,600 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>zsh - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm disabled"
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/cli/zsh.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        zsh
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>test@Tests-MBP ~ % zsh --help
+</span></span><span style="display:flex;"><span>Usage: zsh [&lt;options&gt;] [&lt;argument&gt; ...]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Special options:
+</span></span><span style="display:flex;"><span>  --help     show this message, then exit
+</span></span><span style="display:flex;"><span>  --version  show zsh version number, then exit
+</span></span><span style="display:flex;"><span>  -b         end option processing, like --
+</span></span><span style="display:flex;"><span>  -c         take first argument as a command to execute
+</span></span><span style="display:flex;"><span>  -o OPTION  set an option by name (see below)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Normal options are named.  
+</span></span><span style="display:flex;"><span>An option may be turned on by
+</span></span><span style="display:flex;"><span>  `-o OPTION&#39;, `--OPTION&#39;, `+o no_OPTION&#39; or `+-no-OPTION&#39;.  
+</span></span><span style="display:flex;"><span>An option may be turned off by 
+</span></span><span style="display:flex;"><span>  `-o no_OPTION&#39;, `--no-OPTION&#39;,`+o OPTION&#39; or `+-OPTION&#39;.  
+</span></span><span style="display:flex;"><span>Options are listed below only in
+</span></span><span style="display:flex;"><span>  `--OPTION&#39; or `--no-OPTION&#39; 
+</span></span><span style="display:flex;"><span>form.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Named options:
+</span></span><span style="display:flex;"><span>  --aliases
+</span></span><span style="display:flex;"><span>  --aliasfuncdef
+</span></span><span style="display:flex;"><span>  --allexport
+</span></span><span style="display:flex;"><span>  --alwayslastprompt
+</span></span><span style="display:flex;"><span>  --alwaystoend
+</span></span><span style="display:flex;"><span>  --appendcreate
+</span></span><span style="display:flex;"><span>  --appendhistory
+</span></span><span style="display:flex;"><span>  --autocd
+</span></span><span style="display:flex;"><span>  --autocontinue
+</span></span><span style="display:flex;"><span>  --autolist
+</span></span><span style="display:flex;"><span>  --automenu
+</span></span><span style="display:flex;"><span>  --autonamedirs
+</span></span><span style="display:flex;"><span>  --autoparamkeys
+</span></span><span style="display:flex;"><span>  --autoparamslash
+</span></span><span style="display:flex;"><span>  --autopushd
+</span></span><span style="display:flex;"><span>  --autoremoveslash
+</span></span><span style="display:flex;"><span>  --autoresume
+</span></span><span style="display:flex;"><span>  --badpattern
+</span></span><span style="display:flex;"><span>  --banghist
+</span></span><span style="display:flex;"><span>  --bareglobqual
+</span></span><span style="display:flex;"><span>  --bashautolist
+</span></span><span style="display:flex;"><span>  --bashrematch
+</span></span><span style="display:flex;"><span>  --beep
+</span></span><span style="display:flex;"><span>  --bgnice
+</span></span><span style="display:flex;"><span>  --braceccl
+</span></span><span style="display:flex;"><span>  --bsdecho
+</span></span><span style="display:flex;"><span>  --caseglob
+</span></span><span style="display:flex;"><span>  --casematch
+</span></span><span style="display:flex;"><span>  --cbases
+</span></span><span style="display:flex;"><span>  --cdablevars
+</span></span><span style="display:flex;"><span>  --cdsilent
+</span></span><span style="display:flex;"><span>  --chasedots
+</span></span><span style="display:flex;"><span>  --chaselinks
+</span></span><span style="display:flex;"><span>  --checkjobs
+</span></span><span style="display:flex;"><span>  --checkrunningjobs
+</span></span><span style="display:flex;"><span>  --clobber
+</span></span><span style="display:flex;"><span>  --combiningchars
+</span></span><span style="display:flex;"><span>  --completealiases
+</span></span><span style="display:flex;"><span>  --completeinword
+</span></span><span style="display:flex;"><span>  --continueonerror
+</span></span><span style="display:flex;"><span>  --correct
+</span></span><span style="display:flex;"><span>  --correctall
+</span></span><span style="display:flex;"><span>  --cprecedences
+</span></span><span style="display:flex;"><span>  --cshjunkiehistory
+</span></span><span style="display:flex;"><span>  --cshjunkieloops
+</span></span><span style="display:flex;"><span>  --cshjunkiequotes
+</span></span><span style="display:flex;"><span>  --cshnullcmd
+</span></span><span style="display:flex;"><span>  --cshnullglob
+</span></span><span style="display:flex;"><span>  --debugbeforecmd
+</span></span><span style="display:flex;"><span>  --dvorak
+</span></span><span style="display:flex;"><span>  --emacs
+</span></span><span style="display:flex;"><span>  --equals
+</span></span><span style="display:flex;"><span>  --errexit
+</span></span><span style="display:flex;"><span>  --errreturn
+</span></span><span style="display:flex;"><span>  --evallineno
+</span></span><span style="display:flex;"><span>  --exec
+</span></span><span style="display:flex;"><span>  --extendedglob
+</span></span><span style="display:flex;"><span>  --extendedhistory
+</span></span><span style="display:flex;"><span>  --flowcontrol
+</span></span><span style="display:flex;"><span>  --forcefloat
+</span></span><span style="display:flex;"><span>  --functionargzero
+</span></span><span style="display:flex;"><span>  --glob
+</span></span><span style="display:flex;"><span>  --globalexport
+</span></span><span style="display:flex;"><span>  --globalrcs
+</span></span><span style="display:flex;"><span>  --globassign
+</span></span><span style="display:flex;"><span>  --globcomplete
+</span></span><span style="display:flex;"><span>  --globdots
+</span></span><span style="display:flex;"><span>  --globstarshort
+</span></span><span style="display:flex;"><span>  --globsubst
+</span></span><span style="display:flex;"><span>  --hashcmds
+</span></span><span style="display:flex;"><span>  --hashdirs
+</span></span><span style="display:flex;"><span>  --hashexecutablesonly
+</span></span><span style="display:flex;"><span>  --hashlistall
+</span></span><span style="display:flex;"><span>  --histallowclobber
+</span></span><span style="display:flex;"><span>  --histbeep
+</span></span><span style="display:flex;"><span>  --histexpiredupsfirst
+</span></span><span style="display:flex;"><span>  --histfcntllock
+</span></span><span style="display:flex;"><span>  --histfindnodups
+</span></span><span style="display:flex;"><span>  --histignorealldups
+</span></span><span style="display:flex;"><span>  --histignoredups
+</span></span><span style="display:flex;"><span>  --histignorespace
+</span></span><span style="display:flex;"><span>  --histlexwords
+</span></span><span style="display:flex;"><span>  --histnofunctions
+</span></span><span style="display:flex;"><span>  --histnostore
+</span></span><span style="display:flex;"><span>  --histreduceblanks
+</span></span><span style="display:flex;"><span>  --histsavebycopy
+</span></span><span style="display:flex;"><span>  --histsavenodups
+</span></span><span style="display:flex;"><span>  --histsubstpattern
+</span></span><span style="display:flex;"><span>  --histverify
+</span></span><span style="display:flex;"><span>  --hup
+</span></span><span style="display:flex;"><span>  --ignorebraces
+</span></span><span style="display:flex;"><span>  --ignoreclosebraces
+</span></span><span style="display:flex;"><span>  --ignoreeof
+</span></span><span style="display:flex;"><span>  --incappendhistory
+</span></span><span style="display:flex;"><span>  --incappendhistorytime
+</span></span><span style="display:flex;"><span>  --interactive
+</span></span><span style="display:flex;"><span>  --interactivecomments
+</span></span><span style="display:flex;"><span>  --ksharrays
+</span></span><span style="display:flex;"><span>  --kshautoload
+</span></span><span style="display:flex;"><span>  --kshglob
+</span></span><span style="display:flex;"><span>  --kshoptionprint
+</span></span><span style="display:flex;"><span>  --kshtypeset
+</span></span><span style="display:flex;"><span>  --kshzerosubscript
+</span></span><span style="display:flex;"><span>  --listambiguous
+</span></span><span style="display:flex;"><span>  --listbeep
+</span></span><span style="display:flex;"><span>  --listpacked
+</span></span><span style="display:flex;"><span>  --listrowsfirst
+</span></span><span style="display:flex;"><span>  --listtypes
+</span></span><span style="display:flex;"><span>  --localloops
+</span></span><span style="display:flex;"><span>  --localoptions
+</span></span><span style="display:flex;"><span>  --localpatterns
+</span></span><span style="display:flex;"><span>  --localtraps
+</span></span><span style="display:flex;"><span>  --login
+</span></span><span style="display:flex;"><span>  --longlistjobs
+</span></span><span style="display:flex;"><span>  --magicequalsubst
+</span></span><span style="display:flex;"><span>  --mailwarning
+</span></span><span style="display:flex;"><span>  --markdirs
+</span></span><span style="display:flex;"><span>  --menucomplete
+</span></span><span style="display:flex;"><span>  --monitor
+</span></span><span style="display:flex;"><span>  --multibyte
+</span></span><span style="display:flex;"><span>  --multifuncdef
+</span></span><span style="display:flex;"><span>  --multios
+</span></span><span style="display:flex;"><span>  --nomatch
+</span></span><span style="display:flex;"><span>  --notify
+</span></span><span style="display:flex;"><span>  --nullglob
+</span></span><span style="display:flex;"><span>  --numericglobsort
+</span></span><span style="display:flex;"><span>  --octalzeroes
+</span></span><span style="display:flex;"><span>  --overstrike
+</span></span><span style="display:flex;"><span>  --pathdirs
+</span></span><span style="display:flex;"><span>  --pathscript
+</span></span><span style="display:flex;"><span>  --pipefail
+</span></span><span style="display:flex;"><span>  --posixaliases
+</span></span><span style="display:flex;"><span>  --posixargzero
+</span></span><span style="display:flex;"><span>  --posixbuiltins
+</span></span><span style="display:flex;"><span>  --posixcd
+</span></span><span style="display:flex;"><span>  --posixidentifiers
+</span></span><span style="display:flex;"><span>  --posixjobs
+</span></span><span style="display:flex;"><span>  --posixstrings
+</span></span><span style="display:flex;"><span>  --posixtraps
+</span></span><span style="display:flex;"><span>  --printeightbit
+</span></span><span style="display:flex;"><span>  --printexitvalue
+</span></span><span style="display:flex;"><span>  --privileged
+</span></span><span style="display:flex;"><span>  --promptbang
+</span></span><span style="display:flex;"><span>  --promptcr
+</span></span><span style="display:flex;"><span>  --promptpercent
+</span></span><span style="display:flex;"><span>  --promptsp
+</span></span><span style="display:flex;"><span>  --promptsubst
+</span></span><span style="display:flex;"><span>  --pushdignoredups
+</span></span><span style="display:flex;"><span>  --pushdminus
+</span></span><span style="display:flex;"><span>  --pushdsilent
+</span></span><span style="display:flex;"><span>  --pushdtohome
+</span></span><span style="display:flex;"><span>  --rcexpandparam
+</span></span><span style="display:flex;"><span>  --rcquotes
+</span></span><span style="display:flex;"><span>  --rcs
+</span></span><span style="display:flex;"><span>  --recexact
+</span></span><span style="display:flex;"><span>  --rematchpcre
+</span></span><span style="display:flex;"><span>  --restricted
+</span></span><span style="display:flex;"><span>  --rmstarsilent
+</span></span><span style="display:flex;"><span>  --rmstarwait
+</span></span><span style="display:flex;"><span>  --sharehistory
+</span></span><span style="display:flex;"><span>  --shfileexpansion
+</span></span><span style="display:flex;"><span>  --shglob
+</span></span><span style="display:flex;"><span>  --shinstdin
+</span></span><span style="display:flex;"><span>  --shnullcmd
+</span></span><span style="display:flex;"><span>  --shoptionletters
+</span></span><span style="display:flex;"><span>  --shortloops
+</span></span><span style="display:flex;"><span>  --shwordsplit
+</span></span><span style="display:flex;"><span>  --singlecommand
+</span></span><span style="display:flex;"><span>  --singlelinezle
+</span></span><span style="display:flex;"><span>  --sourcetrace
+</span></span><span style="display:flex;"><span>  --sunkeyboardhack
+</span></span><span style="display:flex;"><span>  --transientrprompt
+</span></span><span style="display:flex;"><span>  --trapsasync
+</span></span><span style="display:flex;"><span>  --typesetsilent
+</span></span><span style="display:flex;"><span>  --unset
+</span></span><span style="display:flex;"><span>  --verbose
+</span></span><span style="display:flex;"><span>  --vi
+</span></span><span style="display:flex;"><span>  --warncreateglobal
+</span></span><span style="display:flex;"><span>  --warnnestedvar
+</span></span><span style="display:flex;"><span>  --xtrace
+</span></span><span style="display:flex;"><span>  --zle
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Option aliases:
+</span></span><span style="display:flex;"><span>  --braceexpand            equivalent to --no-ignorebraces
+</span></span><span style="display:flex;"><span>  --dotglob                equivalent to --globdots
+</span></span><span style="display:flex;"><span>  --hashall                equivalent to --hashcmds
+</span></span><span style="display:flex;"><span>  --histappend             equivalent to --appendcreate
+</span></span><span style="display:flex;"><span>  --histexpand             equivalent to --badpattern
+</span></span><span style="display:flex;"><span>  --log                    equivalent to --no-histnofunctions
+</span></span><span style="display:flex;"><span>  --mailwarn               equivalent to --mailwarning
+</span></span><span style="display:flex;"><span>  --onecmd                 equivalent to --singlecommand
+</span></span><span style="display:flex;"><span>  --physical               equivalent to --cdsilent
+</span></span><span style="display:flex;"><span>  --promptvars             equivalent to --promptsubst
+</span></span><span style="display:flex;"><span>  --stdin                  equivalent to --shinstdin
+</span></span><span style="display:flex;"><span>  --trackall               equivalent to --hashcmds
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Option letters:
+</span></span><span style="display:flex;"><span>  -0    equivalent to --completeinword
+</span></span><span style="display:flex;"><span>  -1    equivalent to --printexitvalue
+</span></span><span style="display:flex;"><span>  -2    equivalent to --no-autoresume
+</span></span><span style="display:flex;"><span>  -3    equivalent to --no-nomatch
+</span></span><span style="display:flex;"><span>  -4    equivalent to --globdots
+</span></span><span style="display:flex;"><span>  -5    equivalent to --notify
+</span></span><span style="display:flex;"><span>  -6    equivalent to --beep
+</span></span><span style="display:flex;"><span>  -7    equivalent to --ignoreeof
+</span></span><span style="display:flex;"><span>  -8    equivalent to --markdirs
+</span></span><span style="display:flex;"><span>  -9    equivalent to --autocontinue
+</span></span><span style="display:flex;"><span>  -B    equivalent to --no-bashrematch
+</span></span><span style="display:flex;"><span>  -C    equivalent to --no-checkjobs
+</span></span><span style="display:flex;"><span>  -D    equivalent to --pushdtohome
+</span></span><span style="display:flex;"><span>  -E    equivalent to --pushdsilent
+</span></span><span style="display:flex;"><span>  -F    equivalent to --no-glob
+</span></span><span style="display:flex;"><span>  -G    equivalent to --nullglob
+</span></span><span style="display:flex;"><span>  -H    equivalent to --rmstarsilent
+</span></span><span style="display:flex;"><span>  -I    equivalent to --ignorebraces
+</span></span><span style="display:flex;"><span>  -J    equivalent to --appendhistory
+</span></span><span style="display:flex;"><span>  -K    equivalent to --no-badpattern
+</span></span><span style="display:flex;"><span>  -L    equivalent to --sunkeyboardhack
+</span></span><span style="display:flex;"><span>  -M    equivalent to --singlelinezle
+</span></span><span style="display:flex;"><span>  -N    equivalent to --autoparamslash
+</span></span><span style="display:flex;"><span>  -O    equivalent to --continueonerror
+</span></span><span style="display:flex;"><span>  -P    equivalent to --rcexpandparam
+</span></span><span style="display:flex;"><span>  -Q    equivalent to --pathdirs
+</span></span><span style="display:flex;"><span>  -R    equivalent to --longlistjobs
+</span></span><span style="display:flex;"><span>  -S    equivalent to --recexact
+</span></span><span style="display:flex;"><span>  -T    equivalent to --cbases
+</span></span><span style="display:flex;"><span>  -U    equivalent to --mailwarning
+</span></span><span style="display:flex;"><span>  -V    equivalent to --no-promptcr
+</span></span><span style="display:flex;"><span>  -W    equivalent to --autoremoveslash
+</span></span><span style="display:flex;"><span>  -X    equivalent to --listtypes
+</span></span><span style="display:flex;"><span>  -Y    equivalent to --menucomplete
+</span></span><span style="display:flex;"><span>  -Z    equivalent to --zle
+</span></span><span style="display:flex;"><span>  -a    equivalent to --allexport
+</span></span><span style="display:flex;"><span>  -d    equivalent to --no-globalrcs
+</span></span><span style="display:flex;"><span>  -e    equivalent to --errexit
+</span></span><span style="display:flex;"><span>  -f    equivalent to --no-rcs
+</span></span><span style="display:flex;"><span>  -g    equivalent to --histignorespace
+</span></span><span style="display:flex;"><span>  -h    equivalent to --histignoredups
+</span></span><span style="display:flex;"><span>  -i    equivalent to --interactive
+</span></span><span style="display:flex;"><span>  -k    equivalent to --interactivecomments
+</span></span><span style="display:flex;"><span>  -l    equivalent to --login
+</span></span><span style="display:flex;"><span>  -m    equivalent to --monitor
+</span></span><span style="display:flex;"><span>  -n    equivalent to --no-exec
+</span></span><span style="display:flex;"><span>  -p    equivalent to --privileged
+</span></span><span style="display:flex;"><span>  -r    equivalent to --restricted
+</span></span><span style="display:flex;"><span>  -s    equivalent to --shinstdin
+</span></span><span style="display:flex;"><span>  -t    equivalent to --singlecommand
+</span></span><span style="display:flex;"><span>  -u    equivalent to --no-unset
+</span></span><span style="display:flex;"><span>  -v    equivalent to --verbose
+</span></span><span style="display:flex;"><span>  -w    equivalent to --cdsilent
+</span></span><span style="display:flex;"><span>  -x    equivalent to --xtrace
+</span></span><span style="display:flex;"><span>  -y    equivalent to --shwordsplit
+</span></span></code></pre></div>
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

@@ -8,13 +8,33 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Some</title>
+      <title>associatedtype</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html</guid>
+      <description>Ein zugeordneter Typ &amp;lt;associated type&amp;gt; kann verwendet werden, um ein Protokoll generisch zu machen. Er wird als generischer Typ für Eigenschaften &amp;lt;properties&amp;gt; genutzt. Der zugehörige Typ wird mit dem Schlüsselwort associatedtype angegeben.
+// TYPE ist der Platzhalter für den generischen Typ protocol Store { associatedtype TYPE var items: [TYPE] { get set } mutating func add(item: TYPE) } extension Store { mutating func add(item: TYPE) { items.append(item) } } struct Shop: Store { var items = [String]() } var shop = Shop() shop.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html</guid>
+      <description>Swift Schlüsselwörter Schlüsselwörter, die in
+Deklarationen Anweisungen Ausdrücken und Typen Mustern mit einem Nummernzeichen (#) beginned in bestimmten Kontexten verwendet werden.
+Schlüsselwörter für Deklarationen Schlüsselwort Anmerkung associatedtype Ein zugeordneter Typ &amp;lt;associated type&amp;gt; kann verwendet werden, um ein Protokoll generisch zu machen. class deinit enum fileprivate Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. import init inout internal Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. let open Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. operator private Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt.</description>
+    </item>
+    
+    <item>
+      <title>some</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/some.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/some.html</guid>
-      <description>Some the &amp;ldquo;don&amp;rsquo;t care type&amp;rdquo;.
-Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
+      <description>Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
     </item>
     
   </channel>

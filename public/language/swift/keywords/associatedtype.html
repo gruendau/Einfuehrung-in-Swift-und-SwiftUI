@@ -1,0 +1,360 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>associatedtype - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm disabled" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html"
+                               role="button">
+                               zurück   
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/keywords.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/keywords.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/swift/keywords/associatedtype.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        associatedtype
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <p>Ein zugeordneter Typ &lt;<em>associated type</em>&gt; kann verwendet werden, um ein Protokoll generisch zu machen. Er wird als generischer Typ für Eigenschaften &lt;<em>properties</em>&gt; genutzt. Der zugehörige Typ wird mit dem Schlüsselwort <code>associatedtype</code> angegeben.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#75715e">// TYPE ist der Platzhalter für den generischen Typ</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">protocol</span> <span style="color:#a6e22e">Store</span> {
+</span></span><span style="display:flex;"><span>    associatedtype TYPE
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> items: [TYPE] { <span style="color:#66d9ef">get</span> <span style="color:#66d9ef">set</span> }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">mutating</span> <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">add</span>(item: TYPE)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">extension</span> <span style="color:#a6e22e">Store</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">mutating</span> <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">add</span>(item: TYPE) {
+</span></span><span style="display:flex;"><span>        items.append(item)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">Shop</span>: Store {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> items = [String]()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> shop = Shop()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>shop.add(item: <span style="color:#e6db74">&#34;Book&#34;</span>)
+</span></span><span style="display:flex;"><span>shop.add(item: <span style="color:#e6db74">&#34;Car&#34;</span>)
+</span></span></code></pre></div><br>
+<h5 id="links">Links:</h5>
+<!--   
+[`doku`](, "Apple Dokumentation")
+-->
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/generics/#Associated-Types," title="Swift.org Buch"><code>Generics</code></a> <em><sub><code>by Swift.org</code></sub></em><br>
+<a href="https://www.avanderlee.com/swift/associated-types-protocols"><code>Getting started with associated types in Swift Protocols</code></a> <em><sub><code>by Antoine von der Lee, 2020</code></sub></em><br>
+<a href="https://holyswift.app/associatedtypes-in-swift-a-generic-adventure"><code>AssociatedType in Swift – A Generic Adventure</code></a> <em><sub><code>by Leonardo, 2020</code></sub></em><br>
+<a href="https://www.hackingwithswift.com/example-code/language/what-is-a-protocol-associated-type"><code>What is a protocol associated type?</code></a> <em><sub><code>by Paul Hudson, 2019</code></sub></em><br>
+<a href="https://www.hackingwithswift.com/articles/74/understanding-protocol-associated-types-and-their-constraints"><code>Understanding protocol associated types and their constraints</code></a> <em><sub><code>by Paul Hudson, 2018</code></sub></em></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dictionary on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/dictionary.html</link>
+    <description>Recent content in dictionary on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wörterbücher</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</guid>
+      <description>Ein Wörterbuch &amp;lt;dictionary&amp;gt; ist eine Liste von ungeordneten Schlüssel/Wert &amp;lt;key/value&amp;gt; Paaren. Für die Deklarierung wird das Schlüsselwort dictionary genutzt.
+let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // struct Dictionary&amp;lt;Key : Hashable, Value&amp;gt; // Definition @frozen struct Dictionary&amp;lt;Key, Value&amp;gt; where Key : Hashable var PersonenDictionary = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;, 7: &amp;#34;martin&amp;#34;, 5: &amp;#34;Michael&amp;#34;] for (key, value) in PersonenDictionary { print(String(key) + value) } Links: buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Wörterbuch</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary/dictionary.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary/dictionary.html</guid>
+      <description>Wörterbuch Eine Auflistung häufig genutzter Begriffe.
+Englisch &amp;ndash;&amp;gt; Deutsch Google Translate LEO
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+Englisch Deutsch access Zugang default voreingestellt execute ausführen file Datei get bekommen key Schlüssel load laden modifier Modifikator overwrite überschreiben parameter Parameter print ausdrucken repository Lager set festlegen value Wert Deutsch &amp;ndash;&amp;gt; Englisch Google Translate LEO</description>
+    </item>
+    
+  </channel>
+</rss>

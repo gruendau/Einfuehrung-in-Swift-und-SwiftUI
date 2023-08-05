@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programm on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/programm.html</link>
+    <description>Recent content in programm on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/programm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programme</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/programms.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/programms.html</guid>
+      <description>Anwendungen die auf meinem MacBook installiert sind Eine Auswahl der Anwendungen, die auf meinem MacBook installiert sind.
+bash docker git go homebrew hugo nano node.js python3 ruby swift vim vscode xcode zsh
+Mein MacBook Hardware Overview: Model Name: MacBook Pro Model Identifier: MacBookPro12,1 Processor Name: Dual-Core Intel Core i7 Processor Speed: 3,1 GHz Number of Processors: 1 Total Number of Cores: 2 L2 Cache (per Core): 256 KB L3 Cache: 4 MB Hyper-Threading Technology: Enabled Memory: 16 GB System Firmware Version: 481.</description>
+    </item>
+    
+  </channel>
+</rss>

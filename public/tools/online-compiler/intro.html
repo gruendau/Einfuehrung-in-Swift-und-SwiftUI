@@ -1,0 +1,389 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Einführung - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/github/links.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../tools/online-compiler/intro.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Einführung
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="swift-on-line">Swift on-line</h2>
+<h3 id="swift-on-line-compiler">Swift on-line Compiler</h3>
+<p>Mit online-Compilern <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL-CLI-Shells</a> kann man in Swift geschriebene Programme im Browser laufen lassen. Vom <a href="https://de.wikipedia.org/wiki/Kommandozeile">CLI</a> werden nur Terminal-Ausgaben unterstützt. <a href="https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che">GUI</a>-Schnittstellen wie UIKit oder SwiftUI werden nicht unterstützt.</p>
+<p>REPL: &lsquo;Read-Eval-Print-Loop&rsquo;</p>
+<table>
+<thead>
+<tr>
+<th>Swift on-line Compiler</th>
+<th>Anmerkungen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.jdoodle.com/execute-swift-online">JDoodle</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/swift/online-compiler">Programiz</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.onlinegdb.com/online_swift_compiler">onlineDGB</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://swiftfiddle.com">SwiftFiddle</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://replit.com/languages/swift">replit</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://online.swiftplayground.run">Swift Playground</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.mycompiler.io/de/new/swift">myCompiler</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://onecompiler.com/swift">OneCompiler</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.codespeedy.com/online-swift-compiler">CodeSpeedy</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.toolfk.com/de/tools/online-run-swift.html">ToolFK</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://techiedelight.com/compiler/swift">Techie Delight</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.sololearn.com/compiler-playground/swift">sololearn</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

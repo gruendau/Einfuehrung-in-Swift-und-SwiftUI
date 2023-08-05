@@ -1,0 +1,575 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Einführung - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/swift/intro.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/intro.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/swift/intro.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Einführung
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="einführung-in-swift">Einführung in Swift</h2>
+<p>Text &hellip;</p>
+<!-- Content navigation -->
+<ul>
+<li><a href="#konstanten" title="constants"><code>Konstanten</code></a>
+<a href="#variablen" title="variables"><code>Variablen</code></a></li>
+<li><a href="#operatoren" title="operators"><code>Operatoren</code></a>
+<a href="#numerische-literale" title="numeric literals"><code>Numerische Literale</code></a></li>
+<li><a href="#zugriffsmodifizierer" title="access modifiers"><code>Zugriffsmodifizierer</code></a></li>
+<li><a href="#typen" title="types"><code>Typen</code></a> <br>
+<ul>
+<li><a href="#einfache-typen" title="primitive types"><code>Einfache Typen</code></a>
+<a href="#zeichen" title="characters"><code>Zeichen</code></a>
+<a href="#zeichenketten" title="strings"><code>Zeichenketten</code></a>
+<a href="#optionale-typen" title="optional types"><code>Optionale Typen</code></a>
+<a href="#opaque-typen" title="opaque types"><code>Opaque Typen</code></a></li>
+<li><a href="#kollektionen" title="collections"><code>Kollektionen</code></a>
+<ul>
+<li><a href="#arrays" title="arrays"><code>Arrays</code></a>
+<a href="#sets" title="sets"><code>Sets</code></a>
+<a href="#w%C3%B6rterb%C3%BCcher," title="dictionaries"><code>Wörterbücher</code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#funktionen," title="functions"><code>Funktionen</code></a>
+<a href="#closures" title="closures"><code>Closures</code></a></li>
+<li><a href="#aufz%C3%A4hlungen" title="enumerations"><code>Aufzählungen</code></a>
+<a href="#klassen" title="classes"><code>Klassen</code></a>
+<a href="#strukturen" title="structs"><code>Strukturen</code></a>
+<a href="#protokolle" title="protokols"><code>Protokolle</code></a></li>
+<li><a href="#eigenschaften" title="properties"><code>Eigenschaften</code></a>
+<a href="#methoden" title="methodes"><code>Methoden</code></a>
+<a href="#indexierung" title="subscripts"><code>Indexierung</code></a></li>
+<li><a href="#ablaufkontrolle" title="flow control"><code>Ablaufkontrolle</code></a>
+<ul>
+<li><a href="#for-in-schleife" title="for-in loop"><code>for-in</code></a>
+<a href="#while-schleife" title="while loop"><code>while</code></a>
+<a href="#repeat-while-schleife" title="repeat-while loop"><code>repeat-while</code></a>
+<a href="#if-anweisung" title="if statement"><code>if</code></a>
+<a href="#switch-anweisung" title="switch statement"><code>switch</code></a></li>
+</ul>
+</li>
+<li><a href="#optionale-bindung" title="optional binding"><code>Optionale Bindung</code></a></li>
+<li><a href="#fehler-behandlung" title="error handling"><code>Fehler Behandlung</code></a></li>
+</ul>
+<h3 id="konstanten">Konstanten</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Naming-Constants-and-Variables">Konstanten</a> &lt;<em>constants</em>&gt; sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programmverlauf nicht mehr geändert werden können. Für die Deklarierung wird das Schlüsselwort <code>let</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> constant = <span style="color:#e6db74">&#34;volker&#34;</span>         
+</span></span></code></pre></div><p><a href="./swift-intro-constants"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="variablen">Variablen</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Naming-Constants-and-Variables">Variablen</a> &lt;<em>variables</em>&gt; sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programverlauf geändert werden können. Für die Deklarierung wird das Schlüsselwort <code>var</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> variable = <span style="color:#e6db74">&#34;volker&#34;</span> 
+</span></span></code></pre></div><p><a href="./swift-intro-variables"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="operatoren">Operatoren</h3>
+<p><a href="./swift-intro-operators"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="numerische-literale">Numerische Literale</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> decimalInteger =     <span style="color:#ae81ff">17</span>       <span style="color:#75715e">// 17 in dezimaler Notation</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> binaryInteger =      <span style="color:#ae81ff">0b10001</span>  <span style="color:#75715e">// 17 in binärer Notation</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> octalInteger =       <span style="color:#ae81ff">0o21</span>     <span style="color:#75715e">// 17 in octal Notation</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> hexadecimalInteger = <span style="color:#ae81ff">0x11</span>     <span style="color:#75715e">// 17 in hexadecimaler Notation</span>
+</span></span></code></pre></div><p><a href="./swift-intro-numeric_literals"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="zugriffsmodifizierer">Zugriffsmodifizierer</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> variable = <span style="color:#e6db74">&#34;volker&#34;</span> 
+</span></span></code></pre></div><p><a href="./swift-intro-access_modifiers"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="typen">Typen</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types">Typen</a> &lt;<em>types</em>&gt; sind Vorgaben für den Aufbau von Objekten.</p>
+<p><a href="./swift-intro-types"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="einfache-typen">Einfache Typen</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> c: Character = <span style="color:#e6db74">&#34;a&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> s: String = <span style="color:#e6db74">&#34;volker&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> b: Bool = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> i: Int = <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>            <span style="color:#75715e">// positive und negative Ganzzahen</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> i8: Int8 = <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>          <span style="color:#75715e">// Ganzzahlen von -128 bis 127 - (Int8, Int16, Int32, Int64, Int)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> u: UInt = <span style="color:#ae81ff">1</span>            <span style="color:#75715e">// nur positive Ganzzahen</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> f: Float = <span style="color:#ae81ff">1.1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> d: Double = <span style="color:#ae81ff">1.1</span>
+</span></span></code></pre></div><p><a href="./swift-intro-primitive_types"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="zeichen">Zeichen</h3>
+<p>Text &hellip;</p>
+<p><a href="./swift-intro-characters"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="zeichenketten">Zeichenketten</h3>
+<p>Text &hellip;</p>
+<p><a href="./swift-intro-strings"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="kollektionen">Kollektionen</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes">Kollektionen</a> &lt;<em>collections</em>&gt; sind Sammlungen von Daten in Listen, wie <a href="#arrays"><code>Arrays</code></a>, <a href="#sets"><code>Sets</code></a> und <a href="#dictionaries"><code>Dictionaries</code></a>.</p>
+<p><a href="./swift-intro-collections"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="arrays">Arrays</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes#Arrays">Array</a> &lt;<em>array</em>&gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort <code>array</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> array = [<span style="color:#e6db74">&#34;volker&#34;</span>, <span style="color:#e6db74">&#34;nils&#34;</span>]
+</span></span></code></pre></div><p><a href="./swift-intro-arrays"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="sets">Sets</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes#Sets">Set</a> &lt;<em>set</em>&gt; ist eine ungeordnete Liste von unterschiedlichen Elementen. Für die Deklarierung wird das Schlüsselwort <code>set</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> set: Set = [<span style="color:#e6db74">&#34;volker&#34;</span>, <span style="color:#e6db74">&#34;nils&#34;</span>]
+</span></span></code></pre></div><p><a href="./swift-intro-sets"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="wörterbücher">Wörterbücher</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes#Dictionaries">Wörterbuch</a> &lt;<em>dictionary</em>&gt; ist eine Liste von ungeordneten Schlüssel/Wert &lt;<em>key</em>/<em>value</em>&gt; Paaren. Für die Deklarierung wird das Schlüsselwort <code>dictionary</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> w<span style="color:#960050;background-color:#1e0010">ö</span>rterbuch = [<span style="color:#ae81ff">1</span>: <span style="color:#e6db74">&#34;volker&#34;</span>, <span style="color:#ae81ff">2</span>: <span style="color:#e6db74">&#34;nils&#34;</span>]
+</span></span></code></pre></div><p><a href="./swift-intro-dictionaries"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="optionale-typen">Optionale Typen</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types/#Optional-Type">optionaler Type</a> &lt;<em>optional type</em>&gt; ist eine Typ der auch <code>nil</code> (nicht) enthalten darf. Für die Deklarierung wird das Suffix <em><code>?</code></em> der Typenbezeichnung angehängt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> o1: Optional&lt;String&gt;    <span style="color:#75715e">//  Optional&lt;Wrapped&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> o2: String!
+</span></span></code></pre></div><p><a href="./swift-intro-optional_types"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="opaque-typen">Opaque Typen</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/opaquetypes/">opaquer Type</a> &lt;<em>opaque type</em>&gt; ist ein Typ der sich verhalten soll wie ein zugeordneter Typ. Für die Deklarierung wird das Schlüsselwort <code>some</code> der Typenbezeichnung vorangestellt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-opaque_types"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="funktionen">Funktionen</h3>
+<p>Eine <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions">Function</a> &lt;<em>function</em>&gt; ist eine  Handlungsanweisung. Für die Deklarierung wird das Schlüsselwort <code>func</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">gebeNamen</span> () -&gt; String {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;volker&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><a href="./swift-intro-functions"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="closures">Closures</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures">Closure</a> &lt;<em>closure</em>&gt; ist eine Handlungsanweisung.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#75715e">// Funktion vs. Closure</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">gruesseFunktion</span> () -&gt; String { <span style="color:#e6db74">&#34;hallo&#34;</span> }     <span style="color:#75715e">// print(gruesseFunktion()) -&gt; hallo</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> gruesseClosure1: () -&gt; String = { <span style="color:#e6db74">&#34;hallo&#34;</span> }   <span style="color:#75715e">// print(gruesseClosure1()) -&gt; hallo</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> gruesseClosure2 = { <span style="color:#e6db74">&#34;hallo&#34;</span> }                 <span style="color:#75715e">// print(gruesseClosure2()) -&gt; hallo</span>
+</span></span></code></pre></div><p><a href="./swift-intro-closures"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="aufzählungen">Aufzählungen</h3>
+<p>Eine <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations">Aufzählung</a> &lt;<em>enumeration</em>&gt; ist eine Aufzählung von Werten. Für die Deklarierung wird das Schlüsselwort <code>enum</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">enum</span> <span style="color:#a6e22e">EineAufz</span><span style="color:#960050;background-color:#1e0010">ä</span>hlung {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Definition des Inhalts der Aufzählung</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><a href="./swift-intro-enumerations"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="klassen">Klassen</h3>
+<p>Eine <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures">Klasse</a> &lt;<em>class</em>&gt; ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &lt;<em>properties</em>&gt; und Methoden &lt;<em>methodes</em>&gt;. Für die Deklarierung wird das Schlüsselwort <code>class</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EineKlasse</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Definition des Inhalts der Klasse</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><a href="./swift-intro-classes"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="strukturen">Strukturen</h3>
+<p>Eine <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures">Struktur</a> &lt;<em>structure</em>&gt; ist ein Typ für nicht referenzierbare Objekte zur Datenkapselung von Eigenschaften &lt;<em>properties</em>&gt; und Methoden &lt;<em>methodes</em>&gt;. Für die Deklarierung wird das Schlüsselwort <code>struct</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#75715e">// Allgemein</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">EineStruktur</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Definition des Inhalts der Struktur</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Beispiel</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> name: String = <span style="color:#e6db74">&#34;volker&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><a href="./swift-intro-structs"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="protokolle">Protokolle</h3>
+<p>Ein <a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols">Protokoll</a> &lt;<em>protokol</em>&gt; bescheibt Anforderungen an benutzerdefinierte Typen die mit dem Protokoll konform gehen sollen. Für die Deklarierung wird das Schlüsselwort <code>protokol</code> genutzt.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#75715e">// Allgemein</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">protocol</span> <span style="color:#a6e22e">EinProtokoll</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Definition des Inhalts des Protokolls</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Beispiel</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">protocol</span> <span style="color:#a6e22e">PersonProtokoll</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> vorname: String { <span style="color:#66d9ef">get</span> <span style="color:#66d9ef">set</span> }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> nachname: String { <span style="color:#66d9ef">get</span> <span style="color:#66d9ef">set</span> }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">gruesse</span> () -&gt; String
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Anwendung</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PersonKlasse</span>: PersonProtokoll {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> vorname: String = <span style="color:#e6db74">&#34;volker&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> nachname: String = <span style="color:#e6db74">&#34;kasack&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">gruesse</span>() -&gt; String {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hallo &#34;</span> <span style="color:#f92672">+</span> vorname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> nachname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;!&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> person = PersonKlasse()   <span style="color:#75715e">// print(person.gruesse()) -&gt; Hallo volker kasack</span>
+</span></span></code></pre></div><p><a href="./swift-intro-protokols"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="eigenschaften">Eigenschaften</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties">Eigenschaften</a> &lt;<em>properties</em>&gt; sind Konstanten oder Variablen in Klassen oder Strukturen.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-properties"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="methoden">Methoden</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/methodes">Methoden</a> &lt;<em>methodes</em>&gt; sind Funktionen in Klassen oder Strukturen.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-methodes"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="indexierung">Indexierung</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/subscripts">Indexe</a> &lt;<em>subscripts</em>&gt; sind die Positionen von Elementen in geordneten Listen (Arrays).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-subscripts"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="ablaufkontrolle">Ablaufkontrolle</h3>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow">Ablaufkontrolle</a> &lt;<em>control flow</em>&gt;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-control_flow"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="for-in-schleife">for-in Schleife</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-for_in_loops"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="while-schleife">while Schleife</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-while_loops"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="repeat-while-schleife">repeat-while-Schleife</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-repeat-while_loops"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="if-anweisung">if Anweisung</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-if_statement"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="switch-anweisung">switch Anweisung</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-switch_statement"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="optionale-bindung">Optionale Bindung</h3>
+<p>Text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"></code></pre></div><p><a href="./swift-intro-optional_binding"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="fehler-behandlung">Fehler Behandlung</h3>
+<p>In Swift können Funktionen definiert werden, die Fehler <Errors> werfen.
+Diese fehlerwerfenden Funktionen werden in do-try-catch Anweisungen verarbeitet.</p>
+<p>Fehlerwerfende Funktion:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">canThrowAnError</span>() <span style="color:#66d9ef">throws</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// die Funktion kann einen Fehler werfen.</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>do-try-catch Anweisung:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">do</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> canThrowAnError()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// weiter wenn kein Fehler geworfen wurde.</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// weiter wenn ein Fehler geworfen wurde.</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><a href="./swift-intro-error_handling"><code>details</code></a></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

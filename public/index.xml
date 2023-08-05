@@ -8,6 +8,36 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Anordnungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</guid>
+      <description>Ein Anordnungen &amp;lt;array&amp;gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort array genutzt.
+let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&amp;lt;Element&amp;gt; Definition // Definition @frozen struct Array&amp;lt;Element&amp;gt; Deklaration // Ein leeres Array für Strings deklarieren var a1: Array&amp;lt;String&amp;gt; = Array() var a2: Array&amp;lt;String&amp;gt; = [] var a3 = Array&amp;lt;String&amp;gt;() var a4: [String] = Array() var a5: [String] = [] var a6 = [String]() print(type(of: a1)) // --&amp;gt; Array&amp;lt;String&amp;gt; print(a1) // --&amp;gt; [] Initialisierung // Ein leeres Array für Strings deklarieren und initialisieren (Werte zuweisen).</description>
+    </item>
+    
+    <item>
+      <title>Aufzählungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</guid>
+      <description>Eine Aufzählung &amp;lt;enumeration&amp;gt; ist eine Aufzählung von Werten. Für die Deklarierung wird das Schlüsselwort enum genutzt.
+enum Namen { case volker case nils } </description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</guid>
+      <description>Hugo CLI Befehle: help completion config convert deploy env gen help import list mod new server version
+Hugo CLI-Befehle: BEFEHL BESCHREIBUNG ---------- ---------------------------------------------------------- completion Generate the autocompletion script for the specified shell config Print the site configuration convert Convert your content to different formats deploy Deploy your site to a Cloud provider. env Print Hugo version and environment info gen A collection of several useful generators. help Help about any command import Import your site from others.</description>
+    </item>
+    
+    <item>
       <title>Copyright</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -18,11 +48,85 @@
     
     <item>
       <title>Einführung</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/introduction.html</link>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/introduction.html</guid>
-      <description>xxx</description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</guid>
+      <description>Swift CLI Text &amp;hellip;
+weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</guid>
+      <description>Einführung in Swift Text &amp;hellip;
+Konstanten Variablen Operatoren Numerische Literale Zugriffsmodifizierer Typen Einfache Typen Zeichen Zeichenketten Optionale Typen Opaque Typen Kollektionen Arrays Sets Wörterbücher Funktionen Closures Aufzählungen Klassen Strukturen Protokolle Eigenschaften Methoden Indexierung Ablaufkontrolle for-in while repeat-while if switch Optionale Bindung Fehler Behandlung Konstanten Konstanten &amp;lt;constants&amp;gt; sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programmverlauf nicht mehr geändert werden können. Für die Deklarierung wird das Schlüsselwort let genutzt.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</guid>
+      <description>Swift Programm auf dem Terminal Der einfachste Weg ein Swift Programm zu erstellen und laufen zu lassen ist das Program in einen Text Editor zu schreiben und dann auf dem Terminal laufen zu lassen.
+Swift REPL auf dem Terminal: Das Terminal offen und swift eintippen. Es werden dann einige Angaben zu Swift ausgegeben und nach dem Prompt 1&amp;gt; kann man seinen Programm Code eingeben. Beendet wird Swift REPL durch die Eingabe von :quit.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/bootstrap/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/bootstrap/intro.html</guid>
+      <description>Bootstrap 5 Text &amp;hellip;
+Links Bootstrap 5 Tutorial W3-Schools Get started with Bootstrap Bootstrap Introduction Bootstrap Examples Bootstrap Bootstrap-Tutorial: Die ersten Schritte mit dem Twitter-Framework IONOS Bootstrap Tutorial JavaPoint </description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/intro.html</guid>
+      <description>GitHub GitHub ist ein Onlinedienst zur kollaborativen Versionsverwaltung für Softwareprojekte. GitHub gehört zu Microsoft und hat über 80 Mio. Nutzer.
+einführung gh-pages jekyll markdown mermaid links
+GitHub Seiten: Topics - browse popular topics on GitHub Trending- see what the GitHub community is most excited about today Collections - curated lists and insight into burgeoning industries, topics, and communities Swift - Swift Repositories auf GitHub Glossary - dieses Glossar führt in die gängige Git- und GitHub-Terminologie ein Blog - Blog auf GitHub Links: wiki</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html</guid>
+      <description>Hugo Hugo [w] [d] ist eine freie Software zur schnellen Erzeugung statischer Websites &amp;lt;static website generator&amp;gt;.
+Hugo hat einen HTTP-Server [w] zur lokalen Ansicht der erzeugten HTML-Dateien eingebaut. Hugo ist in der Programmiersprache Go [w] geschrieben. Hugo erzeugt die Webseiten aus HTML- [w] oder Markdown-Dateien [w]. Hugo learn theme Netlify Hugo und git CLI-Befehle Auf den Ordner mit dem Projekt gehen. cd documents/programmierung/github/quickstart
+Einen neuen Post anlegen. hugo new posts/my-first-post.md Neue Seite auf den lokalen Server bringen.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html</guid>
+      <description>Jekyll Jekyll ist ein Tool zur Erstellung von statischen Websites. Es wird von GitHub-Pages unterstützt.
+GitHub Pages with Jekyll: Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Site Configuration von Dataslice, 2021, 8 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Adding Posts von Dataslice, 2021, 11 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Customization von Dataslice, 2021, 12 min </description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</guid>
+      <description>Swift on-line Swift on-line Compiler Mit online-Compilern REPL-CLI-Shells kann man in Swift geschriebene Programme im Browser laufen lassen. Vom CLI werden nur Terminal-Ausgaben unterstützt. GUI-Schnittstellen wie UIKit oder SwiftUI werden nicht unterstützt.
+REPL: &amp;lsquo;Read-Eval-Print-Loop&amp;rsquo;
+Swift on-line Compiler Anmerkungen JDoodle Programiz onlineDGB SwiftFiddle replit Swift Playground myCompiler OneCompiler CodeSpeedy ToolFK Techie Delight sololearn </description>
     </item>
     
     <item>
@@ -37,6 +141,47 @@ Typografische Zeichen in XML und HTML wiki </description>
     </item>
     
     <item>
+      <title>Klassen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/classes.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/classes.html</guid>
+      <description>Klassen Eine Klasse &amp;lt;class&amp;gt; ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &amp;lt;properties&amp;gt; und Methoden &amp;lt;methodes&amp;gt;. Für die Deklarierung wird das Schlüsselwort class genutzt.
+// Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } </description>
+    </item>
+    
+    <item>
+      <title>Konstanten</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</guid>
+      <description>Konstanten Konstanten sind Objekte zur Speicherung von Werten und/oder Funktionen, die nicht geändert werden können. Für die Deklarierung wird das Schlüsselwort &amp;rsquo;let&amp;rsquo; genutzt.
+// Allgemein let konstante: Typ = wert // Die Konstante &amp;#39;konstante&amp;#39; vom Typ &amp;#39;Typ&amp;#39; soll den Wert &amp;#39;wert&amp;#39; haben. // Beispiel 1 let c1: String = &amp;#34;volker&amp;#34; let c2 = &amp;#34;volker&amp;#34; // Compiler bestimmt den Typ [type inference] // Beispiel 2a // Die Konstante &amp;#39;function&amp;#39; speichert eine Funktion &amp;#39;gruesse&amp;#39;, die als Funktion übergeben wird.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/links.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/links.html</guid>
+      <description>GitHub: Dokumentation zu den ersten Schritten mit GitHub von GitHub GitHub Flavored Markdown Spec von GitHub, 2019 Schreiben auf GitHub von GitHub Markdown: Erste Schritte beim Schreiben und Formatieren auf GitHub von GitHub Basic Syntax von Markdown Guide Markdown Tutorials von w3schools Getting Started With Markdown von Bill Dyer, 2023 GitHub Pages: Websites for you and your projects von GitHub GitHub Pages-Dokumentation von The Least You Need to Know About GitHub Pages von Tom Campbell GitHub Git Tutorial von Lakshay Sharma</description>
+    </item>
+    
+    <item>
+      <title>Links roh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</guid>
+      <description>Netlify Hugo with Netlify CMS and Github Pages GitHub repo
+Hugo Official home docu themes showcases github
+Links (deutsch) Eine statische Website mit Hugo generieren Thomas Leister, 2017 Ein eigenes Theme erstellen Thomas Leister, 2017 Links (englisch) Website Meine Website-Inhaberschaft bei Google bestätigen Google
+GitHub action What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions!</description>
+    </item>
+    
+    <item>
       <title>Links von Apple</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apple.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -44,6 +189,96 @@ Typografische Zeichen in XML und HTML wiki </description>
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apple.html</guid>
       <description>
 Thema Links Anmerkung Apple home github Developer developer Develop developer XCode developer Swift developer language library source-code SwiftUI developer tutorial Documentation developer Foundation Swift SwiftUI UIKit MapKit Charts XCode Videos developer OS iOS macOS WWDC 2014-2023 2023 - 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 SF-Symbols developer </description>
+    </item>
+    
+    <item>
+      <title>Mermaid</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</guid>
+      <description>Mermaid Flowcharts - Basic Syntax &amp;ldquo;Flowcharts - Basic Syntax&amp;rdquo;
+graph LR A(Start) --&amp;gt; B(Stop) </description>
+    </item>
+    
+    <item>
+      <title>Operatoren</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</guid>
+      <description>Arithmetische Operatoren Addition +
+Subtraktion -
+Multiplikation *
+Division /
+Modulo %
+1 + 2 // --&amp;gt; 3 5 - 3 // --&amp;gt; 2 2 * 3 // --&amp;gt; 6 10.0 / 2.5 // --&amp;gt; 4.0 9 % 4 // --&amp;gt; 1 Zusammengesetzte Zuweisungsoperatoren zusammengesetzte Zuweisungsoperatoren &amp;lt;compound assignment operators&amp;gt; &amp;hellip; +=
+-=
+*=
+/=
+Inkrement und Dekrement Operatoren ++
+--
+var x = 1 ++x // --&amp;gt; 2 ++x // --&amp;gt; 3 --x // --&amp;gt; 2 --x // --&amp;gt; 1 --x // --&amp;gt; 0 Vergleichsoperatoren Gleich a == b</description>
+    </item>
+    
+    <item>
+      <title>Programme</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/programms.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/programms.html</guid>
+      <description>Anwendungen die auf meinem MacBook installiert sind Eine Auswahl der Anwendungen, die auf meinem MacBook installiert sind.
+bash docker git go homebrew hugo nano node.js python3 ruby swift vim vscode xcode zsh
+Mein MacBook Hardware Overview: Model Name: MacBook Pro Model Identifier: MacBookPro12,1 Processor Name: Dual-Core Intel Core i7 Processor Speed: 3,1 GHz Number of Processors: 1 Total Number of Cores: 2 L2 Cache (per Core): 256 KB L3 Cache: 4 MB Hyper-Threading Technology: Enabled Memory: 16 GB System Firmware Version: 481.</description>
+    </item>
+    
+    <item>
+      <title>Roh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</guid>
+      <description>Wie werde ich iOS Entwickler? &amp;quot;How to become an iOS Developer&amp;quot; by Pedro Rojas, 2021
+iOS Development Toolbox A collaborative list of tools for iOS development iOS Handbook, 2020 Fastlane Tools Getting Started with Fastlane.swift Fastlane docs Kivy Kivy crash course 6: Kivy properties Alexander Taylor, 2014, 10 min Kinsta 25 Python Frameworks to Master in 2023 Kinsta, Daniel Diaz, 2023 How To Craft a Stylish Static Website with Eleventy (11ty) Kinsta, Joel Olawanle, 2023 Wie man mit Hugo eine rasend schnelle statische Seite erstellt Kinsta, Brian Li, 2023 Was ist die beste Programmiersprache, die man 2021 lernen sollte?</description>
+    </item>
+    
+    <item>
+      <title>Sets</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</guid>
+      <description>Ein Set &amp;lt;set&amp;gt; ist eine ungeordnete Liste von unterschiedlichen Elementen. Für die Deklarierung wird das Schlüsselwort set genutzt.
+let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&amp;lt;Element : Hashable&amp;gt; // Definition @frozen struct Set&amp;lt;Element&amp;gt; where Element : Hashable Links: doku buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Swift Lint</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</guid>
+      <description>Text &amp;hellip;
+Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
+    </item>
+    
+    <item>
+      <title>Tastatur</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/keyboard.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/keyboard.html</guid>
+      <description>Apple MacBook Pro Tastatur Die Tastaturbelegung vom Apple MacBook Pro.
+Erste Tastaturreihe Taste - ^ 1 2 3 4 5 6 7 8 9 0 ß hoch ° ! &amp;quot; § $ % &amp;amp; / ( ) = ? alt „ ¡ “ ¶ ¢ [ ] | { } ≠ ¿ hoch + alt “ ¬ ” # £ ﬁ ^ \ ˜ · ¯ ˙ Zweite Tastaturreihe Taste - q w e r t z u i o p ü + hoch Q W E R T Z U I O P Ü * alt « ∑ € ® † Ω ¨ ⁄ ø π • ± hoch + alt » „ ‰ ¸ ˝ ˇ Á Û Ø ∏ °  Dritte Tastaturreihe Taste - a s d f g h j k l ö ä # hoch A S D F G H J K L Ö Ä &#39; alt å ‚ ∂ ƒ © ª º ∆ @ œ æ ‘ hoch + alt Å Í ™ Ï Ì Ó ı ˆ ﬂ Œ Æ ’ Viere Tastaturreihe Taste - &amp;lt; y x c v b n m , .</description>
+    </item>
+    
+    <item>
+      <title>Technik</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</guid>
+      <description>Autoren Name Autor Links Anmerkung TechWorld with Nana Nana Janashia home youtube github gitlab twitter LinkedIn email Anwendungen Name Autor Links Anmerkung Apple home youtube github facebook instagram reddit wiki Docker home docs youtube github twitter facebook linkedin reddit wiki email GitHub home docs blog youtube github twitter facebook twitch linkedin tiktoc wiki Kinsta home docs blog youtube github twitter facebook instagram reddit email WordPress-Hosting Netlify home docs blog tutorials cli youtube github twitter facebook linkedin wiki email Swift home docs blog github twitter reddit wiki Twitter home docs youtube github twitter facebook instagram reddit wiki </description>
     </item>
     
     <item>
@@ -57,12 +292,121 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
     </item>
     
     <item>
+      <title>Variable</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/variables.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/variables.html</guid>
+      <description>Variable sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programverlauf geändert werden können. Für die Deklarierung wird das Schlüsselwort &amp;lsquo;var&amp;rsquo; genutzt.
+var v1: String = &amp;#34;volker&amp;#34; var v2 = &amp;#34;volker&amp;#34; // Berechnete Variable [calculated property] var v3: String { &amp;#34;volker&amp;#34; } Links: buch</description>
+    </item>
+    
+    <item>
+      <title>Wörterbücher</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</guid>
+      <description>Ein Wörterbuch &amp;lt;dictionary&amp;gt; ist eine Liste von ungeordneten Schlüssel/Wert &amp;lt;key/value&amp;gt; Paaren. Für die Deklarierung wird das Schlüsselwort dictionary genutzt.
+let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // struct Dictionary&amp;lt;Key : Hashable, Value&amp;gt; // Definition @frozen struct Dictionary&amp;lt;Key, Value&amp;gt; where Key : Hashable var PersonenDictionary = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;, 7: &amp;#34;martin&amp;#34;, 5: &amp;#34;Michael&amp;#34;] for (key, value) in PersonenDictionary { print(String(key) + value) } Links: buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Zeichen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</guid>
+      <description>Zeichen &amp;lt;character&amp;gt;
+// Definition @frozen struct Character </description>
+    </item>
+    
+    <item>
+      <title>Zeichenketten</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</guid>
+      <description>strings
+// Definition @frozen struct String Links: doku buch</description>
+    </item>
+    
+    <item>
+      <title>Zugriffsmodifizierer</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</guid>
+      <description>Zugriffsmodifizierer Swift kennt fünf Zugriffsmodifikatoren (access modifiers) open public internal fileprivate und private.
+open open erlaubt den Zugriff von außerhalb eines Swift Moduls.
+Mit Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+open struct Person { // ... } public public erlaubt den Zugriff von außerhalb eines Swift Moduls. Ohne Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+public struct Person { // ... } internal internal erlaubt den Zugriff innerhalb eines Swift Moduls.</description>
+    </item>
+    
+    <item>
       <title>A-Z</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/az.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/az.html</guid>
       <description>Text &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Befehle</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</guid>
+      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
+https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
+    </item>
+    
+    <item>
+      <title>Benutzerdefinierter Modifikator</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</guid>
+      <description>Text &amp;hellip;
+Links:
+Configuring SwiftUI views von John Sundell, 2020 Slider: https://swdevnotes.com/swift/2021/how-to-customise-the-slider-in-swiftui/
+Discover: https://www.swiftbysundell.com/discover/swiftui/
+Links: modifier(_:) von Apple ViewModifier von Apple Declaring a custom view von Apple SwiftUI Custom View Modifiers von Keith Harrison, 2021 How to create custom modifiers von Paul Hudson, 2023 Understanding SwiftUI: Modifiers von Rodrigues, 2020 SwiftUI Custom Styling von Javier, 2019 How to make custom view modifiers in SwiftUI von Simple Swift Guide, 2020 How to conditionally apply modifiers in SwiftUI von Matteo Puccinelli, 2020 How to create custom view modifiers in SwiftUI?</description>
+    </item>
+    
+    <item>
+      <title>brew</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html</guid>
+      <description>Paketverwaltung Homebrew.
+Links: wiki von wiki
+home von homebrew github von homebrew
+compiling openssl_missing.c compiling ossl.c In file included from ossl.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here # define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert) ^ 1 warning generated. compiling ossl_asn1.c In file included from ossl_asn1.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</guid>
+      <description>CLI - Command Line Interface Bourne shell syntax. Bourne-compatible shells: sh, bash, zsh and ksh
+Befehle Befehl Anmerkung ls ls: &amp;rsquo;list&#39; alias unalias pwd pwd: &amp;lsquo;print working directory&amp;rsquo; cd cd: &amp;lsquo;change directory&amp;rsquo; cp cp: &amp;lsquo;copy&amp;rsquo; rm rm: &amp;lsquo;remove directory&amp;rsquo; mv mv: &amp;lsquo;move&amp;rsquo; mkdir mkdir: &amp;lsquo;make directory&amp;rsquo; man man: &amp;lsquo;manual&amp;rsquo; touch chmod chmod: &amp;lsquo;change mode&amp;rsquo; ./ ./: &amp;lsquo;run program&amp;rsquo; exit sudo sudo: &amp;lsquo;superuser do&amp;rsquo; shutdown htop unzip apt echo cat cat: &amp;lsquo;concatenate&amp;rsquo; ps kill ping vim Open Source Terminal-Texteditor history passwd passwd: &amp;lsquo;password&amp;rsquo; which shred less tail head grep whoami whoami: &amp;lsquo;who am i&amp;rsquo; whatis wc wc: &amp;lsquo;word count&amp;rsquo; uname uname: &amp;lsquo;unix name&amp;rsquo; neofetch find wget wget: &amp;lsquo;world wide web get&amp;rsquo; Ein Dienstprogramm zum Abrufen von Inhalten aus dem Internet.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</guid>
+      <description>Go ist eine &amp;hellip;.
+Go wird in dem statischen Website Erzeuger Hugo genutzt.
+Links Eine Einführung in Go Tam Hanna Go (Golang): Eine Einführung in 130 Minuten Golo Roden, 2022, 124 min Testen in Go (Golang) in 90 Minuten Golo Roden, 2022, 93 min Funktionale Programmierung in Go (Golang) – das geht?! Golo Roden, 2022, 44 min </description>
     </item>
     
     <item>
@@ -73,6 +417,29 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</guid>
       <description>Text &amp;hellip;
 Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexander Grebenyuk home blog github twitter mastodon Alexey Naumov home blog github twitter Andrew Bancroft home github twitter Antoine von der Lee home github twitter twitter stack instagram email AppCoda home blog github twitter facebook instagram Artturi Jalli home github gist email - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Benoit Pasquier home github twitter Bolt UIX home youtube github twitter facebook instagram medium byby.</description>
+    </item>
+    
+    <item>
+      <title>ls</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html</guid>
+      <description>ls Auflistung (ls: &amp;rsquo;list&amp;rsquo;) des Inhalts des Verzeichnisses &amp;lt;directories&amp;gt;.
+ls [OPTIONS] [FILES] &amp;gt; ls Desktop Documents ... Options -l Lange Liste &amp;lt;long listing format&amp;gt;
+&amp;gt; ls -l total 0 drwx------@ 16 test staff 512 23 Jun 19:31 Desktop drwx------@ 11 test staff 352 17 Jun 10:39 Documents ... -a Versteckte Dateien anzeigen
+&amp;gt; ls -la total 272 drwxr-xr-x+ 37 test staff 1184 25 Jun 16:39 . drwxr-xr-x 5 root admin 160 3 Mai 09:53 .</description>
+    </item>
+    
+    <item>
+      <title>system_profiler</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html</guid>
+      <description>system_profiler Gibt Systemdaten des Rechners aus.
+Inhalt:
+-listDataTypes SPDeveloperToolsDataType SPHardwareDataType SPPowerDataType SPSoftwareDataType -listDataTypes &amp;gt; system_profiler -listDataTypes Available Datatypes: SPParallelATADataType SPUniversalAccessDataType SPSecureElementDataType SPApplicationsDataType SPAudioDataType SPBluetoothDataType SPCameraDataType SPCardReaderDataType SPiBridgeDataType SPDeveloperToolsDataType SPDiagnosticsDataType SPDisabledSoftwareDataType SPDiscBurningDataType SPEthernetDataType SPExtensionsDataType SPFibreChannelDataType SPFireWireDataType SPFirewallDataType SPFontsDataType SPFrameworksDataType SPDisplaysDataType SPHardwareDataType SPInstallHistoryDataType SPInternationalDataType SPLegacySoftwareDataType SPNetworkLocationDataType SPLogsDataType SPManagedClientDataType SPMemoryDataType SPNVMeDataType SPNetworkDataType SPPCIDataType SPParallelSCSIDataType SPPowerDataType SPPrefPaneDataType SPPrintersSoftwareDataType SPPrintersDataType SPConfigurationProfileDataType SPRawCameraDataType SPSASDataType SPSerialATADataType SPSPIDataType SPSmartCardsDataType SPSoftwareDataType SPStartupItemDataType SPStorageDataType SPSyncServicesDataType SPThunderboltDataType SPUSBDataType SPNetworkVolumeDataType SPWWANDataType SPAirPortDataType SPDeveloperToolsDataType &amp;gt; system_profiler SPDeveloperToolsDataType Developer: Developer Tools: Version: 13.</description>
     </item>
     
     <item>
@@ -98,6 +465,28 @@ ist für mich und vielleicht auch für den einen oder anderen Leser ein Nachschl
 wird seit Juli 2023 Schritt für Schritt aufgebaut.
 Aufbau
 ist eine statische Webseite die mit Hugo generiert wurde.</description>
+    </item>
+    
+    <item>
+      <title>Wörterbuch</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary/dictionary.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary/dictionary.html</guid>
+      <description>Wörterbuch Eine Auflistung häufig genutzter Begriffe.
+Englisch &amp;ndash;&amp;gt; Deutsch Google Translate LEO
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+Englisch Deutsch access Zugang default voreingestellt execute ausführen file Datei get bekommen key Schlüssel load laden modifier Modifikator overwrite überschreiben parameter Parameter print ausdrucken repository Lager set festlegen value Wert Deutsch &amp;ndash;&amp;gt; Englisch Google Translate LEO</description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html</guid>
+      <description>Text &amp;hellip;
+test@Tests-MBP ~ % zsh --help Usage: zsh [&amp;lt;options&amp;gt;] [&amp;lt;argument&amp;gt; ...] Special options: --help show this message, then exit --version show zsh version number, then exit -b end option processing, like -- -c take first argument as a command to execute -o OPTION set an option by name (see below) Normal options are named. An option may be turned on by `-o OPTION&amp;#39;, `--OPTION&amp;#39;, `+o no_OPTION&amp;#39; or `+-no-OPTION&amp;#39;. An option may be turned off by `-o no_OPTION&amp;#39;, `--no-OPTION&amp;#39;,`+o OPTION&amp;#39; or `+-OPTION&amp;#39;.</description>
     </item>
     
     <item>
@@ -169,13 +558,33 @@ Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction t
     </item>
     
     <item>
-      <title>Some</title>
+      <title>associatedtype</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html</guid>
+      <description>Ein zugeordneter Typ &amp;lt;associated type&amp;gt; kann verwendet werden, um ein Protokoll generisch zu machen. Er wird als generischer Typ für Eigenschaften &amp;lt;properties&amp;gt; genutzt. Der zugehörige Typ wird mit dem Schlüsselwort associatedtype angegeben.
+// TYPE ist der Platzhalter für den generischen Typ protocol Store { associatedtype TYPE var items: [TYPE] { get set } mutating func add(item: TYPE) } extension Store { mutating func add(item: TYPE) { items.append(item) } } struct Shop: Store { var items = [String]() } var shop = Shop() shop.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html</guid>
+      <description>Swift Schlüsselwörter Schlüsselwörter, die in
+Deklarationen Anweisungen Ausdrücken und Typen Mustern mit einem Nummernzeichen (#) beginned in bestimmten Kontexten verwendet werden.
+Schlüsselwörter für Deklarationen Schlüsselwort Anmerkung associatedtype Ein zugeordneter Typ &amp;lt;associated type&amp;gt; kann verwendet werden, um ein Protokoll generisch zu machen. class deinit enum fileprivate Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. import init inout internal Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. let open Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt. operator private Wird als Zugriffsmodifizierer &amp;lt;access modifier&amp;gt; genutzt.</description>
+    </item>
+    
+    <item>
+      <title>some</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/some.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/some.html</guid>
-      <description>Some the &amp;ldquo;don&amp;rsquo;t care type&amp;rdquo;.
-Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
+      <description>Links: Some keyword in Swift: Opaque types explained with code examples Antoine von der Lee, 2022 Understanding the “some” and “any” keywords in Swift 5.7 Lee Kah Seng, 2022 What is the “some” keyword in Swift? Donny Walls, 2019 The concepts behind SwiftUI: What is the keyword “some” doing? Mickaël Rémond, 2019 What’s this “some” in SwiftUI? Mischa Hildebrand, 2019 Opaque Return Types and The &#39;Some&#39; Keyword in Swift Vadim Bulavin, 2019 Opaque and Boxed Types Swift.</description>
     </item>
     
     <item>
@@ -185,6 +594,18 @@ Links: Some keyword in Swift: Opaque types explained with code examples Antoine 
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode.html</guid>
       <description>Text &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</guid>
+      <description>Diese Einführung in Swift und SwiftUI
+ist meiner liebsten Tante Hanna gewidmet,
+die kurz nach ihrem 86. Geburtstag im April 2023
+bei guter Gesundheit viel zu früh verstorben ist.</description>
     </item>
     
   </channel>

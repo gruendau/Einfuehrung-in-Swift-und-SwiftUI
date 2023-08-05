@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>set on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/set.html</link>
+    <description>Recent content in set on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/set/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sets</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</guid>
+      <description>Ein Set &amp;lt;set&amp;gt; ist eine ungeordnete Liste von unterschiedlichen Elementen. Für die Deklarierung wird das Schlüsselwort set genutzt.
+let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&amp;lt;Element : Hashable&amp;gt; // Definition @frozen struct Set&amp;lt;Element&amp;gt; where Element : Hashable Links: doku buch Hashable</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,608 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Einführung - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/swift/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/swift/cli/intro.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Einführung
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="swift-cli">Swift CLI</h2>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>weswift(1)                       Swift Documentation                      swift(1)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>NAME
+</span></span><span style="display:flex;"><span>       swift -- Safe, fast, and expressive general-purpose programming language
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SYNOPSIS
+</span></span><span style="display:flex;"><span>       To invoke the Swift REPL (Read-Eval-Print-Loop):
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swift
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       To execute a Swift program:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swift program.swift &lt;arguments&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       To work with the Swift Package Manager:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swift build|package|run|test [options] &lt;inputs&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       To invoke the Swift compiler:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swiftc [options] &lt;inputs&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       A list of supported options is available through the &#34;-help&#34; option:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swift -help
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swift build -help
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>           swiftc -help
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>DESCRIPTION
+</span></span><span style="display:flex;"><span>       Swift is a general-purpose programming language built using a modern
+</span></span><span style="display:flex;"><span>       approach to safety, performance, and software design patterns.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       The goal of the Swift project is to create the best available language
+</span></span><span style="display:flex;"><span>       for uses ranging from systems programming, to mobile and desktop apps,
+</span></span><span style="display:flex;"><span>       scaling up to cloud services. Most importantly, Swift is designed to make
+</span></span><span style="display:flex;"><span>       writing and maintaining correct programs easier for the developer. To
+</span></span><span style="display:flex;"><span>       achieve this goal, we believe that the most obvious way to write Swift
+</span></span><span style="display:flex;"><span>       code must also be:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Safe. The most obvious way to write code should also behave in a safe
+</span></span><span style="display:flex;"><span>       manner.  Undefined behavior is the enemy of safety, and developer
+</span></span><span style="display:flex;"><span>       mistakes should be caught before software is in production. Opting for
+</span></span><span style="display:flex;"><span>       safety sometimes means Swift will feel strict, but we believe that
+</span></span><span style="display:flex;"><span>       clarity saves time in the long run.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Fast. Swift is intended as a replacement for C-based languages (C, C++,
+</span></span><span style="display:flex;"><span>       and Objective-C). As such, Swift must be comparable to those languages in
+</span></span><span style="display:flex;"><span>       performance for most tasks. Performance must also be predictable and
+</span></span><span style="display:flex;"><span>       consistent, not just fast in short bursts that require clean-up later.
+</span></span><span style="display:flex;"><span>       There are lots of languages with novel features - being fast is rare.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Expressive. Swift benefits from decades of advancement in computer
+</span></span><span style="display:flex;"><span>       science to offer syntax that is a joy to use, with modern features
+</span></span><span style="display:flex;"><span>       developers expect. But Swift is never done. We will monitor language
+</span></span><span style="display:flex;"><span>       advancements and embrace what works, continually evolving to make Swift
+</span></span><span style="display:flex;"><span>       even better.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>BUGS
+</span></span><span style="display:flex;"><span>       Reporting bugs is a great way for anyone to help improve Swift. The bug
+</span></span><span style="display:flex;"><span>       tracker for Swift, an open-source project, is located at
+</span></span><span style="display:flex;"><span>       &lt;https://bugs.swift.org&gt;.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       If a bug can be reproduced only within an Xcode project or a playground,
+</span></span><span style="display:flex;"><span>       or if the bug is associated with an Apple NDA, please file a report to
+</span></span><span style="display:flex;"><span>       Apple&#39;s Feedback Assistant at &lt;https://feedbackassistant.apple.com&gt;
+</span></span><span style="display:flex;"><span>       instead.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SEE ALSO
+</span></span><span style="display:flex;"><span>   HOME PAGE
+</span></span><span style="display:flex;"><span>       &lt;https://swift.org&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   APPLE DEVELOPER RESOURCES
+</span></span><span style="display:flex;"><span>       &lt;https://developer.apple.com/swift/resources&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   CODE REPOSITORIES
+</span></span><span style="display:flex;"><span>       Swift Programming Language at &lt;https://github.com/apple/swift&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Swift Package Manager at &lt;https://github.com/apple/swift-package-manager&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>swift 5.6.1                        2021-11-08                           swift(1)
+</span></span></code></pre></div><h5 id="swift">swift</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% swift --help
+</span></span><span style="display:flex;"><span>2023-07-24 09:53:01.586 xcodebuild[5062:68490] 
+</span></span><span style="display:flex;"><span>  Requested but did not find extension point with identifier 
+</span></span><span style="display:flex;"><span>  Xcode.IDEKit.ExtensionSentinelHostApplications for extension 
+</span></span><span style="display:flex;"><span>  Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of 
+</span></span><span style="display:flex;"><span>  plug-in com.apple.dt.IDEWatchSupportCore
+</span></span><span style="display:flex;"><span>2023-07-24 09:53:01.587 xcodebuild[5062:68490] 
+</span></span><span style="display:flex;"><span>  Requested but did not find extension point with identifier 
+</span></span><span style="display:flex;"><span>  Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension      Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of 
+</span></span><span style="display:flex;"><span>  plug-in com.apple.dt.IDEWatchSupportCore
+</span></span><span style="display:flex;"><span>2023-07-24 09:53:02.337 xcodebuild[5063:68509] 
+</span></span><span style="display:flex;"><span>  Requested but did not find extension point with identifier 
+</span></span><span style="display:flex;"><span>  Xcode.IDEKit.ExtensionSentinelHostApplications for extension 
+</span></span><span style="display:flex;"><span>  Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in 
+</span></span><span style="display:flex;"><span>  com.apple.dt.IDEWatchSupportCore
+</span></span><span style="display:flex;"><span>2023-07-24 09:53:02.337 xcodebuild[5063:68509] 
+</span></span><span style="display:flex;"><span>  Requested but did not find extension point with identifier 
+</span></span><span style="display:flex;"><span>  Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension  Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OVERVIEW: Swift compiler
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>USAGE: swift
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS:
+</span></span><span style="display:flex;"><span>  -access-notes-path &lt;value&gt;
+</span></span><span style="display:flex;"><span>    Specify YAML file to override attributes on Swift declarations in this module
+</span></span><span style="display:flex;"><span>  -assert-config &lt;value&gt;  
+</span></span><span style="display:flex;"><span>    Specify the assert_configuration replacement. Possible values are Debug, Release, Unchecked, DisableReplacement.
+</span></span><span style="display:flex;"><span>  -clang-target &lt;value&gt;   
+</span></span><span style="display:flex;"><span>    Separately set the target we should use for internal Clang instance
+</span></span><span style="display:flex;"><span>  -color-diagnostics      
+</span></span><span style="display:flex;"><span>    Print diagnostics in color
+</span></span><span style="display:flex;"><span>  -continue-building-after-errors
+</span></span><span style="display:flex;"><span>    Continue building, even after errors are encountered
+</span></span><span style="display:flex;"><span>  -coverage-prefix-map &lt;prefix=replacement&gt;
+</span></span><span style="display:flex;"><span>    Remap source paths in coverage info
+</span></span><span style="display:flex;"><span>  -debug-info-format=&lt;value&gt;
+</span></span><span style="display:flex;"><span>     Specify the debug info format type to either &#39;dwarf&#39; or &#39;codeview&#39;
+</span></span><span style="display:flex;"><span>  -debug-info-store-invocation
+</span></span><span style="display:flex;"><span>     Emit the compiler invocation in the debug info.
+</span></span><span style="display:flex;"><span>  -debug-prefix-map &lt;prefix=replacement&gt;
+</span></span><span style="display:flex;"><span>     Remap source paths in debug info
+</span></span><span style="display:flex;"><span>  -diagnostic-style &lt;style&gt;
+</span></span><span style="display:flex;"><span>                          The formatting style used when printing diagnostics (&#39;swift&#39; or &#39;llvm&#39;)
+</span></span><span style="display:flex;"><span>  -disable-actor-data-race-checks
+</span></span><span style="display:flex;"><span>                          Disable runtime checks for actor data races
+</span></span><span style="display:flex;"><span>  -disable-autolinking-runtime-compatibility-concurrency
+</span></span><span style="display:flex;"><span>                          Do not use autolinking for the concurrency runtime compatibility library
+</span></span><span style="display:flex;"><span>  -disable-autolinking-runtime-compatibility-dynamic-replacements
+</span></span><span style="display:flex;"><span>                          Do not use autolinking for the dynamic replacement runtime compatibility library
+</span></span><span style="display:flex;"><span>  -disable-autolinking-runtime-compatibility
+</span></span><span style="display:flex;"><span>                          Do not use autolinking for runtime compatibility libraries
+</span></span><span style="display:flex;"><span>  -disable-clang-target   Disable a separately specified target triple for Clang instance to use
+</span></span><span style="display:flex;"><span>  -disable-incremental-imports
+</span></span><span style="display:flex;"><span>                          Disable cross-module incremental build metadata and driver scheduling for Swift modules
+</span></span><span style="display:flex;"><span>  -disable-only-one-dependency-file
+</span></span><span style="display:flex;"><span>                          Disables incremental build optimization that only produces one dependencies file
+</span></span><span style="display:flex;"><span>  -disallow-use-new-driver
+</span></span><span style="display:flex;"><span>                          Disable using new swift-driver
+</span></span><span style="display:flex;"><span>  -D &lt;value&gt;              Marks a conditional compilation flag as true
+</span></span><span style="display:flex;"><span>  -embed-tbd-for-module &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Embed symbols from the module in the emitted tbd file
+</span></span><span style="display:flex;"><span>  -enable-actor-data-race-checks
+</span></span><span style="display:flex;"><span>                          Emit runtime checks for actor data races
+</span></span><span style="display:flex;"><span>  -enable-experimental-additive-arithmetic-derivation
+</span></span><span style="display:flex;"><span>                          Enable experimental &#39;AdditiveArithmetic&#39; derived conformances
+</span></span><span style="display:flex;"><span>  -enable-experimental-concise-pound-file
+</span></span><span style="display:flex;"><span>                          Enable experimental concise &#39;#file&#39; identifier
+</span></span><span style="display:flex;"><span>  -enable-experimental-cxx-interop
+</span></span><span style="display:flex;"><span>                          Allow importing C++ modules into Swift (experimental feature)
+</span></span><span style="display:flex;"><span>  -enable-experimental-forward-mode-differentiation
+</span></span><span style="display:flex;"><span>                          Enable experimental forward mode differentiation
+</span></span><span style="display:flex;"><span>  -enable-incremental-imports
+</span></span><span style="display:flex;"><span>                          Enable cross-module incremental build metadata and driver scheduling for Swift modules
+</span></span><span style="display:flex;"><span>  -enable-library-evolution
+</span></span><span style="display:flex;"><span>                          Build the module to allow binary-compatible library evolution
+</span></span><span style="display:flex;"><span>  -enable-only-one-dependency-file
+</span></span><span style="display:flex;"><span>                          Enables incremental build optimization that only produces one dependencies file
+</span></span><span style="display:flex;"><span>  -enforce-exclusivity=&lt;enforcement&gt;
+</span></span><span style="display:flex;"><span>                          Enforce law of exclusivity
+</span></span><span style="display:flex;"><span>  -experimental-cxx-stdlib &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          C++ standard library to use; forwarded to Clang&#39;s -stdlib flag
+</span></span><span style="display:flex;"><span>  -framework &lt;value&gt;      Specifies a framework which should be linked against
+</span></span><span style="display:flex;"><span>  -Fsystem &lt;value&gt;        Add directory to system framework search path
+</span></span><span style="display:flex;"><span>  -F &lt;value&gt;              Add directory to framework search path
+</span></span><span style="display:flex;"><span>  -gdwarf-types           Emit full DWARF type info.
+</span></span><span style="display:flex;"><span>  -gline-tables-only      Emit minimal debug info for backtraces only
+</span></span><span style="display:flex;"><span>  -gnone                  Don&#39;t emit debug info
+</span></span><span style="display:flex;"><span>  -g                      Emit debug info. This is the preferred setting for debugging with LLDB.
+</span></span><span style="display:flex;"><span>  -help                   Display available options
+</span></span><span style="display:flex;"><span>  -index-store-path &lt;path&gt;
+</span></span><span style="display:flex;"><span>                          Store indexing data to &lt;path&gt;
+</span></span><span style="display:flex;"><span>  -index-unit-output-path &lt;path&gt;
+</span></span><span style="display:flex;"><span>                          Use &lt;path&gt; as the output path in the produced index data.
+</span></span><span style="display:flex;"><span>  -I &lt;value&gt;              Add directory to the import search path
+</span></span><span style="display:flex;"><span>  -j &lt;n&gt;                  Number of commands to execute in parallel
+</span></span><span style="display:flex;"><span>  -libc &lt;value&gt;           libc runtime library to use
+</span></span><span style="display:flex;"><span>  -locale &lt;locale-code&gt;   Choose a language for diagnostic messages
+</span></span><span style="display:flex;"><span>  -localization-path &lt;path&gt;
+</span></span><span style="display:flex;"><span>                          Path to localized diagnostic messages directory
+</span></span><span style="display:flex;"><span>  -L &lt;value&gt;              Add directory to library link search path
+</span></span><span style="display:flex;"><span>  -l &lt;value&gt;              Specifies a library which should be linked against
+</span></span><span style="display:flex;"><span>  -module-abi-name &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          ABI name to use for the contents of this module
+</span></span><span style="display:flex;"><span>  -module-alias &lt;alias_name=underlying_name&gt;
+</span></span><span style="display:flex;"><span>                          If a source file imports or references module &lt;alias_name&gt;, the &lt;underlying_name&gt; is used for the contents of the file
+</span></span><span style="display:flex;"><span>  -module-cache-path &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Specifies the Clang module cache path
+</span></span><span style="display:flex;"><span>  -module-link-name &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Library to link against when using this module
+</span></span><span style="display:flex;"><span>  -module-name &lt;value&gt;    Name of the module to build
+</span></span><span style="display:flex;"><span>  -no-color-diagnostics   Do not print diagnostics in color
+</span></span><span style="display:flex;"><span>  -no-warnings-as-errors  Don&#39;t treat warnings as errors
+</span></span><span style="display:flex;"><span>  -nostdimport            Don&#39;t search the standard library import path for modules
+</span></span><span style="display:flex;"><span>  -num-threads &lt;n&gt;        Enable multi-threading and specify number of threads
+</span></span><span style="display:flex;"><span>  -Onone                  Compile without any optimization
+</span></span><span style="display:flex;"><span>  -Osize                  Compile with optimizations and target small code size
+</span></span><span style="display:flex;"><span>  -Ounchecked             Compile with optimizations and remove runtime safety checks
+</span></span><span style="display:flex;"><span>  -O                      Compile with optimizations
+</span></span><span style="display:flex;"><span>  -prefix-serialized-debugging-options
+</span></span><span style="display:flex;"><span>                          Apply debug prefix mappings to serialized debug info in Swiftmodule files
+</span></span><span style="display:flex;"><span>  -pretty-print           Pretty-print the output JSON
+</span></span><span style="display:flex;"><span>  -print-educational-notes
+</span></span><span style="display:flex;"><span>                          Include educational notes in printed diagnostic output, if available
+</span></span><span style="display:flex;"><span>  -print-target-info      Print target information for the given target &lt;triple&gt;, such as x86_64-apple-macos10.9
+</span></span><span style="display:flex;"><span>  -Rcross-import          Emit a remark if a cross-import of a module is triggered.
+</span></span><span style="display:flex;"><span>  -remove-runtime-asserts Remove runtime safety checks.
+</span></span><span style="display:flex;"><span>  -requirement-machine-abstract-signatures=&lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Control usage of experimental generic signature minimization: &#39;on&#39;, &#39;off&#39;, or &#39;verify&#39;
+</span></span><span style="display:flex;"><span>  -requirement-machine-inferred-signatures=&lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Control usage of experimental generic signature minimization: &#39;on&#39;, &#39;off&#39;, or &#39;verify&#39;
+</span></span><span style="display:flex;"><span>  -requirement-machine-protocol-signatures=&lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Control usage of experimental protocol requirement signature minimization: &#39;on&#39;, &#39;off&#39;, or &#39;verify&#39;
+</span></span><span style="display:flex;"><span>  -requirement-machine=&lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Control usage of experimental generics implementation: &#39;on&#39;, &#39;off&#39;, or &#39;verify&#39;
+</span></span><span style="display:flex;"><span>  -Rmodule-loading        Emit a remark and file path of each loaded module
+</span></span><span style="display:flex;"><span>  -Rpass-missed=&lt;value&gt;   Report missed transformations by optimization passes whose name matches the given POSIX regular expression
+</span></span><span style="display:flex;"><span>  -Rpass=&lt;value&gt;          Report performed transformations by optimization passes whose name matches the given POSIX regular expression
+</span></span><span style="display:flex;"><span>  -runtime-compatibility-version &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Link compatibility library for Swift runtime version, or &#39;none&#39;
+</span></span><span style="display:flex;"><span>  -save-optimization-record-passes &lt;regex&gt;
+</span></span><span style="display:flex;"><span>                          Only include passes which match a specified regular expression in the generated optimization record (by default, include all passes)
+</span></span><span style="display:flex;"><span>  -save-optimization-record-path &lt;value&gt;
+</span></span><span style="display:flex;"><span>                          Specify the file name of any generated optimization record
+</span></span><span style="display:flex;"><span>  -save-optimization-record=&lt;format&gt;
+</span></span><span style="display:flex;"><span>                          Generate an optimization record file in a specific format (default: YAML)
+</span></span><span style="display:flex;"><span>  -save-optimization-record
+</span></span><span style="display:flex;"><span>                          Generate a YAML optimization record file
+</span></span><span style="display:flex;"><span>  -sdk &lt;sdk&gt;              Compile against &lt;sdk&gt;
+</span></span><span style="display:flex;"><span>  -serialize-diagnostics-path &lt;path&gt;
+</span></span><span style="display:flex;"><span>                          Emit a serialized diagnostics file to &lt;path&gt;
+</span></span><span style="display:flex;"><span>  -static-executable      Statically link the executable
+</span></span><span style="display:flex;"><span>  -static-stdlib          Statically link the Swift standard library
+</span></span><span style="display:flex;"><span>  -suppress-warnings      Suppress all warnings
+</span></span><span style="display:flex;"><span>  -swift-isa-ptrauth-mode &lt;mode&gt;
+</span></span><span style="display:flex;"><span>                          Mode for staging isa/super signing. Supported modes are LegacyAndStrip, NewAndStrip and NewAndAuth.
+</span></span><span style="display:flex;"><span>  -swift-ptrauth-mode &lt;mode&gt;
+</span></span><span style="display:flex;"><span>                          Mode for staging pointer authentication. Supported modes are LegacyAndStrip, NewAndStrip and NewAndAuth.
+</span></span><span style="display:flex;"><span>  -swift-version &lt;vers&gt;   Interpret input according to a specific Swift language version number
+</span></span><span style="display:flex;"><span>  -target-cpu &lt;value&gt;     Generate code for a particular CPU variant
+</span></span><span style="display:flex;"><span>  -target-variant &lt;value&gt; Generate &#39;zippered&#39; code for macCatalyst that can run on the specified variant target triple in addition to the main -target triple
+</span></span><span style="display:flex;"><span>  -target &lt;triple&gt;        Generate code for the given target &lt;triple&gt;, such as x86_64-apple-macos10.9
+</span></span><span style="display:flex;"><span>  -use-ld=&lt;value&gt;         Specifies the linker to be used
+</span></span><span style="display:flex;"><span>  -user-module-version &lt;vers&gt;
+</span></span><span style="display:flex;"><span>                          Module version specified from Swift module authors
+</span></span><span style="display:flex;"><span>  -version                Print version information and exit
+</span></span><span style="display:flex;"><span>  -vfsoverlay &lt;value&gt;     Add directory to VFS overlay file
+</span></span><span style="display:flex;"><span>  -v                      Show commands to run and use verbose output
+</span></span><span style="display:flex;"><span>  -warn-concurrency       Warn about code that is unsafe according to the Swift Concurrency model and will become ill-formed in a future language version
+</span></span><span style="display:flex;"><span>  -warn-implicit-overrides
+</span></span><span style="display:flex;"><span>                          Warn about implicit overrides of protocol members
+</span></span><span style="display:flex;"><span>  -warn-swift3-objc-inference-complete
+</span></span><span style="display:flex;"><span>                          Warn about deprecated @objc inference in Swift 3 for every declaration that will no longer be inferred as @objc in Swift 4
+</span></span><span style="display:flex;"><span>  -warn-swift3-objc-inference-minimal
+</span></span><span style="display:flex;"><span>                          Warn about deprecated @objc inference in Swift 3 based on direct uses of the Objective-C entrypoint
+</span></span><span style="display:flex;"><span>  -warnings-as-errors     Treat warnings as errors
+</span></span><span style="display:flex;"><span>  -working-directory &lt;path&gt;
+</span></span><span style="display:flex;"><span>                          Resolve file paths relative to the specified directory
+</span></span><span style="display:flex;"><span>  -Xcc &lt;arg&gt;              
+</span></span><span style="display:flex;"><span>    Pass &lt;arg&gt; to the C/C++/Objective-C compiler
+</span></span><span style="display:flex;"><span>  -Xlinker &lt;value&gt;        
+</span></span><span style="display:flex;"><span>    Specifies an option which should be passed to the linker
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Welcome to Swift!
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Subcommands:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  swift build      Build Swift packages
+</span></span><span style="display:flex;"><span>  swift package    Create and work on packages
+</span></span><span style="display:flex;"><span>  swift run        Run a program from a package
+</span></span><span style="display:flex;"><span>  swift test       Run package tests
+</span></span><span style="display:flex;"><span>  swift repl       Experiment with Swift code interactively (default)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  Use `swift --help` for descriptions of available options and flags.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  Use `swift help &lt;subcommand&gt;` for more information about a subcommand.
+</span></span></code></pre></div>
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

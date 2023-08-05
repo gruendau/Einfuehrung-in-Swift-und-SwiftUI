@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lint on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/lint.html</link>
+    <description>Recent content in lint on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/lint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift Lint</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</guid>
+      <description>Text &amp;hellip;
+Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
+    </item>
+    
+  </channel>
+</rss>

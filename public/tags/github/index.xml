@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/github.html</link>
+    <description>Recent content in github on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/intro.html</guid>
+      <description>GitHub GitHub ist ein Onlinedienst zur kollaborativen Versionsverwaltung für Softwareprojekte. GitHub gehört zu Microsoft und hat über 80 Mio. Nutzer.
+einführung gh-pages jekyll markdown mermaid links
+GitHub Seiten: Topics - browse popular topics on GitHub Trending- see what the GitHub community is most excited about today Collections - curated lists and insight into burgeoning industries, topics, and communities Swift - Swift Repositories auf GitHub Glossary - dieses Glossar führt in die gängige Git- und GitHub-Terminologie ein Blog - Blog auf GitHub Links: wiki</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/links.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/links.html</guid>
+      <description>GitHub: Dokumentation zu den ersten Schritten mit GitHub von GitHub GitHub Flavored Markdown Spec von GitHub, 2019 Schreiben auf GitHub von GitHub Markdown: Erste Schritte beim Schreiben und Formatieren auf GitHub von GitHub Basic Syntax von Markdown Guide Markdown Tutorials von w3schools Getting Started With Markdown von Bill Dyer, 2023 GitHub Pages: Websites for you and your projects von GitHub GitHub Pages-Dokumentation von The Least You Need to Know About GitHub Pages von Tom Campbell GitHub Git Tutorial von Lakshay Sharma</description>
+    </item>
+    
+    <item>
+      <title>Mermaid</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</guid>
+      <description>Mermaid Flowcharts - Basic Syntax &amp;ldquo;Flowcharts - Basic Syntax&amp;rdquo;
+graph LR A(Start) --&amp;gt; B(Stop) </description>
+    </item>
+    
+  </channel>
+</rss>

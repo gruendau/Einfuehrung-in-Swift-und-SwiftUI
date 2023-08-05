@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>array on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/array.html</link>
+    <description>Recent content in array on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anordnungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</guid>
+      <description>Ein Anordnungen &amp;lt;array&amp;gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort array genutzt.
+let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&amp;lt;Element&amp;gt; Definition // Definition @frozen struct Array&amp;lt;Element&amp;gt; Deklaration // Ein leeres Array für Strings deklarieren var a1: Array&amp;lt;String&amp;gt; = Array() var a2: Array&amp;lt;String&amp;gt; = [] var a3 = Array&amp;lt;String&amp;gt;() var a4: [String] = Array() var a5: [String] = [] var a6 = [String]() print(type(of: a1)) // --&amp;gt; Array&amp;lt;String&amp;gt; print(a1) // --&amp;gt; [] Initialisierung // Ein leeres Array für Strings deklarieren und initialisieren (Werte zuweisen).</description>
+    </item>
+    
+  </channel>
+</rss>

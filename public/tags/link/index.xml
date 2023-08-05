@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>link on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/link.html</link>
+    <description>Recent content in link on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links roh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</guid>
+      <description>Netlify Hugo with Netlify CMS and Github Pages GitHub repo
+Hugo Official home docu themes showcases github
+Links (deutsch) Eine statische Website mit Hugo generieren Thomas Leister, 2017 Ein eigenes Theme erstellen Thomas Leister, 2017 Links (englisch) Website Meine Website-Inhaberschaft bei Google bestätigen Google
+GitHub action What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions!</description>
+    </item>
+    
+    <item>
+      <title>Roh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</guid>
+      <description>Wie werde ich iOS Entwickler? &amp;quot;How to become an iOS Developer&amp;quot; by Pedro Rojas, 2021
+iOS Development Toolbox A collaborative list of tools for iOS development iOS Handbook, 2020 Fastlane Tools Getting Started with Fastlane.swift Fastlane docs Kivy Kivy crash course 6: Kivy properties Alexander Taylor, 2014, 10 min Kinsta 25 Python Frameworks to Master in 2023 Kinsta, Daniel Diaz, 2023 How To Craft a Stylish Static Website with Eleventy (11ty) Kinsta, Joel Olawanle, 2023 Wie man mit Hugo eine rasend schnelle statische Seite erstellt Kinsta, Brian Li, 2023 Was ist die beste Programmiersprache, die man 2021 lernen sollte?</description>
+    </item>
+    
+    <item>
+      <title>Technik</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</guid>
+      <description>Autoren Name Autor Links Anmerkung TechWorld with Nana Nana Janashia home youtube github gitlab twitter LinkedIn email Anwendungen Name Autor Links Anmerkung Apple home youtube github facebook instagram reddit wiki Docker home docs youtube github twitter facebook linkedin reddit wiki email GitHub home docs blog youtube github twitter facebook twitch linkedin tiktoc wiki Kinsta home docs blog youtube github twitter facebook instagram reddit email WordPress-Hosting Netlify home docs blog tutorials cli youtube github twitter facebook linkedin wiki email Swift home docs blog github twitter reddit wiki Twitter home docs youtube github twitter facebook instagram reddit wiki </description>
+    </item>
+    
+  </channel>
+</rss>

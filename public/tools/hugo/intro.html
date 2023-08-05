@@ -1,0 +1,490 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Einführung - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/github/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/github/intro.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../tools/hugo/intro.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Einführung
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="hugo">Hugo</h2>
+<p><strong>Hugo</strong> <a href="https://de.wikipedia.org/wiki/Freie_Software" title="wikipedia">[w]</a> <a href="https://gohugo.io/documentation/" title="hugo documentation">[d]</a> ist eine freie Software zur schnellen Erzeugung statischer Websites &lt;<em>static website generator</em>&gt;.</p>
+<ul>
+<li>Hugo hat einen <strong>HTTP-Server</strong> <a href="https://en.wikipedia.org/wiki/HTTP_server" title="wikipedia">[w]</a> zur lokalen Ansicht der erzeugten HTML-Dateien eingebaut.</li>
+<li>Hugo ist in der Programmiersprache <strong>Go</strong> <a href="https://de.wikipedia.org/wiki/Go_(Programmiersprache)" title="wikipedia">[w]</a> geschrieben.</li>
+<li>Hugo erzeugt die Webseiten aus <strong>HTML</strong>- <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" title="wikipedia">[w]</a> oder <strong>Markdown</strong>-Dateien <a href="https://de.wikipedia.org/wiki/Markdown" title="wikipedia">[w]</a>.</li>
+</ul>
+<!-- Reference Links - Start -->
+<!-- Reference Links - End -->
+<p><a href="https://learn.netlify.app/en/">Hugo learn theme</a> Netlify <br></p>
+<hr>
+<h3 id="hugo-und-git-cli-befehle">Hugo und git CLI-Befehle</h3>
+<p>Auf den Ordner mit dem Projekt gehen.  <br></p>
+<blockquote>
+<p>cd documents/programmierung/github/quickstart</p>
+</blockquote>
+<p>Einen neuen Post anlegen. <br></p>
+<blockquote>
+<p>hugo new posts/my-first-post.md <br></p>
+</blockquote>
+<p>Neue Seite auf den lokalen Server bringen. <br></p>
+<blockquote>
+<p>hugo server <br></p>
+</blockquote>
+<blockquote>
+<p>hugo server -D <br></p>
+</blockquote>
+<p>Seiten im public Ordner aktualisieren. <br></p>
+<blockquote>
+<p>hugo <br></p>
+</blockquote>
+<p>Neue Dateien zu git hinzufügen. <br></p>
+<blockquote>
+<p>git add . <br></p>
+</blockquote>
+<p>Die Änderungen lokal commiten. <br></p>
+<blockquote>
+<p>git commit -m &lsquo;Added files&rsquo; <br></p>
+</blockquote>
+<p>Die Änderungen auf das remote GitHub schieben. <br></p>
+<blockquote>
+<p>it push -u origin main <br></p>
+</blockquote>
+<p>Auf GitHub &ldquo;Action&rdquo; aktivieren und Seite veröffentlichen.</p>
+<hr>
+<h3 id="neue-leere-website-mit-hugo-erstellen">Neue leere WebSite mit Hugo erstellen</h3>
+<p><a href="https://www.youtube.com/watch?v=Vj5zy2q7O9U&amp;list=PLE92IfveVXuXTOjdPM_nleN6Cga_d3uJ-&amp;index=2">Getting started with Bootstrap 5 and HUGO static site generator</a> Future Web Design <br></p>
+<p>Ordner Einführung-in-swift-und-swiftui erstellt</p>
+<p>Ordner in VSCode geöffnet</p>
+<p>VSCode Terminal gestartet</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>hugo new site ./
+</span></span><span style="display:flex;"><span>Congratulations! Your new Hugo site is created in /Users/test/Documents/Programmierung/Github/einfuehrung-in-swift-und-swiftui.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Just a few more steps and you&#39;re ready to go:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>1. Download a theme into the same-named folder.
+</span></span><span style="display:flex;"><span>   Choose a theme from https://themes.gohugo.io/ or
+</span></span><span style="display:flex;"><span>   create your own with the &#34;hugo new theme &lt;THEMENAME&gt;&#34; command.
+</span></span><span style="display:flex;"><span>2. Perhaps you want to add some content. You can add single files
+</span></span><span style="display:flex;"><span>   with &#34;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;.
+</span></span><span style="display:flex;"><span>3. Start the built-in live server via &#34;hugo server&#34;.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Visit https://gohugo.io/ for quickstart guide and full documentation.
+</span></span></code></pre></div><p>Leeres theme einrichten</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>hugo new theme temp
+</span></span><span style="display:flex;"><span>Creating theme at /Users/test/Documents/Programmierung/Github/einfuehrung-in-swift-und-swiftui/themes/temp
+</span></span></code></pre></div><p>Inhalt themes/temp layout nach layout verschieben.
+Inhalt themes/temp static nach static verschieben.
+Rest von themes/temp aus löschen.
+temp löschen.</p>
+<p>In den leeren Ordnern themes und data .gitkeep Datei eingefügt.</p>
+<p>Archetypes default.md angepasst draft: false</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>hugo new _index.md
+</span></span><span style="display:flex;"><span>Content &#34;/Users/test/Documents/Programmierung/Github/einfuehrung-in-swift-und-swiftui/content/_index.md&#34; created
+</span></span></code></pre></div><p>Bootstrap 5 Copy Starter Template in layout/baseof.html</p>
+<p><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">https://getbootstrap.com/docs/5.0/getting-started/introduction/</a></p>
+<hr>
+<h3 id="links">Links</h3>
+<p><a href="https://www.youtube.com/watch?v=hjD9jTi_DQ4">Getting Started With Hugo</a> Adi Purdila, 2022, 48 min <br>
+<a href="https://www.youtube.com/watch?v=wcMqrb3v2SM">Creating your own Hugo Theme!</a> Eric Murphy, 2021 <br>
+<a href="https://www.youtube.com/watch?v=qtIqKaDlqXo">Introduction to Hugo | Hugo - Static Site Generator | Tutorial 1</a> Mike, 2018, 8 min <br>
+<a href="https://www.ionos.de/digitalguide/websites/webseiten-erstellen/was-ist-ein-static-site-generator/">Was ist ein Static-Site-Generator?</a> IONOS, 2023 <br>
+<a href="https://dev.to/aormsby/how-to-set-up-a-hugo-site-on-github-pages-with-git-submodules-106p">How to Set Up a Hugo Site on Github Pages - with Git Submodules!</a> DEV, 2020 <br>
+<a href="https://dev.to/importhuman/deploy-hugo-website-using-github-pages-1mc5">Deploy Hugo website using Github pages</a> Ujjwal Goyal, 2021 <br>
+<a href="https://trendschau.net/blog/webseiten-mit-hugo">Einfach erklärt: Webseiten mit Hugo erstellen</a> trendschau.net <br>
+<a href="https://kinsta.com/de/blog/hugo-statische-seite/">Wie man mit Hugo eine rasend schnelle statische Seite erstellt </a> Brian Le, 2013 <br></p>
+<p>Hugo und GitHub-Pages <br>
+<a href="https://gohugo.io/getting-started/quick-start/">Quick start</a> Hugo <br>
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub Pages</a> Hugo <br></p>
+<hr>
+<h3 id="videos">Videos</h3>
+<p><a href="https://www.youtube.com/watch?v=vgz-6IDDWOc">Hugo on Github pages</a> Mathieu Besançon, 2019, 112 min</p>
+<p><a href="https://www.youtube.com/watch?v=LSJ5S8VG5aU">Creating a Free Blog or Static Content Website with Hugo and GitHub Pages with Custom Domain and Ads</a> MissCoding, 2022, 27 min</p>
+<p>by Luke Smith <br>
+<a href="https://www.youtube.com/watch?v=ZFL09qhKi5I">Hugo Actually Explained (Websites, Themes, Layouts, and Intro to Scripting)</a> Luke Smith, 2022, 40 min
+<a href="https://www.youtube.com/watch?v=QTolhoxMyXg">Simple Hugo Shortcodes absolutely MOG pathetic obese Wordpress!</a> Luke Smith, 2022, 25 min</p>
+<p>CLI-Apps <br>
+<a href="https://www.youtube.com/watch?v=nlolvAVqn10&amp;list=PL-p5XmQHB_JSjgaGQdMPNm3jKVjaMkxSp&amp;index=1">Ranger the Terminal File Manager (Going deeper into configuration)</a> Luke Smith, 2017, 9 min</p>
+<p><a href="https://www.youtube.com/watch?v=hMSByvFHOro">Terminal vs. Bash vs. Command line vs. Prompt</a> Luke Smith, 2019, 11 min</p>
+<p>by Markco Michely <br>
+<a href="https://www.youtube.com/watch?v=eSIzPFtMteM">01 Website erstellen: Wordpress-, Drupal-CMS oder Static Site Generator?</a> Marco Michely, 2017, 22 min <br>
+<a href="https://www.youtube.com/watch?v=GxjCmXXaHes">02 Website erstellen: Den richtigen Static Site Generator finden</a> Marco Michely, 2017, 8 min <br>
+<a href="https://www.youtube.com/watch?v=ChaNUan-SK0">03 Statische Website mit HUGO erstellen
+</a> Marco Michely, 2017, 39 min <br>
+<a href="https://www.youtube.com/watch?v=BUQzuIq_PNQ">04 Baue mit HUGO statische Websites wie ein Profi</a> Marco Michely, 2017, 47 min <br>
+<a href="https://www.youtube.com/watch?v=PlqrXZjCoQc">05 Statische Websites mit HUGO</a> Marco Michely, 2017, 11 min <br>
+<a href="https://www.youtube.com/watch?v=jfhf6kMCUZk">06 Responsive Images und HUGO - Grundlagen</a> Marco Michely, 2017, 28 min <br></p>
+<p>Hugo and Bootstrap 5 by Future Web Design <br>
+<a href="https://www.youtube.com/watch?v=l7PHRA8t4Bw">01 Installing Hugo Static Site Generator and software for Development environment on Windows</a> Future Web Design, 2020, 10 min <br>
+<a href="https://www.youtube.com/watch?v=Vj5zy2q7O9U">02 Getting started with Bootstrap 5 and HUGO - Introduction</a> Future Web Design, 2022, 53 min <br>
+<a href="https://www.youtube.com/watch?v=HcyBdgJhDZI">03 Dynamic JavaScript year/date in copyright footer</a> Future Web Design, 2022, 18 min <br>
+<a href="https://www.youtube.com/watch?v=9ODyMFnGma8">04 Integrating HUGO with NPM node.js package manager</a> Future Web Design, 2022, 24 min <br>
+<a href="https://www.youtube.com/watch?v=wgB7kMEVOg0">05 SCSS &amp; SASS Compiling with Hugo</a> Future Web Design, 2022, 41 min <br>
+<a href="https://www.youtube.com/watch?v=kHuRp7W8StE">06 HUGO with SCSS and SASS + PostCSS, Autoprefixer</a> Future Web Design, 2022, 43 min <br>
+<a href="https://www.youtube.com/watch?v=Di11hJUFd-E">07 HUGO and Bootstrap 5 Navbar Introduction</a> Future Web Design, 2022, 21 min <br>
+<a href="https://www.youtube.com/watch?v=bt6be18-cxg">08 Hugo + HTML 5 Semantic Elements &amp; Templates</a> Future Web Design, 2022, 30 min <br>
+<a href="https://www.youtube.com/watch?v=gjd8fKSSuB0">09 Bootstrap 5 Cards with Hugo - Loop over front matter data with range.</a> Future Web Design, 2022, 19 min <br>
+<a href="https://www.youtube.com/watch?v=d7L8ydAdu7U">10 Save time with NPM scripts</a> Future Web Design, 2022, 13 min <br>
+<a href="https://www.youtube.com/watch?v=igIXqfSxm4k">11 Enable render of HTML in Markdown</a> Future Web Design, 2022, 5 min <br>
+<a href="https://www.youtube.com/watch?v=5QfVNP-UC6g">12 Minifying with HUGO - the right way!</a> Future Web Design, 2022, 11 min <br>
+<a href="https://www.youtube.com/watch?v=TaMicUc9GSM">13 Changing the Site Language</a> Future Web Design, 2022, 5 min <br>
+<a href="https://www.youtube.com/watch?v=NPnMZJXJx5g">14 Starting a new GitHub Project with HUGO</a> Future Web Design, 2022, 7 min <br>
+<a href="https://www.youtube.com/watch?v=byFBKrM9MNY">15 Test Netlify CMS Config Locally</a> Future Web Design, 2022, 5 min <br>
+<a href="https://www.youtube.com/watch?v=2b6gTq1zFt0">16 Creating Masonry/Pinterest style image gallery</a> Future Web Design, 2022, 9 min <br>
+<a href="https://www.youtube.com/watch?v=s61ZwPC4Q7g">17 Creating Instagram Square style image gallery</a> Future Web Design, 2022, 12 min <br>
+<a href="https://www.youtube.com/watch?v=jn5SwgN_B9s">18 Social Media Sharing with Twitter, Facebook, Linkedin &amp; Pinterest</a> Future Web Design, 2022, 9 min <br>
+<a href="https://www.youtube.com/watch?v=V4nFtwu7cpM">19 Save time with NPM scripts</a> Future Web Design, 2022, 14 min <br>
+<a href="https://www.youtube.com/watch?v=1L7b3dm0j9o">20 Use Prettier for HUGO &amp; Go Templates in Visual Studio Code</a> Future Web Design, 2022, 13 min <br>
+<a href="https://www.youtube.com/watch?v=MaaMdWyek6Y">21 Social Media Sharing with Twitter, Facebook, Linkedin &amp; Pinterest</a> Future Web Design, 2022, 9 min <br>
+<a href="https://www.youtube.com/watch?v=Ecm1OcljA2o">22 Bootstrap 5 Menu Navbar with Dropdowns</a> Future Web Design, 2022, 27 min <br>
+<a href="https://www.youtube.com/watch?v=70rb6nE0SPI">23 Bootstrap 5 Breadcrumbs</a> Future Web Design, 2022, 7 min <br>
+<a href="https://www.youtube.com/watch?v=kd-9T-k1wes">24 How to import Hugo modules</a> Future Web Design, 2022, 7 min <br></p>
+<p><a href="https://www.youtube.com/watch?v=NPnMZJXJx5g">Starting a new GitHub Project with HUGO</a> Future Web Design, 2020, 7 min <br>
+<a href="https://www.youtube.com/watch?v=byFBKrM9MNY">Test Netlify CMS Config Locally</a> Future Web Design, 2022, 5 min <br>
+<a href="https://www.youtube.com/watch?v=kd-9T-k1wes">How to import Hugo modules into your Hugo Website</a> Future Web Design, 2023, 7 min <br>
+<a href="https://www.youtube.com/watch?v=1L7b3dm0j9o">Use Prettier for HUGO &amp; Go Templates in Visual Studio Code</a> Future Web Design, 2022, 13 min <br>
+<a href="https://www.youtube.com/watch?v=kWIlrSorqFE">Use Prettier and ESLint in Visual Studio Code | Lint and Format your Code</a> Future Web Design, 2022, 16 min <br>
+<a href="https://www.youtube.com/watch?v=byFBKrM9MNY">Test Netlify CMS Config Locally</a> Future Web Design, 2022, 3 min <br></p>
+<p>by Chris Stayte <br>
+<a href="https://www.youtube.com/watch?v=5aajv-2YZYM">01 Buy, Build, Host a Website for $12</a> Chris Stayte, 2018, 8 min <br>
+<a href="https://www.youtube.com/watch?v=mDKQGANttyE">02 Why Use A Static Site Generator</a> Chris Stayte, 2018, 10 min <br>
+<a href="https://www.youtube.com/watch?v=c7vpcqA6SEQ">03 Building A Website Using Hugo</a> Chris Stayte, 2018, 35 min <br>
+<a href="https://www.youtube.com/watch?v=hBQlCtfRmqs">04 Hosting Your Website With Github and Netlify</a> Chris Stayte, 2018, 18 min <br>
+<a href="https://www.youtube.com/watch?v=S7DVyHfv4zM">05 Purchasing A Domain (Google Domains)</a> Chris Stayte, 2018, 8 min <br>
+<a href="https://www.youtube.com/watch?v=Q9giWrfIJK&amp;list=PL-Kz5P-mYdMgAJDmRJquyMHfdaIOD-3oj&amp;index=6">Xxx06 Setup Custom Domain On Netlify</a> Chris Stayte, 2018, 11 min <br>
+<a href="https://www.youtube.com/watch?v=_CNZJLYvINc">07 Netlify CMS</a> Chris Stayte, 2018, 19 min <br>
+<a href="https://www.youtube.com/watch?v=c1_-Xq296Dk">08 Updating Hugo on Netlify</a> Chris Stayte, 2018, 5 min <br>
+<a href="https://www.youtube.com&amp;list=PL-Kz5P-mYdMgAJDmRJquyMHfdaIOD-3oj&amp;index=9">Xxx09 Add A Form To Your Netlify Powered Website</a> Chris Stayte, 2018, 25 min <br></p>
+<hr>
+<h3 id="hugo-1">Hugo</h3>
+<p>completion  Generate the autocompletion script for the specified shell
+config      Print the site configuration
+convert     Convert your content to different formats
+deploy      Deploy your site to a Cloud provider.
+env         Print Hugo version and environment info
+gen         A collection of several useful generators.
+help        Help about any command
+import      Import your site from others.
+list        Listing out various types of content
+mod         Various Hugo Modules helpers.
+new         Create new content for your site
+server      A high performance webserver
+version</p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

@@ -1,0 +1,1135 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Einführung - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/cli/intro.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/go/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/intro.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/cli/intro.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Einführung
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        Command Line Interface
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="cli---command-line-interface">CLI - Command Line Interface</h2>
+<p>Bourne shell syntax. Bourne-compatible shells: sh, bash, zsh and ksh</p>
+<h3 id="befehle">Befehle</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-ls"><code>ls</code></a></td>
+<td>ls: &rsquo;list'</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-alias"><code>alias</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-unalias"><code>unalias</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-pwd"><code>pwd</code></a></td>
+<td>pwd: &lsquo;print working directory&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-cd"><code>cd</code></a></td>
+<td>cd: &lsquo;change directory&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-cp"><code>cp</code></a></td>
+<td>cp: &lsquo;copy&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-rm"><code>rm</code></a></td>
+<td>rm: &lsquo;remove directory&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mv"><code>mv</code></a></td>
+<td>mv: &lsquo;move&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mkdir"><code>mkdir</code></a></td>
+<td>mkdir: &lsquo;make directory&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-man"><code>man</code></a></td>
+<td>man: &lsquo;manual&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-touch"><code>touch</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-chmod"><code>chmod</code></a></td>
+<td>chmod: &lsquo;change mode&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-run-program"><code>./</code></a></td>
+<td>./: &lsquo;run program&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-exit"><code>exit</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-sudo"><code>sudo</code></a></td>
+<td>sudo: &lsquo;superuser do&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-shutdown"><code>shutdown</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-htop"><code>htop</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-unzip"><code>unzip</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-apt"><code>apt</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-echo"><code>echo</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-cat"><code>cat</code></a></td>
+<td>cat: &lsquo;concatenate&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-ps"><code>ps</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-kill"><code>kill</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-ping"><code>ping</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-vim"><code>vim</code></a></td>
+<td>Open Source Terminal-Texteditor</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-history"><code>history</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-passwd"><code>passwd</code></a></td>
+<td>passwd: &lsquo;password&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-which"><code>which</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-shred"><code>shred</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-less"><code>less</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-tail"><code>tail</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-head"><code>head</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-grep"><code>grep</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-whoami"><code>whoami</code></a></td>
+<td>whoami: &lsquo;who am i&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-whatis"><code>whatis</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-wc"><code>wc</code></a></td>
+<td>wc: &lsquo;word count&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-uname"><code>uname</code></a></td>
+<td>uname: &lsquo;unix name&rsquo;</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-neofetch"><code>neofetch</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-find"><code>find</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-wget"><code>wget</code></a></td>
+<td>wget: &lsquo;world wide web get&rsquo; Ein Dienstprogramm zum Abrufen von Inhalten aus dem Internet.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="general-tools">General Tools</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-bc"><code>bc</code></a></td>
+<td>bc: &lsquo;basic calculator&rsquo; Performs floating point math and various other useful calculations that are not practical with basic shell math support.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-expect"><code>expect</code></a></td>
+<td>Used to work with hard-to-handle command-line tools that require more complex interaction than is possible with a single pipe. For example, you could use an expect script to interact with getty over a tty or other bidirectional connection to log into a remote computer. In general, scripting that requires two-way interaction between the script and a program is most easily done with an expect script.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-expr"><code>expr</code></a></td>
+<td>Evaluates a numerical expression. This command supports basic integer math, and is frequently used for incrementing a loop iterator.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-false"><code>false</code></a></td>
+<td>Returns a failure exit status (nonzero).</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-sleep"><code>sleep</code></a></td>
+<td>Pauses execution for a period of time (measured in seconds).</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-true"><code>true</code></a></td>
+<td>Returns a successful exit status (0).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="text-processing-tools">Text processing Tools</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-awk"><code>awk</code></a></td>
+<td>Short for Aho, Weinberger, and Kernighan; a programming language in itself, used for text processing using regular expressions. This tool is described further in How AWK-ward.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-grep"><code>grep</code></a></td>
+<td>Short for Global [search for] Regular Expressions and Print; prints lines matching an input pattern (optionally with a specified number of lines of leading and/or trailing context). The grep command can take input from standard input or from files.Common variants include agrep (“approximate grep” from the Univ. of AZ), fgrep, and egrep.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-head"><code>head</code></a></td>
+<td>Prints the first few lines from a file (or standard input). The number of lines can be specified with the -n flag.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-perl"><code>perl</code></a></td>
+<td>A programming language whose scripts can be easily embedded in shell scripts using the -e flag. Perl&rsquo;s regular expression language is somewhat richer than basic regular expressions (and easier to read than character classes in extended regular expressions), making it popular for text processing use.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-sed"><code>sed</code></a></td>
+<td>Short for stream editor; performs more complex text substitutions using regular expressions.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-sort"><code>sort</code></a></td>
+<td>Sorts a series of lines. By default, sort reads these lines from its standard input. After its standard input is closed, it sorts them and prints the results to its standard output.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-tail"><code>tail</code></a></td>
+<td>Prints the last few lines from of a file (or standard input). The number of lines can be specified with the -n flag. Alternatively, you can specify the starting position as a byte or line offset from either the start or end of the file.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-tee"><code>tee</code></a></td>
+<td>Copies standard input to standard output, saving a copy into a file (or multiple files).</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-tr"><code>tr</code></a></td>
+<td>Replaces one character with another.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-uniq"><code>uniq</code></a></td>
+<td>Filters out adjacent lines that match.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="file-commands">File Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-cd"><code>cd</code></a></td>
+<td>Changes the current working directory. The command cd .. moves up a directory, for example.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-chflags"><code>chflags</code></a></td>
+<td>Changes flags on a file or directory. Most of these flags are relatively obscure. For changing permissions flags, use chmod instead.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-chgrp"><code>chgrp</code></a></td>
+<td>Changes the group ID associated with a file or directory.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-chmod"><code>chmod</code></a></td>
+<td>Changes modes (permission bits) or access control lists (ACLs) on a file or directory.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-chown"><code>chown</code></a></td>
+<td>Changes the ownership of files or directories. This command can also change the group if desired.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-find"><code>find</code></a></td>
+<td>Lists or searches for files in a directory and its subdirectories.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-ln"><code>ln</code></a></td>
+<td>Creates symbolic links and hard links to files or directories.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-ls"><code>ls</code></a></td>
+<td>Lists the files in the current directory.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mkdir"><code>mkdir</code></a></td>
+<td>Creates new directories.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mkfifo"><code>mkfifo</code></a></td>
+<td>Creates named pipes for communication. This tool is useful in situations where pipes cannot be established while executing the commands, such as connecting two tools in a circular fashion.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mv"><code>mv</code></a></td>
+<td>Moves or renames files and directories.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-rm"><code>rm</code></a> <a href="./cli-befehl-rmdir"><code>rmdir</code></a></td>
+<td>Removes files and directories</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-stat"><code>stat</code></a></td>
+<td>Prints detailed file status information, such as the type of file, last modification date, and so on.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-GetFileInfo"><code>GetFileInfo</code></a> <a href="./cli-befehl-SetFile"><code>SetFile</code></a></td>
+<td>These tools, installed as part of the Developer Tools installation, are useful for getting and manipulating things like extended attributes.Be aware that if you write a script that depends on these, it will require the Developer Tools to be installed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="disk-commands">Disk Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-diskutil"><code>diskutil</code></a></td>
+<td>Mounts and unmounts volumes and disks, checks disks for consistency, erases optical disks, wipes disks with a security wipe, partitions disks, manipulates RAID sets, and so on.This utility is the command-line counterpart to the Disk Utility application.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-fsck"><code>fsck</code></a> <a href="./cli-befehl-fsck_msdos"><code>fsck_msdos</code></a> <a href="./cli-befehl-fsck_hfs"><code>fsck_hfs</code></a></td>
+<td>Checks a file system for consistency.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-hdiutil"><code>hdiutil</code></a></td>
+<td>Creates and manipulates disk images, including attaching disk images for mounting.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-mount"><code>mount</code></a> <a href="./cli-befehl-umount"><code>umount</code></a> <a href="./cli-befehl-mount_afp"><code>mount_afp</code></a> <a href="./cli-befehl-mount_cd9660"><code>mount_cd9660</code></a>  <a href="./cli-befehl-mount_cddafs"><code>mount_cddafs</code></a> <a href="./cli-befehl-mount_fdesc"><code>mount_fdesc</code></a> <a href="./cli-befehl-mount_ftp"><code>mount_ftp</code></a> <a href="./cli-befehl-mount_hfs"><code>mount_hfs</code></a> <a href="./cli-befehl-mount_msdos"><code>mount_msdos</code></a> <a href="./cli-befehl-mount_nfs"><code>mount_nfs</code></a> <a href="./cli-befehl-mount_ntfs"><code>mount_ntfs</code></a> <a href="./cli-befehl-mount_smbfs"><code>mount_smbfs</code></a> <a href="./cli-befehl-mount_udf"><code>mount_udf</code></a> <a href="./cli-befehl-mount_url"><code>mount_url</code></a> <a href="./cli-befehl-mount_webdav"><code>mount_webdav</code></a></td>
+<td>Mounts and unmounts volumes.If you unmount automounted volumes behind the back of the disk arbitration system, you can cause strange behavior in the GUI. Use these commands with care, and if you are trying to unmount an automounted volume, use hdiutil or diskutil instead.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="archiving-and-compression-commands">Archiving and Compression Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Befehl</th>
+<th>Anmerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./cli-befehl-bzip2"><code>bzip2</code></a> <a href="./cli-befehl-bunzip2"><code>bunzip2</code></a> <a href="./cli-befehl-bzip2recover"><code>bzip2recover</code></a></td>
+<td>Compresses and decompresses files using the Burrows-Wheeler block sorting text compression algorithm and Huffman coding. This compression tool takes somewhat longer than other tools such as gzip, but tends to result in smaller files, and is thus growing in popularity for distributing large files.Files created with this tool end with the .bz2 extension.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-uncompress"><code>compress</code></a> <a href="./cli-befehl-uncompress"><code>uncompress</code></a></td>
+<td>Compresses and decompresses files using the Lempel-Ziv-Welsh (LZW) compression algorithm. This compression format has largely fallen out of popularity.Files created by this tool end with the .Z extension.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-gzip"><code>gzip</code></a> <a href="./cli-befehl-gunzip"><code>gunzip</code></a> <a href="./cli-befehl-zcat"><code>zcat</code></a> <a href="./cli-befehl-gzcat"><code>gzcat</code></a></td>
+<td>Compresses, uncompresses, and prints the contents of files in the GNU Zip (LZ77-based) format. This compression scheme is popular with UNIX and Linux users.While based on the same underlying compression scheme, the GNU Zip and ZIP file formats are not the same. The ZIP file format can contain multiple files, while the Gzip file format can only contain a single file (though this single file may be a tar archive).Files created by this tool end with the .gz extension.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-zip"><code>zip</code></a> <a href="./cli-befehl-unzip"><code>unzip</code></a> <a href="./cli-befehl-funzip"><code>funzip</code></a></td>
+<td>Compresses and uncompresses files and directories using the ZIP file format (deflate, based on LZ77 and Huffman coding). This file format is commonly used for exchanging compressed files with Windows users.Files created by this tool end with the .zip extension.</td>
+</tr>
+<tr>
+<td><a href="./cli-befehl-tar"><code>tar</code></a></td>
+<td>Creates, appends to, and extracts multifile archives in the tar (short for “Tape ARchive”) format. This format is the standard format for storing multiple files in a single archive among UNIX and Linux users. The tar file format is usually seen in a compressed form, using either gzip or bzip2.Files created by this tool end with the .tar extension (or the .tgz or .tbz extensions for tar archives compressed with gzip or bzip2).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="xxx">xxx</h3>
+<p><a href="./cli-befehl-awk"><code>awk</code></a></p>
+<p><a href="./cli-befehl-bc"><code>bc</code></a>
+<a href="./cli-befehl-bzip2"><code>bzip2</code></a>
+<a href="./cli-befehl-bunzip2"><code>bunzip2</code></a>
+<a href="./cli-befehl-bzip2recover"><code>bzip2recover</code></a></p>
+<p><a href="./cli-befehl-cd"><code>cd</code></a>
+<a href="./cli-befehl-chflags"><code>chflags</code></a>
+<a href="./cli-befehl-chgrp"><code>chgrp</code></a>
+<a href="./cli-befehl-chmod"><code>chmod</code></a>
+<a href="./cli-befehl-chown"><code>chown</code></a>
+<a href="./cli-befehl-uncompress"><code>compress</code></a></p>
+<p><a href="./cli-befehl-diskutil"><code>diskutil</code></a></p>
+<p><a href="./cli-befehl-expect"><code>expect</code></a>
+<a href="./cli-befehl-expr"><code>expr</code></a></p>
+<p><a href="./cli-befehl-false"><code>false</code></a>
+<a href="./cli-befehl-find"><code>find</code></a>
+<a href="./cli-befehl-fsck"><code>fsck</code></a>
+<a href="./cli-befehl-fsck_msdos"><code>fsck_msdos</code></a>
+<a href="./cli-befehl-fsck_hfs"><code>fsck_hfs</code></a>
+<a href="./cli-befehl-funzip"><code>funzip</code></a></p>
+<p><a href="./cli-befehl-GetFileInfo"><code>GetFileInfo</code></a>
+<a href="./cli-befehl-grep"><code>grep</code></a>
+<a href="./cli-befehl-gunzip"><code>gunzip</code></a>
+<a href="./cli-befehl-gzcat"><code>gzcat</code></a>
+<a href="./cli-befehl-gzip"><code>gzip</code></a></p>
+<p><a href="./cli-befehl-hdiutil"><code>hdiutil</code></a>
+<a href="./cli-befehl-head"><code>head</code></a></p>
+<p><a href="./cli-befehl-ln"><code>ln</code></a>
+<a href="./cli-befehl-ls"><code>ls</code></a></p>
+<p><a href="./cli-befehl-mkdir"><code>mkdir</code></a>
+<a href="./cli-befehl-mkfifo"><code>mkfifo</code></a>
+<a href="./cli-befehl-mount"><code>mount</code></a>
+<a href="./cli-befehl-umount"><code>umount</code></a>
+<a href="./cli-befehl-mount_afp"><code>mount_afp</code></a>
+<a href="./cli-befehl-mount_cd9660"><code>mount_cd9660</code></a>
+<a href="./cli-befehl-mount_cddafs"><code>mount_cddafs</code></a>
+<a href="./cli-befehl-mount_fdesc"><code>mount_fdesc</code></a>
+<a href="./cli-befehl-mount_ftp"><code>mount_ftp</code></a>
+<a href="./cli-befehl-mount_hfs"><code>mount_hfs</code></a>
+<a href="./cli-befehl-mount_msdos"><code>mount_msdos</code></a>
+<a href="./cli-befehl-mount_nfs"><code>mount_nfs</code></a>
+<a href="./cli-befehl-mount_ntfs"><code>mount_ntfs</code></a>
+<a href="./cli-befehl-mount_smbfs"><code>mount_smbfs</code></a>
+<a href="./cli-befehl-mount_udf"><code>mount_udf</code></a>
+<a href="./cli-befehl-mount_url"><code>mount_url</code></a>
+<a href="./cli-befehl-mount_webdav"><code>mount_webdav</code></a>
+<a href="./cli-befehl-mv"><code>mv</code></a></p>
+<p><a href="./cli-befehl-perl"><code>perl</code></a></p>
+<p><a href="./cli-befehl-rm"><code>rm</code></a>
+<a href="./cli-befehl-rmdir"><code>rmdir</code></a></p>
+<p><a href="./cli-befehl-sed"><code>sed</code></a>
+<a href="./cli-befehl-SetFile"><code>SetFile</code></a>
+<a href="./cli-befehl-sleep"><code>sleep</code></a>
+<a href="./cli-befehl-sort"><code>sort</code></a>
+<a href="./cli-befehl-stat"><code>stat</code></a></p>
+<p><a href="./cli-befehl-tail"><code>tail</code></a>
+<a href="./cli-befehl-tar"><code>tar</code></a>
+<a href="./cli-befehl-tee"><code>tee</code></a>
+<a href="./cli-befehl-tr"><code>tr</code></a>
+<a href="./cli-befehl-true"><code>true</code></a></p>
+<p><a href="./cli-befehl-uncompress"><code>uncompress</code></a>
+<a href="./cli-befehl-uniq"><code>uniq</code></a><br>
+<a href="./cli-befehl-unzip"><code>unzip</code></a></p>
+<p><a href="./cli-befehl-zcat"><code>zcat</code></a>
+<a href="./cli-befehl-zip"><code>zip</code></a></p>
+<!-- xxx -->
+<h3 id="general-tools-1">General Tools</h3>
+<p><a href="./cli-befehl-bc"><code>bc</code></a>
+<a href="./cli-befehl-expect"><code>expect</code></a>
+<a href="./cli-befehl-expr"><code>expr</code></a>
+<a href="./cli-befehl-false"><code>false</code></a>
+<a href="./cli-befehl-sleep"><code>sleep</code></a>
+<a href="./cli-befehl-true"><code>true</code></a></p>
+<h3 id="text-processing-tools-1">Text processing Tools</h3>
+<p><a href="./cli-befehl-awk"><code>awk</code></a>
+<a href="./cli-befehl-grep"><code>grep</code></a>
+<a href="./cli-befehl-head"><code>head</code></a>
+<a href="./cli-befehl-perl"><code>perl</code></a>
+<a href="./cli-befehl-sed"><code>sed</code></a>
+<a href="./cli-befehl-sort"><code>sort</code></a>
+<a href="./cli-befehl-tail"><code>tail</code></a>
+<a href="./cli-befehl-tee"><code>tee</code></a>
+<a href="./cli-befehl-tr"><code>tr</code></a>
+<a href="./cli-befehl-uniq"><code>uniq</code></a></p>
+<h3 id="file-commands-1">File Commands</h3>
+<p><a href="./cli-befehl-cd"><code>cd</code></a>
+<a href="./cli-befehl-chflags"><code>chflags</code></a>
+<a href="./cli-befehl-chgrp"><code>chgrp</code></a>
+<a href="./cli-befehl-chmod"><code>chmod</code></a>
+<a href="./cli-befehl-chown"><code>chown</code></a>
+<a href="./cli-befehl-find"><code>find</code></a>
+<a href="./cli-befehl-ln"><code>ln</code></a>
+<a href="./cli-befehl-ls"><code>ls</code></a>
+<a href="./cli-befehl-mkdir"><code>mkdir</code></a>
+<a href="./cli-befehl-mkfifo"><code>mkfifo</code></a>
+<a href="./cli-befehl-mv"><code>mv</code></a>
+<a href="./cli-befehl-rm"><code>rm</code></a>
+<a href="./cli-befehl-rmdir"><code>rmdir</code></a>
+<a href="./cli-befehl-stat"><code>stat</code></a>
+<a href="./cli-befehl-GetFileInfo"><code>GetFileInfo</code></a>
+<a href="./cli-befehl-SetFile"><code>SetFile</code></a></p>
+<h3 id="disk-commands-1">Disk Commands</h3>
+<p><a href="./cli-befehl-diskutil"><code>diskutil</code></a>
+<a href="./cli-befehl-fsck"><code>fsck</code></a>
+<a href="./cli-befehl-fsck_msdos"><code>fsck_msdos</code></a>
+<a href="./cli-befehl-fsck_hfs"><code>fsck_hfs</code></a>
+<a href="./cli-befehl-hdiutil"><code>hdiutil</code></a>
+<a href="./cli-befehl-mount"><code>mount</code></a>
+<a href="./cli-befehl-umount"><code>umount</code></a>
+<a href="./cli-befehl-mount_afp"><code>mount_afp</code></a>
+<a href="./cli-befehl-mount_cd9660"><code>mount_cd9660</code></a>
+<a href="./cli-befehl-mount_cddafs"><code>mount_cddafs</code></a>
+<a href="./cli-befehl-mount_fdesc"><code>mount_fdesc</code></a>
+<a href="./cli-befehl-mount_ftp"><code>mount_ftp</code></a>
+<a href="./cli-befehl-mount_hfs"><code>mount_hfs</code></a>
+<a href="./cli-befehl-mount_msdos"><code>mount_msdos</code></a>
+<a href="./cli-befehl-mount_nfs"><code>mount_nfs</code></a>
+<a href="./cli-befehl-mount_ntfs"><code>mount_ntfs</code></a>
+<a href="./cli-befehl-mount_smbfs"><code>mount_smbfs</code></a>
+<a href="./cli-befehl-mount_udf"><code>mount_udf</code></a>
+<a href="./cli-befehl-mount_url"><code>mount_url</code></a>
+<a href="./cli-befehl-mount_webdav"><code>mount_webdav</code></a></p>
+<h3 id="archiving-and-compression-commands-1">Archiving and Compression Commands</h3>
+<p><a href="./cli-befehl-bzip2"><code>bzip2</code></a>
+<a href="./cli-befehl-bunzip2"><code>bunzip2</code></a>
+<a href="./cli-befehl-bzip2recover"><code>bzip2recover</code></a>
+<a href="./cli-befehl-uncompress"><code>compress</code></a>
+<a href="./cli-befehl-uncompress"><code>uncompress</code></a>
+<a href="./cli-befehl-gzip"><code>gzip</code></a>
+<a href="./cli-befehl-gunzip"><code>gunzip</code></a>
+<a href="./cli-befehl-zcat"><code>zcat</code></a>
+<a href="./cli-befehl-gzcat"><code>gzcat</code></a>
+<a href="./cli-befehl-zip"><code>zip</code></a>
+<a href="./cli-befehl-unzip"><code>unzip</code></a>
+<a href="./cli-befehl-funzip"><code>funzip</code></a>
+<a href="./cli-befehl-tar"><code>tar</code></a></p>
+<h3 id="inhalt">Inhalt</h3>
+<ul>
+<li><a href="#alias"><code>alias</code></a>
+<a href="#apt"><code>apt</code></a></li>
+<li><a href="#cat"><code>cat</code></a>
+<a href="#cd"><code>cd</code></a>
+<a href="#chmod"><code>chmod</code></a>
+<a href="#cp"><code>cp</code></a></li>
+<li><a href="#echo"><code>echo</code></a>
+<a href="#exit"><code>exit</code></a></li>
+<li><a href="#find"><code>find</code></a></li>
+<li><a href="#grep"><code>grep</code></a></li>
+<li><a href="#head"><code>head</code></a>
+<a href="#history"><code>history</code></a>
+<a href="#htop"><code>htop</code></a></li>
+<li><a href="#kill"><code>kill</code></a></li>
+<li><a href="#less"><code>less</code></a>
+<a href="#ls"><code>ls</code></a></li>
+<li><a href="#man"><code>man</code></a>
+<a href="#mkdir"><code>mkdir</code></a>
+<a href="#mv"><code>mv</code></a></li>
+<li><a href="#neofetch"><code>neofetch</code></a></li>
+<li><a href="#passwd"><code>passwd</code></a>
+<a href="#ping"><code>ping</code></a>
+<a href="#ps"><code>ps</code></a>
+<a href="#pwd"><code>pwd</code></a></li>
+<li><a href="#rm"><code>rm</code></a></li>
+<li><a href="#shred"><code>shred</code></a>
+<a href="#shutdown"><code>shutdown</code></a>
+<a href="#sudo"><code>sudo</code></a></li>
+<li><a href="#tail"><code>tail</code></a>
+<a href="#touch"><code>touch</code></a></li>
+<li><a href="#unalias"><code>unalias</code></a>
+<a href="#uname"><code>uname</code></a>
+<a href="#unzip"><code>unzip</code></a></li>
+<li><a href="#vim"><code>vim</code></a></li>
+<li><a href="#wc"><code>wc</code></a>
+<a href="#wget"><code>wget</code></a>
+<a href="#whatis"><code>whatis</code></a>
+<a href="#which"><code>which</code></a>
+<a href="#whoami"><code>whoami</code></a></li>
+<li><a href="#cli-befehl-run-program"><code>./</code></a></li>
+</ul>
+<h3 id="alias">alias</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>&gt; alias
+</span></span><span style="display:flex;"><span>run-help=man
+</span></span><span style="display:flex;"><span>which-command=whence
+</span></span></code></pre></div><p><a href="./cli-befehle-alias"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="apt">apt</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-apt"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="cat">cat</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-cat"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="cd">cd</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-cd"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="chmod">chmod</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-chmod"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="cp">cp</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="echo">echo</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-echo"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="exit">exit</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-exit"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="find">find</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-find"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="grep">grep</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-grep"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="head">head</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-head"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="history">history</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-history"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="htop">htop</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-htop"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="kill">kill</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-kill"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="less">less</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-less"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="ls">ls</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-ls"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="man">man</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-man"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="mkdir">mkdir</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-mkdir"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="mv">mv</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="neofetch">neofetch</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-neofetch"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="passwd">passwd</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-passwd"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="ping">ping</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-ping"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="ps">ps</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-ps"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="pwd">pwd</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-pwd"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="rm">rm</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-rm"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="shred">shred</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-shred"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="shutdown">shutdown</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-shutdown"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="sudo">sudo</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-sudo"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="tail">tail</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="touch">touch</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-touch"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="unalias">unalias</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-unalias"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="uname">uname</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-uname"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="unzip">unzip</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-unzip"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="vim">vim</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-vim"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="wc">wc</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-wc"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="wget">wget</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-wget"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="whatis">whatis</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-whatis"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="which">which</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-which"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="whoami">whoami</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-whoami"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h3 id="heading">./</h3>
+<p>Text &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"></code></pre></div><p><a href="./cli-befehle-run_program"><code>details</code></a> [<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<!--
+[`alias`](./cli-befehl-alias) 
+[`apt`](./cli-befehl-apt)
+
+[`cat`](./cli-befehl-cat) 
+[`cd`](./cli-befehl-cd) 
+[`chmod`](./cli-befehl-chmod)
+[`cp`](./cli-befehl-cp)
+
+[`echo`](./cli-befehl-echo) 
+[`exit`](./cli-befehl-exit) 
+
+[`find`](./cli-befehl-find)
+
+[`grep`](./cli-befehl-grep)
+
+[`head`](./cli-befehl-head)
+[`history`](./cli-befehl-history) 
+[`htop`](./cli-befehl-htop)
+
+[`kill`](./cli-befehl-kill) 
+
+[`less`](./cli-befehl-less)
+[`ls`](./cli-befehl-ls) 
+
+[`man`](./cli-befehl-man) 
+[`mkdir`](./cli-befehl-mkdir)
+[`mv`](./cli-befehl-mv)
+
+[`neofetch`](./cli-befehl-neofetch)
+
+[`passwd`](./cli-befehl-passwd)
+[`ping`](./cli-befehl-ping)
+[`ps`](./cli-befehl-ps)
+[`pwd`](./cli-befehl-pwd)
+
+[`rm`](./cli-befehl-rm)  
+
+[`shred`](./cli-befehl-shred)
+[`shutdown`](./cli-befehl-shutdown)
+[`sudo`](./cli-befehl-sudo)
+
+[`tail`](./cli-befehl-tail)
+[`touch`](./cli-befehl-touch)
+
+[`unalias`](./cli-befehl-unalias)
+[`uname`](./cli-befehl-uname)
+[`unzip`](./cli-befehl-unzip)  
+
+[`vim`](./cli-befehl-vim) 
+
+[`wc`](./cli-befehl-wc)
+[`wget`](./cli-befehl-wget)
+[`whatis`](./cli-befehl-whatis)
+[`which`](./cli-befehl-which) 
+[`whoami`](./cli-befehl-whoami)
+
+[`./`](./cli-befehl-run-program) 
+-->
+<!-- Content navigation -->
+<p><a href="#"></a> <a href="#"></a> <a href="#"></a></p>
+<!-- ToDos -->
+<!-- 
+-->
+<!--
+### CHAPTER
+
+#### SUBCHAPTER
+-->
+<!-- Program code -->
+<!--
+```swift
+// Programmcode
+```
+-->
+<!-- CONTENT END ############################################## -->
+<!-- Comment [__`rauf`__][top] [__`runter`__][bottom] -->
+<!-- Links --> <br>
+<h5 id="links">Links:</h5>
+<p><a href="https://kinsta.com/de/blog/linux-befehle"><code>Die 40 meist genutzten Linux-Befehle, die du kennen solltest</code></a> <em><sub><code>von Daniel Diaz, 2023</code></sub></em><br>
+<a href="https://www.computerweekly.com/de/definition/Kommandozeile-Command-Line-Interface-CLI"><code>Kommandozeile (Command Line Interface, CLI)</code></a> <em><sub><code>von Peter Loshin, 2022</code></sub></em>
+<a href="https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html"><code>Shell Scripting Primer</code></a> <em><sub><code>von apple</code></sub></em></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

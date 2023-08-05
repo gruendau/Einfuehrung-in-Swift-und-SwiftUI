@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modifier on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/modifier.html</link>
+    <description>Recent content in modifier on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/modifier/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benutzerdefinierter Modifikator</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</guid>
+      <description>Text &amp;hellip;
+Links:
+Configuring SwiftUI views von John Sundell, 2020 Slider: https://swdevnotes.com/swift/2021/how-to-customise-the-slider-in-swiftui/
+Discover: https://www.swiftbysundell.com/discover/swiftui/
+Links: modifier(_:) von Apple ViewModifier von Apple Declaring a custom view von Apple SwiftUI Custom View Modifiers von Keith Harrison, 2021 How to create custom modifiers von Paul Hudson, 2023 Understanding SwiftUI: Modifiers von Rodrigues, 2020 SwiftUI Custom Styling von Javier, 2019 How to make custom view modifiers in SwiftUI von Simple Swift Guide, 2020 How to conditionally apply modifiers in SwiftUI von Matteo Puccinelli, 2020 How to create custom view modifiers in SwiftUI?</description>
+    </item>
+    
+  </channel>
+</rss>

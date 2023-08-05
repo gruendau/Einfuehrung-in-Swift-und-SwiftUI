@@ -1,0 +1,488 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>system_profiler - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../language/cli/commands/system_profiler.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        system_profiler
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="system_profiler">system_profiler</h2>
+<p>Gibt Systemdaten des Rechners aus.</p>
+<p>Inhalt:</p>
+<ul>
+<li><a href="#-listDataTypes">-listDataTypes</a></li>
+<li><a href="#SPDeveloperToolsDataType">SPDeveloperToolsDataType</a></li>
+<li><a href="#SPHardwareDataType">SPHardwareDataType</a></li>
+<li><a href="#SPPowerDataType">SPPowerDataType</a></li>
+<li><a href="#SPSoftwareDataType">SPSoftwareDataType</a></li>
+</ul>
+<br>
+<h5 id="-listdatatypes">-listDataTypes</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>&gt; system_profiler -listDataTypes
+</span></span><span style="display:flex;"><span>Available Datatypes:
+</span></span><span style="display:flex;"><span>SPParallelATADataType
+</span></span><span style="display:flex;"><span>SPUniversalAccessDataType
+</span></span><span style="display:flex;"><span>SPSecureElementDataType
+</span></span><span style="display:flex;"><span>SPApplicationsDataType
+</span></span><span style="display:flex;"><span>SPAudioDataType
+</span></span><span style="display:flex;"><span>SPBluetoothDataType
+</span></span><span style="display:flex;"><span>SPCameraDataType
+</span></span><span style="display:flex;"><span>SPCardReaderDataType
+</span></span><span style="display:flex;"><span>SPiBridgeDataType
+</span></span><span style="display:flex;"><span>SPDeveloperToolsDataType
+</span></span><span style="display:flex;"><span>SPDiagnosticsDataType
+</span></span><span style="display:flex;"><span>SPDisabledSoftwareDataType
+</span></span><span style="display:flex;"><span>SPDiscBurningDataType
+</span></span><span style="display:flex;"><span>SPEthernetDataType
+</span></span><span style="display:flex;"><span>SPExtensionsDataType
+</span></span><span style="display:flex;"><span>SPFibreChannelDataType
+</span></span><span style="display:flex;"><span>SPFireWireDataType
+</span></span><span style="display:flex;"><span>SPFirewallDataType
+</span></span><span style="display:flex;"><span>SPFontsDataType
+</span></span><span style="display:flex;"><span>SPFrameworksDataType
+</span></span><span style="display:flex;"><span>SPDisplaysDataType
+</span></span><span style="display:flex;"><span>SPHardwareDataType
+</span></span><span style="display:flex;"><span>SPInstallHistoryDataType
+</span></span><span style="display:flex;"><span>SPInternationalDataType
+</span></span><span style="display:flex;"><span>SPLegacySoftwareDataType
+</span></span><span style="display:flex;"><span>SPNetworkLocationDataType
+</span></span><span style="display:flex;"><span>SPLogsDataType
+</span></span><span style="display:flex;"><span>SPManagedClientDataType
+</span></span><span style="display:flex;"><span>SPMemoryDataType
+</span></span><span style="display:flex;"><span>SPNVMeDataType
+</span></span><span style="display:flex;"><span>SPNetworkDataType
+</span></span><span style="display:flex;"><span>SPPCIDataType
+</span></span><span style="display:flex;"><span>SPParallelSCSIDataType
+</span></span><span style="display:flex;"><span>SPPowerDataType
+</span></span><span style="display:flex;"><span>SPPrefPaneDataType
+</span></span><span style="display:flex;"><span>SPPrintersSoftwareDataType
+</span></span><span style="display:flex;"><span>SPPrintersDataType
+</span></span><span style="display:flex;"><span>SPConfigurationProfileDataType
+</span></span><span style="display:flex;"><span>SPRawCameraDataType
+</span></span><span style="display:flex;"><span>SPSASDataType
+</span></span><span style="display:flex;"><span>SPSerialATADataType
+</span></span><span style="display:flex;"><span>SPSPIDataType
+</span></span><span style="display:flex;"><span>SPSmartCardsDataType
+</span></span><span style="display:flex;"><span>SPSoftwareDataType
+</span></span><span style="display:flex;"><span>SPStartupItemDataType
+</span></span><span style="display:flex;"><span>SPStorageDataType
+</span></span><span style="display:flex;"><span>SPSyncServicesDataType
+</span></span><span style="display:flex;"><span>SPThunderboltDataType
+</span></span><span style="display:flex;"><span>SPUSBDataType
+</span></span><span style="display:flex;"><span>SPNetworkVolumeDataType
+</span></span><span style="display:flex;"><span>SPWWANDataType
+</span></span><span style="display:flex;"><span>SPAirPortDataType
+</span></span></code></pre></div><hr>
+<h5 id="spdevelopertoolsdatatype">SPDeveloperToolsDataType</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>&gt; system_profiler SPDeveloperToolsDataType
+</span></span><span style="display:flex;"><span>Developer:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Developer Tools:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>      Version: 13.4.1 (13F100)
+</span></span><span style="display:flex;"><span>      Location: /Applications/Xcode.app
+</span></span><span style="display:flex;"><span>      Applications:
+</span></span><span style="display:flex;"><span>          Xcode: 13.4.1 (20504)
+</span></span><span style="display:flex;"><span>          Instruments: 13.4.1 (64553.4)
+</span></span><span style="display:flex;"><span>      SDKs:
+</span></span><span style="display:flex;"><span>          DriverKit:
+</span></span><span style="display:flex;"><span>              21,4:
+</span></span><span style="display:flex;"><span>          iOS:
+</span></span><span style="display:flex;"><span>              15,5: (19F64)
+</span></span><span style="display:flex;"><span>          iOS Simulator:
+</span></span><span style="display:flex;"><span>              15,5: (19F64)
+</span></span><span style="display:flex;"><span>          macOS:
+</span></span><span style="display:flex;"><span>              12,3: (21E226)
+</span></span><span style="display:flex;"><span>          tvOS:
+</span></span><span style="display:flex;"><span>              15,4: (19L439)
+</span></span><span style="display:flex;"><span>          tvOS Simulator:
+</span></span><span style="display:flex;"><span>              15,4: (19L439)
+</span></span><span style="display:flex;"><span>          watchOS:
+</span></span><span style="display:flex;"><span>              8,5: (19T241)
+</span></span><span style="display:flex;"><span>          watchOS Simulator:
+</span></span><span style="display:flex;"><span>              8,5: (19T241)
+</span></span></code></pre></div><hr>
+<h5 id="sphardwaredatatype">SPHardwareDataType</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>&gt; system_profiler SPHardwareDataType
+</span></span><span style="display:flex;"><span>Hardware:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Hardware Overview:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>      Model Name: MacBook Pro
+</span></span><span style="display:flex;"><span>      Model Identifier: MacBookPro12,1
+</span></span><span style="display:flex;"><span>      Processor Name: Dual-Core Intel Core i7
+</span></span><span style="display:flex;"><span>      Processor Speed: 3,1 GHz
+</span></span><span style="display:flex;"><span>      Number of Processors: 1
+</span></span><span style="display:flex;"><span>      Total Number of Cores: 2
+</span></span><span style="display:flex;"><span>      L2 Cache (per Core): 256 KB
+</span></span><span style="display:flex;"><span>      L3 Cache: 4 MB
+</span></span><span style="display:flex;"><span>      Hyper-Threading Technology: Enabled
+</span></span><span style="display:flex;"><span>      Memory: 16 GB
+</span></span><span style="display:flex;"><span>      System Firmware Version: 481.0.0.0.0
+</span></span><span style="display:flex;"><span>      OS Loader Version: 540.120.3~22
+</span></span><span style="display:flex;"><span>      SMC Version (system): 2.28f7
+</span></span><span style="display:flex;"><span>      Serial Number (system): C02QD33KFVH8
+</span></span><span style="display:flex;"><span>      Hardware UUID: EEED1B91-54BF-5776-9B19-85BBDDB77E1B
+</span></span><span style="display:flex;"><span>      Provisioning UDID: EEED1B91-54BF-5776-9B19-85BBDDB77E1B
+</span></span></code></pre></div><p>[<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<hr>
+<h5 id="sppowerdatatype">SPPowerDataType</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>❯  system_profiler SPPowerDataType
+</span></span><span style="display:flex;"><span>Power:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Battery Information:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>      Model Information:
+</span></span><span style="display:flex;"><span>          Serial Number: C01514309YEF90MA4
+</span></span><span style="display:flex;"><span>          Manufacturer: ifixit
+</span></span><span style="display:flex;"><span>          Device Name: bq20z451
+</span></span><span style="display:flex;"><span>          Pack Lot Code: 3230
+</span></span><span style="display:flex;"><span>          PCB Lot Code: 3230
+</span></span><span style="display:flex;"><span>          Firmware Version: 2d31
+</span></span><span style="display:flex;"><span>          Hardware Revision: 322d
+</span></span><span style="display:flex;"><span>          Cell Revision: 3036
+</span></span><span style="display:flex;"><span>      Charge Information:
+</span></span><span style="display:flex;"><span>          Fully Charged: Yes
+</span></span><span style="display:flex;"><span>          Charging: No
+</span></span><span style="display:flex;"><span>          Full Charge Capacity (mAh): 6227
+</span></span><span style="display:flex;"><span>          State of Charge (%): 100
+</span></span><span style="display:flex;"><span>      Health Information:
+</span></span><span style="display:flex;"><span>          Cycle Count: 24
+</span></span><span style="display:flex;"><span>          Condition: Normal
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    ...
+</span></span></code></pre></div><hr>
+<h5 id="spsoftwaredatatype">SPSoftwareDataType</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>&gt; system_profiler SPSoftwareDataType
+</span></span><span style="display:flex;"><span>Software:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    System Software Overview:
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>      System Version: macOS 12.6.6 (21G646)
+</span></span><span style="display:flex;"><span>      Kernel Version: Darwin 21.6.0
+</span></span><span style="display:flex;"><span>      Boot Volume: SSD
+</span></span><span style="display:flex;"><span>      Boot Mode: Normal
+</span></span><span style="display:flex;"><span>      Computer Name: Tests MacBook Pro
+</span></span><span style="display:flex;"><span>      User Name: volker (xxx)
+</span></span><span style="display:flex;"><span>      Secure Virtual Memory: Enabled
+</span></span><span style="display:flex;"><span>      System Integrity Protection: Enabled
+</span></span><span style="display:flex;"><span>      Time since boot: 6:04
+</span></span></code></pre></div>
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

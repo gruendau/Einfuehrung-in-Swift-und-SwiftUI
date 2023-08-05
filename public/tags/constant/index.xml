@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>constant on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/constant.html</link>
+    <description>Recent content in constant on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/constant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konstanten</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</guid>
+      <description>Konstanten Konstanten sind Objekte zur Speicherung von Werten und/oder Funktionen, die nicht geändert werden können. Für die Deklarierung wird das Schlüsselwort &amp;rsquo;let&amp;rsquo; genutzt.
+// Allgemein let konstante: Typ = wert // Die Konstante &amp;#39;konstante&amp;#39; vom Typ &amp;#39;Typ&amp;#39; soll den Wert &amp;#39;wert&amp;#39; haben. // Beispiel 1 let c1: String = &amp;#34;volker&amp;#34; let c2 = &amp;#34;volker&amp;#34; // Compiler bestimmt den Typ [type inference] // Beispiel 2a // Die Konstante &amp;#39;function&amp;#39; speichert eine Funktion &amp;#39;gruesse&amp;#39;, die als Funktion übergeben wird.</description>
+    </item>
+    
+  </channel>
+</rss>

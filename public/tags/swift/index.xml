@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swift on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swift.html</link>
+    <description>Recent content in swift on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anordnungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</guid>
+      <description>Ein Anordnungen &amp;lt;array&amp;gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort array genutzt.
+let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&amp;lt;Element&amp;gt; Definition // Definition @frozen struct Array&amp;lt;Element&amp;gt; Deklaration // Ein leeres Array für Strings deklarieren var a1: Array&amp;lt;String&amp;gt; = Array() var a2: Array&amp;lt;String&amp;gt; = [] var a3 = Array&amp;lt;String&amp;gt;() var a4: [String] = Array() var a5: [String] = [] var a6 = [String]() print(type(of: a1)) // --&amp;gt; Array&amp;lt;String&amp;gt; print(a1) // --&amp;gt; [] Initialisierung // Ein leeres Array für Strings deklarieren und initialisieren (Werte zuweisen).</description>
+    </item>
+    
+    <item>
+      <title>Aufzählungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</guid>
+      <description>Eine Aufzählung &amp;lt;enumeration&amp;gt; ist eine Aufzählung von Werten. Für die Deklarierung wird das Schlüsselwort enum genutzt.
+enum Namen { case volker case nils } </description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</guid>
+      <description>Swift CLI Text &amp;hellip;
+weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</guid>
+      <description>Einführung in Swift Text &amp;hellip;
+Konstanten Variablen Operatoren Numerische Literale Zugriffsmodifizierer Typen Einfache Typen Zeichen Zeichenketten Optionale Typen Opaque Typen Kollektionen Arrays Sets Wörterbücher Funktionen Closures Aufzählungen Klassen Strukturen Protokolle Eigenschaften Methoden Indexierung Ablaufkontrolle for-in while repeat-while if switch Optionale Bindung Fehler Behandlung Konstanten Konstanten &amp;lt;constants&amp;gt; sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programmverlauf nicht mehr geändert werden können. Für die Deklarierung wird das Schlüsselwort let genutzt.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</guid>
+      <description>Swift Programm auf dem Terminal Der einfachste Weg ein Swift Programm zu erstellen und laufen zu lassen ist das Program in einen Text Editor zu schreiben und dann auf dem Terminal laufen zu lassen.
+Swift REPL auf dem Terminal: Das Terminal offen und swift eintippen. Es werden dann einige Angaben zu Swift ausgegeben und nach dem Prompt 1&amp;gt; kann man seinen Programm Code eingeben. Beendet wird Swift REPL durch die Eingabe von :quit.</description>
+    </item>
+    
+    <item>
+      <title>Klassen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/classes.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/classes.html</guid>
+      <description>Klassen Eine Klasse &amp;lt;class&amp;gt; ist ein Typ für referenzierbare Objekte zur Datenkapselung von Eigenschaften &amp;lt;properties&amp;gt; und Methoden &amp;lt;methodes&amp;gt;. Für die Deklarierung wird das Schlüsselwort class genutzt.
+// Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } </description>
+    </item>
+    
+    <item>
+      <title>Konstanten</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/constants.html</guid>
+      <description>Konstanten Konstanten sind Objekte zur Speicherung von Werten und/oder Funktionen, die nicht geändert werden können. Für die Deklarierung wird das Schlüsselwort &amp;rsquo;let&amp;rsquo; genutzt.
+// Allgemein let konstante: Typ = wert // Die Konstante &amp;#39;konstante&amp;#39; vom Typ &amp;#39;Typ&amp;#39; soll den Wert &amp;#39;wert&amp;#39; haben. // Beispiel 1 let c1: String = &amp;#34;volker&amp;#34; let c2 = &amp;#34;volker&amp;#34; // Compiler bestimmt den Typ [type inference] // Beispiel 2a // Die Konstante &amp;#39;function&amp;#39; speichert eine Funktion &amp;#39;gruesse&amp;#39;, die als Funktion übergeben wird.</description>
+    </item>
+    
+    <item>
+      <title>Operatoren</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</guid>
+      <description>Arithmetische Operatoren Addition +
+Subtraktion -
+Multiplikation *
+Division /
+Modulo %
+1 + 2 // --&amp;gt; 3 5 - 3 // --&amp;gt; 2 2 * 3 // --&amp;gt; 6 10.0 / 2.5 // --&amp;gt; 4.0 9 % 4 // --&amp;gt; 1 Zusammengesetzte Zuweisungsoperatoren zusammengesetzte Zuweisungsoperatoren &amp;lt;compound assignment operators&amp;gt; &amp;hellip; +=
+-=
+*=
+/=
+Inkrement und Dekrement Operatoren ++
+--
+var x = 1 ++x // --&amp;gt; 2 ++x // --&amp;gt; 3 --x // --&amp;gt; 2 --x // --&amp;gt; 1 --x // --&amp;gt; 0 Vergleichsoperatoren Gleich a == b</description>
+    </item>
+    
+    <item>
+      <title>Sets</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/sets.html</guid>
+      <description>Ein Set &amp;lt;set&amp;gt; ist eine ungeordnete Liste von unterschiedlichen Elementen. Für die Deklarierung wird das Schlüsselwort set genutzt.
+let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&amp;lt;Element : Hashable&amp;gt; // Definition @frozen struct Set&amp;lt;Element&amp;gt; where Element : Hashable Links: doku buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Swift Lint</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</guid>
+      <description>Text &amp;hellip;
+Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
+    </item>
+    
+    <item>
+      <title>Variable</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/variables.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/variables.html</guid>
+      <description>Variable sind Objekte zur Speicherung von Werten und/oder Funktionen, die im Programverlauf geändert werden können. Für die Deklarierung wird das Schlüsselwort &amp;lsquo;var&amp;rsquo; genutzt.
+var v1: String = &amp;#34;volker&amp;#34; var v2 = &amp;#34;volker&amp;#34; // Berechnete Variable [calculated property] var v3: String { &amp;#34;volker&amp;#34; } Links: buch</description>
+    </item>
+    
+    <item>
+      <title>Wörterbücher</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</guid>
+      <description>Ein Wörterbuch &amp;lt;dictionary&amp;gt; ist eine Liste von ungeordneten Schlüssel/Wert &amp;lt;key/value&amp;gt; Paaren. Für die Deklarierung wird das Schlüsselwort dictionary genutzt.
+let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // struct Dictionary&amp;lt;Key : Hashable, Value&amp;gt; // Definition @frozen struct Dictionary&amp;lt;Key, Value&amp;gt; where Key : Hashable var PersonenDictionary = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;, 7: &amp;#34;martin&amp;#34;, 5: &amp;#34;Michael&amp;#34;] for (key, value) in PersonenDictionary { print(String(key) + value) } Links: buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Zeichen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</guid>
+      <description>Zeichen &amp;lt;character&amp;gt;
+// Definition @frozen struct Character </description>
+    </item>
+    
+    <item>
+      <title>Zeichenketten</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</guid>
+      <description>strings
+// Definition @frozen struct String Links: doku buch</description>
+    </item>
+    
+    <item>
+      <title>Zugriffsmodifizierer</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</guid>
+      <description>Zugriffsmodifizierer Swift kennt fünf Zugriffsmodifikatoren (access modifiers) open public internal fileprivate und private.
+open open erlaubt den Zugriff von außerhalb eines Swift Moduls.
+Mit Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+open struct Person { // ... } public public erlaubt den Zugriff von außerhalb eines Swift Moduls. Ohne Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+public struct Person { // ... } internal internal erlaubt den Zugriff innerhalb eines Swift Moduls.</description>
+    </item>
+    
+  </channel>
+</rss>

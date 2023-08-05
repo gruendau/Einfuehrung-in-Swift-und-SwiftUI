@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>operator on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/operator.html</link>
+    <description>Recent content in operator on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/operator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operatoren</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</guid>
+      <description>Arithmetische Operatoren Addition +
+Subtraktion -
+Multiplikation *
+Division /
+Modulo %
+1 + 2 // --&amp;gt; 3 5 - 3 // --&amp;gt; 2 2 * 3 // --&amp;gt; 6 10.0 / 2.5 // --&amp;gt; 4.0 9 % 4 // --&amp;gt; 1 Zusammengesetzte Zuweisungsoperatoren zusammengesetzte Zuweisungsoperatoren &amp;lt;compound assignment operators&amp;gt; &amp;hellip; +=
+-=
+*=
+/=
+Inkrement und Dekrement Operatoren ++
+--
+var x = 1 ++x // --&amp;gt; 2 ++x // --&amp;gt; 3 --x // --&amp;gt; 2 --x // --&amp;gt; 1 --x // --&amp;gt; 0 Vergleichsoperatoren Gleich a == b</description>
+    </item>
+    
+  </channel>
+</rss>

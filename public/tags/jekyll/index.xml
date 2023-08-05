@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/jekyll.html</link>
+    <description>Recent content in jekyll on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/jekyll/intro.html</guid>
+      <description>Jekyll Jekyll ist ein Tool zur Erstellung von statischen Websites. Es wird von GitHub-Pages unterstützt.
+GitHub Pages with Jekyll: Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Site Configuration von Dataslice, 2021, 8 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Adding Posts von Dataslice, 2021, 11 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Customization von Dataslice, 2021, 12 min </description>
+    </item>
+    
+  </channel>
+</rss>

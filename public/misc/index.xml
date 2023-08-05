@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miscs on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc.html</link>
+    <description>Recent content in Miscs on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</guid>
+      <description>Diese Einführung in Swift und SwiftUI
+ist meiner liebsten Tante Hanna gewidmet,
+die kurz nach ihrem 86. Geburtstag im April 2023
+bei guter Gesundheit viel zu früh verstorben ist.</description>
+    </item>
+    
+  </channel>
+</rss>

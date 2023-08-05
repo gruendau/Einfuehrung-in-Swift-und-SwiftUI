@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/tool.html</link>
+    <description>Recent content in tool on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links roh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tools-raw.html</guid>
+      <description>Netlify Hugo with Netlify CMS and Github Pages GitHub repo
+Hugo Official home docu themes showcases github
+Links (deutsch) Eine statische Website mit Hugo generieren Thomas Leister, 2017 Ein eigenes Theme erstellen Thomas Leister, 2017 Links (englisch) Website Meine Website-Inhaberschaft bei Google bestätigen Google
+GitHub action What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions!</description>
+    </item>
+    
+  </channel>
+</rss>

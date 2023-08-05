@@ -5,6 +5,295 @@
     <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags.html</link>
     <description>Recent content in Tags on Einführung in Swift und SwiftUI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-DE</language><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>access-modifier</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/access-modifier.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/access-modifier.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>array</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/array.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/array.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootstrap</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/bootstrap.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/bootstrap.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>character</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/character.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/character.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>class</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/class.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/class.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/cli.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commands</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/commands.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/commands.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compiler</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/compiler.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/compiler.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>constant</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/constant.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/constant.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/css.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/css.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dictionary</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/dictionary.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/dictionary.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enumeration</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/enumeration.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/enumeration.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/github.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/github.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/go.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/go.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/html.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/html.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/hugo.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/hugo.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/jekyll.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/jekyll.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keyboard</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/keyboard.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/keyboard.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>link</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/link.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/link.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lint</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/lint.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/mac.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/mac.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modifier</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/modifier.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/modifier.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operator</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/operator.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/operator.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programm</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/programm.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/programm.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>set</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/set.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/set.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/string.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/string.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swift</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swift.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swift.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swiftui</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swiftui.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swiftui.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/terminal.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/terminal.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/tool.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/tool.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variable</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/variable.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/variable.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/zsh.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/zsh.html</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

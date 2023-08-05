@@ -1,0 +1,1892 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Roh - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/links/raw.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/links/apple.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/links/apple.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/links.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/links.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/links/tech.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/links/raw.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../links/raw.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Roh
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <p>Wie werde ich iOS Entwickler? <br>
+<a href="https://github.com/pitt500/how-to-become-an-ios-developer"><code>&quot;How to become an iOS Developer&quot;</code></a> <em><sub><code>by Pedro Rojas, 2021</code></sub></em></p>
+<p>iOS Development Toolbox <br>
+<a href="https://infinum.com/handbook/ios/tools/development-toolbox">A collaborative list of tools for iOS development</a> iOS Handbook, 2020 <br></p>
+<p>Fastlane Tools <br>
+<a href="https://docs.fastlane.tools/getting-started/ios/fastlane-swift/">Getting Started with Fastlane.swift</a> Fastlane docs <br></p>
+<p>Kivy <br>
+<a href="https://www.youtube.com/watch?v=OkW-1uzP5Og">Kivy crash course 6: Kivy properties</a> Alexander Taylor, 2014, 10 min <br></p>
+<hr>
+<p>Kinsta <br></p>
+<blockquote>
+<p><a href="https://kinsta.com/blog/python-frameworks/">25 Python Frameworks to Master in 2023</a> Kinsta, Daniel Diaz, 2023 <br>
+<a href="https://kinsta.com/blog/eleventy/">How To Craft a Stylish Static Website with Eleventy (11ty)</a> Kinsta, Joel Olawanle, 2023 <br>
+<a href="https://kinsta.com/de/blog/hugo-statische-seite/">Wie man mit Hugo eine rasend schnelle statische Seite erstellt</a> Kinsta, Brian Li, 2023 <br>
+<a href="https://kinsta.com/de/blog/beste-programmiersprache-lernen-sollte/">Was ist die beste Programmiersprache, die man 2021 lernen sollte?</a> Kinsta, Brenda Barron, 2021 <br>
+<a href="https://kinsta.com/blog/vscode-extensions/">Top 30 VS Code Extensions for Enhanced Programming Experience</a> Kinsta, Joel Olawanle, 2023  <br>
+<a href="https://kinsta.com/blog/how-to-push-code-to-github/">How To Push Code to GitHub: Step-by-Step</a> Kinsta, Jeremy Holcombe, 2023 <br></p>
+</blockquote>
+<p>Astro <br></p>
+<blockquote>
+<p><a href="https://kinsta.com/blog/astro-js/">What Is Astro? An Introduction to the Popular Static Site Generator</a> Kinsta, Maciek Palmowski, 2023 <br></p>
+</blockquote>
+<p><a href="https://kinsta.com/blog/static-site-generator/">Top 5 Static Site Generators in 2023 (and When to Use Them)</a> Kinsta, Matteo Duò, 2023 <br></p>
+<p><a href="https://kinsta.com/blog/how-do-apps-make-money/">How Do Apps Make Money? 10 Proven Strategies</a> Kinsta, Jeremy Holcombe, 2023 <br></p>
+<p>Jekyll <br>
+<a href="https://kinsta.com/blog/jekyll-static-site/">Jekyll Tutorial: How To Create a Static Website</a> Kinsta, Joel Olawanle, 2023 <br></p>
+<hr>
+<p>Docker <br>
+<a href="https://lerneprogrammieren.de/ueber-uns/">https://lerneprogrammieren.de/ueber-uns/</a></p>
+<p>GitHub <br>
+Verschlüsselung <br>
+[https://docs.github.com/de](http://&lt;a href=)/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https&quot;&gt;https://docs.github.com/de/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https</p>
+<p><a href="https://docs.github.com/de">https://docs.github.com/de</a></p>
+<p>HTML <br>
+Einbinden <br>
+<a href="https://www.tutorials.de/threads/html-element-in-html-einbinden.175357/">https://www.tutorials.de/threads/html-element-in-html-einbinden.175357/</a></p>
+<p><a href="https://www.html.de/threads/einbinden-einer-html-seite-in-eine-bestehende-html-seite.39128/">https://www.html.de/threads/einbinden-einer-html-seite-in-eine-bestehende-html-seite.39128/</a></p>
+<p><a href="https://www.mediaevent.de/html-object-tag/">https://www.mediaevent.de/html-object-tag/</a></p>
+<p><a href="https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe">https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe</a></p>
+<p><a href="https://www.w3schools.io/file/markdown-links/">https://www.w3schools.io/file/markdown-links/</a></p>
+<p><a href="https://www.w3schools.io/file/markdown-css/">https://www.w3schools.io/file/markdown-css/</a></p>
+<p>Style guide <br>
+<a href="https://www.markdownguide.org/basic-syntax">https://www.markdownguide.org/basic-syntax</a></p>
+<hr>
+<p>Hugo <br></p>
+<p>[Syntax highlighting](<a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a> Hugo <br></p>
+<p><a href="https://xyproto.github.io/splash/docs/">Chroma Style Gallery</a> <br></p>
+<p><a href="https://xyproto.github.io/splash/">splash</a> <br></p>
+<p><a href="https://wowchemy.com/docs/getting-started/get-started/">Edit your site</a> Alice Wu <br></p>
+<p><a href="https://gohugo.io/content-management/menus/">Menues</a> Hugo <br></p>
+<p><a href="https://gohugo.io/content-management/shortcodes/">Shortcodes</a> Hugo <br></p>
+<p><a href="https://gohugo.io/templates/shortcode-templates/">Create your own shortcodes</a>  Hugo <br></p>
+<p><a href=""></a> <br></p>
+<p>Verbose = ausführlich</p>
+<p><a href="https://twitter.com/gohugoio">twitter</a> <br></p>
+<p><a href="https://twitter.com/spf13">twitter</a> <br></p>
+<p><a href="https://twitter.com/bepsays">twitter</a> <br></p>
+<p><a href="https://jimfrenette.com/hugo/shortcodes/">Hugo Shortcodes</a> Jim Frenette <br></p>
+<p><a href="https://jimfrenette.com/2019/03/hugo-content-with-pages-nav/">Hugo Content with Pages and Navigation</a> Jim Frenette <br></p>
+<p><a href=""></a> <br></p>
+<p><a href=""></a> <br></p>
+<p><a href=""></a> <br></p>
+<p><a href="https://www.youtube.com/embed/GPTPGxnZ4MM">https://www.youtube.com/embed/GPTPGxnZ4MM</a></p>
+<hr>
+<p>Python Code <br>
+<a href="https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3">https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3</a></p>
+<p><a href="https://planetpython.org/">https://planetpython.org/</a></p>
+<hr>
+<p>Android <br></p>
+<p>Bill Butterfield - 4 Videos:
+<a href="https://m.youtube.com/watch?v=6ow3L39Wxmg">https://m.youtube.com/watch?v=6ow3L39Wxmg</a></p>
+<p>Daniel Malone - viele Videos:
+<a href="https://www.youtube.com/watch?v=M8GkQyog2M8">https://www.youtube.com/watch?v=M8GkQyog2M8</a></p>
+<p><a href="https://blog-en.openalfa.com/how-to-draw-graphics-in-android">https://blog-en.openalfa.com/how-to-draw-graphics-in-android</a></p>
+<p>[https://codelabs.developers.google.com/](http://&lt;a href=)codelabs/advanced-android-training-surfaceviews/index.html#0&quot;&gt;https://codelabs.developers.google.com/codelabs/advanced-android-training-surfaceviews/index.html#0</p>
+<p><a href="https://codelabs.developers.google.com/">https://codelabs.developers.google.com/</a></p>
+<p><a href="https://developer.android.com/reference/kotlin/android/view/SurfaceView.html">https://developer.android.com/reference/kotlin/android/view/SurfaceView.html</a></p>
+<p><a href="http://www.edu4java.com/en/androidgame/androidgame7.html">http://www.edu4java.com/en/androidgame/androidgame7.html</a></p>
+<p><a href="https://google-developer-training.github.io/android-developer-advanced-course-practicals/unit-5-advanced-graphics-and-views/lesson-11-canvas/11-2-p-create-a-surfaceview/11-2-p-create-a-surfaceview.html">https://google-developer-training.github.io/android-developer-advanced-course-practicals/unit-5-advanced-graphics-and-views/lesson-11-canvas/11-2-p-create-a-surfaceview/11-2-p-create-a-surfaceview.html</a></p>
+<p>Read Accelaration Sensor:
+<a href="http://mobiledevhub.com/2018/07/10/android-reading-raw-sensor-data/">http://mobiledevhub.com/2018/07/10/android-reading-raw-sensor-data/</a></p>
+<p>Sensor Overview:
+[https://developer.android.com/](http://&lt;a href=)guide/topics/sensors/sensors_overview&quot;&gt;https://developer.android.com/guide/topics/sensors/sensors_overview</p>
+<p>Android Developer:
+<a href="https://developer.android.com/">https://developer.android.com/</a></p>
+<p>Kotlin <br>
+<a href="https://kotlinlang.org/docs/books.html">https://kotlinlang.org/docs/books.html</a></p>
+<hr>
+<p>Spyder <br></p>
+<p><a href="https://docs.spyder-ide.org/">https://docs.spyder-ide.org/</a></p>
+<p><a href="https://fangohr.github.io/blog/spyder-the-scientific-python-development-environment.html">https://fangohr.github.io/blog/spyder-the-scientific-python-development-environment.html</a></p>
+<hr>
+<p><a href="https://www.youtube.com/watch?v=iukUMRlaBBE">https://www.youtube.com/watch?v=iukUMRlaBBE</a></p>
+<p><a href="https://de.m.wikipedia.org/wiki/Moog_Minimoog">https://de.m.wikipedia.org/wiki/Moog_Minimoog</a></p>
+<p>History of Minimoog:
+<a href="https://www.youtube.com/watch?v=xh4Ok0ex2vU">https://www.youtube.com/watch?v=xh4Ok0ex2vU</a></p>
+<hr>
+<p>Tutorials</p>
+<p>Python.org:
+<a href="https://www.python.org/doc/">https://www.python.org/doc/</a></p>
+<p>Telusko:
+<a href="https://www.youtube.com/user/javaboynavin/featured?disable_polymer=1">https://www.youtube.com/user/javaboynavin/featured?disable_polymer=1</a></p>
+<p>PyTutorials:
+<a href="https://www.youtube.com/channel/UCesEknt3SRX9R9W_f93Tb7g">https://www.youtube.com/channel/UCesEknt3SRX9R9W_f93Tb7g</a></p>
+<p>Orange in Black:
+<a href="https://www.youtube.com/user/OrangeOnBlack/featured?disable_polymer=1">https://www.youtube.com/user/OrangeOnBlack/featured?disable_polymer=1</a></p>
+<p>Top Ten:
+<a href="https://www.topzenith.com/2017/04/top-10-video-tutorials-to-learn-python.html?m=1">https://www.topzenith.com/2017/04/top-10-video-tutorials-to-learn-python.html?m=1</a></p>
+<p>Morpheus:
+<a href="https://www.youtube.com/channel/UCLGY6_j7kZfA1dmmjR1J_7w">https://www.youtube.com/channel/UCLGY6_j7kZfA1dmmjR1J_7w</a></p>
+<p>Corey Schafer:
+<a href="https://www.youtube.com/user/schafer5/featured?disable_polymer=1">https://www.youtube.com/user/schafer5/featured?disable_polymer=1</a></p>
+<p>Diddy Development:
+<a href="https://www.youtube.com/channel/UCeSlQgIAgY9dUdBdDWdZbSA/featured?disable_polymer=1">https://www.youtube.com/channel/UCeSlQgIAgY9dUdBdDWdZbSA/featured?disable_polymer=1</a></p>
+<p>Free Code Camp:
+<a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ</a></p>
+<hr>
+<p>Microcontroller <br>
+<a href="https://coding-for-tomorrow.de/">https://coding-for-tomorrow.de/</a></p>
+<p>&mdash; Mikrocontroller &mdash;
+Mikrocontroller.net:
+<a href="https://www.mikrocontroller.net/articles/Hauptseite">https://www.mikrocontroller.net/articles/Hauptseite</a></p>
+<p>Gerold Penz:
+<a href="https://halvar.at/elektronik/mikrocontroller_wie_anfangen/">https://halvar.at/elektronik/mikrocontroller_wie_anfangen/</a></p>
+<p>Stefan Frings:
+<a href="http://www.stefanfrings.de/index.html">http://www.stefanfrings.de/index.html</a></p>
+<p>&mdash; Arduino &mdash;
+eHaJo:
+<a href="https://www.youtube.com/watch?v=7IEsUs8QFFo">https://www.youtube.com/watch?v=7IEsUs8QFFo</a></p>
+<p>Bender:
+<a href="https://www.youtube.com/user/ChristianBender1">https://www.youtube.com/user/ChristianBender1</a></p>
+<p>DroneBot Workshop:
+<a href="https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w">https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w</a></p>
+<p>How to Mechatronics:
+<a href="https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/">https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/</a></p>
+<p>Elegoo Tutorial:
+<a href="https://github.com/rmorenojr/ElegooTutorial">https://github.com/rmorenojr/ElegooTutorial</a></p>
+<p>Arduino Tutorials:
+<a href="https://www.arduino.cc/en/Tutorial/HomePage">https://www.arduino.cc/en/Tutorial/HomePage</a></p>
+<p>Great Scott:
+<a href="https://www.youtube.com/user/greatscottlab">https://www.youtube.com/user/greatscottlab</a></p>
+<p>&mdash; AVR &mdash;
+AVR Library
+<a href="https://www.nongnu.org/avr-libc/">https://www.nongnu.org/avr-libc/</a></p>
+<p>&mdash; ESP32 &mdash;
+DroneBot Workshop:
+<a href="https://www.youtube.com/watch?v=xPlN_Tk3VLQ">https://www.youtube.com/watch?v=xPlN_Tk3VLQ</a></p>
+<p>Laurent Latorre:
+<a href="http://www.pomad.fr/node/2">http://www.pomad.fr/node/2</a></p>
+<p>LED-Matrix by Great Scott:
+LED-Bar
+<a href="https://www.youtube.com/watch?v=8pFcZ-ijrDY&amp;list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&amp;index=3">https://www.youtube.com/watch?v=8pFcZ-ijrDY&amp;list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&amp;index=3</a></p>
+<p>10 x 10 LED-Matrix
+<a href="https://www.youtube.com/watch?v=D_QBlFIQk-o">https://www.youtube.com/watch?v=D_QBlFIQk-o</a></p>
+<p>Hamburgtech:
+<a href="https://www.youtube.com/user/hamburgtechDE">https://www.youtube.com/user/hamburgtechDE</a></p>
+<p>&mdash; Bascom&mdash;
+Basic Programmierung von Amtel AVR Microcontollern
+<a href="https://de.www.wikipedia.org/wiki/BASCOM">https://de.www.wikipedia.org/wiki/BASCOM</a>
+<a href="https://halvar.at/elektronik/kleiner_bascom_avr_kurs/">https://halvar.at/elektronik/kleiner_bascom_avr_kurs/</a></p>
+<p>&mdash; DIVERSES &mdash;
+<a href="https://coding-for-tomorrow.de/">https://coding-for-tomorrow.de/</a></p>
+<p><a href="https://fritzing.org/home/">https://fritzing.org/home/</a></p>
+<p><a href="http://staff.ltam.lu/feljc/electronics/electronics.htm">http://staff.ltam.lu/feljc/electronics/electronics.htm</a></p>
+<p><a href="http://www.kreatives-chaos.com/">http://www.kreatives-chaos.com/</a></p>
+<hr>
+<p>Espruino <br>
+<a href="http://www.espruino.com/">http://www.espruino.com/</a></p>
+<p><a href="https://tessel.io/">https://tessel.io/</a></p>
+<p>Tessel-pl:
+<a href="https://wiki.tessel.pl/#all-updates">https://wiki.tessel.pl/#all-updates</a></p>
+<hr>
+<p>SWeetHome3D <br>
+<a href="http://www.sweethome3d.com/de/">http://www.sweethome3d.com/de/</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLqazFFzUAPc6vIE_JM3Ysis39MrANKxx">https://www.youtube.com/playlist?list=PLqazFFzUAPc6vIE_JM3Ysis39MrANKxx</a>_</p>
+<hr>
+<p>Raspberry Pi <br>
+<a href="https://archive.org/search.php?query=raspberry+pi&amp;and%5B%5D=mediatype%3A%22texts%22&amp;page=18">https://archive.org/search.php?query=raspberry+pi&amp;and%5B%5D=mediatype%3A%22texts%22&amp;page=18</a></p>
+<p>Befehle <br></p>
+<p><a href="https://maker-tutorials.com/35-raspberry-pi-linux-cli-terminal-befehle/#log-datei-leeren">https://maker-tutorials.com/35-raspberry-pi-linux-cli-terminal-befehle/#log-datei-leeren</a></p>
+<p><a href="https://www.elektronik-kompendium.de/sites/raspberry-pi/2107041.htm">https://www.elektronik-kompendium.de/sites/raspberry-pi/2107041.htm</a></p>
+<p>Frank Rost:
+<a href="http://informatik.rostfrank.de/">http://informatik.rostfrank.de/</a></p>
+<p>Stefan Frings:
+<a href="http://www.stefanfrings.de/">http://www.stefanfrings.de/</a></p>
+<p><a href="http://www.controllersandpcs.de/">http://www.controllersandpcs.de/</a></p>
+<p><a href="http://www.elektronik.nmp24.de/">http://www.elektronik.nmp24.de/</a></p>
+<p><a href="https://makezine.com/">https://makezine.com/</a></p>
+<p><a href="https://learnabout-electronics.org/">https://learnabout-electronics.org/</a></p>
+<p><a href="http://www.talkingelectronics.com/te_interactive_index.html">http://www.talkingelectronics.com/te_interactive_index.html</a></p>
+<p><a href="https://www.analog.com/en/search.html?q=">https://www.analog.com/en/search.html?q=</a>*&amp;Filters=resource_type_l2_fac_s:f8eadfaf64cf48afb4ad8b54198f6f2a_ff0fe204950d410a86fcfbe07d0464d8|resource_type_fac_s:f8eadfaf64cf48afb4ad8b54198f6f2a</p>
+<p><a href="https://archive.org/details/additional_collections">https://archive.org/details/additional_collections</a></p>
+<p><a href="https://archive.org/details/art-of-electronics-3e/page/449/mode/2up">https://archive.org/details/art-of-electronics-3e/page/449/mode/2up</a></p>
+<p><a href="https://archive.org/details/ataristmanuals?&amp;sort=-week&amp;page=10">https://archive.org/details/ataristmanuals?&amp;sort=-week&amp;page=10</a></p>
+<p>Schachbücher:
+<a href="https://archive.org/details/folkscanomy_chess?&amp;sort=-week&amp;page=3">https://archive.org/details/folkscanomy_chess?&amp;sort=-week&amp;page=3</a></p>
+<p>Textbooks:
+<a href="https://archive.org/details/opensource_textbooks?&amp;sort=-week&amp;page=75">https://archive.org/details/opensource_textbooks?&amp;sort=-week&amp;page=75</a></p>
+<p>Science:
+<a href="https://archive.org/details/folkscanomy_science?&amp;sort=-week&amp;page=30">https://archive.org/details/folkscanomy_science?&amp;sort=-week&amp;page=30</a></p>
+<p>Electronics:
+<a href="https://archive.org/details/folkscanomy_electronics">https://archive.org/details/folkscanomy_electronics</a></p>
+<p><a href="https://archive.org/details/folkscanomy_electronics?&amp;sort=-week&amp;page=30">https://archive.org/details/folkscanomy_electronics?&amp;sort=-week&amp;page=30</a></p>
+<p>Comics:
+<a href="https://archive.org/details/eFilingComics/05_Tintin_and_the_Blue_Lotus">https://archive.org/details/eFilingComics/05_Tintin_and_the_Blue_Lotus</a></p>
+<p>Make Projects:
+<a href="https://archive.org/details/makeprojects?&amp;sort=-week&amp;page=3">https://archive.org/details/makeprojects?&amp;sort=-week&amp;page=3</a></p>
+<p>TinTin:
+<a href="https://archive.org/details/01TintinInTheLandOfTheSoviets">https://archive.org/details/01TintinInTheLandOfTheSoviets</a></p>
+<hr>
+<p>openPLC <br></p>
+<p>Wolfsburg:
+<a href="https://www.xplore-dna.net/">https://www.xplore-dna.net/</a></p>
+<p>OpenPLC:
+<a href="https://www.openplcproject.com/plcopen-editor/">https://www.openplcproject.com/plcopen-editor/</a></p>
+<p><a href="https://www.openplcproject.com/">https://www.openplcproject.com/</a></p>
+<p><a href="https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-arduino-with-openplc-d17632">https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-arduino-with-openplc-d17632</a></p>
+<p>Thiago Alves:
+<a href="https://www.youtube.com/watch?v=-KHel7SyXsU">https://www.youtube.com/watch?v=-KHel7SyXsU</a></p>
+<hr>
+<p>VSCode <br>
+<a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a></p>
+<p>Blender <br>
+<a href="https://www.lucyda.de/virtual-life/blender-3d/blender-anfaenger-tutorial/">https://www.lucyda.de/virtual-life/blender-3d/blender-anfaenger-tutorial/</a></p>
+<hr>
+<p><a href="https://mertbakir.gitlab.io/hugo/this-is-my-design/">https://mertbakir.gitlab.io/hugo/this-is-my-design/</a></p>
+<p>Bitbucket <br>
+<a href="https://de.m.wikipedia.org/wiki/Bitbucket">https://de.m.wikipedia.org/wiki/Bitbucket</a></p>
+<p><a href="https://bitbucket.org/">https://bitbucket.org/</a></p>
+<p><a href="https://de.m.wikipedia.org/wiki/GitLab">https://de.m.wikipedia.org/wiki/GitLab</a></p>
+<p><a href="https://about.gitlab.com/">https://about.gitlab.com/</a></p>
+<p><a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/gitlab-vs-github/">https://www.ionos.de/digitalguide/websites/web-entwicklung/gitlab-vs-github/</a></p>
+<p><a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/git-tutorial/">https://www.ionos.de/digitalguide/websites/web-entwicklung/git-tutorial/</a></p>
+<p><a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/gitlab-tutorial/">https://www.ionos.de/digitalguide/websites/web-entwicklung/gitlab-tutorial/</a></p>
+<p>Swift Package Manager <br>
+<a href="https://ichi.pro/de/erstellen-erstellen-und-verknupfen-sie-ein-swift-paket-mit-einem-ios-projekt-95753804776948">https://ichi.pro/de/erstellen-erstellen-und-verknupfen-sie-ein-swift-paket-mit-einem-ios-projekt-95753804776948</a></p>
+<p>Viewmodifier <br></p>
+<p><a href="https://programmingwithswift.com/viewmodifier-in-swiftui/">https://programmingwithswift.com/viewmodifier-in-swiftui/</a></p>
+<hr>
+<p>Javascript <br>
+<a href="https://freefrontend.com/html-menu-with-javascript/">https://freefrontend.com/html-menu-with-javascript/</a></p>
+<p>p5js <br>
+<a href="https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames">https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames</a>
+<a href="https://www.p5js.gym-wst.de/de/p5jsplay">https://www.p5js.gym-wst.de/de/p5jsplay</a></p>
+<p><a href="https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek">https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek</a></p>
+<p><a href="https://happycoding.io/">https://happycoding.io/</a></p>
+<p><a href="https://p5js.org/">https://p5js.org/</a></p>
+<p><a href="https://p5js.org/examples/">https://p5js.org/examples/</a></p>
+<p>Videos:
+<a href="https://www.youtube.com/@StevesMakerspace">https://www.youtube.com/@StevesMakerspace</a>
+<a href="https://www.youtube.com/watch?v=ig0q6vfpD38">https://www.youtube.com/watch?v=ig0q6vfpD38</a></p>
+<p><a href="https://github.com/StevesMakerspace">https://github.com/StevesMakerspace</a></p>
+<p>mouseX, mouseY
+<a href="https://m.youtube.com/watch?v=7A5tKW9HGoM">https://m.youtube.com/watch?v=7A5tKW9HGoM</a></p>
+<p>Web Editor:
+<a href="https://p5js.net/">https://p5js.net/</a></p>
+<p>Processing <br></p>
+<p><a href="http://dada.compart-bremen.de/">http://dada.compart-bremen.de/</a></p>
+<p>py-Exsamples:
+<a href="https://github.com/jdf/processing.py/tree/master/examples.py">https://github.com/jdf/processing.py/tree/master/examples.py</a></p>
+<p><a href="https://github.com/villares/py.processing-play?files=1">https://github.com/villares/py.processing-play?files=1</a></p>
+<p><a href="https://gist.github.com/marcedwards/">https://gist.github.com/marcedwards/</a></p>
+<hr>
+<p>Netlify <br>
+<a href="https://cli.netlify.com/getting-started">Netlify CLI - Getting started</a> Netlify</p>
+<p>CI/CD wiki <a href="https://de.wikipedia.org/wiki/CI/CD">https://de.wikipedia.org/wiki/CI/CD</a></p>
+<p>Tutorials <br>
+<a href="https://www.freecodecamp.org/news/publish-your-website-netlify-github/">How to Publish an HTML Website on Netlify or GitHub Pages</a> Vasyl Lagutin, 2021</p>
+<p>Video <br>
+<a href="https://www.youtube.com/playlist?list=PLzlG0L9jlhEPMR8haUPkxj2hJ_3jh5qa6">15 Netlify Tutorials</a> Netlify <br>
+<a href="https://www.youtube.com/watch?v=mT5siI19gtc">Netlify Tutorial - How to build and deploy websites using Netlify</a> Free Code Camp, 2019, 213 min <br></p>
+<hr>
+<p><a href="https://de.www.wikipedia.org/wiki/Bootstrap_(Framework)">https://de.www.wikipedia.org/wiki/Bootstrap_(Framework)</a></p>
+<p>HTML
+<a href="https://www.youtube.com/watch?v=3Djmh7V70NE"></a></p>
+<p><a href="https://www.youtube.com/watch?v=2g_kiCGC5PE"></a></p>
+<p><a href="https://www.youtube.com/watch?v=jv_cs0I60C4"></a></p>
+<p>[](<a href="https://www.youtube.com/watch?v=_rHC2hFB_XY(">https://www.youtube.com/watch?v=_rHC2hFB_XY(</a></p>
+<p><a href="https://www.youtube.com/watch?v=-51dn7yCT48"></a></p>
+<p><a href="https://www.youtube.com/watch?v=P9Sj3aRbX54"></a></p>
+<p><a href="https://www.youtube.com/watch?v=OU8EeRWNBDY">01 </a></p>
+<p><a href="https://www.youtube.com/watch?v=QyZPEwgogA4">02 </a></p>
+<p><a href="https://www.youtube.com/watch?v=dN7D3__O6K4">03</a></p>
+<p><a href="https://www.youtube.com/watch?v=zbYsgmWaTPk">04 </a></p>
+<p><a href="https://www.youtube.com/watch?v=QZad9eDe4cI">05 </a></p>
+<p><a href="https://www.youtube.com/watch?v=UNwqtASpvyMq">06 </a></p>
+<p><a href="https://www.youtube.com/watch?v=hPiOHFXxJp0">07</a></p>
+<p><a href="https://www.youtube.com/watch?v=GEujtYwX3uQ"> </a></p>
+<p>Git
+<a href="https://www.youtube.com/watch?v=N-vFTYEqguU"></a></p>
+<p><a href="https://www.youtube.com/watch?v=V0bXqLxIivo"></a></p>
+<p><a href="https://www.youtube.com/watch?v=_VPpFU3Jyq4"></a></p>
+<p><a href="https://www.youtube.com/watch?v=v1ibwg3zaQQ"></a></p>
+<p>Sass
+<a href="https://www.youtube.com/watch?v=Om3XeeSTN0U"></a></p>
+<p><a href="https://www.youtube.com/watch?v=Xgt4DWVioQg"></a></p>
+<p><a href="https://www.youtube.com/watch?v=0_hNJPMgFAg"></a></p>
+<p>[](</p>
+<p><a href="https://icons.getbootstrap.com/icons/youtube/">https://icons.getbootstrap.com/icons/youtube/</a></p>
+<hr>
+<h3 id="npm">npm</h3>
+<blockquote>
+<p><a href="">Update NPM Packages easily with GUI | Tutorial | Node.js</a> Future Web Design, 2023, 5 min <br></p>
+</blockquote>
+<hr>
+<p><a href="https://www.youtube.com/watch?v=Uszj_k0DGsg">Git for Professionals Tutorial - Tools &amp; Concepts for Mastering Version Control with Git</a> Tobias Günther <br></p>
+<p><a href="https://www.git-tower.com/">https://www.git-tower.com/</a></p>
+<hr>
+<p>SwiftUI for Terminal:
+<a href=""></a> <br>
+<a href="https://github.com/rensbreur/SwiftTUI">https://github.com/rensbreur/SwiftTUI</a></p>
+<hr>
+<p>if else <br></p>
+<p><a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br></p>
+<p><a href="https://www.programiz.com/swift-programming/if-else-statement">https://www.programiz.com/swift-programming/if-else-statement</a></p>
+<p><a href="https://www.swiftanytime.com/blog/if-else-switch-case-in-swift">https://www.swiftanytime.com/blog/if-else-switch-case-in-swift</a></p>
+<p><a href="https://www.w3schools.io/languages/swift-if-conditional/">https://www.w3schools.io/languages/swift-if-conditional/</a></p>
+<p><a href="https://www.youtube.com/watch?v=Ax5roqgpj-8">https://www.youtube.com/watch?v=Ax5roqgpj-8</a></p>
+<p><a href="https://dev.to/iosmayank/swift-if-else-switch-case-conditional-statements-akl">https://dev.to/iosmayank/swift-if-else-switch-case-conditional-statements-akl</a></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/understanding-swift/whats-the-difference-between-if-and-else-if">https://www.hackingwithswift.com/quick-start/understanding-swift/whats-the-difference-between-if-and-else-if</a></p>
+<p><a href="https://www.geeksforgeeks.org/swift-if-else-if-statement/">https://www.geeksforgeeks.org/swift-if-else-if-statement/</a></p>
+<p><a href="https://www.logilax.com/swift-if-else/">https://www.logilax.com/swift-if-else/</a></p>
+<p><a href="https://www.codingninjas.com/studio/library/swift-if-else-statements">https://www.codingninjas.com/studio/library/swift-if-else-statements</a></p>
+<p><a href="https://agrawalsuneet.github.io/blogs/if-vs-if-let-vs-guard-let-in-swift/">https://agrawalsuneet.github.io/blogs/if-vs-if-let-vs-guard-let-in-swift/</a></p>
+<p><a href="https://www.hackingwithswift.com/read/0/8/conditional-statements">https://www.hackingwithswift.com/read/0/8/conditional-statements</a></p>
+<p><a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/">https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/</a></p>
+<hr>
+<p>Binding <br></p>
+<p><a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br></p>
+<p>.constant(true) <br>
+<a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-constant-bindings">How to create constant bindings</a> Paul Hudsin, 2021 <br></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-custom-bindings">How to create custom bindings</a> Paul Hudson, 2021 <br></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/two-way-bindings-in-swiftui">Two-way bindings in SwiftUI</a> Paul Hudson, 2022 <br></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-animate-changes-in-binding-values">How to animate changes in binding values</a> Paul Hudson, 2022 <br></p>
+<p><a href="https://www.ralfebert.de/ios/swiftui-bindings/">https://www.ralfebert.de/ios/swiftui-bindings/</a></p>
+<p><a href="https://www.waldo.com/blog/complete-guide-to-swiftui-binding">https://www.waldo.com/blog/complete-guide-to-swiftui-binding</a></p>
+<p>Janina, Marcel</p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-binding-property-wrapper">What is the @Binding property wrapper?</a></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/bindings-and-forms">https://www.hackingwithswift.com/quick-start/swiftui/bindings-and-forms</a></p>
+<p><a href="https://swiftwithmajid.com/2020/04/08/binding-in-swiftui/">https://swiftwithmajid.com/2020/04/08/binding-in-swiftui/</a></p>
+<p><a href="https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22affd9a">https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22affd9a</a></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-patterns-bindings/">https://www.fivestars.blog/articles/swiftui-patterns-bindings/</a></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-patterns-closures/">https://www.fivestars.blog/articles/swiftui-patterns-closures/</a></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-patterns-view-builders/">https://www.fivestars.blog/articles/swiftui-patterns-view-builders/</a></p>
+<hr>
+<p>Pattern <br></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-patterns-closures/">https://www.fivestars.blog/articles/swiftui-patterns-closures/</a></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-patter-passing-views/">SwiftUI patterns: passing &amp; accepting views</a> Frederico Zanetello, 2021 <br></p>
+<p><a href="https://www.fivestars.blog/articles/design-system-composing-views/">https://www.fivestars.blog/articles/design-system-composing-views/</a></p>
+<p><a href="https://www.fivestars.blog/articles/impossible-swiftui-views/">https://www.fivestars.blog/articles/impossible-swiftui-views/</a></p>
+<p><a href="https://www.fivestars.blog/articles/swiftui-share-layout-information/">https://www.fivestars.blog/articles/swiftui-share-layout-information/</a></p>
+<hr>
+<p>Git and Github <br>
+<a href="https://www.youtube.com/watch?v=uGLQF2kUwOA">https://www.youtube.com/watch?v=uGLQF2kUwOA</a></p>
+<p><a href="https://www.youtube.com/watch?v=0jzjz4MZ4ZU">https://www.youtube.com/watch?v=0jzjz4MZ4ZU</a></p>
+<p><a href="https://www.youtube.com/watch?v=u_sF3cAZddY">https://www.youtube.com/watch?v=u_sF3cAZddY</a></p>
+<p><a href="https://www.youtube.com/watch?v=7h6_aZZ_iNg">https://www.youtube.com/watch?v=7h6_aZZ_iNg</a></p>
+<p><a href="https://www.youtube.com/watch?v=DVRQoVRzMIY">https://www.youtube.com/watch?v=DVRQoVRzMIY</a></p>
+<p><a href="https://www.youtube.com/watch?v=jG4Vs81kMlc">https://www.youtube.com/watch?v=jG4Vs81kMlc</a></p>
+<p><a href="https://www.youtube.com/watch?v=fJtyf62yAb8">https://www.youtube.com/watch?v=fJtyf62yAb8</a></p>
+<p><a href="https://www.youtube.com/watch?v=GqNAD4XoZ6k">https://www.youtube.com/watch?v=GqNAD4XoZ6k</a></p>
+<p>Pre-commit <br>
+<a href="https://www.youtube.com/watch?v=psjz6rwzMdk">https://www.youtube.com/watch?v=psjz6rwzMdk</a></p>
+<p>Hooks <br>
+<a href="https://www.youtube.com/watch?v=fMYv6-SZsSo">https://www.youtube.com/watch?v=fMYv6-SZsSo</a></p>
+<p>Docker <br>
+<a href="https://www.youtube.com/watch?v=SOdtw8milyw">https://www.youtube.com/watch?v=SOdtw8milyw</a></p>
+<p><a href="https://www.youtube.com/watch?v=YFl2mCHdv24">https://www.youtube.com/watch?v=YFl2mCHdv24</a></p>
+<p><a href="https://www.youtube.com/watch?v=DESdVoKhIxY">https://www.youtube.com/watch?v=DESdVoKhIxY</a></p>
+<p><a href="https://www.youtube.com/watch?v=0jC5B9iTF_g">https://www.youtube.com/watch?v=0jC5B9iTF_g</a></p>
+<p><a href="https://www.youtube.com/watch?v=3YP0eUHdLc8">https://www.youtube.com/watch?v=3YP0eUHdLc8</a></p>
+<p><a href="https://www.youtube.com/watch?v=DESdVoKhIxY">https://www.youtube.com/watch?v=DESdVoKhIxY</a></p>
+<p><a href="https://www.youtube.com/watch?v=WcQ3-M4-jik">https://www.youtube.com/watch?v=WcQ3-M4-jik</a></p>
+<p><a href="https://www.youtube.com/watch?v=3c-iBn73dDE">https://www.youtube.com/watch?v=3c-iBn73dDE</a></p>
+<p><a href="https://www.youtube.com/watch?v=bKFMS5C4CG0">https://www.youtube.com/watch?v=bKFMS5C4CG0</a></p>
+<p><a href="https://www.youtube.com/watch?v=OU6xOM0SE4o">https://www.youtube.com/watch?v=OU6xOM0SE4o</a></p>
+<p><a href="https://www.youtube.com/watch?v=xrUGEoUpa3s">https://www.youtube.com/watch?v=xrUGEoUpa3s</a></p>
+<p><a href="https://www.youtube.com/@DockerIo/videos">https://www.youtube.com/@DockerIo/videos</a></p>
+<hr>
+<hr>
+<p>GeometryReader <br></p>
+<p><a href="https://swiftui-lab.com/geometryreader-to-the-rescue/">https://swiftui-lab.com/geometryreader-to-the-rescue/</a></p>
+<p><a href="https://swiftwithmajid.com/2020/11/04/how-to-use-geometryreader-without-breaking-swiftui-layout/">https://swiftwithmajid.com/2020/11/04/how-to-use-geometryreader-without-breaking-swiftui-layout/</a></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader">https://www.hackingwithswift.com/quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader</a></p>
+<p><a href="https://www.rootstrap.com/blog/how-to-use-geometryreader-in-swiftui">https://www.rootstrap.com/blog/how-to-use-geometryreader-in-swiftui</a></p>
+<p><a href="https://daddycoding.com/2020/02/26/swiftui-geometryreader/">https://daddycoding.com/2020/02/26/swiftui-geometryreader/</a></p>
+<p><a href="https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader">https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader</a></p>
+<p><a href="https://medium.com/devtechie/geometryreader-in-swiftui-b888a8ab349f">https://medium.com/devtechie/geometryreader-in-swiftui-b888a8ab349f</a></p>
+<p><a href="https://www.swiftanytime.com/blog/geometry-reader-in-swiftui">https://www.swiftanytime.com/blog/geometry-reader-in-swiftui</a></p>
+<p><a href="https://ishtiz.com/swiftui/mastering-geometryreader-in-swiftui">https://ishtiz.com/swiftui/mastering-geometryreader-in-swiftui</a></p>
+<p><a href="https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-geometryreader">https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-geometryreader</a></p>
+<p><a href="https://www.youtube.com/watch?v=AXGrYI78hIo">https://www.youtube.com/watch?v=AXGrYI78hIo</a></p>
+<p>Optional <br></p>
+<p><a href="https://www.programiz.com/swift-programming/optionals">https://www.programiz.com/swift-programming/optionals</a></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-optionals">https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-optionals</a></p>
+<p><a href="https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-make-us-unwrap-optionals">https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-make-us-unwrap-optionals</a></p>
+<p><a href="https://medium.com/@ranleung/understanding-optionals-in-swift-540bfa0e44c7">https://medium.com/@ranleung/understanding-optionals-in-swift-540bfa0e44c7</a></p>
+<p><a href="https://blog.devgenius.io/optional-binding-in-swift-c069b80ebc4d">https://blog.devgenius.io/optional-binding-in-swift-c069b80ebc4d</a></p>
+<p><a href="https://www.hackingwithswift.com/read/0/12/optionals">https://www.hackingwithswift.com/read/0/12/optionals</a></p>
+<p><a href="https://www.appypie.com/app-builder/swift-optionals-how-to">https://www.appypie.com/app-builder/swift-optionals-how-to</a></p>
+<p><a href="https://www.tutorialspoint.com/swift/swift_optionals.htm#">https://www.tutorialspoint.com/swift/swift_optionals.htm#</a></p>
+<p><a href="https://www.javatpoint.com/optional-in-swift">https://www.javatpoint.com/optional-in-swift</a></p>
+<p>[https://khawerkhaliq.com/](http://&lt;a href=)blog/swift-optionals/&quot;&gt;https://khawerkhaliq.com/blog/swift-optionals/</p>
+<p>[https://khawerkhaliq.com/](http://&lt;a href=)blog/swift-optional-binding/&quot;&gt;https://khawerkhaliq.com/blog/swift-optional-binding/</p>
+<p><a href="https://www.tutlane.com/tutorial/swift/swift-optionals">https://www.tutlane.com/tutorial/swift/swift-optionals</a></p>
+<p><a href="https://cocoacasts.com/what-is-an-optional-in-swift/">https://cocoacasts.com/what-is-an-optional-in-swift/</a></p>
+<p><a href="https://www.hackingwithswift.com/example-code/language/what-is-the-nil-coalescing-operator">https://www.hackingwithswift.com/example-code/language/what-is-the-nil-coalescing-operator</a></p>
+<p><a href="https://im-coder.com/warum-sollten-sie-implicitly-unwrapped-optionals-erstellen-da-sie-wissen-dass-es-einen-wert-gibt.html">https://im-coder.com/warum-sollten-sie-implicitly-unwrapped-optionals-erstellen-da-sie-wissen-dass-es-einen-wert-gibt.html</a></p>
+<p>Deutsch <br>
+[https://isolution.pro/de/t/swift](http://&lt;a href=)/swift-optionals/swift-optionals&quot;&gt;https://isolution.pro/de/t/swift/swift-optionals/swift-optionals&quot;&gt;[https://isolution.pro/de/t/swift](http://&lt;a href=)/swift-optionals/swift-optionals&quot;&gt;https://isolution.pro/de/t/swift/swift-optionals/swift-optionals</p>
+<p><a href="https://isolution.pro/de/t/swift">https://isolution.pro/de/t/swift</a></p>
+<p>Optional Chaining <br>
+<a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/optionalchaining/">https://docs.swift.org/swift-book/documentation/the-swift-programming-language/optionalchaining/</a></p>
+<p>[https://khawerkhaliq.com/](http://&lt;a href=)blog/swift-optional-chaining/&quot;&gt;https://khawerkhaliq.com/blog/swift-optional-chaining/</p>
+<p><a href="https://www.geeksforgeeks.org/optional-chaining-in-swift/">https://www.geeksforgeeks.org/optional-chaining-in-swift/</a></p>
+<p><a href="https://medium.com/@rudraniwankhade/optional-chaining-in-swift-8b358f2afbdb">https://medium.com/@rudraniwankhade/optional-chaining-in-swift-8b358f2afbdb</a></p>
+<p><a href="https://www.javatpoint.com/swift-optional-chaining">https://www.javatpoint.com/swift-optional-chaining</a></p>
+<p>Links <br>
+<a href="https://khawerkhaliq.com/">https://khawerkhaliq.com/</a></p>
+<p>Defer <br></p>
+<p><a href="https://blog.logrocket.com/complete-guide-swift-defer-statement/">https://blog.logrocket.com/complete-guide-swift-defer-statement/</a></p>
+<p><a href="https://www.hackingwithswift.com/new-syntax-swift-2-defer">https://www.hackingwithswift.com/new-syntax-swift-2-defer</a></p>
+<p><a href="https://www.tutorialkart.com/swift-tutorial/swift-defer/#gsc.tab=0">https://www.tutorialkart.com/swift-tutorial/swift-defer/#gsc.tab=0</a></p>
+<p><a href="https://www.advancedswift.com/when-to-use-defer-in-swift/">https://www.advancedswift.com/when-to-use-defer-in-swift/</a></p>
+<p><a href="https://medium.com/swlh/using-the-defer-keyword-in-swift-b7916fa40f26">https://medium.com/swlh/using-the-defer-keyword-in-swift-b7916fa40f26</a></p>
+<p><a href="https://www.avanderlee.com/swift/defer-usage-swift/">https://www.avanderlee.com/swift/defer-usage-swift/</a></p>
+<p><a href="https://www.hackingwithswift.com/example-code/language/how-to-delay-execution-of-code-using-the-defer-keyword">https://www.hackingwithswift.com/example-code/language/how-to-delay-execution-of-code-using-the-defer-keyword</a></p>
+<p><a href="https://ichi.pro/de/was-ist-das-keyword-defer-in-swift-116645652475465">https://ichi.pro/de/was-ist-das-keyword-defer-in-swift-116645652475465</a></p>
+<p><a href="https://needoneapp.medium.com/what-is-keyword-defer-in-swift-6a16aeae2e49">https://needoneapp.medium.com/what-is-keyword-defer-in-swift-6a16aeae2e49</a></p>
+<p><a href="https://medium.com/@iostpointblog/what-is-defer-keyword-in-swift-e6f0a7878f93">https://medium.com/@iostpointblog/what-is-defer-keyword-in-swift-e6f0a7878f93</a></p>
+<p>[https://kelvas09.github.io/blog/posts/](http://&lt;a href=)defer/&quot;&gt;https://kelvas09.github.io/blog/posts/defer/</p>
+<p><a href="https://medium.com/@mahirekici3/the-defer-keyword-in-swift-80330aac73f9">https://medium.com/@mahirekici3/the-defer-keyword-in-swift-80330aac73f9</a></p>
+<p><a href="https://mobikul.com/how-to-use-the-defer-keyword-in-swift/">https://mobikul.com/how-to-use-the-defer-keyword-in-swift/</a></p>
+<p><a href="https://www.tutorialspoint.com/what-is-defer-in-swift">https://www.tutorialspoint.com/what-is-defer-in-swift</a></p>
+<p><a href="https://medium.com/@sergeysmagleev/how-defer-operator-in-swift-actually-works-30dbacb3477b">https://medium.com/@sergeysmagleev/how-defer-operator-in-swift-actually-works-30dbacb3477b</a></p>
+<p><a href="https://medium.com/swift-programming/defer-usage-in-swift-53b51b64d4c7">https://medium.com/swift-programming/defer-usage-in-swift-53b51b64d4c7</a></p>
+<p><a href="https://borgs.cybrilla.com/tils/defer-keyword-in-swift/">https://borgs.cybrilla.com/tils/defer-keyword-in-swift/</a></p>
+<p>Links <br>
+<a href="https://kelvas09.github.io/blog/posts/">https://kelvas09.github.io/blog/posts/</a></p>
+<hr>
+<hr>
+<p><a href="https://isolution.pro/de/q/so69431463/was-ist-das-schlusselwort-some-in-swift-ui">???</a> <br></p>
+<p>Programmierung Bücher <br></p>
+<blockquote>
+<p><a href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a> <br></p>
+</blockquote>
+<p>Shell <br></p>
+<blockquote>
+<p><a href="https://openbook.rheinwerk-verlag.de/shell_programmierung/">Shell-Programmierung</a> Jürgen Wolf, 2004, S.782, DE <br>
+<a href="https://openbook.rheinwerk-verlag.de/linux_unix_programmierung/">Linux-UNIX-Programmierung</a> Jürgen Wolf, 2006, S.1216, DE <br>
+<a href="https://openbook.rheinwerk-verlag.de/unix_guru/">Wie werde ich UNIX-Guru?</a> Arnold Willemer, 2003, DE <br></p>
+</blockquote>
+<p>Git <br></p>
+<blockquote>
+<p><a href="http://gitbu.ch/pr01.html">Git</a> Valentin Haenel, Julius Plenz, 2016, S., DE<br>
+<a href="http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/">Git magic</a>  Benjamin Bellee, Armin Stebich, 2007, DE <br>
+<a href="https://git-scm.com/book/de/v2">Pro git</a> <br></p>
+</blockquote>
+<p>iOS <br></p>
+<blockquote>
+<p><a href="https://openbook.rheinwerk-verlag.de/apps_programmieren_fuer_iphone_und_ipad/">Apps programmieren für iPhone und iPad</a> Klaus M. Rodewig, Clemens Wagner, 2014, S.1172, DE <br></p>
+</blockquote>
+<p>HTML <br></p>
+<blockquote>
+<p><a href="http://webkompetenz.wikidot.com/docs:html-handbuch">HTML5-Handbuch</a> Stefan Münz, <br></p>
+</blockquote>
+<p>Sites <br></p>
+<blockquote>
+<p><a href="https://www.toolsqa.com/">Selenium Online Trainings</a> Selenium, 2022 <br></p>
+</blockquote>
+<p>Documentation <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/self-documenting-code/">Self-documenting code in Swift to increase readability</a> Antoine van der Lee, 2022 <br></p>
+</blockquote>
+<hr>
+<h3 id="swift">Swift</h3>
+<p>Defer <br>
+<a href="https://www.advancedswift.com/when-to-use-defer-in-swift/">https://www.advancedswift.com/when-to-use-defer-in-swift/</a></p>
+<p>As, as!, as?, is <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2020/as/">as, as?, and as!</a> Ole Begemann, 2020 <br></p>
+</blockquote>
+<p>Closures <br>
+<a href="https://rensbr.eu/blog/swiftui-escaping-closures/">Don&rsquo;t use escaping closures in SwiftUI</a> Rens Breur, 2022 <br></p>
+<p>Enums <br>
+<a href="https://medium.com/gitconnected/mastering-enums-in-swift-a-comprehensive-guide-3fb4394445a3">Mastering Enums in Swift: A Comprehensive Guide</a> Raúl Ferrer, 2023 <br></p>
+<p>Some <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/some-opaque-types/">Some keyword in Swift: Opaque types explained with code examples</a> Antoine van der Lee, 2022 <br></p>
+</blockquote>
+<p>Any <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/anyobject-any/">AnyObject, Any, and any: When to use which?</a> Antoine van der Lee, 2022 <br>
+<a href="https://www.avanderlee.com/swift/existential-any/">Existential any in Swift explained with code examples</a> Antoine van der Lee, 2022 <br></p>
+</blockquote>
+<p>Computed Property <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/computed-property/">What is a Computed Property in Swift?</a> Antoine van der Lee, 2021 <br></p>
+</blockquote>
+<p>Generics: <br></p>
+<blockquote>
+<p><a href="https://www.hackingwithswift.com/plus/intermediate-swift/understanding-generics-part-1">Understanding generics</a> Paul Hudson <br>
+<a href="https://theswiftdev.com/beginners-guide-to-modern-generic-programming-in-swift/">Beginner&rsquo;s guide to modern generic programming in Swift</a> The Swift Dev, 2022 <br></p>
+</blockquote>
+<p>Optionals <br></p>
+<blockquote>
+<p><a href="https://www.hackingwithswift.com/plus/advanced-swift/making-the-most-of-optionals">Making the most of optionals</a> Paul Hudson</p>
+</blockquote>
+<p>Phantom Types <br></p>
+<blockquote>
+<p><a href="https://www.hackingwithswift.com/plus/advanced-swift/how-to-use-phantom-types-in-swift">How to use phantom types in Swift</a> Paul Hudson <br></p>
+</blockquote>
+<p>Random <br></p>
+<blockquote>
+<p><a href="https://oleb.net/blog/2018/06/random-numbers-in-swift/">Random numbers in Swift</a> Ole Begemann, 2018 <br></p>
+</blockquote>
+<p>CaseIterable <br></p>
+<blockquote>
+<p><a href="https://oleb.net/blog/2018/06/enumerating-enum-cases/">Enumerating enum cases in Swift</a> Ole Begemann, 2020 <br></p>
+</blockquote>
+<p>Lazy <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2018/lastindex-reversed/">It’s wrappers all the way down</a> Ole Begemann, 2018 <br></p>
+</blockquote>
+<p>@main <br></p>
+<blockquote>
+<p><a href="https://medium.com/@3jacksonsmith/how-swiftui-project-works-understanding-it-2ac130fb0c39">How SwiftUI Works? Understanding it</a> Jackson Smith, 2022 <br></p>
+</blockquote>
+<p>Property wrapper <br></p>
+<blockquote>
+<p><a href="https://www.ralfebert.de/swift/property-wrapper/">Property Wrapper in Swift</a> Ralf Ebert, 2021 <br>
+<a href="https://www.vadimbulavin.com/swift-5-property-wrappers/">The Complete Guide to Property Wrappers in Swift 5</a> Vadim Bulavin, 2019 <br>
+<a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers">Property Wrappers</a> Apple <br>
+<a href="https://nshipster.com/propertywrapper/">Swift Property Wrappers</a> Mattt, 2019 <br></p>
+</blockquote>
+<hr>
+<h3 id="swiftui">SwiftUI</h3>
+<p>@ViewBuilder <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swiftui/viewbuilder/">@ViewBuilder usage explained with code examples</a> Antoine van der Lee, 2022 <br>
+<a href="https://www.youtube.com/watch?v=nokF9nKoXpQ">SwiftUI ViewBuilders Tutorial (2021, Xcode 12, SwiftUI 2.0) - iOS</a> iOS Academy, 2021, 13 min <br>
+<a href="https://www.youtube.com/watch?v=pXmBRK1BjLw">How to use @ViewBuilder in SwiftUI | Advanced Learning #9</a> Swiftful Thinking, 24 min <br>
+<a href="https://www.youtube.com/watch?v=LVQveaHC7qg">How to use SwiftUI ViewBuilder Tutorial</a> <br>
+<a href="https://www.youtube.com/watch?v=IbxBRzTBeC0">Understanding SwiftUI ViewBuilders</a> Stewart Lynch, 2021, 22 min<br>
+<a href="https://www.youtube.com/watch?v=t-NTRDQP3FQ">@ViewBuilder , TupleView , AnyView in SwiftUI || SwiftUI Reusable View</a> App Developer, 2022, 17 min <br>
+<a href="https://www.youtube.com/watch?v=-rKmwivlh48">SwiftUI View Builder - SwiftUI Custom Views And Containers - SwiftUI 2.0 Tutorials</a> Kavsoft, 2021, 8 min <br>
+<a href="https://blog.devgenius.io/swift-ui-viewbuilder-2205d424cadc">Swift UI: ViewBuilder</a> Mesut G. <br>
+<a href="https://serialcoder.dev/text-tutorials/swiftui/using-the-viewbuilder-attribute-to-implement-swiftui-views-in-methods/">Using the ViewBuilder Attribute to Implement SwiftUI Views in Methods</a> SerialCoder.dev, 2022 <br></p>
+</blockquote>
+<p>ResultBuilder <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/result-builders/">Result builders in Swift explained with code examples</a> Antoine van der Lee, 2022 <br></p>
+</blockquote>
+<p>Auto Layout <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swift/auto-layout-programmatically/">Auto Layout in Swift: Writing constraints programmatically</a> Antoine van der Lee, 2019 <br></p>
+</blockquote>
+<p>Layout <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2023/swiftui-relative-size/0">Working with percentages in SwiftUI layout</a> Ole Begemann, 2023 <br>
+<a href="https://oleb.net/2023/swiftui-relative-size-in-stacks/">How the relative size modifier interacts with stack views</a> Ole Begemann, 2023 <br></p>
+</blockquote>
+<p>Render Loop <br></p>
+<blockquote>
+<p><a href="https://rensbr.eu/blog/swiftui-render-loop/">The SwiftUI render loop</a> Rens Breur, 2022 <br></p>
+</blockquote>
+<p>Refresh <br></p>
+<blockquote>
+<p><a href="https://dev.to/gualtierofr/refresh-swiftui-views-33n">Refresh SwiftUI views</a> Gualtiero Frigerio, 2021 <br></p>
+</blockquote>
+<p>Image Renderer <br></p>
+<blockquote>
+<p><a href="https://www.youtube.com/watch?v=nQNnHOeGmU4">SwiftUI ImageRenderer: Convert View to Image | iOS 16 Tutorial</a> Flo, 2022, 5 min <br></p>
+</blockquote>
+<p>Embedded YouTube Videos <br></p>
+<blockquote>
+<p><a href="https://blog.devgenius.io/embedded-youtube-videos-in-swiftui-900d3a0e80d4">Embedded YouTube videos in SwiftUI</a> Marcelo Laprea, 2021 <br>
+<a href="https://www.youtube.com/watch?v=K1ijyv263QY">YouTube Design In SwiftUI - YouTube Player In SwiftUI - Auto Rotation of Views In SwiftUI</a> Kavsoft, 2020, 22 min <br></p>
+</blockquote>
+<p>View Modifier <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swiftui/conditional-view-modifier/">How to create a Conditional View Modifier in SwiftUI</a> Antoine van der Lee, 2021 <br></p>
+</blockquote>
+<p>foreach <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2020/foreach-enumerated/">Enumerating elements in ForEach</a> Ole Begemann, 2020 <br></p>
+</blockquote>
+<p>Navigation <br></p>
+<blockquote>
+<p><a href="https://blog.shipbook.io/swiftui-navigation">SwiftUI Navigation in iOS 16</a> Nikita Lazarev-Zubov, 2022 <br></p>
+</blockquote>
+<hr>
+<h3 id="swift-diverses">Swift Diverses</h3>
+<p>UnitTest <br></p>
+<blockquote>
+<p><a href="https://blog.shipbook.io/unit-and-ui-testing-in-ios-development">Unit and UI Testing in iOS Development</a> Kustiawanto Halim, 2021 <br></p>
+</blockquote>
+<p>Debugging SwiftUI Changes <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/swiftui/debugging-swiftui-views/">Debugging SwiftUI views: what caused that change?</a> Antoine von der Lee, 2022 <br></p>
+</blockquote>
+<p>Swift Package Manager <br></p>
+<blockquote>
+<p><a href="https://docs.github.com/de/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-swift">Erstellen und Testen eines Swift-Projekts</a> GitHub <br>
+<a href="https://www.avanderlee.com/swift/creating-swift-package-manager-framework/">Swift Package Manager framework creation in Xcode</a> Antoine von der Lee, 2022 <br></p>
+</blockquote>
+<p>Swift Package Index <br></p>
+<blockquote>
+<p><a href="https://swiftpackageindex.com/">Swift Package Index</a> <br></p>
+</blockquote>
+<p>Chris Lattner <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2019/chris-lattner-swift-origins/">Chris Lattner on the origins of Swift</a> Ole Begemann, 2019 <br></p>
+</blockquote>
+<hr>
+<p>VERSCHIEDENES <br></p>
+<blockquote>
+<p><a href="https://academy.realm.io/posts/swift-summit-johannes-weiss-the-type-system-is-your-friend/">The Type System is Your Friend</a> Johannes Weiß, 2015 <br>
+<a href="https://github.com/pointfreeco/swift-tagged">Swift tagged</a> Point-Free <br>
+<a href="https://www.hackingwithswift.com/articles/188/improving-your-swift-code-using-value-objects">Improving your Swift code using value objects</a> Paul Hudson, 2019<br>
+<a href="https://phrase.com/blog/posts/swiftui-tutorial-localization/">A Step-by-Step SwiftUI Tutorial</a> Phrase, 2022 <br>
+<a href="https://getstream.io/blog/learn-swiftui/">Learn SwiftUI: 24 Essential Tutorials for Beginners</a> Emily R., 2022 <br>
+<a href="https://swiftrocks.com/inside-swiftui-compiler-magic">Inside SwiftUI&rsquo;s Declarative Syntax&rsquo;s Compiler Magic</a> Bruno Rocha, 2019 <br>
+<a href="https://www.donnywals.com/understanding-how-and-when-swiftui-decides-to-redraw-views/">Understanding how and when SwiftUI decides to redraw views</a> Donny Wals, 2021 <br>
+<a href="https://holyswift.app/exploring-swiftui-redraw-behavior-with-instruments/">Exploring SwiftUI Redraw Behavior with Instruments</a> Leonardo, 2022 <br></p>
+</blockquote>
+<p>Measurements and Units <br></p>
+<blockquote>
+<p><a href="https://oleb.net/blog/2016/07/measurements-and-units/">Measurements and Units in Foundation</a> Ole Begemann, 2016 <br>
+<a href="https://oleb.net/blog/2016/07/unitproduct/">Putting the Physics Into Measurements and Units - Multiplication and Division</a> Ole Begemann, 2016 <br>
+<a href="https://oleb.net/blog/2016/07/unitsquare/">Measurements and Units - Refinements</a> Ole Begemann, 2016 <br>
+<a href="https://oleb.net/blog/2016/08/measurements-and-units-with-phantom-types/">Measurements and Units with Phantom Types</a> Ole Begemann, 2016 <br></p>
+</blockquote>
+<p>.description <br></p>
+<blockquote>
+<p><a href="https://oleb.net/2018/dont-call-description/">Why you’re not supposed to call description</a> Ole Begemann, 2018 <br></p>
+</blockquote>
+<p>Terminal <br>
+SwiftTUI <br></p>
+<blockquote>
+<p><a href="https://github.com/rensbreur/SwiftTUI">SwiftTUI</a> Rens Breur <br>
+<a href="https://rensbr.eu/blog/swiftui-diffing/">SwiftUI&rsquo;s diffing algorithm</a> Rens Breur, 2022 <br></p>
+</blockquote>
+<p>Form <br></p>
+<blockquote>
+<p><a href="https://blog.logrocket.com/building-forms-swiftui-comprehensive-guide/">Building forms with SwiftUI: A comprehensive guide</a> Sneh Pandya, 2022 <br></p>
+</blockquote>
+<p>Learning <br></p>
+<blockquote>
+<p><a href="https://exercism.org/tracks/swift">Want to learn and master Swift?</a> <br>
+<a href="https://www.youtube.com/watch?v=FcsY1YPBwzQ">Learn Swift Fast (2020) - Full Course For Beginners</a> Chris, 2022, 188 min <br></p>
+</blockquote>
+<p>Environment <br></p>
+<blockquote>
+<p><a href="https://swiftwithmajid.com/2019/08/21/the-power-of-environment-in-swiftui/">The power of Environment in SwiftUI</a> Majid Jabrayilov, 2019 <br>
+<a href="https://developer.apple.com/documentation/swiftui/environmentvalues">EnvironmentValues</a> Apple <br></p>
+</blockquote>
+<p>#Preview <br></p>
+<blockquote>
+<p><a href="https://www.avanderlee.com/xcode/preview-swiftui-uikit-appkit-views/">#Preview SwiftUI Views using Macros</a> Antoine von der Lee, 2023 <br></p>
+</blockquote>
+<p>Git Tutorial <br></p>
+<blockquote>
+<p><a href="https://git-scm.com/book/de/v2/Git-Grundlagen-Taggen">Git Grundlagen - Taggen</a> git <br>
+<a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Git Basics - Tagging</a> git <br>
+<a href="https://docs.github.com/en/rest/git/tags?apiVersion=2022-11-28">Git tags</a> GitHub<br>
+<a href="https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag">git tag - Taggen</a> Atlassian <br>
+<a href="https://www.toolsqa.com/git/git-tutorial/">Git Tutorial</a> Lakshay Sharma <br>
+<a href="https://www.toolsqa.com/git/github-tags/">Github Tags</a> Harish Rajora, 2021 <br>
+<a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags-in-github-desktop">Managing tags in GitHub Desktop</a> GitHub <br>
+<a href="https://www.atlassian.com/de/git">Git-Grundlagen</a> Atlassian <br>
+<a href="https://www.atlassian.com/de/git/glossary">Git-Befehle</a> Atlassian <br>
+<a href="https://www.atlassian.com/de/git/tutorials/undoing-changes">Commits und Änderungen rückgängig machen</a> Atlassian <br>
+<a href="https://gist.github.com/Ben-Kaniobi/c528376a76765e99058c">Einführung in git für Neueinsteiger</a> Ben-Kaniobi <br></p>
+</blockquote>
+<p>Terminal <br></p>
+<blockquote>
+<p><a href="https://betterprogramming.pub/10-tips-to-run-swift-from-your-terminal-b5832cd9cd8c">10 Tips to Run Swift From Your Terminal</a> Eric Yang, 2020 <br>
+<a href="https://mahmudahsan.medium.com/running-and-compiling-swift-code-in-terminal-237ee4087a9c">Running and Compiling Swift Code in Terminal</a> Mahmud Ahsan, 2018 <br>
+<a href="https://towardsdev.com/how-to-create-a-command-line-app-with-swift-2067c1534692">How to create a command line app with Swift</a> Anurag Ajwani, 2020 <br>
+<a href="https://jblevins.org/log/swift">Scripting and Compiling Swift on the Command Line</a> Jason Blevins, 2017 <br></p>
+</blockquote>
+<p>Terminal Benutzerhandbuch <br></p>
+<blockquote>
+<p><a href="https://support.apple.com/de-de/guide/terminal/apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac">Ausführen von Befehlen und Verwenden von Programmen in Terminal auf dem Mac</a> Apple <br>
+<a href="https://blog.smittytone.net/2020/12/22/how-to-write-cli-tools-swift/">How To Write macOS Command Line Tools with Swift</a> Tony Smith <br>
+<a href="https://www.fivestars.blog/articles/ultimate-guide-swift-executables/">The Ultimate Guide To Swift Executables</a> Federico Zanetello, 2020 <br>
+<a href="https://www.fivestars.blog/articles/a-look-into-argument-parser/">A Look Into ArgumentParser</a> Federico Zanetello, 2020 <br></p>
+</blockquote>
+<p>Swift Web Crawler <br></p>
+<blockquote>
+<p><a href="https://www.fivestars.blog/articles/build-web-crawler-swift/">How to Build a Web Crawler in Swift</a> Federico Zanetello, 2017 <br></p>
+</blockquote>
+<p>Semsphores <br></p>
+<blockquote>
+<p><a href="https://www.fivestars.blog/articles/semaphores/">A Quick Look at Semaphores in Swift</a> Federico Zanetello, 2017 <br></p>
+</blockquote>
+<p>Snake <br></p>
+<blockquote>
+<p><a href="https://betterprogramming.pub/build-a-swift-snake-game-using-declarative-domain-paradigm-7eb34a139017">Build a Snake Game in Swift Using the Declarative Domain Paradigm</a> Manuel Meyer, 2021 <br>
+<a href="https://laptrinhx.com/how-to-create-the-snake-game-in-swiftui-3424479639/">How to Create the Snake Game in SwiftUI</a> 2020 <br>
+<a href="https://iosexample.com/a-snake-game-developed-in-swiftui/">A snake game developed in SwiftUI</a> 2022 <br>
+<a href="https://iosexample.com/tag/snake/">Snake</a> iOS Example <br></p>
+</blockquote>
+<p>Swift Tutorial <br></p>
+<blockquote>
+<p><a href="https://www.programiz.com/swift-programming">Learn Swift Programming</a> Programiz <br></p>
+</blockquote>
+<p>Swift Web crawler <br></p>
+<blockquote>
+<p><a href="https://github.com/zntfdr/Selenops">Selenops, a Swift Web Crawler</a> Federico Zanetello <br></p>
+</blockquote>
+<p>Libraries <br></p>
+<blockquote>
+<p><a href="https://dev.to/toni777772/awesome-swiftui-libraries-list-3agc">Awesome SwiftUI Libraries List</a> Anton Paliakou, 2021 <br>
+<a href="https://github.com/Toni77777/awesome-swiftui-libraries">Awesome SwiftUI Libraries</a> Anton Paliakou, 2021 <br>
+<a href="https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/">Building static and dynamic Swift libraries using the Swift compiler</a> The Swift DEV, 2021 <br>
+<a href="https://rderik.com/blog/making-a-c-library-available-in-swift-using-the-swift-package/">Making a C library available in Swift using the Swift Package Manager</a> rderik, 2020 <br>
+<a href="https://codersera.com/blog/open-source-swift-libraries/amp/">Best Known Open-source Swift Libraries To Use In 2022</a> Codersera, 2022 <br>
+<a href="https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app">Adding package dependencies to your app</a> Apple <br></p>
+</blockquote>
+<p>Target <br></p>
+<blockquote>
+<p><a href="https://developer.apple.com/documentation/packagedescription/target">Target</a> Apple <br>
+<a href="https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages">Distributing binary frameworks as Swift packages</a> <br>
+<a href="https://github.com/apple/swift-evolution/blob/main/proposals/0208-package-manager-system-library-targets.md">Package Manager System Library Targets</a> GitHub <br></p>
+</blockquote>
+<p>Swift logo <br>
+<a href="https://developer.apple.com/swift/resources/">Swift developer tools</a> Apple <br>
+<a href=""></a> <br></p>
+<p>Dependencies <br></p>
+<blockquote>
+<p><a href="https://github.com/pointfreeco/swift-dependencies">Swift Dependencies</a> Point Free <br>
+<a href="https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md">Swift Package Manager</a> Apple <br>
+<a href="https://dev.to/appwrite/swift-101-building-a-library-with-swift-package-manager-46h">Building a Library with Swift Package Manager</a> Jake Barnby, 2021 <br>
+<a href="https://www.swiftbysundell.com/articles/managing-dependencies-using-the-swift-package-manager/">Managing dependencies using the Swift Package Manager</a> John Sundell, 2019 <br></p>
+</blockquote>
+<p>Layout <br>
+<a href="https://dev.to/fatbobman/layout-in-swiftui-way-4246">Layout in SwiftUI Way</a> fatbobman <br>
+<a href="https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app">Adding package dependencies to your app</a> Apple <br>
+<a href="https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages">Distributing binary frameworks as Swift packages</a> Apple <br>
+<a href="https://medium.com/swlh/dependency-injection-in-swift-964e1caaa8c1">Dependency Injection in Swift</a> Raúl Ferrer, 2020 <br></p>
+<p><a href="https://medium.com/mobile-app-circular/10-tips-for-writing-cleaner-and-more-readable-swift-code-4eb7f8600e21">10 Tips for Writing Cleaner and More Readable Swift Code</a> Raúl Ferrer, 2023 <br>
+<a href=""></a> <br></p>
+<p>Combine <br>
+<a href="https://medium.com/@ramdhasm5/combine-in-swift-a-simple-example-bdaef57251f8">Combine in Swift: A Simple Example</a> Ramdhas M.,2023 <br></p>
+<p>Package <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href="https://cctplus.dev/how-to-make-a-swift-package/">How to make a Swift Package</a> Jay Wilson, 2022 <br></p>
+<h3 id="programming">Programming</h3>
+<p>Allgemein <br>
+<a href="https://www.youtube.com/@CodingTech">Coding Tech</a> <br></p>
+<p>Python <br>
+<a href="https://www.youtube.com/@Indently">Indently</a> <br>
+<a href="https://www.youtube.com/@patloeber/videos">Patrick Loeber</a> <br>
+<a href="https://www.youtube.com/@NeuralNine">NeuralNine</a> <br>
+<a href="https://www.youtube.com/@Carberra">Carberra</a> <br>
+<a href="https://www.youtube.com/@mCoding">mCoding, James Murphy</a> <br>
+<a href="https://www.youtube.com/@PythonSimplified">Python Simplified, Mariya</a> <br></p>
+<p><a href="https://github.com/smittytone/">Tony Smith</a> <br>
+<a href="https://dev.to/">DEV</a></p>
+<p>YouTube <br>
+<a href="https://cctplus.dev/">Jay Wilson, https://www.youtube.com/@heyjaywilson</a> <br>
+<a href="https://www.youtube.com/@a_swiftly_tilting_planet">A Swiftly Tilting Planet, Caleb Wells</a> <br>
+<a href="https://yoswift.dev/swiftui/">Yo! Swift</a> <br>
+<a href="https://swdevnotes.com/">Software Development Notes, Eric Callanan</a> <br>
+<a href="https://www.youtube.com/@swiftarcade7632">Jonathan Rasmusson, Swift Arcade</a> <br>
+<a href="https://www.youtube.com/@Kavsoft">Kavsoft</a> <br>
+<a href="https://www.youtube.com/@CodingInANutshell">Coding in a Nutshell</a> <br>
+<a href="https://www.youtube.com/@dataslice">DataSlice</a> <br></p>
+<p>Github Jekyll <br></p>
+<blockquote>
+<p><a href="https://www.youtube.com/watch?v=wCOInE7-E0I">Build a Data Science Portfolio with Jekyll &amp; GitHub Pages - Site Configuration</a> Dataslice, 2021, 8 min <br>
+<a href="https://www.youtube.com/watch?v=Td_NjdrwPkQ">Build a Data Science Portfolio with Jekyll &amp; GitHub Pages - Adding Posts</a> Dataslice, 2021, 11 min <br>
+<a href="https://www.youtube.com/watch?v=XCaag3dfxsQ">Build a Data Science Portfolio with Jekyll &amp; GitHub Pages - Customization</a> Dataslice, 2021, 12 min <br></p>
+</blockquote>
+<hr>
+<h3 id="xcode">Xcode</h3>
+<h4 id="swiftui-1">SwiftUI</h4>
+<p><a href="https://developer.apple.com/xcode/swiftui/">https://developer.apple.com/xcode/swiftui/</a> <br></p>
+<h4 id="swiftdata">SwiftData</h4>
+<p><a href="https://developer.apple.com/xcode/swiftdata/">SwiftData</a> von Apple <br></p>
+<hr>
+<h3 id="swift-1">Swift</h3>
+<p><a href="https://github.com/tdamdouni/WebCapture/">Web Capture</a> Taha Dhiaeddine Amdouni <br></p>
+<h4 id="command-line-interface-cli">Command line interface CLI</h4>
+<blockquote>
+<p><a href="https://ed.com/command-line-swift/">Swift Programming from the Command Line</a> von ed.com, 2020 <br>
+<a href="https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc">Lets build a Command line app in Swift</a> [Sandeep Joshi, 2018] <br>
+<a href="https://blog.smittytone.net/2020/12/22/how-to-write-cli-tools-swift/">How To Write macOS Command Line Tools with Swift</a> Tony Smith <br>
+<a href="https://mahmudahsan.medium.com/running-and-compiling-swift-code-in-terminal-237ee4087a9c">Running and Compiling Swift Code in Terminal</a> Mahmud Ahsan, 2018 <br>
+<a href="https://www.avanderlee.com/swift/command-line-tool-package-manager/">Creating a command line tool using the Swift Package Manager</a> Antoine van der Lee, 2020 <br></p>
+</blockquote>
+<p>CLI Video <br>
+<a href="https://www.youtube.com/watch?v=bNWLDOW-Aok">Building CLI Tools with Apple Swift</a> 2022, 8 min <br>
+<a href=""></a> <br>
+<br></p>
+<h5 id="andere">Andere</h5>
+<p><a href="https://careerfoundry.com/en/blog/web-development/intro-to-swift/">https://careerfoundry.com/en/blog/web-development/intro-to-swift/</a> <br>
+<a href="https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/">https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/</a> <br>
+<a href="https://iosapptemplates.com/blog/design/best-ios-walkthrough-app-designs-inspiration">https://iosapptemplates.com/blog/design/best-ios-walkthrough-app-designs-inspiration</a> <br>
+<a href="https://www.imaginarycloud.com/blog/the-future-of-apple-swift/">https://www.imaginarycloud.com/blog/the-future-of-apple-swift/</a> <br>
+<a href="https://www.heise.de/news/Programmiersprache-Swift-5-8-bereitet-den-Weg-fuer-die-naechste-Hauptversion-8314883.html">https://www.heise.de/news/Programmiersprache-Swift-5-8-bereitet-den-Weg-fuer-die-naechste-Hauptversion-8314883.html</a> <br>
+<a href="https://talent500.co/blog/swift-pros-cons-in-app-development/">https://talent500.co/blog/swift-pros-cons-in-app-development/</a> <br>
+<a href="https://www.educative.io/blog">https://www.educative.io/blog</a> <br>
+<a href="https://mdevelopers.com/blog/is-swift-programming-language-any-good-pros-and-cons">https://mdevelopers.com/blog/is-swift-programming-language-any-good-pros-and-cons</a> <br>
+<a href="https://blog.back4app.com/swift-vs-react-native/">https://blog.back4app.com/swift-vs-react-native/</a> <br>
+<a href="https://exyte.com/blog/introduciton-to-swift">https://exyte.com/blog/introduciton-to-swift</a> <br></p>
+<h4 id="allgemein">Allgemein</h4>
+<h5 id="api-call">API call</h5>
+<blockquote>
+<p><a href="https://www.freecodecamp.org/news/make-rest-api-call-in-swiftui-in-2-minutes">How to Make a Simple Async GET REST API call in SwiftUI</a> Saamer Mansoor <br>
+<a href="https://www.freecodecamp.org/news/how-to-make-your-first-api-call-in-swift/">How to make an API call in Swift</a> Ai-Lyn Tang<br>
+<a href="https://medium.com/@nutanbhogendrasharma/consume-rest-api-in-swiftui-ios-mobile-app-b3c5d6ecf401">Consume Rest API in SwiftUI IOS Mobile App</a> Nutan <br>
+<a href="https://designcode.io/swiftui-advanced-handbook-http-request">HTTP Request</a>  <br>
+<a href="https://www.youtube.com/watch?v=CimY_Sr3gWw">yt</a> <br>
+<a href="https://www.youtube.com/watch?v=r3O90QGKv98">yt</a> <br></p>
+</blockquote>
+<h5 id="comments">Comments</h5>
+<p><a href="https://www.advancedswift.com//comments-documentation-swift/">Comments in Swift</a> <br></p>
+<h5 id="copy-to-clipboard">Copy to Clipboard</h5>
+<p><a href="https://stackoverflow.com/questions/24670290/how-to-copy-text-to-clipboard-pasteboard-with-swift">https://stackoverflow.com/questions/24670290/how-to-copy-text-to-clipboard-pasteboard-with-swift</a> <br></p>
+<h5 id="design-pattern">Design pattern</h5>
+<p><a href="https://github.com/ochococo/Design-Patterns-In-Swift#-command">Design Patterns implemented in Swift 5.0</a> Oktawian Chojnacki <br></p>
+<h5 id="deutsch">Deutsch</h5>
+<p><a href="http://www.swift-blog.de/swift-lernen/">http://www.swift-blog.de/swift-lernen/</a> <br>
+<a href="https://code.tutsplus.com/de/tutorials/eine-einfuhrung-in-die-swift-teil-1--cms-21389">https://code.tutsplus.com/de/tutorials/eine-einfuhrung-in-die-swift-teil-1--cms-21389</a> <br>
+<a href="https://datei.wiki/definition/die-grundlagen-von-apple-swift/">https://datei.wiki/definition/die-grundlagen-von-apple-swift/</a> <br>
+<a href="https://www.edv-buchversand.de/download/?mode=download&amp;type=chapter&amp;file=sm-284.pdf">https://www.edv-buchversand.de/download/?mode=download&amp;type=chapter&amp;file=sm-284.pdf</a> <br></p>
+<h5 id="functional-programming">Functional programming</h5>
+<blockquote>
+<p><a href="https://flexiple.com/ios/introduction-to-functional-programming-using-swift/">Introduction to Functional Programming using Swift</a> Saravanan V <br>
+<a href="https://medium.com/swift2go/functional-programming-in-swift-an-introduction-253c1f420ca9">Functional Programming in Swift: An Introduction</a> Tim Beals <br>
+<a href="https://theswiftdev.com/beginners-guide-to-functional-swift/">Beginners guide to functional Swift</a> Tibor Bödecs <br>
+<a href="https://digitalbunker.dev/functional-programming-in-swift-beginners-guide-swift-5-2021/">Functional Programming in Swift - Beginner&rsquo;s Guide | Swift 5 | 2021</a> Aryaman Sharda <br>
+<a href="https://www.objc.io/books/functional-swift/preview">Functional Swift</a> ojbc <br>
+<a href="https://matteomanferdini.com/swift-functional-programming/">Functional Programming in Swift: an Unusual yet Powerful Paradigm</a> Matteo Manferdini <br>
+<a href="https://www.kodeco.com/9222-an-introduction-to-functional-programming-in-swift">Introduction to Functional Programming in Swift</a> Kodeco <br></p>
+</blockquote>
+<h5 id="gauge">Gauge</h5>
+<blockquote>
+<p><a href="https://www.youtube.com/watch?v=YU4eyLiDahg&amp;list=PL5PR3UyfTWvfgx9W8WJ9orQf6N1tx0oxN&amp;index=2&amp;pp=iAQB">SwitUI Gauge in App</a> iOS Academy, 2021, 10 min <br>
+<a href="https://developer.apple.com/documentation/swiftui/gauge">Gauge - A view that shows a value within a range.</a> Apple  <br>
+<a href="https://www.appcoda.com/swiftui-gauge/">How to Use SwiftUI Gauge and Create Custom Gauge Styles in iOS 16</a> Simon Ng, 2022 <br>
+<a href="https://sarunw.com/posts/swiftui-gauge/">SwiftUI Gauge</a> Sarun, 2022 <br>
+<a href="https://developer.apple.com/documentation/swiftui/gaugestyle">GaugeStyle</a> Apple <br>
+<a href="https://oliver-epper.de/posts/how-to-create-a-self-sizing-gauge-componen-in-swiftui/">How to create a self-sizing gauge component in SwiftUI</a> Oliver Epper <br>
+<a href="https://swiftuirecipes.com/blog/swiftui-gauge-cheatsheet">https://swiftuirecipes.com/blog/swiftui-gauge-cheatsheet</a></p>
+</blockquote>
+<p>Recipies:
+<a href="https://swiftuirecipes.com/companion">https://swiftuirecipes.com/companion</a>
+Q</p>
+<h5 id="higher-order-functions">Higher Order Functions</h5>
+<p><a href="https://raulferrer.dev/blog/swift_high_order_functions/">Improve your Swift code with higher order functions</a> Raul Ferrer <br></p>
+<h5 id="html-color">HTML Color</h5>
+<blockquote>
+<p><a href="https://htmlcolorcodes.com/">HTML Color Codes</a> Dixon &amp; Moe <br>
+<a href="https://htmlcolorcodes.com/tutorials/html-text-color/">HTML Color Codes - Tutorials</a> Dixon &amp; Moe <br></p>
+</blockquote>
+<h5 id="keywords">Keywords</h5>
+<p><a href="https://www.geeksforgeeks.org/swift-keywords/">https://www.geeksforgeeks.org/swift-keywords/</a> <br>
+<a href="https://betterprogramming.pub/all-the-reserved-keywords-in-swift-17efcfaa3f3e">https://betterprogramming.pub/all-the-reserved-keywords-in-swift-17efcfaa3f3e</a> <br></p>
+<h5 id="mutation-functions">Mutation functions</h5>
+<p><a href="https://swiftbysundell.com/articles/mutating-and-nonmutating-swift-contexts/?ref=ioscodereview.com">https://swiftbysundell.com/articles/mutating-and-nonmutating-swift-contexts/?ref=ioscodereview.com</a> <br></p>
+<h5 id="neumorphism">Neumorphism</h5>
+<p><a href="https://github.com/costachung/neumorphic">Neumorphic SwiftUI : Neumorphism Soft UI</a> Costa Chung <br>
+<a href="https://github.com/topics/neumorphism">Neumorphism links</a> Github <br>
+<a href="https://mediusdownload.event.microsoft.com/asset-6b69f439-fcf6-461c-b7dc-2c53324c3354/LRN241_1280x720_AACAudio_2604.mp4?sv=2015-02-21&amp;sr=c&amp;sig=C%2F1G9v%2Fd3TXedCyc38dJ1KTzPAY2tzxXYGv54TWED4w%3D&amp;se=2026-10-21T07%3A28%3A59Z&amp;sp=r">GitHub for beginners</a> Microsoft <br>
+<a href="https://www.youtube.com/watch?v=X5mJL9BWRL0">How to Use Xcode with Github</a> Jae Lee <br>
+<a href="https://www.youtube.com/watch?v=uGLQF2kUwOA">Git Tutorial - In 40 Minuten Git lernen für Anfänger</a> <br>
+<a href="https://www.youtube.com/watch?v=u_sF3cAZddY">Git | Teil 1 - Grundlagen | commit, fetch, merge, pull, push</a> <br>
+<a href="https://www.youtube.com/watch?v=6uvzIMdqV2U">Git-Grundlagen für Entwickler - Alles was man zum Einstieg wissen muss</a> Thomas Huber <br></p>
+<h5 id="operatoren">Operatoren</h5>
+<p><a href="https://www.geeksforgeeks.org/swift-operators/">https://www.geeksforgeeks.org/swift-operators/</a> <br></p>
+<h5 id="protokol-orientated-programming-pop">Protokol orientated programming POP</h5>
+<p><a href="https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/protocol_oriented_generics.ipynb#scrollTo=c_1u7JSBMx3x">https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/protocol_oriented_generics.ipynb#scrollTo=c_1u7JSBMx3x</a> <br>
+<a href="https://www.toptal.com/swift/introduction-protocol-oriented-programming-swift">https://www.toptal.com/swift/introduction-protocol-oriented-programming-swift</a> <br>
+<a href="https://www.appcoda.com/protocol-oriented-programming/">https://www.appcoda.com/protocol-oriented-programming/</a> <br>
+<a href="https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming">https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming</a> <br>
+<a href="https://blog.devgenius.io/pop-or-protocol-oriented-programming-swift-3d90e006d0b3">https://blog.devgenius.io/pop-or-protocol-oriented-programming-swift-3d90e006d0b3</a> <br>
+<a href="https://devstreaming-cdn.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf">https://devstreaming-cdn.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf</a> <br></p>
+<h5 id="some-vs-any-static-vs-dynamic-dispatch">Some vs. any static vs. dynamic dispatch</h5>
+<p><a href="https://swiftsenpai.com/swift/understanding-some-and-any/">https://swiftsenpai.com/swift/understanding-some-and-any/</a> <br></p>
+<h5 id="styleguide">StyleGuide</h5>
+<blockquote>
+<p><a href="https://google.github.io/swift/">Swift Style Guide</a> <br>
+<a href="https://www.swift.org/documentation/api-design-guidelines/">API Design Guidelines</a> SWift.org <br>
+<a href="https://github.com/kodecocodes/swift-style-guide">The Official Kodeco Swift Style Guide</a> Kodeco <br>
+<a href="https://github.com/linkedin/swift-style-guide">Swift Style Guide</a> LinkedIn <br>
+<a href="https://github.com/airbnb/swift">Airbnb Swift Style Guide</a> Airbnb <br>
+<a href="https://betterprogramming.pub/finding-the-ultimate-swift-code-style-guidelines-59025a7c163c">Finding the Ultimate Swift Code-Style Guidelines</a> Nikita Lazarev-Zubov, 2020 <br>
+<a href="https://github.com/eure/swift-style-guide#colons">Swift Style Guide</a> Eureka <br>
+<a href="https://github.com/metova/swift-style-guide?utm_content=38278079&amp;utm_medium=social&amp;utm_source=facebook">Metova&rsquo;s Swift Style Guide</a> Metope <br>
+<a href="https://marketsplash.com/tutorials/swift/swift-style-guide/">Navigating The Style Guide Landscape Of Swift</a> Market Splash<br>
+<a href="https://engineering.vokal.io/iOS/CodingStandards/Swift.md.html">Swift Coding Standards</a> <br>
+<a href="https://www.delasign.com/blog/swift-styleguide/">How to create a styleguide in XCode &amp; Swift</a> Oscar de la Hera Gomez, 2022 <br></p>
+</blockquote>
+<p>Video <br>
+<a href=""></a> <br>
+<a href="https://www.youtube.com/watch?v=A8w3KzwXQ9I">https://www.youtube.com/watch?v=A8w3KzwXQ9I</a> <br></p>
+<p>Marks <br>
+<a href=""></a> <br>
+<a href="https://www.avanderlee.com/xcode/xcode-mark-line-comment/">https://www.avanderlee.com/xcode/xcode-mark-line-comment/</a> <br></p>
+<h5 id="swiftlint">SwiftLint</h5>
+<blockquote>
+<p><a href="https://www.swiftlyrush.com/swiftlint-getting-started/">SwiftLint – Getting Started</a> Adam Rush, 2022 <br>
+<a href="https://github.com/realm/SwiftLint">SwiftLint</a> Realm <br>
+<a href="https://medium.com/developerinsider/how-to-use-swiftlint-with-xcode-to-enforce-swift-style-and-conventions-368e49e910">How to use SwiftLint with Xcode to enforce Swift style and conventions?</a> Vineet Choudhary, 2018 <br>
+<a href="https://infinum.com/handbook/ios/tools/swiftlint">SwiftLint</a> iOS Handbook, 2022 <br>
+<a href="https://www.delasign.com/blog/swiftlint-enabled-swift-xcode-project/">How to create a SwiftLint enabled Swift Xcode Project</a> Oscar de la Hera Gomez, 2023 <br>
+<a href="https://www.kodeco.com/38422105-swiftlint-in-depth">SwiftLint in Depth</a> Kodeco, 2023 <br>
+<a href="https://docs.fastlane.tools/actions/swiftlint/">swiftlint</a> fastlane docs<br>
+<a href="https://blog.canopas.com/swiftlint-integration-in-xcode-and-gitlab-ci-1ae9ef6e5d85">SwiftLint Integration in Xcode and GitLab CI</a> Amisha I., 2022 <br>
+<a href="https://martiancraft.com/blog/2022/04/swift-lint/">SwiftLint Makes for Clean Code and Happy Clients</a> Eric Welander, 2022 <br>
+<a href="https://iosexample.com/add-swiftlint-to-your-xcode-project-or-swift-package-as-a-plugin/">Add SwiftLint to your Xcode Project or Swift Package as a Plugin</a> iOS Example, 2023 <br>
+<a href="https://www.hackingwithswift.com/articles/97/how-to-clean-up-your-code-formatting-with-swiftlint">How to clean up your code formatting with SwiftLint</a> Paul Hudson, 2018 <br>
+<a href="https://jasonzurita.com/linting-and-formatting-swift-part-1/">Linting vs Formatting: A Swift Guide — Part 1</a> Jason Zurita, 2021 <br>
+<a href="https://jasonzurita.com/linting-and-formatting-swift-part-2/">Linting vs Formatting: A Swift Guide — Part 2</a> Jason Zurita, 2021 <br>
+<a href="https://www.vadimbulavin.com/swift-code-style/">Missing Guide on Swift Code Style</a> Vadim Bulavin, 2019 <br>
+<a href="https://batuhangobekli.medium.com/apply-swift-style-and-conventions-with-swiftlint-3cd88dcd2703">Apply Swift Style and Conventions with SwiftLint</a> Batuhan Gobekli, 2021 <br>
+<a href="https://nshipster.com/swift-format/">Swift Code Formatters</a> mattt, 2019 <br></p>
+</blockquote>
+<p><a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br>
+<a href=""></a> <br></p>
+<h6 id="video">Video</h6>
+<blockquote>
+<p><a href="https://www.youtube.com/watch?v=cHPLBy5etvM">How to Setup SwiftLint on Xcode 14</a> Emmanuel Okwara, 2023, 21 min <br>
+<a href="https://www.youtube.com/watch?v=4YQ6DJ-xovY">Mastering SwiftLint for Code Readability</a> Stewart Lynch, 2022, 28 min<br></p>
+</blockquote>
+<h4 id="syntax">Syntax</h4>
+<h5 id="array-methodes">Array methodes</h5>
+<p><a href="https://betterprogramming.pub/13-useful-array-methods-in-swift-e169a78cba8d">13 Useful Array Methods in Swift</a> Artturi Jalli, 2021 <br></p>
+<h5 id="canimport">canImport</h5>
+<p><a href=""></a> <br>
+<a href="https://www.hackingwithswift.com/example-code/language/how-to-check-whether-a-module-is-available-using-canimport">https://www.hackingwithswift.com/example-code/language/how-to-check-whether-a-module-is-available-using-canimport</a> <br></p>
+<h5 id="closures-escaping-nonescaping-autoclosure">Closures escaping, nonescaping, autoclosure</h5>
+<p><a href="https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/">https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/</a> <br>
+<a href="https://code-examples.net/de/q/2540fcb">https://code-examples.net/de/q/2540fcb</a> <br>
+<a href="https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d">https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d</a> <br>
+<a href="https://www.codingem.com/escaping-in-swift/">https://www.codingem.com/escaping-in-swift/</a> <br></p>
+<h5 id="control-flow">Control flow</h5>
+<p><a href="https://www.advancedswift.com//learn-swift-cpp/#control-flow">https://www.advancedswift.com//learn-swift-cpp/#control-flow</a> <br></p>
+<h5 id="dotrycatchthrows">DoTryCatchThrows</h5>
+<p><a href="https://www.youtube.com/watch?v=ss50RX7F7nE">https://www.youtube.com/watch?v=ss50RX7F7nE</a> <br></p>
+<h5 id="final-class">Final class</h5>
+<p><a href="https://www.hackingwithswift.com/sixty/8/4/final-classes">https://www.hackingwithswift.com/sixty/8/4/final-classes</a>  <br>
+<a href="https://www.hackingwithswift.com/quick-start/understanding-swift/which-classes-should-be-declared-as-final">https://www.hackingwithswift.com/quick-start/understanding-swift/which-classes-should-be-declared-as-final</a> <br></p>
+<h5 id="for-loop">For loop</h5>
+<p><a href="https://www.programiz.com/swift-programming/for-in-loop">https://www.programiz.com/swift-programming/for-in-loop</a> <br></p>
+<h5 id="property-wrappers">Property wrappers</h5>
+<p><a href="https://www.avanderlee.com/swift/property-wrappers/">https://www.avanderlee.com/swift/property-wrappers/</a>  <br>
+<a href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/">https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/</a> <br></p>
+<h5 id="some-any">some, any:</h5>
+<p><a href="https://medium.com/@james.daniel.isaiah/a-quick-look-opaque-existential-generic-types-in-swift-4e683a4bc97b">https://medium.com/@james.daniel.isaiah/a-quick-look-opaque-existential-generic-types-in-swift-4e683a4bc97b</a> <br></p>
+<h5 id="-vs-">=== vs. ==</h5>
+<p><a href="https://developer.apple.com/documentation/swift/===(_:_:)">https://developer.apple.com/documentation/swift/===(_:_:)</a> <br></p>
+<h5 id="where">Where</h5>
+<p><a href="https://www.avanderlee.com/swift/where-using-swift/">https://www.avanderlee.com/swift/where-using-swift/</a> <br>
+<a href="https://www.appypie.com/swift-where-how-to">https://www.appypie.com/swift-where-how-to</a> <br></p>
+<h4 id="rest">Rest</h4>
+<p><a href="https://byby.dev/ios">https://byby.dev/ios</a> <br>
+<a href="https://www.advancedswift.com/">https://www.advancedswift.com/</a> <br>
+<a href="https://www.swiftuiio.com/">https://www.swiftuiio.com/</a> <br>
+<a href="https://gitconnected.com/learn/ios-swift">https://gitconnected.com/learn/ios-swift</a> <br>
+<a href="https://dev.to/toni777772/awesome-swiftui-libraries-list-3agc">https://dev.to/toni777772/awesome-swiftui-libraries-list-3agc</a> <br>
+<a href="https://github.com/poyynt/memorize_app_cs193p_q12020">https://github.com/poyynt/memorize_app_cs193p_q12020</a> <br></p>
+<p><a href="https://byby.dev/swift-attributes">https://byby.dev/swift-attributes</a> <br>
+<a href="https://mobikul.com/category/ios/page/2/">https://mobikul.com/category/ios/page/2/</a> <br>
+<a href="https://dev.to/naveenragul/swift-subscripts-14b6">https://dev.to/naveenragul/swift-subscripts-14b6</a> <br>
+<a href="https://www.youtube.com/watch?v=0u4w6FaqhMs">https://www.youtube.com/watch?v=0u4w6FaqhMs</a> <br></p>
+<p><a href="https://github.com/QiuZhiFei/swift-commands">https://github.com/QiuZhiFei/swift-commands</a> <br>
+<a href="https://rderik.com/blog/using-swift-for-scripting/">https://rderik.com/blog/using-swift-for-scripting/</a> <br></p>
+<h5 id="wetter-api">Wetter API</h5>
+<p><a href="https://listed.to/@DieSieben/7851/api-des-deutschen-wetterdienstes">https://listed.to/@DieSieben/7851/api-des-deutschen-wetterdienstes</a> <br></p>
+<h5 id="ios-development-toolbox">iOS Development Toolbox</h5>
+<p><a href="https://infinum.com/handbook/ios/tools/development-toolbox">https://infinum.com/handbook/ios/tools/development-toolbox</a> <br></p>
+<hr>
+<h3 id="swiftui-2">SWiftUI</h3>
+<h4 id="swiftui-roadmap">SwiftUI Roadmap</h4>
+<p><a href="https://karinprater.medium.com/on-the-road-to-learn-swiftui-8b26b528199c">https://karinprater.medium.com/on-the-road-to-learn-swiftui-8b26b528199c</a> <br></p>
+<h5 id="buttons">Buttons</h5>
+<blockquote>
+<p><a href="https://github.com/swiftui-library/action-button">ActionButton</a> swiftui-library <br>
+<br>
+<a href="https://github.com/exyte/FloatingButton">FloatingButton</a> Exyte <br>
+<a href="https://github.com/heyjaywilson/swiftui-buttons">Button Styles</a> Jay Wilson <br>
+<a href="https://github.com/agholson/SwiftUI-Custom-Buttons">Custom SwiftUI Buttons</a> Andrew Gholson <br>
+<a href="https://github.com/lorenzofiamingo/swiftui-async-button">SwiftUI AsyncButton</a> Lorenzo Fiamingo <br>
+<a href="https://github.com/mukeshj8/swiftui-button">swiftui-button</a> Mukesh Jain <br>
+<a href="https://github.com/arjun011/SwiftUI-Button">SwiftUI-Button</a> Arjun Patel <br>
+<a href="https://github.com/0x0001SUI/HapticButton">HapticButton</a> 0x0001 <br>
+<a href="https://github.com/loydkim/SwiftUI_Buttons">SwiftUI_Buttons</a> Kim Loyd <br>
+<a href="https://github.com/silviaespanagil/swiftUI-button-study">SwiftUI: Button styling</a> Silvia España Gil<br>
+<a href="https://designcode.io/swiftui3-neumorphic-buttons">Neumorphic Buttons</a> designcode.io <br>
+<a href="https://github.com/twostraws/NeumorphismSwiftUI">Neumorphism in SwiftUI</a> Paul Hudson <br></p>
+</blockquote>
+<hr>
+<h3 id="diverses">Diverses</h3>
+<h4 id="web-template-engines">Web template engines</h4>
+<p><a href="https://en.wikipedia.org/wiki/Comparison_of_web_template_engines">Comparison of web template engines</a> wiki <br></p>
+<h4 id="tutorials">Tutorials</h4>
+<p><a href="https://zetcode.com/all/">List of all ZetCode tutorials</a> ZetCode <br></p>
+<hr>
+<h3 id="processing">Processing</h3>
+<p>Happy Codi: <br>
+<a href="https://happycoding.io/">https://happycoding.io/</a> <br></p>
+<p>Programmers, Artists: <br>
+<a href="https://github.com/orgs/processing/people">https://github.com/orgs/processing/people</a> <br></p>
+<p>Naoto Hieda: <br>
+<a href="https://naotohieda.com/blog/categories#sketch">https://naotohieda.com/blog/categories#sketch</a> <br></p>
+<p>Ivan Vlahov: <br>
+<a href="https://www.youtube.com/user/ivanvlahov922">https://www.youtube.com/user/ivanvlahov922</a> <br>
+<a href="https://github.com/ivvlspirit">https://github.com/ivvlspirit</a> <br></p>
+<p>Automation: <br>
+<a href="https://www.youtube.com/channel/UCSXGxfwfqRw0DjTx3HCsoog">https://www.youtube.com/channel/UCSXGxfwfqRw0DjTx3HCsoog</a> <br>
+<a href="https://controlc.com/eb66fa52">https://controlc.com/eb66fa52</a> <br></p>
+<p>Codeguppy: <br>
+<a href="https://codeguppy.com/">https://codeguppy.com/</a> <br></p>
+<p>Processing p5js: <br>
+<a href="https://p5js.org/">https://p5js.org/</a> <br></p>
+<p>p5js Dokumentation: <br>
+<a href="https://p5js.org//reference">https://p5js.org//reference</a> <br></p>
+<p>Hallo p5.js: <br>
+<a href="http://hello.p5js.org/">http://hello.p5js.org/</a> <br></p>
+<p>Introduction: <br>
+<a href="https://medium.com/@mhiratsuka/what-is-p5-js-and-how-to-use-it-b88f9fee0ab2">https://medium.com/@mhiratsuka/what-is-p5-js-and-how-to-use-it-b88f9fee0ab2</a> <br></p>
+<p>p5-Sound: <br>
+<a href="https://p5js.org//reference/#/libraries/p5.sound">https://p5js.org//reference/#/libraries/p5.sound</a> <br></p>
+<p>Web-Audio: <br>
+<a href="https://caniuse.com/#feat=audio-api">https://caniuse.com/#feat=audio-api</a> <br></p>
+<p>Web-Audio-API: <br>
+<a href="https://www.w3.org/TR/webaudio">https://www.w3.org/TR/webaudio</a> <br></p>
+<p>Github: <br>
+<a href="https://github.com/processing/p5.js-sound">https://github.com/processing/p5.js-sound</a> <br></p>
+<p>ProcessingJS: <br>
+<a href="http://processingjs.org/">http://processingjs.org/</a> <br></p>
+<p>Processing.js Dokumentation: <br>
+<a href="https://www.khanacademy.org/computing/computer-programming/pjs-documentation">https://www.khanacademy.org/computing/computer-programming/pjs-documentation</a> <br>
+<a href="http://processingjs.org//reference">http://processingjs.org//reference</a> <br></p>
+<p>Github: <br>
+<a href="https://github.com/processing-js/processing-js/">https://github.com/processing-js/processing-js/</a>
+<a href="https://github.com/processing/processing">https://github.com/processing/processing</a> <br></p>
+<p>Github wiki: <br>
+<a href="https://github.com/processing/processing/wiki">https://github.com/processing/processing/wiki</a> <br></p>
+<p>Wiki: <br>
+<a href="https://en.www.wikipedia.org/wiki/Processing_(programming_language)">https://en.www.wikipedia.org/wiki/Processing_(programming_language)</a> <br></p>
+<p>Raspberry Pi <br>
+<a href="https://pi.processing.org/">https://pi.processing.org/</a> <br></p>
+<p>Processing Pi: <br>
+<a href="https://py.processing.org/">https://py.processing.org/</a> <br></p>
+<p>Github Processing.py: <br>
+<a href="https://github.com/jdf/processing.py/wiki">https://github.com/jdf/processing.py/wiki</a> <br>
+<a href="https://github.com/jdf/processing-py-site">https://github.com/jdf/processing-py-site</a> <br></p>
+<p>Open Processing: <br>
+<a href="https://www.openprocessing.org/">https://www.openprocessing.org/</a> <br></p>
+<p>giCentre: <br>
+<a href="https://www.gicentre.net/software">https://www.gicentre.net/software</a> <br></p>
+<p>Peter Lager: <br>
+<a href="http://www.lagers.org.uk/index.html">http://www.lagers.org.uk/index.html</a> <br>
+<a href="http://dada.compart-bremen.de/">http://dada.compart-bremen.de/</a> <br></p>
+<p>py-Examples:  <br>
+<a href="https://github.com/jdf/processing.py/tree/master/examples.py">https://github.com/jdf/processing.py/tree/master/examples.py</a> <br>
+<a href="https://github.com/villares/py.processing-play?files=">https://github.com/villares/py.processing-play?files=</a> <br>
+<a href="https://gist.github.com/marcedwards/">https://gist.github.com/marcedwards/</a> <br></p>
+<hr>
+<h3 id="espurino">Espurino</h3>
+<p><a href="http://www.espruino.com/">http://www.espruino.com/</a> <br></p>
+<p>Wiki: <br>
+<a href="https://en.www.wikipedia.org/wiki/Espruino">https://en.www.wikipedia.org/wiki/Espruino</a> <br></p>
+<p>Github: <br>
+<a href="https://espruino.github.io/EspruinoWebIDE">https://espruino.github.io/EspruinoWebIDE</a> <br>
+<a href="https://github.com/espruino/Espruino">https://github.com/espruino/Espruino</a>  <br>
+<a href="https://github.com/espruino">https://github.com/espruino</a> <br>
+<a href="https://github.com/topics/espruino">https://github.com/topics/espruino</a> <br></p>
+<hr>
+<h3 id="tessel">Tessel</h3>
+<p><a href="https://tessel.io/">https://tessel.io/</a></p>
+<p>Tessel-pl: <br>
+<a href="https://wiki.tessel.pl/#all-updates">https://wiki.tessel.pl/#all-updates</a> <br></p>
+<p>Github: <br>
+<a href="https://github.com/tessel">https://github.com/tessel</a> <br>
+<a href="https://tessel.github.io/t2-start">https://tessel.github.io/t2-start</a> <br>
+<a href="https://github.com/topics/tessel">https://github.com/topics/tessel</a> <br></p>
+<hr>
+<h3 id="fritzing">Fritzing</h3>
+<p><a href="https://fritzing.org/home/">https://fritzing.org/home/</a> <br></p>
+<hr>
+<p>Swift <br>
+<a href="https://github.com/topics/swift">https://github.com/topics/swift</a> <br>
+<a href="https://github.com/serhii-londar/open-source-mac-os-apps">https://github.com/serhii-londar/open-source-mac-os-apps</a> <br></p>
+<p>WWDC <br>
+<a href="https://developer.apple.com/videos/play/wwdc2023/10148">https://developer.apple.com/videos/play/wwdc2023/10148</a> <br></p>
+<p>Link Liste <br>
+<a href="https://getstream.io/blog/learn-swiftui/">https://getstream.io/blog/learn-swiftui/</a> <br></p>
+<p><a href="https://www.donnywals.com/what-is-the-any-keyword-in-swift/">https://www.donnywals.com/what-is-the-any-keyword-in-swift/</a> <br>
+<a href="https://swiftlyrush.curated.co/">https://swiftlyrush.curated.co/</a> <br>
+<a href="https://not-only-swift.peterfriese.dev/">https://not-only-swift.peterfriese.dev/</a> <br>
+<a href="https://www.youtube.com/watch?v=-jDAXFyZCpM">https://www.youtube.com/watch?v=-jDAXFyZCpM</a> <br></p>
+<p>Swift Standard language vs. Foundation</p>
+<p>Primitiv types&quot; int, strings, optionals, &hellip;
+Common collection types
+Fundamental Protokols: comparable, equatable,
+Global functions: min, max, abs, print, &hellip;</p>
+<p>XCode <br>
+<a href="https://developer.apple.com/documentation/xcode">https://developer.apple.com/documentation/xcode</a> <br></p>
+<p>Link <br>
+<a href="https://www.thomashanning.com/tag/swift/">https://www.thomashanning.com/tag/swift/</a> <br></p>
+<p>XCode <br>
+<a href="https://duckduckgo.com/?q=yourube+xcode+swift+&amp;t=fpas&amp;iax=videos&amp;ia=videos&amp;iai=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEJQW864XpmA">https://duckduckgo.com/?q=yourube+xcode+swift+&amp;t=fpas&amp;iax=videos&amp;ia=videos&amp;iai=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEJQW864XpmA</a> <br></p>
+<p><a href="https://developer.apple.com/documentation/swiftui/configuring-views">https://developer.apple.com/documentation/swiftui/configuring-views</a></p>
+<p><a href="https://talk.objc.io/episodes/S01E321-custom-components-creating-a-custom-stepper">https://talk.objc.io/episodes/S01E321-custom-components-creating-a-custom-stepper</a></p>
+<p>Geometry Reader:
+<a href="https://www.swiftanytime.com/blog/geometry-reader-in-swiftui">https://www.swiftanytime.com/blog/geometry-reader-in-swiftui</a></p>
+<p>Tips:
+<a href="https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks">https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks</a></p>
+<p>Date:
+<a href="https://programmingwithswift.com/get-hours-minutes-seconds-date-swift/">https://programmingwithswift.com/get-hours-minutes-seconds-date-swift/</a></p>
+<p>SF-Symbols:
+<a href="https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols">https://www.hackingwithswift.com/articles/237/complete-guide-to-sf-symbols</a></p>
+<p><a href="https://designcode.io/swiftui-handbook-safe-area-layout">https://designcode.io/swiftui-handbook-safe-area-layout</a></p>
+<p>Enum:
+<a href="https://stackoverflow.com/questions/24113126/how-to-get-the-name-of-enumeration-value-in-swift">https://stackoverflow.com/questions/24113126/how-to-get-the-name-of-enumeration-value-in-swift</a></p>
+<p>LLDB PO Command:
+<a href="https://holyswift.app/debugging-ios-with-lldb-in-swift-the-po-command/">https://holyswift.app/debugging-ios-with-lldb-in-swift-the-po-command/</a></p>
+<p>DocC:
+<a href="https://developer.apple.com/videos/play/wwdc2021/10166/">https://developer.apple.com/videos/play/wwdc2021/10166/</a></p>
+<p>Modul:
+<a href="https://stackoverflow.com/questions/48426344/what-does-a-module-mean-in-swift#48426416">https://stackoverflow.com/questions/48426344/what-does-a-module-mean-in-swift#48426416</a></p>
+<p><a href="https://www.swift.org/package-manager/">https://www.swift.org/package-manager/</a></p>
+<p>ASCII art:
+print(&quot;&quot;&quot; __ / <em>) .-^^^-/ / <strong>/ / &lt;</strong>.|</em>|-|_| &ldquo;&rdquo;&quot;)</p>
+<p>For example, here&rsquo;s a cute multi-line ascii art dinosaur. 🦕
+<a href="https://theswiftdev.com/logging-for-beginners-in-swift/">https://theswiftdev.com/logging-for-beginners-in-swift/</a></p>
+<p><a href="https://ijoshsmith.com/2015/04/29/creating-ascii-art-in-functional-swift/">https://ijoshsmith.com/2015/04/29/creating-ascii-art-in-functional-swift/</a></p>
+<p>Tetris:
+<a href="https://schwiftyui.com/swiftui/tetris-in-swiftui-pt-0-the-design/">https://schwiftyui.com/swiftui/tetris-in-swiftui-pt-0-the-design/</a></p>
+<p>Schwiftyui:
+<a href="https://schwiftyui.com/">https://schwiftyui.com/</a></p>
+<p>Coding design pattern
+<a href="https://youtube.com/watch?v=tv-_1er1mWI&amp;feature=share">https://youtube.com/watch?v=tv-_1er1mWI&amp;feature=share</a></p>
+<p>Swift Trick
+<a href="https://twitter.com/christianselig/status/1494357206233501697?s=12">https://twitter.com/christianselig/status/1494357206233501697?s=12</a></p>
+<p>Live stream
+<a href="https://twitter.com/twostraws/status/1473322628190511110?s=12">https://twitter.com/twostraws/status/1473322628190511110?s=12</a></p>
+<p>Swift
+<a href="https://www.heise.de/news/Programmiersprache-Swift-5-5-krempelt-die-Nebenlaeufigkeit-der-Sprache-um-6196960.html">https://www.heise.de/news/Programmiersprache-Swift-5-5-krempelt-die-Nebenlaeufigkeit-der-Sprache-um-6196960.html</a></p>
+<h3 id="javascript-js">JavaScript js</h3>
+<p><a href="https://molily.de/js/">https://molily.de/js/</a></p>
+<p>Corona Simulation:
+<a href="https://tquev.github.io/covid-19/">https://tquev.github.io/covid-19/</a></p>
+<p>Khan Academy:
+<a href="https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse">https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse</a></p>
+<p>Javascript Doku:
+<a href="https://devdocs.io/javascript/">https://devdocs.io/javascript/</a></p>
+<p>Daniel Shiffman (The Coding Train):
+<a href="https://www.youtube.com/user/shiffman">https://www.youtube.com/user/shiffman</a></p>
+<p>19 Prototypes:
+<a href="https://www.youtube.com/watch?v=hS_WqkyUah8">https://www.youtube.com/watch?v=hS_WqkyUah8</a></p>
+<p>20 Inheritance of Prototypes:
+<a href="https://www.youtube.com/watch?v=CpmE5twq1h0">https://www.youtube.com/watch?v=CpmE5twq1h0</a></p>
+<p>Tony Alicea:
+Inside javascript:
+<a href="https://www.youtube.com/watch?v=Bv_5Zv5c-Ts">https://www.youtube.com/watch?v=Bv_5Zv5c-Ts</a></p>
+<p>Curser
+<a href="http://www.javascripter.net/faq/stylesc.htm">http://www.javascripter.net/faq/stylesc.htm</a></p>
+<hr>
+<h3 id="ml5js">ml5js</h3>
+<p>Friendly machine learning for the web! <br>
+<a href="https://ml5js.org/">https://ml5js.org/</a> <br>
+<a href="https://github.com/ml5js/ml5-library">https://github.com/ml5js/ml5-library</a> <br>
+<a href="https://www.npmjs.com/package/ml5">https://www.npmjs.com/package/ml5</a> <br>
+<a href="https://ml5js.medium.com/">https://ml5js.medium.com/</a> <br>
+<a href="https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76">https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76</a> <br></p>
+<p>Video: <br>
+<a href="https://en.www.wikipedia.org/wiki/Daniel_Shiffman">https://en.www.wikipedia.org/wiki/Daniel_Shiffman</a> <br>
+<a href="https://www.youtube.com/watch?v=jmznx0Q1fP0">https://www.youtube.com/watch?v=jmznx0Q1fP0</a> <br>
+<a href="https://www.youtube.com/watch?v=MfvnRFANUGE">https://www.youtube.com/watch?v=MfvnRFANUGE</a> <br>
+<a href="https://ml5js.org/">https://ml5js.org/</a> <br></p>
+<p>Sensor Flow for Javascript: <br>
+<a href="https://www.tensorflow.org/js">https://www.tensorflow.org/js</a> <br></p>
+<hr>
+<h3 id="visual-studio">Visual Studio</h3>
+<p><a href="https://code.visualstudio.com/docs/python/python-tutorial/?&amp;WT.mc_id=vstoolbox-c9-niner">https://code.visualstudio.com/docs/python/python-tutorial/?&amp;WT.mc_id=vstoolbox-c9-niner</a> <br></p>
+<h3 id="excel">Excel</h3>
+<p><a href="https://www.excel-pratique.com/en/list_of_functions/information_functions">https://www.excel-pratique.com/en/list_of_functions/information_functions</a> <br></p>
+<p>Codename: <br>
+<a href="https://riptutorial.com/excel-vba/example/11272/worksheet--name---index-or--codename">https://riptutorial.com/excel-vba/example/11272/worksheet--name---index-or--codename</a> <br></p>
+<p>Collections: <br>
+<a href="https://excelmacromastery.com/excel-vba-collections/">https://excelmacromastery.com/excel-vba-collections/</a> <br></p>
+<p>Color as long = rgb(&hellip;) <br></p>
+<p>Dictionary: <br>
+<a href="https://analystcave.com/excel-vba-dictionary-arrays-and-other-data-structures/">https://analystcave.com/excel-vba-dictionary-arrays-and-other-data-structures/</a> <br></p>
+<hr>
+<h3 id="tkinter">TKinter</h3>
+<p>Brad Travery - Desktop GUI App with Python and Tkinter <br>
+<a href="https://m.youtube.com/watch?v=ELkaEpN29PU&amp;list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx&amp;index=5&amp;t=0s">https://m.youtube.com/watch?v=ELkaEpN29PU&amp;list=PLillGF-RfqbbJYRaNqeUzAb7QY-IqBKRx&amp;index=5&amp;t=0s</a> <br>
+<a href="https://github.com/bradtraversy/part_manager">https://github.com/bradtraversy/part_manager</a> <br></p>
+<p>Kyle Kowalczyk <br>
+<a href="https://kyletk.com/index.php/2017/03/15/python-tkinter-create-tabs-notebook-widget/">https://kyletk.com/index.php/2017/03/15/python-tkinter-create-tabs-notebook-widget/</a> <br></p>
+<p>Python Programming <br>
+<a href="https://pythonprogramming.altervista.org/tkinter-vs-ttk-better-widgets/">https://pythonprogramming.altervista.org/tkinter-vs-ttk-better-widgets/</a> <br></p>
+<hr>
+<h3 id="emusic">eMusic</h3>
+<p>Sylvia: <br>
+<a href="https://soundcloud.com/user-277662840/popular-tracks">https://soundcloud.com/user-277662840/popular-tracks</a> <br></p>
+<p>Adrian: <br>
+<a href="https://soundcloud.com/adizo/popular-tracks">https://soundcloud.com/adizo/popular-tracks</a> <br></p>
+<hr>
+<h3 id="django">Django</h3>
+<p>Django Web Framework (Python): <br>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django</a> <br></p>
+<p>Corey Schafer Django Tutorial - 17 Videos: <br>
+<a href="https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p">https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p</a> <br></p>
+<p>Mike Hibbert Django Tutorials - 34 Videos: <br>
+<a href="https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD">https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD</a> <br></p>
+<p>Thenewboston Django Tutorials - 40 Videos: <br>
+<a href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK">https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK</a> <br></p>
+<h3 id="vim">VIM</h3>
+<p><a href="https://riptutorial.com/de/ebook">https://riptutorial.com/de/ebook</a> <br></p>
+<h3 id="python">Python</h3>
+<h4 id="terminal">Terminal</h4>
+<p><a href="https://www.devdungeon.com/content/python-import-syspath-and-pythonpath-tutorial">https://www.devdungeon.com/content/python-import-syspath-and-pythonpath-tutorial</a> <br>
+<a href="https://www.devdungeon.com/content/create-ascii-art-text-banners-python">https://www.devdungeon.com/content/create-ascii-art-text-banners-python</a> <br>
+<a href="https://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/">https://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/</a> <br>
+<a href="https://www.kerneldev.com/2018/09/01/command-line-arguments-using-python-sys-argv-part1/">https://www.kerneldev.com/2018/09/01/command-line-arguments-using-python-sys-argv-part1/</a>
+M <br>
+<a href="https://www.tutorialspoint.com/python/python_command_line_arguments.htm">https://www.tutorialspoint.com/python/python_command_line_arguments.htm</a> <br>
+<a href="https://www.python-course.eu/graphs_python.php">https://www.python-course.eu/graphs_python.php</a> <br></p>
+<p>Snake: <br>
+<a href="https://github.com/tancredi/python-console-snake">https://github.com/tancredi/python-console-snake</a> <br></p>
+<h3 id="terminal-1">Terminal</h3>
+<h4 id="colors">Colors</h4>
+<p><a href="https://www.geeksforgeeks.org/print-colors-python-terminal/">https://www.geeksforgeeks.org/print-colors-python-terminal/</a> <br>
+<a href="https://www.quora.com/Is-there-a-Clear-screen-function-in-Python?share=1">https://www.quora.com/Is-there-a-Clear-screen-function-in-Python?share=1</a> <br>
+<a href="https://docs.python.org/2/howto/curses.html">https://docs.python.org/2/howto/curses.html</a> <br>
+<a href="https://pypi.org/project/terminaltables/">https://pypi.org/project/terminaltables/</a> <br>
+<a href="https://hg.python.org/cpython/file/2.7/Demo/curses/">https://hg.python.org/cpython/file/2.7/Demo/curses/</a> <br>
+<a href="https://liftoff.github.io/GateOne/Developer/termio.html">https://liftoff.github.io/GateOne/Developer/termio.html</a> <br>
+<a href="http://urwid.org/manual/index.html">http://urwid.org/manual/index.html</a> <br>
+<a href="https://www.scivision.dev/dynamic-update-inplace-terminal-text-python/">https://www.scivision.dev/dynamic-update-inplace-terminal-text-python/</a> <br>
+<a href="https://code.activestate.com/recipes/475116-using-terminfo-for-portable-color-output-cursor-co/">https://code.activestate.com/recipes/475116-using-terminfo-for-portable-color-output-cursor-co/</a> <br></p>
+<p>Thanks @Chronial for pointing this out! I note however that the docs for os.get_terminal_size() says that shutil.get_terminal_size() is the high-level call that should normally be used. <br>
+<a href="https://stackoverflow.com/questions/2122385/dynamic-terminal-printing-with-python">https://stackoverflow.com/questions/2122385/dynamic-terminal-printing-with-python</a> <br>
+<a href="http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html">http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html</a> <br></p>
+<p>Processing: <br>
+<a href="https://processing.org/">https://processing.org/</a> <br></p>
+<p>p5.js: <br>
+<a href="https://p5js.org/">https://p5js.org/</a> <br></p>
+<p>Computer Graphics: <br>
+<a href="https://www.youtube.com/@Reducible">https://www.youtube.com/@Reducible</a> <br>
+<a href="https://www.youtube.com/watch?v=eED4bSkYCB8">https://www.youtube.com/watch?v=eED4bSkYCB8</a> <br></p>
+<p>Animation vs. math: <br>
+<a href="https://www.youtube.com/watch?v=B1J6Ou4q8vE">https://www.youtube.com/watch?v=B1J6Ou4q8vE</a> <br></p>
+<h3 id="neu">NEU</h3>
+<p>Python:
+<a href="https://www.youtube.com/@Indently">https://www.youtube.com/@Indently</a>
+<a href="https://www.youtube.com/@patloeber/videos">https://www.youtube.com/@patloeber/videos</a>
+<a href="https://www.youtube.com/@NeuralNine">https://www.youtube.com/@NeuralNine</a>
+<a href="https://www.youtube.com/@Carberra">https://www.youtube.com/@Carberra</a>
+<a href="https://www.youtube.com/@mCoding">https://www.youtube.com/@mCoding</a>
+<a href="https://www.youtube.com/@PythonSimplified">https://www.youtube.com/@PythonSimplified</a></p>
+<p>Allgemein:
+<a href="https://www.youtube.com/@CodingTech">https://www.youtube.com/@CodingTech</a></p>
+<hr>
+<h1 id="swiftswiftui---links">Swift/SwiftUI - Links</h1>
+<p>2020-07-11</p>
+<p>Inhalt
+Apple	1
+Developer	1
+Resources	1
+Swift-Community	1
+Documentation	2
+Language Guide	2
+Tutorials	2
+CodeWithChris	2
+HackingWithSwift	2
+LetsBuildThatApp	2
+SwiftUILab	2
+Codingenieur	3
+Ralf Ebert	3
+Stanford University	3
+Plymouth University	4
+Others	4</p>
+<p>Apple
+<a href="https://www.apple.com/de/swift/">https://www.apple.com/de/swift/</a></p>
+<p>Developer
+<a href="https://developer.apple.com/swift">https://developer.apple.com/swift</a></p>
+<p>Resources
+<a href="https://developer.apple.com/swift/resources">https://developer.apple.com/swift/resources</a></p>
+<p>Documentation
+<a href="https://developer.apple.com/documentation/">https://developer.apple.com/documentation/</a>
+<a href="https://docs.swift.org/swift-book/index.html">https://docs.swift.org/swift-book/index.html</a></p>
+<p>Videos
+<a href="https://developer.apple.com/videos/developer-tools/swift/">https://developer.apple.com/videos/developer-tools/swift/</a></p>
+<p>Swift-Community
+<a href="https://swift.org/">https://swift.org/</a>
+Documentation
+<a href="https://swift.org/documentation/">https://swift.org/documentation/</a>
+Language Guide
+<a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html">https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html</a></p>
+<p>Tutorials
+CodeWithChris
+Chris …
+<a href="https://www.youtube.com/c/CodeWithChris">https://www.youtube.com/c/CodeWithChris</a>  [349k]</p>
+<p>SwiftUI Tutorials for Beginners [13]
+<a href="https://www.youtube.com/playlist?list=PLMRqhzcHGw1Z-lZaaun3A3mV9PbEfHANI">https://www.youtube.com/playlist?list=PLMRqhzcHGw1Z-lZaaun3A3mV9PbEfHANI</a>
+Swift Tutorials for Beginners (2019) [18]
+<a href="https://www.youtube.com/playlist?list=PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX">https://www.youtube.com/playlist?list=PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX</a>
+How to Make an App for Beginners (2020) [30]
+<a href="https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZkH8RuznGMS0NZs0jWQQ5a">https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZkH8RuznGMS0NZs0jWQQ5a</a></p>
+<p>HackingWithSwift
+Paul Hudson
+<a href="https://www.hackingwithswift.com/">https://www.hackingwithswift.com/</a>
+<a href="https://www.youtube.com/c/Paul%2520Hudson">https://www.youtube.com/c/Paul Hudson</a> [40k]</p>
+<p>iOS14 - SwiftUI [26]
+<a href="https://www.youtube.com/playlist?list=PLuoeXyslFTuaX59K2KL-HK2NxbdWiz3Tm">https://www.youtube.com/playlist?list=PLuoeXyslFTuaX59K2KL-HK2NxbdWiz3Tm</a>
+SwiftUI [13]
+<a href="https://www.youtube.com/playlist?list=PLuoeXyslFTuaZtX7xSYbWz3TR0Vpz39gK">https://www.youtube.com/playlist?list=PLuoeXyslFTuaZtX7xSYbWz3TR0Vpz39gK</a>
+Hacking with iOS: SwiftUI Edition [143]
+<a href="https://www.youtube.com/playlist?list=PLuoeXyslFTuZRi4q4VT6lZKxYbr7so1Mr">https://www.youtube.com/playlist?list=PLuoeXyslFTuZRi4q4VT6lZKxYbr7so1Mr</a>
+<a href="https://www.youtube.com/playlist?list=PLuoeXyslFTubw4NtepDCis5tTqK37zT3Q">SwiftUI by Example</a> [31]
+<a href="https://www.youtube.com/playlist?list=PLuoeXyslFTubw4NtepDCis5tTqK37zT3Q">https://www.youtube.com/playlist?list=PLuoeXyslFTubw4NtepDCis5tTqK37zT3Q</a></p>
+<p>LetsBuildThatApp
+Brian Voong
+<a href="https://www.youtube.com/c/Lets%2520Build%2520That%2520App">https://www.youtube.com/c/Lets Build That App</a> [178k]</p>
+<p><a href="https://www.youtube.com/watch?v=ULEFrRSPXFE&amp;list=PL0dzCUj1L5JH5wDLTKAmzFgsuxum-_5K4">Calculator SwiftUI</a> [3]
+<a href="https://www.youtube.com/playlist?list=PL0dzCUj1L5JH5wDLTKAmzFgsuxum-_5K4">https://www.youtube.com/playlist?list=PL0dzCUj1L5JH5wDLTKAmzFgsuxum-_5K4</a></p>
+<p>SwiftUILab
+<a href="https://swiftui-lab.com/">https://swiftui-lab.com/</a></p>
+<p><a href="https://swiftui-lab.com/swiftui-animations-part1/">https://swiftui-lab.com/swiftui-animations-part1/</a>
+<a href="https://swiftui-lab.com/swiftui-animations-part2/">https://swiftui-lab.com/swiftui-animations-part2/</a></p>
+<p><a href="https://swiftui-lab.com/swiftui-animations-part3/">https://swiftui-lab.com/swiftui-animations-part3/</a></p>
+<p><a href="https://swiftui-lab.com/trigonometric-recipes-for-swiftui/">https://swiftui-lab.com/trigonometric-recipes-for-swiftui/</a></p>
+<p><a href="https://swiftui-lab.com/modal-dismiss-gesture/">https://swiftui-lab.com/modal-dismiss-gesture/</a></p>
+<p><a href="https://swiftui-lab.com/alignment-guides/">https://swiftui-lab.com/alignment-guides/</a></p>
+<p><a href="https://swiftui-lab.com/advanced-transitions/">https://swiftui-lab.com/advanced-transitions/</a></p>
+<p><a href="https://swiftui-lab.com/frame-behaviors/">https://swiftui-lab.com/frame-behaviors/</a></p>
+<p><a href="https://swiftui-lab.com/custom-styling/">https://swiftui-lab.com/custom-styling/</a></p>
+<p><a href="https://swiftui-lab.com/state-changes/">https://swiftui-lab.com/state-changes/</a>
+<a href="https://swiftui-lab.com/swiftui-id/">https://swiftui-lab.com/swiftui-id/</a>
+<a href="https://swiftui-lab.com/equatableview/">https://swiftui-lab.com/equatableview/</a>
+<a href="https://swiftui-lab.com/drag-drop-with-swiftui/">https://swiftui-lab.com/drag-drop-with-swiftui/</a>
+<a href="https://swiftui-lab.com/a-powerful-combo/">https://swiftui-lab.com/a-powerful-combo/</a>
+<a href="https://swiftui-lab.com/working-with-focus-on-swiftui-views/">https://swiftui-lab.com/working-with-focus-on-swiftui-views/</a>
+<a href="https://swiftui-lab.com/wwdc-2020-is-here/">https://swiftui-lab.com/wwdc-2020-is-here/</a>
+<a href="https://swiftui-lab.com/backward-compatibility/">https://swiftui-lab.com/backward-compatibility/</a>
+<a href="https://swiftui-lab.com/matchedgeometryeffect-part1/">https://swiftui-lab.com/matchedgeometryeffect-part1/</a>
+<a href="https://github.com/swiftui-lab/swiftui-hero-animations">https://github.com/swiftui-lab/swiftui-hero-animations</a>
+<a href="https://swiftui-lab.com/swiftui-layout-magic/">https://swiftui-lab.com/swiftui-layout-magic/</a>
+<a href="https://swiftui-lab.com/geometryreader-to-the-rescue/">https://swiftui-lab.com/geometryreader-to-the-rescue/</a>
+<a href="https://swiftui-lab.com/view-extensions-for-better-code-readability/">https://swiftui-lab.com/view-extensions-for-better-code-readability/</a>
+<a href="https://swiftui-lab.com/scrollview-pull-to-refresh/">https://swiftui-lab.com/scrollview-pull-to-refresh/</a>
+<a href="https://swiftui-lab.com/communicating-with-the-view-tree-part-1/">https://swiftui-lab.com/communicating-with-the-view-tree-part-1/</a>
+<a href="https://swiftui-lab.com/communicating-with-the-view-tree-part-2/">https://swiftui-lab.com/communicating-with-the-view-tree-part-2/</a>
+<a href="https://swiftui-lab.com/communicating-with-the-view-tree-part-3/">https://swiftui-lab.com/communicating-with-the-view-tree-part-3/</a></p>
+<p>Codingenieur
+Christian Gesty
+<a href="https://www.youtube.com/c/codingenieur">https://www.youtube.com/c/codingenieur</a> [2.7k] [DE]
+SwiftUI Deutsch Tutorial:
+<a href="https://www.youtube.com/playlist?list=PLFG4t6bmESEuXL-ZRxDQm2b0ytWE4xdtW">https://www.youtube.com/playlist?list=PLFG4t6bmESEuXL-ZRxDQm2b0ytWE4xdtW</a></p>
+<p>Ralf Ebert
+iOS Entwickler-Blog
+<a href="https://www.ralfebert.de/ios/">https://www.ralfebert.de/ios/</a> [EN]</p>
+<p>Stanford University
+CS193p „Developing Apps for iOS”
+<a href="https://cs193p.sites.stanford.edu/">https://cs193p.sites.stanford.edu/</a></p>
+<ol>
+<li>Course Logistics and Intro to SwiftUI [1:02]
+<a href="https://www.youtube.com/watch?v=jbtqIBpUG7g&amp;feature=youtu.be">https://www.youtube.com/watch?v=jbtqIBpUG7g&amp;feature=youtu.be</a></li>
+<li>MVVM and the Swift Type System [1:44]
+<a href="https://www.youtube.com/watch?v=4GjXq2Sr55Q&amp;feature=youtu.be">https://www.youtube.com/watch?v=4GjXq2Sr55Q&amp;feature=youtu.be</a></li>
+<li>Reactive UI Protocols Layout [1:27]
+<a href="https://www.youtube.com/watch?v=SIYdYpPXil4&amp;list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&amp;index=3">https://www.youtube.com/watch?v=SIYdYpPXil4&amp;list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&amp;index=3</a></li>
+<li>Grid enum Optionals [1:21]
+<a href="https://www.youtube.com/watch?v=eHEeWzFP6O4&amp;list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&amp;index=4">https://www.youtube.com/watch?v=eHEeWzFP6O4&amp;list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&amp;index=4</a></li>
+<li>ViewBuilder Shape ViewModifier [1:02]
+<a href="https://www.youtube.com/watch?v=oDKDGCRdSHc">https://www.youtube.com/watch?v=oDKDGCRdSHc</a></li>
+<li>Animation [1:30]
+<a href="https://www.youtube.com/watch?v=3krC2c56ceQ">https://www.youtube.com/watch?v=3krC2c56ceQ</a></li>
+<li>Multithreading EmojiArt [1:31]
+<a href="https://www.youtube.com/watch?v=tmx-OwkBWxA">https://www.youtube.com/watch?v=tmx-OwkBWxA</a></li>
+<li>Gestures JSON [1:16]
+<a href="https://www.youtube.com/watch?v=mz-rNLWJ0bk">https://www.youtube.com/watch?v=mz-rNLWJ0bk</a></li>
+<li>Data Flow [1:13]
+<a href="https://www.youtube.com/watch?v=0i152oA3T3s&amp;feature=youtu.be">https://www.youtube.com/watch?v=0i152oA3T3s&amp;feature=youtu.be</a></li>
+<li>Modal Presentation and Navigation [1:43]
+<a href="https://www.youtube.com/watch?v=CKexGQuIO7E&amp;feature=youtu.be">https://www.youtube.com/watch?v=CKexGQuIO7E&amp;feature=youtu.be</a></li>
+<li>Enroute Picker [0:49]
+<a href="https://www.youtube.com/watch?v=fCfC6m7XUew&amp;feature=youtu.be">https://www.youtube.com/watch?v=fCfC6m7XUew&amp;feature=youtu.be</a></li>
+<li>Core Data [1:34]
+<a href="https://www.youtube.com/watch?v=yOhyOpXvaec&amp;feature=youtu.be">https://www.youtube.com/watch?v=yOhyOpXvaec&amp;feature=youtu.be</a></li>
+<li>Persistence [1:02]
+<a href="https://www.youtube.com/watch?v=fTNPRhGGP-0&amp;feature=youtu.be">https://www.youtube.com/watch?v=fTNPRhGGP-0&amp;feature=youtu.be</a></li>
+<li>UIKit Integration [1:02]
+<a href="https://www.youtube.com/watch?v=GRX5Dha_Clw&amp;feature=youtu.be">https://www.youtube.com/watch?v=GRX5Dha_Clw&amp;feature=youtu.be</a></li>
+</ol>
+<p>Plymouth University
+iOS Development in Swift
+<a href="https://itunes.apple.com/us/course/ios-development-in-swift/id950659946">https://itunes.apple.com/us/course/ios-development-in-swift/id950659946</a></p>
+<p>Others</p>
+<p>Cheat Sheet: <a href="https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#progressview">https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#progressview</a></p>
+<p>Animation:</p>
+<p>SwiftUILab   SwiftUI</p>
+<p>Links:
+<a href="https://github.com/swiftui-lab/About-SwiftUI">https://github.com/swiftui-lab/About-SwiftUI</a></p>
+<p>Data driven SwiftUI: https://mentalfaculty.github.io/LLVS/2019/09/25/data-driven-swiftui.html</p>
+<p>Mehrere Texte: <a href="https://heartbeat.fritz.ai/search?q=Danny%2520Bolella%2520SwiftUI">https://heartbeat.fritz.ai/search?q=Danny%20Bolella%20SwiftUI</a></p>
+<p>SwiftUI:
+<a href="https://www.heise.de/developer/artikel/Einstieg-in-SwiftUI-4594018.html?wt_ref=https://duckduckgo.com/&amp;wt_t=1594208692090">https://www.heise.de/developer/artikel/Einstieg-in-SwiftUI-4594018.html?wt_ref=https%3A%2F%2Fduckduckgo.com%2F&amp;wt_t=1594208692090</a>  https://medium.com/better-programming</p>
+<p><a href="https://medium.com/@martinlasek">https://medium.com/@martinlasek</a></p>
+<p>SwiftUI Mastermind (Snippets):</p>
+<p><a href="http://www.formasterminds.com/swiftui_for_masterminds/examples.php">http://www.formasterminds.com/swiftui_for_masterminds/examples.php</a></p>
+<p>Animations:
+<a href="https://swiftui-lab.com/swiftui-animations-part1/">https://swiftui-lab.com/swiftui-animations-part1/</a></p>
+<p>Graphics Drawings:
+<a href="https://www.answertopia.com/swiftui/basic-swiftui-graphics-drawing/">https://www.answertopia.com/swiftui/basic-swiftui-graphics-drawing/</a></p>
+<p>Würfel App:
+<a href="https://www.ralfebert.de/ios/tutorial-swiftui-einfuehrung-state/">https://www.ralfebert.de/ios/tutorial-swiftui-einfuehrung-state/</a>
+Links: https://github.com/Juanpe/About-SwiftUI
+SwiftUI state management system:
+<a href="https://www.swiftbysundell.com/articles/swiftui-state-management-guide/">https://www.swiftbysundell.com/articles/swiftui-state-management-guide/</a></p>
+<p>Swift Links</p>
+<p>Dimitrii:
+<a href="https://dmtopolog.com/">https://dmtopolog.com/</a></p>
+<p>Steven Curtis:
+<a href="https://betterprogramming.pub/mapping-in-swift-a6d6132a38af">https://betterprogramming.pub/mapping-in-swift-a6d6132a38af</a></p>
+<p>Appy Pie:
+<a href="https://www.appypie.com/blog?page=1">https://www.appypie.com/blog?page=1</a>
+<a href="https://www.appypie.com/swift-extensions-how-to">https://www.appypie.com/swift-extensions-how-to</a></p>
+<p>Log Rocket:
+<a href="https://blog.logrocket.com/swift-enums-an-overview-with-examples">https://blog.logrocket.com/swift-enums-an-overview-with-examples</a></p>
+<p>Swift by Sundell:
+<a href="https://www.swiftbysundell.com/articles">https://www.swiftbysundell.com/articles</a></p>
+<p>Marco Santarossa:
+<a href="https://www.marcosantadev.com/capturing-values-swift-closures">https://www.marcosantadev.com/capturing-values-swift-closures</a></p>
+<p>Cocoacasts:
+<a href="https://cocoacasts.com/four-clever-uses-of-swift-extensions">https://cocoacasts.com/four-clever-uses-of-swift-extensions</a></p>
+<p>Technotopia:
+<a href="https://www.techotopia.com/index.php/An_Introduction_to_Swift_Subclassing_and_Extensions">https://www.techotopia.com/index.php/An_Introduction_to_Swift_Subclassing_and_Extensions</a></p>
+<p>BOOKS</p>
+<p>Swift in depth
+<a href="https://www.manning.com/books/swift-in-depth">https://www.manning.com/books/swift-in-depth</a></p>
+<p><a href="https://www.simpleswiftguide.com/how-to-iterate-over-enum-cases-in-swift">https://www.simpleswiftguide.com/how-to-iterate-over-enum-cases-in-swift</a></p>
+<h3 id="reddit">Reddit</h3>
+<p>Reddit:
+r/swiftui, r/swift   Twitter</p>
+<p>SwiftUI:
+<a href="https://mobile.twitter.com/search?q=swiftui&amp;src=typed_query">https://mobile.twitter.com/search?q=swiftui&amp;src=typed_query</a></p>
+<p>Animated Solar System:
+<a href="https://www.raywenderlich.com/5815412-getting-started-with-swiftui-animations">https://www.raywenderlich.com/5815412-getting-started-with-swiftui-animations</a></p>
+<p>Animated Circles:
+<a href="https://mobile.twitter.com/cocoawithlove/status/1143859662166454272">https://mobile.twitter.com/cocoawithlove/status/1143859662166454272</a>
+<a href="https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34">https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34</a></p>
+<p>Colorwheel: https://github.com/Priva28/SwiftUIColourWheel</p>
+<p>Weather App:
+<a href="https://gist.github.com/jordansinger/f0111835e54f8c2db488283f52097815">https://gist.github.com/jordansinger/f0111835e54f8c2db488283f52097815</a></p>
+<p>Custom Buttons:
+<a href="https://developer.apple.com/videos/play/wwdc2019/237/">https://developer.apple.com/videos/play/wwdc2019/237/</a></p>
+<p>Graphs:
+<a href="https://www.raywenderlich.com/6398124-swiftui-tutorial-for-ios-creating-charts">https://www.raywenderlich.com/6398124-swiftui-tutorial-for-ios-creating-charts</a></p>
+<p>Game trigonometry:
+<a href="https://www.raywenderlich.com/5504-trigonometry-for-game-programming-spritekit-and-swift-tutorial-part-1-2">https://www.raywenderlich.com/5504-trigonometry-for-game-programming-spritekit-and-swift-tutorial-part-1-2</a>
+<a href="https://swiftui.map4b.com/">https://swiftui.map4b.com/</a></p>
+<p>Fitness dashboard:
+<a href="https://swiftui.map4b.com/2020/07/swiftui-2-0-fitness-dashboard-bar-charts-progress-rings-xcode-12-swiftui-2-0-tutorials/amp/?__twitter_impression=true">https://swiftui.map4b.com/2020/07/swiftui-2-0-fitness-dashboard-bar-charts-progress-rings-xcode-12-swiftui-2-0-tutorials/amp/?__twitter_impression=true</a></p>
+<p>Kavsoft:
+<a href="https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w/featured">https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w/featured</a>
+<a href="https://kavsoft.tech/">https://kavsoft.tech/</a></p>
+<p>Uber map clone:
+<a href="https://www.youtube.com/watch?v=xS6tigkZu_c&amp;list=PLimqJDzPI-H_OuDAnC5OJQx3Foq6ANmac&amp;index=2&amp;t=0s">https://www.youtube.com/watch?v=xS6tigkZu_c&amp;list=PLimqJDzPI-H_OuDAnC5OJQx3Foq6ANmac&amp;index=2&amp;t=0s</a>
+<a href="https://kavsoft.tech/Swift/Uber%20Clone/">https://kavsoft.tech/Swift/Uber%20Clone/</a>
+<a href="https://nshipster.com/">https://nshipster.com/</a></p>
+<p>SwiftUI prototype:
+<a href="https://thoughtbot.com/blog/swiftui-prototype-tutorial-1-of-5-project-setup">https://thoughtbot.com/blog/swiftui-prototype-tutorial-1-of-5-project-setup</a></p>
+<p>Starplane game:
+<a href="https://gist.github.com/JohnSundell/7ae3223b5bad3712378a57aaff31d7e2">https://gist.github.com/JohnSundell/7ae3223b5bad3712378a57aaff31d7e2</a></p>
+<p>Nerdiak:
+<a href="https://nerdyak.tech/">https://nerdyak.tech/</a></p>
+<p>&hellip;Geometry effect:
+<a href="https://nerdyak.tech/development/2019/08/29/tweaking-animations-with-GeometryEffect.html?utm_content=bufferecbe5&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=bufhttps">https://nerdyak.tech/development/2019/08/29/tweaking-animations-with-GeometryEffect.html?utm_content=bufferecbe5&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=bufhttps</a></p>
+<p>&hellip;Complex Shapes: https://nerdyak.tech/development/2020/01/12/animating-complex-shapes-in-swiftui.html</p>
+<p>&hellip;Gender switch:
+<a href="https://nerdyak.tech/development/2019/11/28/creating-custom-views-in-swiftui.html">https://nerdyak.tech/development/2019/11/28/creating-custom-views-in-swiftui.html</a></p>
+<p>Gesture and Animation:
+<a href="https://medium.com/flawless-app-stories/gestures-and-animations-in-swiftui-195625b822c9">https://medium.com/flawless-app-stories/gestures-and-animations-in-swiftui-195625b822c9</a>   </p>
+<p>Reddit:</p>
+<p>r/swiftui, r/swift</p>
+<p>Twitter SwiftUI:
+<a href="https://mobile.twitter.com/search?q=swiftui&amp;src=typed_query">https://mobile.twitter.com/search?q=swiftui&amp;src=typed_query</a></p>
+<p>Animated Solar System:
+<a href="https://www.raywenderlich.com/5815412-getting-started-with-swiftui-animations">https://www.raywenderlich.com/5815412-getting-started-with-swiftui-animations</a></p>
+<p>Animated Circles:
+<a href="https://mobile.twitter.com/cocoawithlove/status/1143859662166454272">https://mobile.twitter.com/cocoawithlove/status/1143859662166454272</a></p>
+<p><a href="https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34">https://gist.github.com/mattgallagher/eaa5d3242d83360a52c45c9706479e34</a></p>
+<p>Colorwheel:
+<a href="https://github.com/Priva28/SwiftUIColourWheel">https://github.com/Priva28/SwiftUIColourWheel</a></p>
+<p>Weather App:
+<a href="https://gist.github.com/jordansinger/f0111835e54f8c2db488283f52097815">https://gist.github.com/jordansinger/f0111835e54f8c2db488283f52097815</a></p>
+<p>Custom Buttons:
+<a href="https://developer.apple.com/videos/play/wwdc2019/237/">https://developer.apple.com/videos/play/wwdc2019/237/</a></p>
+<p>Graphs:
+<a href="https://www.raywenderlich.com/6398124-swiftui-tutorial-for-ios-creating-charts">https://www.raywenderlich.com/6398124-swiftui-tutorial-for-ios-creating-charts</a></p>
+<p>Game trigonometry:
+<a href="https://www.raywenderlich.com/5504-trigonometry-for-game-programming-spritekit-and-swift-tutorial-part-1-2">https://www.raywenderlich.com/5504-trigonometry-for-game-programming-spritekit-and-swift-tutorial-part-1-2</a>
+<a href="https://swiftui.map4b.com/">https://swiftui.map4b.com/</a></p>
+<p>Fitness dashboard:
+<a href="https://swiftui.map4b.com/2020/07/swiftui-2-0-fitness-dashboard-bar-charts-progress-rings-xcode-12-swiftui-2-0-tutorials/amp/?__twitter_impression=true">https://swiftui.map4b.com/2020/07/swiftui-2-0-fitness-dashboard-bar-charts-progress-rings-xcode-12-swiftui-2-0-tutorials/amp/?__twitter_impression=true</a></p>
+<p>Kavsoft:
+<a href="https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w/featured">https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w/featured</a></p>
+<p><a href="https://kavsoft.tech/">https://kavsoft.tech/</a></p>
+<p>Uber map clone:
+<a href="https://www.youtube.com/watch?v=xS6tigkZu_c&amp;list=PLimqJDzPI-H_OuDAnC5OJQx3Foq6ANmac&amp;index=2&amp;t=0s">https://www.youtube.com/watch?v=xS6tigkZu_c&amp;list=PLimqJDzPI-H_OuDAnC5OJQx3Foq6ANmac&amp;index=2&amp;t=0s</a>
+<a href="https://kavsoft.tech/Swift/Uber%20Clone/">https://kavsoft.tech/Swift/Uber%20Clone/</a>
+<a href="https://nshipster.com/">https://nshipster.com/</a></p>
+<p>SwiftUI prototype:
+<a href="https://thoughtbot.com/blog/swiftui-prototype-tutorial-1-of-5-project-setup">https://thoughtbot.com/blog/swiftui-prototype-tutorial-1-of-5-project-setup</a></p>
+<p>Starplane game:
+<a href="https://gist.github.com/JohnSundell/7ae3223b5bad3712378a57aaff31d7e2">https://gist.github.com/JohnSundell/7ae3223b5bad3712378a57aaff31d7e2</a></p>
+<p>Nerdiak: https://nerdyak.tech/</p>
+<p>&hellip;Geometry effect:
+<a href="https://nerdyak.tech/development/2019/08/29/tweaking-animations-with-GeometryEffect.html?utm_content=bufferecbe5&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=bufhttps">https://nerdyak.tech/development/2019/08/29/tweaking-animations-with-GeometryEffect.html?utm_content=bufferecbe5&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=bufhttps</a></p>
+<p>&hellip;Complex Shapes:
+<a href="https://nerdyak.tech/development/2020/01/12/animating-complex-shapes-in-swiftui.html">https://nerdyak.tech/development/2020/01/12/animating-complex-shapes-in-swiftui.html</a></p>
+<p>&hellip;Gender switch:
+<a href="https://nerdyak.tech/development/2019/11/28/creating-custom-views-in-swiftui.html">https://nerdyak.tech/development/2019/11/28/creating-custom-views-in-swiftui.html</a></p>
+<p>Gesture and Animation:
+<a href="https://medium.com/flawless-app-stories/gestures-and-animations-in-swiftui-195625b822c9">https://medium.com/flawless-app-stories/gestures-and-animations-in-swiftui-195625b822c9</a></p>
+<p>Martin Lexow:
+<a href="https://www.youtube.com/c/MartinLexow">https://www.youtube.com/c/MartinLexow</a>  Mit schöne, kurzem CoreML Video:
+<a href="https://www.youtube.com/watch?v=qt1Lc5k4XMQ&amp;list=PLDchTdjs3z3QyAZLUur5bu1KxrPOvKEam&amp;index=12&amp;t=0s">https://www.youtube.com/watch?v=qt1Lc5k4XMQ&amp;list=PLDchTdjs3z3QyAZLUur5bu1KxrPOvKEam&amp;index=12&amp;t=0s</a></p>
+<p>Christian Gesty [Codingeneur]:
+<a href="https://www.youtube.com/c/codINGenieur/playlists?disable_polymer=true&amp;itct=CA0Q8JMBGAIiEwjnj_Oq47jqAhWUmHwKHSn9DNQ=">https://www.youtube.com/c/codINGenieur/playlists?disable_polymer=true&amp;itct=CA0Q8JMBGAIiEwjnj_Oq47jqAhWUmHwKHSn9DNQ%3D</a></p>
+<p>Schöne SwiftUI Einführung:
+<a href="https://www.youtube.com/watch?v=JlI1s41zIrQ&amp;list=PLFG4t6bmESEuXL-ZRxDQm2b0ytWE4xdtW&amp;index=2&amp;t=0s">https://www.youtube.com/watch?v=JlI1s41zIrQ&amp;list=PLFG4t6bmESEuXL-ZRxDQm2b0ytWE4xdtW&amp;index=2&amp;t=0s</a></p>
+<p>Swift Tutorials 2015:</p>
+<p><a href="https://t3n.de/news/swift-tutorials-apple-starter-guide-554269/">https://t3n.de/news/swift-tutorials-apple-starter-guide-554269/</a></p>
+<p>List of Tutorials: http://www.sososwift.com/</p>
+<p>Protocol/Delegate:
+<a href="https://www.youtube.com/watch?v=UQnSdXFDAQQ">https://www.youtube.com/watch?v=UQnSdXFDAQQ</a>  MVVM:</p>
+<p>Dogs</p>
+<p><a href="https://www.youtube.com/watch?v=Gs--XGsnyR4">https://www.youtube.com/watch?v=Gs--XGsnyR4</a></p>
+<p>Tage Photo:
+<a href="https://www.youtube.com/watch?v=m0cuCmFjxx0&amp;list=PLJT9LTrr5c9M7pOQr14ufhmcGYtj9ub8b&amp;index=11">https://www.youtube.com/watch?v=m0cuCmFjxx0&amp;list=PLJT9LTrr5c9M7pOQr14ufhmcGYtj9ub8b&amp;index=11</a></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

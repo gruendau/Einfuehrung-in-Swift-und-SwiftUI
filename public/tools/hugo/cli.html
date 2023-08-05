@@ -1,0 +1,1320 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>CLI - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm disabled" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html"
+                               role="button">
+                               zurück   
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/tools/bootstrap/intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../tools/hugo/cli.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        10
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        CLI
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="hugo-cli">Hugo CLI</h2>
+<p>Befehle: <br>
+<a href="#hugo-help"><code>help</code></a>
+<a href="#completion"><code>completion</code></a>
+<a href="#config"><code>config</code></a>
+<a href="#convert"><code>convert</code></a>
+<a href="#deploy"><code>deploy</code></a>
+<a href="#env"><code>env</code></a>
+<a href="#gen"><code>gen</code></a>
+<a href="#help"><code>help</code></a>
+<a href="#import"><code>import</code></a>
+<a href="#list"><code>list</code></a>
+<a href="#mod"><code>mod</code></a>
+<a href="#new"><code>new</code></a>
+<a href="#server"><code>server</code></a>
+<a href="#version"><code>version</code></a></p>
+<!--
+[``](#)
+-->
+<p>Hugo CLI-Befehle: <br></p>
+<pre tabindex="0"><code>  BEFEHL      BESCHREIBUNG
+  ----------  ----------------------------------------------------------
+  completion  Generate the autocompletion script for the specified shell
+  config      Print the site configuration
+  convert     Convert your content to different formats
+  deploy      Deploy your site to a Cloud provider.
+  env         Print Hugo version and environment info
+  gen         A collection of several useful generators.
+  help        Help about any command
+  import      Import your site from others.
+  list        Listing out various types of content
+  mod         Various Hugo Modules helpers.
+  new         Create new content for your site
+  server      A high performance webserver
+  version     ...
+</code></pre><h5 id="man-hugo">man hugo</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>HUGO(1)                            Hugo Manual                           HUGO(1)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>NAME
+</span></span><span style="display:flex;"><span>       hugo - hugo builds your site
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SYNOPSIS
+</span></span><span style="display:flex;"><span>       hugo [flags]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>DESCRIPTION
+</span></span><span style="display:flex;"><span>       hugo is the main command, used to build your Hugo site.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Hugo is a Fast and Flexible Static Site Generator built with love by
+</span></span><span style="display:flex;"><span>       spf13 and friends in Go.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Complete documentation is available at https://gohugo.io/.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS
+</span></span><span style="display:flex;"><span>       -b, --baseURL=&#34;&#34;    
+</span></span><span style="display:flex;"><span>         hostname (and path) to the root, e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -D, --buildDrafts[=false]     
+</span></span><span style="display:flex;"><span>         include content marked as draft
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -E, --buildExpired[=false]    
+</span></span><span style="display:flex;"><span>         include expired content
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -F, --buildFuture[=false]     
+</span></span><span style="display:flex;"><span>         include content with publishdate in the future
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --cacheDir=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         filesystem path to cache directory. Defaults: $TMPDIR/hugocache$USER/
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --cleanDestinationDir[=false]      
+</span></span><span style="display:flex;"><span>         remove files from destination not found in static directories
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --clock=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --config=&#34;&#34;    
+</span></span><span style="display:flex;"><span>         config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --configDir=&#34;config&#34;     
+</span></span><span style="display:flex;"><span>         config dir
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -c, --contentDir=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         filesystem path to content directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --debug[=false]     
+</span></span><span style="display:flex;"><span>         debug output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -d, --destination=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to write files to
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --disableKinds=[]   
+</span></span><span style="display:flex;"><span>         disable different kind of pages (home, RSS etc.)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --enableGitInfo[=false]  
+</span></span><span style="display:flex;"><span>         add Git revision, date, author, and CODEOWNERS info to the pages
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -e, --environment=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         build environment
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --forceSyncStatic[=false]     
+</span></span><span style="display:flex;"><span>         copy all files when static is changed.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --gc[=false]   
+</span></span><span style="display:flex;"><span>         enable to run some cleanup tasks (remove unused cache
+</span></span><span style="display:flex;"><span>         files) after the build
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -h, --help[=false]  
+</span></span><span style="display:flex;"><span>         help for hugo
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --ignoreCache[=false]    
+</span></span><span style="display:flex;"><span>         ignores the cache directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --ignoreVendorPaths=&#34;&#34;   
+</span></span><span style="display:flex;"><span>         ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -l, --layoutDir=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         filesystem path to layout directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --logLevel=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --minify[=false]    
+</span></span><span style="display:flex;"><span>         minify any supported output format (HTML, XML etc.)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noBuildLock[=false]    
+</span></span><span style="display:flex;"><span>         don&#39;t create .hugo_build.lock file
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noChmod[=false]   
+</span></span><span style="display:flex;"><span>         don&#39;t sync permission mode of files
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noTimes[=false]   
+</span></span><span style="display:flex;"><span>         don&#39;t sync modification time of files
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --panicOnWarning[=false]      
+</span></span><span style="display:flex;"><span>         panic on first WARNING log
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --poll=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         set this to a poll interval, e.g --poll 700ms, to use a
+</span></span><span style="display:flex;"><span>         poll based approach to watch for file system changes
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printI18nWarnings[=false]   
+</span></span><span style="display:flex;"><span>         print missing translations
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printMemoryUsage[=false]    
+</span></span><span style="display:flex;"><span>         print memory usage to screen at intervals
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printPathWarnings[=false]   
+</span></span><span style="display:flex;"><span>         print warnings on duplicate target paths etc.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printUnusedTemplates[=false]     
+</span></span><span style="display:flex;"><span>         print warnings on unused templates.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --quiet[=false]     
+</span></span><span style="display:flex;"><span>         build in quiet mode
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --renderToMemory[=false]      
+</span></span><span style="display:flex;"><span>         render to memory (only useful for benchmark testing)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -s, --source=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to read files relative from
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --templateMetrics[=false]     
+</span></span><span style="display:flex;"><span>         display metrics about template executions
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --templateMetricsHints[=false]     
+</span></span><span style="display:flex;"><span>         calculate some improvement hints when combined with --templateMetrics
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -t, --theme=[]      
+</span></span><span style="display:flex;"><span>         themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --themesDir=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         filesystem path to themes directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --trace=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         write trace to file (not useful in general)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -v, --verbose[=false]    
+</span></span><span style="display:flex;"><span>         verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -w, --watch[=false]      
+</span></span><span style="display:flex;"><span>         watch filesystem for changes and recreate as needed
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SEE ALSO
+</span></span><span style="display:flex;"><span>       hugo-completion(1), hugo-config(1), hugo-convert(1), hugo-deploy(1),
+</span></span><span style="display:flex;"><span>       hugo-env(1), hugo-gen(1), hugo-import(1), hugo-list(1), hugo-mod(1),
+</span></span><span style="display:flex;"><span>       hugo-new(1), hugo-server(1), hugo-version(1)
+</span></span></code></pre></div><h5 id="man-hugo-server">man hugo-server</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>HUGO-SERVER(1)                     Hugo Manual                    HUGO-SERVER(1)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>NAME
+</span></span><span style="display:flex;"><span>       hugo-server - A high performance webserver
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SYNOPSIS
+</span></span><span style="display:flex;"><span>       hugo server [command] [flags]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>DESCRIPTION
+</span></span><span style="display:flex;"><span>       Hugo provides its own webserver which builds and serves the site.  While
+</span></span><span style="display:flex;"><span>       hugo server is high performance, it is a webserver with limited options.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       &#39;hugo server&#39; will avoid writing the rendered and served content to disk,
+</span></span><span style="display:flex;"><span>       preferring to store it in memory.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       By default hugo will also watch your files for any changes you make and
+</span></span><span style="display:flex;"><span>       automatically rebuild the site. It will then live reload any open browser
+</span></span><span style="display:flex;"><span>       pages and push the latest content to them. As most Hugo sites are built
+</span></span><span style="display:flex;"><span>       in a fraction of a second, you will be able to save and see your changes
+</span></span><span style="display:flex;"><span>       nearly instantly.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS
+</span></span><span style="display:flex;"><span>       --appendPort[=true]     
+</span></span><span style="display:flex;"><span>         append port to baseURL
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -b, --baseURL=&#34;&#34;    
+</span></span><span style="display:flex;"><span>         hostname (and path) to the root, 
+</span></span><span style="display:flex;"><span>         e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --bind=&#34;127.0.0.1&#34;  
+</span></span><span style="display:flex;"><span>         interface to which the server will bind
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -D, --buildDrafts[=false]    
+</span></span><span style="display:flex;"><span>         include content marked as draft
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -E, --buildExpired[=false]   
+</span></span><span style="display:flex;"><span>         include expired content
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -F, --buildFuture[=false]     
+</span></span><span style="display:flex;"><span>         include content with publishdate in the future
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --cacheDir=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         filesystem path to cache directory. 
+</span></span><span style="display:flex;"><span>         Defaults: $TMPDIR/hugocache$USER/
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --cleanDestinationDir[=false]      
+</span></span><span style="display:flex;"><span>         remove files from destination not
+</span></span><span style="display:flex;"><span>         found in static directories
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -c, --contentDir=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         filesystem path to content directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --disableBrowserError[=false]      
+</span></span><span style="display:flex;"><span>         do not show build errors in the browser
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --disableFastRender[=false]   
+</span></span><span style="display:flex;"><span>         enables full re-renders on changes
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --disableKinds=[]   
+</span></span><span style="display:flex;"><span>         disable different kind of pages (home, RSS etc.)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --disableLiveReload[=false]  
+</span></span><span style="display:flex;"><span>         watch without enabling live browser reload on rebuild
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --enableGitInfo[=false]  
+</span></span><span style="display:flex;"><span>         add Git revision, date, author, and CODEOWNERS
+</span></span><span style="display:flex;"><span>         info to the pages
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --forceSyncStatic[=false]     copy all files when static is changed.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --gc[=false]   enable to run some cleanup tasks (remove unused cache
+</span></span><span style="display:flex;"><span>       files) after the build
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -h, --help[=false]  help for server
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --ignoreCache[=false]    
+</span></span><span style="display:flex;"><span>         ignores the cache directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -l, --layoutDir=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         filesystem path to layout directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --liveReloadPort=-1      
+</span></span><span style="display:flex;"><span>         port for live reloading (i.e. 443 in HTTPS proxy situations)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --meminterval=&#34;100ms&#34;    
+</span></span><span style="display:flex;"><span>         interval to poll memory usage (requires --memstats), 
+</span></span><span style="display:flex;"><span>         valid time units are &#34;ns&#34;, &#34;us&#34; (or &#34;µs&#34;), &#34;ms&#34;, &#34;s&#34;, &#34;m&#34;, &#34;h&#34;.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --memstats=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         log memory usage to this file
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --minify[=false]    
+</span></span><span style="display:flex;"><span>         minify any supported output format (HTML, XML etc.)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --navigateToChanged[=false]   navigate to changed content file on live
+</span></span><span style="display:flex;"><span>       browser reload
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noBuildLock[=false]    don&#39;t create .hugo_build.lock file
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noChmod[=false]   don&#39;t sync permission mode of files
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noHTTPCache[=false]    
+</span></span><span style="display:flex;"><span>         prevent HTTP caching
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --noTimes[=false]   
+</span></span><span style="display:flex;"><span>         don&#39;t sync modification time of files
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --panicOnWarning[=false]      
+</span></span><span style="display:flex;"><span>         panic on first WARNING log
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --poll=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         set this to a poll interval, 
+</span></span><span style="display:flex;"><span>         e.g --poll 700ms, to use a poll based 
+</span></span><span style="display:flex;"><span>         approach to watch for file system changes
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -p, --port=1313     
+</span></span><span style="display:flex;"><span>         port on which the server will listen
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printI18nWarnings[=false]   
+</span></span><span style="display:flex;"><span>         print missing translations
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printMemoryUsage[=false]    
+</span></span><span style="display:flex;"><span>         print memory usage to screen at intervals
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printPathWarnings[=false]   
+</span></span><span style="display:flex;"><span>         print warnings on duplicate target paths etc.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --printUnusedTemplates[=false]     
+</span></span><span style="display:flex;"><span>         print warnings on unused templates.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --renderStaticToDisk[=false]  
+</span></span><span style="display:flex;"><span>         serve static files from disk and dynamic
+</span></span><span style="display:flex;"><span>         files from memory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --renderToDisk[=false]   
+</span></span><span style="display:flex;"><span>         serve all files from disk (default is from memory)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --templateMetrics[=false]     
+</span></span><span style="display:flex;"><span>         display metrics about template executions
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --templateMetricsHints[=false]     
+</span></span><span style="display:flex;"><span>         calculate some improvement hints when
+</span></span><span style="display:flex;"><span>         combined with --templateMetrics
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -t, --theme=[]      
+</span></span><span style="display:flex;"><span>         themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --tlsAuto[=false]  
+</span></span><span style="display:flex;"><span>         generate and use locally-trusted certificates.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --tlsCertFile=&#34;&#34;    
+</span></span><span style="display:flex;"><span>         path to TLS certificate file
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --tlsKeyFile=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         path to TLS key file
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --trace=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         write trace to file (not useful in general)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -w, --watch[=true]  
+</span></span><span style="display:flex;"><span>         watch filesystem for changes and recreate as needed
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS INHERITED FROM PARENT COMMANDS
+</span></span><span style="display:flex;"><span>       --clock=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         set the clock used by Hugo, 
+</span></span><span style="display:flex;"><span>         e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --config=&#34;&#34;   
+</span></span><span style="display:flex;"><span>         config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --configDir=&#34;config&#34;     
+</span></span><span style="display:flex;"><span>         config dir
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --debug[=false]     
+</span></span><span style="display:flex;"><span>         debug output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -d, --destination=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to write files to
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -e, --environment=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         build environment
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --ignoreVendorPaths=&#34;&#34;   
+</span></span><span style="display:flex;"><span>         ignores any _vendor for module paths matching
+</span></span><span style="display:flex;"><span>         the given Glob pattern
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --logLevel=&#34;&#34;  log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --quiet[=false]     
+</span></span><span style="display:flex;"><span>         build in quiet mode
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -s, --source=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to read files relative from
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --themesDir=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         filesystem path to themes directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -v, --verbose[=false]    
+</span></span><span style="display:flex;"><span>         verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SEE ALSO
+</span></span><span style="display:flex;"><span>       hugo(1), hugo-server-trust(1)
+</span></span></code></pre></div><h5 id="man-hugo-new">man Hugo-new</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>HUGO-NEW(1)                        Hugo Manual                       HUGO-NEW(1)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>NAME
+</span></span><span style="display:flex;"><span>       hugo-new - Create new content for your site
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SYNOPSIS
+</span></span><span style="display:flex;"><span>       hugo new [command] [flags]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>DESCRIPTION
+</span></span><span style="display:flex;"><span>       Create a new content file and automatically set the date and title.  It
+</span></span><span style="display:flex;"><span>       will guess which kind of file to create based on the path provided.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       You can also specify the kind with -k KIND.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       If archetypes are provided in your theme or site, they will be used.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       Ensure you run this within the root directory of your site.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS
+</span></span><span style="display:flex;"><span>       -h, --help[=false]  
+</span></span><span style="display:flex;"><span>         help for new
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>OPTIONS INHERITED FROM PARENT COMMANDS
+</span></span><span style="display:flex;"><span>       --clock=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         set the clock used by Hugo, 
+</span></span><span style="display:flex;"><span>         e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --config=&#34;&#34;    
+</span></span><span style="display:flex;"><span>         config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --configDir=&#34;config&#34;     
+</span></span><span style="display:flex;"><span>         config dir
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --debug[=false]     
+</span></span><span style="display:flex;"><span>         debug output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -d, --destination=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to write files to
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -e, --environment=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         build environment
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --ignoreVendorPaths=&#34;&#34;   
+</span></span><span style="display:flex;"><span>         ignores any _vendor for module paths matching
+</span></span><span style="display:flex;"><span>         the given Glob pattern
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --logLevel=&#34;&#34;  
+</span></span><span style="display:flex;"><span>         log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --quiet[=false]     
+</span></span><span style="display:flex;"><span>         build in quiet mode
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -s, --source=&#34;&#34;     
+</span></span><span style="display:flex;"><span>         filesystem path to read files relative from
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       --themesDir=&#34;&#34;      
+</span></span><span style="display:flex;"><span>         filesystem path to themes directory
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>       -v, --verbose[=false]    
+</span></span><span style="display:flex;"><span>         verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>SEE ALSO
+</span></span><span style="display:flex;"><span>       hugo(1), hugo-new-content(1), hugo-new-site(1), hugo-new-theme(1)
+</span></span></code></pre></div><h5 id="hugo-help">hugo help</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo --help
+</span></span><span style="display:flex;"><span>hugo is the main command, used to build your Hugo site.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Hugo is a Fast and Flexible Static Site Generator
+</span></span><span style="display:flex;"><span>built with love by spf13 and friends in Go.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Complete documentation is available at https://gohugo.io/.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo [flags]
+</span></span><span style="display:flex;"><span>  hugo [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  completion  Generate the autocompletion script for the specified shell
+</span></span><span style="display:flex;"><span>  config      Print the site configuration
+</span></span><span style="display:flex;"><span>  convert     Convert your content to different formats
+</span></span><span style="display:flex;"><span>  deploy      Deploy your site to a Cloud provider.
+</span></span><span style="display:flex;"><span>  env         Print Hugo version and environment info
+</span></span><span style="display:flex;"><span>  gen         A collection of several useful generators.
+</span></span><span style="display:flex;"><span>  help        Help about any command
+</span></span><span style="display:flex;"><span>  import      Import your site from others.
+</span></span><span style="display:flex;"><span>  list        Listing out various types of content
+</span></span><span style="display:flex;"><span>  mod         Various Hugo Modules helpers.
+</span></span><span style="display:flex;"><span>  new         Create new content for your site
+</span></span><span style="display:flex;"><span>  server      A high performance webserver
+</span></span><span style="display:flex;"><span>  version     Print Hugo version and environment info
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -b, --baseURL string             hostname (and path) to the root, e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span>  -D, --buildDrafts                include content marked as draft
+</span></span><span style="display:flex;"><span>  -E, --buildExpired               include expired content
+</span></span><span style="display:flex;"><span>  -F, --buildFuture                include content with publishdate in the future
+</span></span><span style="display:flex;"><span>      --cacheDir string            filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache_$USER/
+</span></span><span style="display:flex;"><span>      --cleanDestinationDir        remove files from destination not found in static directories
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>  -c, --contentDir string          filesystem path to content directory
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>      --disableKinds strings       disable different kind of pages (home, RSS etc.)
+</span></span><span style="display:flex;"><span>      --enableGitInfo              add Git revision, date, author, and CODEOWNERS info to the pages
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --forceSyncStatic            copy all files when static is changed.
+</span></span><span style="display:flex;"><span>      --gc                         enable to run some cleanup tasks (remove unused cache files) after the build
+</span></span><span style="display:flex;"><span>  -h, --help                       help for hugo
+</span></span><span style="display:flex;"><span>      --ignoreCache                ignores the cache directory
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>  -l, --layoutDir string           filesystem path to layout directory
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --minify                     minify any supported output format (HTML, XML etc.)
+</span></span><span style="display:flex;"><span>      --noBuildLock                don&#39;t create .hugo_build.lock file
+</span></span><span style="display:flex;"><span>      --noChmod                    don&#39;t sync permission mode of files
+</span></span><span style="display:flex;"><span>      --noTimes                    don&#39;t sync modification time of files
+</span></span><span style="display:flex;"><span>      --panicOnWarning             panic on first WARNING log
+</span></span><span style="display:flex;"><span>      --poll string                set this to a poll interval, e.g --poll 700ms, 
+</span></span><span style="display:flex;"><span>                                   to use a poll based approach to watch for file system changes
+</span></span><span style="display:flex;"><span>      --printI18nWarnings          print missing translations
+</span></span><span style="display:flex;"><span>      --printMemoryUsage           print memory usage to screen at intervals
+</span></span><span style="display:flex;"><span>      --printPathWarnings          print warnings on duplicate target paths etc.
+</span></span><span style="display:flex;"><span>      --printUnusedTemplates       print warnings on unused templates.
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>      --renderToMemory             render to memory (only useful for benchmark testing)
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --templateMetrics            display metrics about template executions
+</span></span><span style="display:flex;"><span>      --templateMetricsHints       calculate some improvement hints when combined with --templateMetrics
+</span></span><span style="display:flex;"><span>  -t, --theme strings              themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>      --trace file                 write trace to file (not useful in general)
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span>  -w, --watch                      watch filesystem for changes and recreate as needed
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><p>[<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<h5 id="completion">completion</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo completion --help
+</span></span><span style="display:flex;"><span>Generate the autocompletion script for hugo for the specified shell.
+</span></span><span style="display:flex;"><span>See each sub-command&#39;s help for details on how to use the generated script.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo completion [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  bash        Generate the autocompletion script for bash
+</span></span><span style="display:flex;"><span>  fish        Generate the autocompletion script for fish
+</span></span><span style="display:flex;"><span>  powershell  Generate the autocompletion script for powershell
+</span></span><span style="display:flex;"><span>  zsh         Generate the autocompletion script for zsh
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for completion
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo completion [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><p>[<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<h5 id="config">config</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo config --help
+</span></span><span style="display:flex;"><span>Print the site configuration, both default and custom settings.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo config [command] [flags]
+</span></span><span style="display:flex;"><span>  hugo config [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  mounts      Print the configured file mounts
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -b, --baseURL string      hostname (and path) to the root, e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span>      --cacheDir string     filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache_$USER/
+</span></span><span style="display:flex;"><span>  -c, --contentDir string   filesystem path to content directory
+</span></span><span style="display:flex;"><span>      --format string       preferred file format (toml, yaml or json) (default &#34;toml&#34;)
+</span></span><span style="display:flex;"><span>  -h, --help                help for config
+</span></span><span style="display:flex;"><span>      --lang string         the language to display config for. Defaults to the first language defined.
+</span></span><span style="display:flex;"><span>  -t, --theme strings       themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo config [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h4 id="convert">convert</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo convert --help
+</span></span><span style="display:flex;"><span>Convert your content (e.g. front matter) to different formats.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>See convert&#39;s subcommands toJSON, toTOML and toYAML for more information.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo convert [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  toJSON      Convert front matter to JSON
+</span></span><span style="display:flex;"><span>  toTOML      Convert front matter to TOML
+</span></span><span style="display:flex;"><span>  toYAML      Convert front matter to YAML
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help            help for convert
+</span></span><span style="display:flex;"><span>  -o, --output string   filesystem path to write files to
+</span></span><span style="display:flex;"><span>      --unsafe          enable less safe operations, please backup first
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo convert [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><p>[<strong><code>rauf</code></strong>][top] [<strong><code>runter</code></strong>][bottom]</p>
+<h5 id="deploy">deploy</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo deploy --help
+</span></span><span style="display:flex;"><span>Deploy your site to a Cloud provider.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>See https://gohugo.io/hosting-and-deployment/hugo-deploy/ for detailed
+</span></span><span style="display:flex;"><span>documentation.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo deploy [flags] [args]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>      --confirm          ask for confirmation before making changes to the target
+</span></span><span style="display:flex;"><span>      --dryRun           dry run
+</span></span><span style="display:flex;"><span>      --force            force upload of all files
+</span></span><span style="display:flex;"><span>  -h, --help             help for deploy
+</span></span><span style="display:flex;"><span>      --invalidateCDN    invalidate the CDN cache listed in the deployment target (default true)
+</span></span><span style="display:flex;"><span>      --maxDeletes int   maximum # of files to delete, or -1 to disable (default 256)
+</span></span><span style="display:flex;"><span>      --target string    target deployment from deployments section in config file; defaults to the first one
+</span></span><span style="display:flex;"><span>      --workers int      number of workers to transfer files. defaults to 10 (default 10)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span></code></pre></div><h5 id="env">env</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo env --help
+</span></span><span style="display:flex;"><span>Print Hugo version and environment info. This is useful in Hugo bug reports
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo env [flags] [args]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for env
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span></code></pre></div><h5 id="gen">gen</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo gen --help
+</span></span><span style="display:flex;"><span>A collection of several useful generators.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo gen [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  chromastyles Generate CSS stylesheet for the Chroma code highlighter
+</span></span><span style="display:flex;"><span>  doc          Generate Markdown documentation for the Hugo CLI.
+</span></span><span style="display:flex;"><span>  man          Generate man pages for the Hugo CLI
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for gen
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo gen [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h5 id="help">help</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo help --help
+</span></span><span style="display:flex;"><span>Help provides help for any command in the application.
+</span></span><span style="display:flex;"><span>Simply type hugo help [path to command] for full details.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo help [command] [flags]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for help
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span></code></pre></div><h5 id="import">import</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo import --help
+</span></span><span style="display:flex;"><span>Import your site from other web site generators like Jekyll.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Import requires a subcommand, e.g. `hugo import jekyll jekyll_root_path target_path`.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo import [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  jekyll      hugo import from Jekyll
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for import
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo import [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h5 id="list">list</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo list --help
+</span></span><span style="display:flex;"><span>Listing out various types of content.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>List requires a subcommand, e.g. hugo list drafts
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo list [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  all         List all posts
+</span></span><span style="display:flex;"><span>  drafts      List all drafts
+</span></span><span style="display:flex;"><span>  expired     List all posts already expired
+</span></span><span style="display:flex;"><span>  future      List all posts dated in the future
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for list
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo list [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h5 id="mod">mod</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo mod --help
+</span></span><span style="display:flex;"><span>Various helpers to help manage the modules in your project&#39;s dependency graph.
+</span></span><span style="display:flex;"><span>Most operations here requires a Go version installed on your system (&gt;= Go 1.12) and the relevant VCS client (typically Git).
+</span></span><span style="display:flex;"><span>This is not needed if you only operate on modules inside /themes or if you have vendored them via &#34;hugo mod vendor&#34;.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Note that Hugo will always start out by resolving the components defined in the site
+</span></span><span style="display:flex;"><span>configuration, provided by a _vendor directory (if no --ignoreVendorPaths flag provided),
+</span></span><span style="display:flex;"><span>Go Modules, or a folder inside the themes directory, in that order.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>See https://gohugo.io/hugo-modules/ for more information.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo mod [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  clean       Delete the Hugo Module cache for the current project.
+</span></span><span style="display:flex;"><span>  get         Resolves dependencies in your current Hugo Project.
+</span></span><span style="display:flex;"><span>  graph       Print a module dependency graph.
+</span></span><span style="display:flex;"><span>  init        Initialize this project as a Hugo Module.
+</span></span><span style="display:flex;"><span>  npm         Various npm helpers.
+</span></span><span style="display:flex;"><span>  tidy        Remove unused entries in go.mod and go.sum.
+</span></span><span style="display:flex;"><span>  vendor      Vendor all module dependencies into the _vendor directory.
+</span></span><span style="display:flex;"><span>  verify      Verify dependencies.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for mod
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo mod [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h5 id="new">new</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo new --help
+</span></span><span style="display:flex;"><span>Create a new content file and automatically set the date and title.
+</span></span><span style="display:flex;"><span>It will guess which kind of file to create based on the path provided.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>You can also specify the kind with `-k KIND`.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>If archetypes are provided in your theme or site, they will be used.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Ensure you run this within the root directory of your site.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo new content [path] [flags]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -b, --baseURL string      hostname (and path) to the root, e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span>      --cacheDir string     filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache_$USER/
+</span></span><span style="display:flex;"><span>  -c, --contentDir string   filesystem path to content directory
+</span></span><span style="display:flex;"><span>      --editor string       edit new content with this editor, if provided
+</span></span><span style="display:flex;"><span>  -f, --force               overwrite file if it already exists
+</span></span><span style="display:flex;"><span>      --format string       preferred file format (toml, yaml or json) (default &#34;toml&#34;)
+</span></span><span style="display:flex;"><span>  -h, --help                help for content
+</span></span><span style="display:flex;"><span>  -k, --kind string         content type to create
+</span></span><span style="display:flex;"><span>  -t, --theme strings       themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span></code></pre></div><h5 id="server">server</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo server --help
+</span></span><span style="display:flex;"><span>Hugo provides its own webserver which builds and serves the site.
+</span></span><span style="display:flex;"><span>While hugo server is high performance, it is a webserver with limited options.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>&#39;hugo server&#39; will avoid writing the rendered and served content to disk,
+</span></span><span style="display:flex;"><span>preferring to store it in memory.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>By default hugo will also watch your files for any changes you make and
+</span></span><span style="display:flex;"><span>automatically rebuild the site. It will then live reload any open browser pages
+</span></span><span style="display:flex;"><span>and push the latest content to them. As most Hugo sites are built in a fraction
+</span></span><span style="display:flex;"><span>of a second, you will be able to save and see your changes nearly instantly.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo server [command] [flags]
+</span></span><span style="display:flex;"><span>  hugo server [command]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Aliases:
+</span></span><span style="display:flex;"><span>  server, serve
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Available Commands:
+</span></span><span style="display:flex;"><span>  trust       Install the local CA in the system trust store.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>      --appendPort             append port to baseURL (default true)
+</span></span><span style="display:flex;"><span>  -b, --baseURL string         hostname (and path) to the root, e.g. https://spf13.com/
+</span></span><span style="display:flex;"><span>      --bind string            interface to which the server will bind (default &#34;127.0.0.1&#34;)
+</span></span><span style="display:flex;"><span>  -D, --buildDrafts            include content marked as draft
+</span></span><span style="display:flex;"><span>  -E, --buildExpired           include expired content
+</span></span><span style="display:flex;"><span>  -F, --buildFuture            include content with publishdate in the future
+</span></span><span style="display:flex;"><span>      --cacheDir string        filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache_$USER/
+</span></span><span style="display:flex;"><span>      --cleanDestinationDir    remove files from destination not found in static directories
+</span></span><span style="display:flex;"><span>  -c, --contentDir string      filesystem path to content directory
+</span></span><span style="display:flex;"><span>      --disableBrowserError    do not show build errors in the browser
+</span></span><span style="display:flex;"><span>      --disableFastRender      enables full re-renders on changes
+</span></span><span style="display:flex;"><span>      --disableKinds strings   disable different kind of pages (home, RSS etc.)
+</span></span><span style="display:flex;"><span>      --disableLiveReload      watch without enabling live browser reload on rebuild
+</span></span><span style="display:flex;"><span>      --enableGitInfo          add Git revision, date, author, and CODEOWNERS info to the pages
+</span></span><span style="display:flex;"><span>      --forceSyncStatic        copy all files when static is changed.
+</span></span><span style="display:flex;"><span>      --gc                     enable to run some cleanup tasks (remove unused cache files) after the build
+</span></span><span style="display:flex;"><span>  -h, --help                   help for server
+</span></span><span style="display:flex;"><span>      --ignoreCache            ignores the cache directory
+</span></span><span style="display:flex;"><span>  -l, --layoutDir string       filesystem path to layout directory
+</span></span><span style="display:flex;"><span>      --liveReloadPort int     port for live reloading (i.e. 443 in HTTPS proxy situations) (default -1)
+</span></span><span style="display:flex;"><span>      --meminterval string     interval to poll memory usage (requires --memstats), valid time units are &#34;ns&#34;, &#34;us&#34; (or &#34;µs&#34;), &#34;ms&#34;, &#34;s&#34;, &#34;m&#34;, &#34;h&#34;. (default &#34;100ms&#34;)
+</span></span><span style="display:flex;"><span>      --memstats string        log memory usage to this file
+</span></span><span style="display:flex;"><span>      --minify                 minify any supported output format (HTML, XML etc.)
+</span></span><span style="display:flex;"><span>      --navigateToChanged      navigate to changed content file on live browser reload
+</span></span><span style="display:flex;"><span>      --noBuildLock            don&#39;t create .hugo_build.lock file
+</span></span><span style="display:flex;"><span>      --noChmod                don&#39;t sync permission mode of files
+</span></span><span style="display:flex;"><span>      --noHTTPCache            prevent HTTP caching
+</span></span><span style="display:flex;"><span>      --noTimes                don&#39;t sync modification time of files
+</span></span><span style="display:flex;"><span>      --panicOnWarning         panic on first WARNING log
+</span></span><span style="display:flex;"><span>      --poll string            set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes
+</span></span><span style="display:flex;"><span>  -p, --port int               port on which the server will listen (default 1313)
+</span></span><span style="display:flex;"><span>      --printI18nWarnings      print missing translations
+</span></span><span style="display:flex;"><span>      --printMemoryUsage       print memory usage to screen at intervals
+</span></span><span style="display:flex;"><span>      --printPathWarnings      print warnings on duplicate target paths etc.
+</span></span><span style="display:flex;"><span>      --printUnusedTemplates   print warnings on unused templates.
+</span></span><span style="display:flex;"><span>      --renderStaticToDisk     serve static files from disk and dynamic files from memory
+</span></span><span style="display:flex;"><span>      --renderToDisk           serve all files from disk (default is from memory)
+</span></span><span style="display:flex;"><span>      --templateMetrics        display metrics about template executions
+</span></span><span style="display:flex;"><span>      --templateMetricsHints   calculate some improvement hints when combined with --templateMetrics
+</span></span><span style="display:flex;"><span>  -t, --theme strings          themes to use (located in /themes/THEMENAME/)
+</span></span><span style="display:flex;"><span>      --tlsAuto                generate and use locally-trusted certificates.
+</span></span><span style="display:flex;"><span>      --tlsCertFile string     path to TLS certificate file
+</span></span><span style="display:flex;"><span>      --tlsKeyFile string      path to TLS key file
+</span></span><span style="display:flex;"><span>      --trace file             write trace to file (not useful in general)
+</span></span><span style="display:flex;"><span>  -w, --watch                  watch filesystem for changes and recreate as needed (default true)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Use &#34;hugo server [command] --help&#34; for more information about a command.
+</span></span></code></pre></div><h5 id="version">version</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>% hugo version --help
+</span></span><span style="display:flex;"><span>Print Hugo version and environment info. This is useful in Hugo bug reports.
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Usage:
+</span></span><span style="display:flex;"><span>  hugo version [flags] [args]
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Flags:
+</span></span><span style="display:flex;"><span>  -h, --help   help for version
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Global Flags:
+</span></span><span style="display:flex;"><span>      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+</span></span><span style="display:flex;"><span>      --config string              config file (default is hugo.yaml|json|toml)
+</span></span><span style="display:flex;"><span>      --configDir string           config dir (default &#34;config&#34;)
+</span></span><span style="display:flex;"><span>      --debug                      debug output
+</span></span><span style="display:flex;"><span>  -d, --destination string         filesystem path to write files to
+</span></span><span style="display:flex;"><span>  -e, --environment string         build environment
+</span></span><span style="display:flex;"><span>      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+</span></span><span style="display:flex;"><span>      --logLevel string            log level (debug|info|warn|error)
+</span></span><span style="display:flex;"><span>      --quiet                      build in quiet mode
+</span></span><span style="display:flex;"><span>  -s, --source string              filesystem path to read files relative from
+</span></span><span style="display:flex;"><span>      --themesDir string           filesystem path to themes directory
+</span></span><span style="display:flex;"><span>  -v, --verbose                    verbose output
+</span></span></code></pre></div>
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

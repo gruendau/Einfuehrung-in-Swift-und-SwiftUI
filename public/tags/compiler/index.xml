@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>compiler on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/compiler.html</link>
+    <description>Recent content in compiler on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/compiler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</guid>
+      <description>Swift on-line Swift on-line Compiler Mit online-Compilern REPL-CLI-Shells kann man in Swift geschriebene Programme im Browser laufen lassen. Vom CLI werden nur Terminal-Ausgaben unterstützt. GUI-Schnittstellen wie UIKit oder SwiftUI werden nicht unterstützt.
+REPL: &amp;lsquo;Read-Eval-Print-Loop&amp;rsquo;
+Swift on-line Compiler Anmerkungen JDoodle Programiz onlineDGB SwiftFiddle replit Swift Playground myCompiler OneCompiler CodeSpeedy ToolFK Techie Delight sololearn </description>
+    </item>
+    
+  </channel>
+</rss>
