@@ -7,9 +7,8 @@ subtitle:
 
 weight: 10
 
-tags: [swift, strings]
+tags: [swift, string]
 ---
-
 
 
 `strings`
