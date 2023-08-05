@@ -15,12 +15,13 @@
             <!-- Content -->
             {{ .Content }}
 
+            <!-- Inhaltsverzeichnis -->
             {{ partial "list/all-pages-folded-bold" . }}
 
             <!-- Hugo Variablen anzeigen -->
-            {{- if .Site.Params.showHugoVariablesAll -}}
+            {{ if .Site.Params.showHugoVariablesAll }}
                 {{ partial "admin/hugo-variables-all" . }}
-            {{- end -}}
+            {{ end }}
 
             <!-- Sprungmarke -->
             <h3 id="bottom"></h3>
