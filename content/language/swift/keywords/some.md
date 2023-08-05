@@ -3,7 +3,7 @@ title: some
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: Some the "don't care type"
+subtitle: some the "don't care type"
 
 tag: [swift, keyword]
 ---
