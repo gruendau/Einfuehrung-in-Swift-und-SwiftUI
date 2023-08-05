@@ -15,7 +15,7 @@ Einführung in die 2014 vorgestellte Programmiersprache `Swift`, die inzwischen 
 Viel Freude beim Lesen!
 
 #### Motivation
-Swift ist eine moderne Programmiersprache die alles kann. SwiftUI ist ein ebenso modernes GUI. Beises wird vor allem für die `iPhone-Programmierung` eingesetzt.
+Swift ist eine moderne Programmiersprache die alles kann. SwiftUI ist ein ebenso modernes GUI. Beides wird vor allem für die `iPhone-Programmierung` eingesetzt.
 
 Den unzähligen, frei verfügbaren, kostenlosen `englischen Anleitungen`, den `Anleitungen von Apple` und denn wenigen `deutschen Anleitungen` möchte ich eine `weitere deutsche Anleitung` hinzufügen, um vor allem Anfängern und auch mir selber den Einstieg in die Swift-Programmierung etwas zu erleichtern.
 
@@ -24,12 +24,11 @@ Mit dem Aufbau dieser Anleitung wurde im Juni 2023 begonnen ... und es dauert un
 #### Widmung
 Diese Anleitung ist meiner liebsten Tante Hanna gewidmet.
 
+#### Inhalt
+
+
 <!-- Links -->
 [w1]: https://de.wikipedia.org/wiki/Swift_(Programmiersprache) "wikipedia"
 [w2]: https://de.wikipedia.org/wiki/Objective-C "wikipedia"
 [w3]: https://de.wikipedia.org/wiki/SwiftUI "wikipedia"
 [w4]: https://de.wikipedia.org/wiki/Grafische_Benutzeroberfläche "wikipedia"
-
-<br>
-
-#### Inhalt
