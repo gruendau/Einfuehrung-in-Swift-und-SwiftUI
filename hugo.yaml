@@ -19,27 +19,28 @@ params:
   slogan: we love Swift!
   headerTitle: Einführung in Swift und SwiftUI
 
-  # Layout
-  fixedHeader: true
-  fixedFooter: true
+  switches:
+    # Layout
+    fixedHeader: true
+    fixedFooter: true
 
-  stickyHeader: false
+    stickyHeader: false
 
-  # Admin
-  #   Layout
-  showLayoutFiles: false
+    # Admin
+    #   Layout
+    showLayoutFiles: false
 
-  #   Hugo Variablen
-  showHugoVariablesAll: false
-  showHugoVariablesFile: true
-  showHugoVariablesSite: true
-  showHugoVariablesPage: true
-  showHugoVariablesGit: true
-  showHugoVariablesMenu: false
-  showHugoVariablesShotcode: true
-  showHugoVariablesSitemap: true
-  showHugoVariablesTaxonomy: true
-  showHugoVariables: true
+    #   Hugo Variablen
+    showHugoVariablesAll: false
+    showHugoVariablesFile: true
+    showHugoVariablesSite: true
+    showHugoVariablesPage: true
+    showHugoVariablesGit: true
+    showHugoVariablesMenu: false
+    showHugoVariablesShotcode: true
+    showHugoVariablesSitemap: true
+    showHugoVariablesTaxonomy: true
+    showHugoVariables: true
 
 
 # ---------------------------------------

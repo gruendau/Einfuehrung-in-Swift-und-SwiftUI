@@ -9,18 +9,17 @@
             <!-- Sprungmarke -->
             <h3 id="top"></h3>
 
-            <!-- Layout Files anzeigen -->
-            {{- if .Site.Params.showLayoutFiles -}}
-                <span class="csKey">layout: single.html</span>
-            {{- end -}}
+            <!-- Layout anzeigen -->
+            {{ partial "show/layout-single" . }}
+
             
             <!-- Title, Subtitle -->
             {{ partial "content/title-subtitle" . }}
 
-            {{- if not .Site.Params.showHugoVariablesAll -}}
+            {{ if not .Site.Params.showHugoVariablesAll }}
                 <!-- Content -->
                 {{ .Content }}
-            {{- end -}}
+            {{ end }}
             
             <!-- Sprungmarke -->
             <h3 id="bottom"></h3>

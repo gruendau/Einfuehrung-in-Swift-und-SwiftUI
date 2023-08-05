@@ -7,26 +7,20 @@
             <!-- Sprungmarke -->
             <h3 id="top"></h3>
 
-            <!-- Layout Files anzeigen -->
-            {{- if .Site.Params.showLayoutFiles -}}
-                <span class="csKey">layout: list.html</span>
-            {{- end -}}
-
-            <!--
-            {{ partial "admin/hugo-variables-git" . }}
-            -->
+            <!-- Layout anzeigen -->
+            {{ partial "show/layout-list" . }}
             
             <!-- Title, Subtitle -->
             {{ partial "content/title-subtitle" . }}
 
-            {{- if not .Site.Params.showHugoVariablesAll -}}
+            {{ if not .Site.Params.showHugoVariablesAll }}
                 <!-- Content -->
                 {{ .Content }}
 
                 <ul class="posts">
 
-                    {{- range .Data.Pages -}}
-                        {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+                    {{ range .Data.Pages }}
+                        {{ if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) }}
                         <li class="post">
                             <a href="{{ .RelPermalink }}">{{.Title}}</a> 
                             <!--
@@ -36,12 +30,12 @@
                             </span>
                             -->
                         </li>
-                        {{- end -}}
-                    {{- end -}}
+                        {{ end }}
+                    {{ end }}
                     
                 </ul>
 
-            {{- end -}}
+            {{ end }}
 
             <!-- Sprungmarke -->
             <h3 id="bottom"></h3>
