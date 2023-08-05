@@ -3,43 +3,48 @@
 <!doctype html>
 
 <html lang="de">
+
   <head>
-    {{- partial "head" . -}}
+    {{ partial "head" . }}
   </head>
+
   <body>
     
     <!-- Header -->
     <header>
-      {{- partial "header" . -}}
+      {{ partial "header" . }}
     </header>
 
-    <!-- Content -->
-    {{ partial "layout/fixed-header-fixed-footer" . }}
+    <main>
+
+      <!-- Content -->
+      {{ partial "layout/fixed-header-fixed-footer" . }}
 
       <!-- Layout Files anzeigen -->
-      {{- if .Site.Params.showLayoutFiles -}}
+      {{ if .Site.Params.showLayoutFiles }}
         <span class="csKey">&nbsp;&nbsp;layout: baseof.html</span>
-      {{- end -}}
+      {{ end }}
 
-      {{- block "main" . }}{{- end }}
+      {{ block "main" . }}{{ end }}
       
       <!-- Hugo Variablen anzeigen -->
-      {{- if .Site.Params.showHugoVariablesAll -}}
+      {{ if .Site.Params.showHugoVariablesAll }}
         {{ partial "admin/hugo-variables-all" . }}
-      {{- end -}}
+      {{ end }}
 
     </main>
 
     <!-- Footer -->
     <footer>
-      {{- partial "footer" . -}}
+      {{ partial "footer" . }}
     </footer>
 
     <!--
-    {{- partial "script-footer" . -}}
+    {{ partial "script-footer" . }}
     -->
 
   </body>
+
 </html>
 
 <!--
