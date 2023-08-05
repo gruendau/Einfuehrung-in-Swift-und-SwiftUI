@@ -17,14 +17,13 @@
 
     <main>
 
-      <!-- Content -->
+      <!-- Layout für header modes -->
       {{ partial "layout/fixed-header-fixed-footer" . }}
 
       <!-- Layout Files anzeigen -->
-      {{ if .Site.Params.showLayoutFiles }}
-        <span class="csKey">&nbsp;&nbsp;layout: baseof.html</span>
-      {{ end }}
+      {{ partial "show/layout-baseof" . }}
 
+       <!-- Content -->
       {{ block "main" . }}{{ end }}
       
       <!-- Hugo Variablen anzeigen -->
