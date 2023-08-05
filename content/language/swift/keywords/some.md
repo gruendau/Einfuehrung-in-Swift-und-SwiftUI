@@ -1,16 +1,14 @@
 ---
-title: Some
+title: some
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: 
+subtitle: Some the "don't care type"
 
-left: 
-up: ../intro
-right: 
+tag: [swift, keyword]
 ---
 
-Some the "don't care type".
+
 
 <br> 
 
