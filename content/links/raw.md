@@ -293,92 +293,17 @@ Viewmodifier <br>
 
 https://programmingwithswift.com/viewmodifier-in-swiftui/
 
----
-
-
-
----
-
-Netlify <br>
-[Netlify CLI - Getting started](https://cli.netlify.com/getting-started) Netlify
-
-CI/CD wiki https://de.wikipedia.org/wiki/CI/CD
-
-Tutorials <br>
-[How to Publish an HTML Website on Netlify or GitHub Pages](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) Vasyl Lagutin, 2021
-
-
-Video <br>
-[15 Netlify Tutorials](https://www.youtube.com/playlist?list=PLzlG0L9jlhEPMR8haUPkxj2hJ_3jh5qa6) Netlify <br>
-[Netlify Tutorial - How to build and deploy websites using Netlify](https://www.youtube.com/watch?v=mT5siI19gtc) Free Code Camp, 2019, 213 min <br>
 
 ---
 
 
-https://de.www.wikipedia.org/wiki/Bootstrap_(Framework)
-
-HTML
-[](https://www.youtube.com/watch?v=3Djmh7V70NE)
-
-[](https://www.youtube.com/watch?v=2g_kiCGC5PE)
-
-[](https://www.youtube.com/watch?v=jv_cs0I60C4)
-
-[](https://www.youtube.com/watch?v=_rHC2hFB_XY(
-
-[](https://www.youtube.com/watch?v=-51dn7yCT48)
-
-[](https://www.youtube.com/watch?v=P9Sj3aRbX54)
 
 
 
-[01 ](https://www.youtube.com/watch?v=OU8EeRWNBDY)
-
-[02 ](https://www.youtube.com/watch?v=QyZPEwgogA4)
-
-[03](https://www.youtube.com/watch?v=dN7D3__O6K4)
-
-[04 ](https://www.youtube.com/watch?v=zbYsgmWaTPk)
-
-[05 ](https://www.youtube.com/watch?v=QZad9eDe4cI)
-
-[06 ](https://www.youtube.com/watch?v=UNwqtASpvyMq)
-
-[07](https://www.youtube.com/watch?v=hPiOHFXxJp0)
 
 
 [ ](https://www.youtube.com/watch?v=GEujtYwX3uQ)
 
-Git
-[](https://www.youtube.com/watch?v=N-vFTYEqguU)
-
-[](https://www.youtube.com/watch?v=V0bXqLxIivo)
-
-[](https://www.youtube.com/watch?v=_VPpFU3Jyq4)
-
-[](https://www.youtube.com/watch?v=v1ibwg3zaQQ)
-
-
-Sass
-[](https://www.youtube.com/watch?v=Om3XeeSTN0U)
-
-[](https://www.youtube.com/watch?v=Xgt4DWVioQg)
-
-[](https://www.youtube.com/watch?v=0_hNJPMgFAg)
-
-[](
-
-
-
-
-
-https://icons.getbootstrap.com/icons/youtube/
-
----
-
-
-### npm
-> [Update NPM Packages easily with GUI | Tutorial | Node.js]() Future Web Design, 2023, 5 min <br>
 
 
 ---
@@ -395,89 +320,17 @@ https://github.com/rensbreur/SwiftTUI
 
 ---
 
-if else <br>
-
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-
-https://www.programiz.com/swift-programming/if-else-statement
-
-https://www.swiftanytime.com/blog/if-else-switch-case-in-swift
-
-https://www.w3schools.io/languages/swift-if-conditional/
-
-https://www.youtube.com/watch?v=Ax5roqgpj-8
-
-https://dev.to/iosmayank/swift-if-else-switch-case-conditional-statements-akl
-
-https://www.hackingwithswift.com/quick-start/understanding-swift/whats-the-difference-between-if-and-else-if
-
-https://www.geeksforgeeks.org/swift-if-else-if-statement/
-
-https://www.logilax.com/swift-if-else/
-
-https://www.codingninjas.com/studio/library/swift-if-else-statements
-
-https://agrawalsuneet.github.io/blogs/if-vs-if-let-vs-guard-let-in-swift/
-
-https://www.hackingwithswift.com/read/0/8/conditional-statements
 
 
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/
 
 ---
 
-Binding <br>
 
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-
-.constant(true) <br>
-[How to create constant bindings](https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-constant-bindings) Paul Hudsin, 2021 <br>
-
-[How to create custom bindings](
-https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-custom-bindings) Paul Hudson, 2021 <br>
-
-
-[Two-way bindings in SwiftUI](https://www.hackingwithswift.com/quick-start/swiftui/two-way-bindings-in-swiftui) Paul Hudson, 2022 <br>
-
-[How to animate changes in binding values](https://www.hackingwithswift.com/quick-start/swiftui/how-to-animate-changes-in-binding-values) Paul Hudson, 2022 <br>
-
-
-https://www.ralfebert.de/ios/swiftui-bindings/
-
-https://www.waldo.com/blog/complete-guide-to-swiftui-binding
 
 
 Janina, Marcel
 
 
-[What is the @Binding property wrapper?](https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-binding-property-wrapper)
-
-https://www.hackingwithswift.com/quick-start/swiftui/bindings-and-forms
-
-https://swiftwithmajid.com/2020/04/08/binding-in-swiftui/
-
-
-https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22affd9a
-
-https://www.fivestars.blog/articles/swiftui-patterns-bindings/
 
 
 https://www.fivestars.blog/articles/swiftui-patterns-closures/
@@ -526,30 +379,6 @@ Hooks <br>
 https://www.youtube.com/watch?v=fMYv6-SZsSo
 
 
-Docker <br> 
-https://www.youtube.com/watch?v=SOdtw8milyw
-
-https://www.youtube.com/watch?v=YFl2mCHdv24
-
-https://www.youtube.com/watch?v=DESdVoKhIxY
-
-https://www.youtube.com/watch?v=0jC5B9iTF_g
-
-https://www.youtube.com/watch?v=3YP0eUHdLc8
-
-https://www.youtube.com/watch?v=DESdVoKhIxY
-
-https://www.youtube.com/watch?v=WcQ3-M4-jik
-
-https://www.youtube.com/watch?v=3c-iBn73dDE
-
-https://www.youtube.com/watch?v=bKFMS5C4CG0
-
-https://www.youtube.com/watch?v=OU6xOM0SE4o
-
-https://www.youtube.com/watch?v=xrUGEoUpa3s
-
-https://www.youtube.com/@DockerIo/videos
 
 ---
 
