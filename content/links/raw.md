@@ -355,42 +355,10 @@ https://www.fivestars.blog/articles/swiftui-share-layout-information/
 
 ---
 
-Git and Github <br>
-https://www.youtube.com/watch?v=uGLQF2kUwOA
-
-https://www.youtube.com/watch?v=0jzjz4MZ4ZU
-
-https://www.youtube.com/watch?v=u_sF3cAZddY
-
-https://www.youtube.com/watch?v=7h6_aZZ_iNg
-
-https://www.youtube.com/watch?v=DVRQoVRzMIY
-
-https://www.youtube.com/watch?v=jG4Vs81kMlc
-
-https://www.youtube.com/watch?v=fJtyf62yAb8
-
-https://www.youtube.com/watch?v=GqNAD4XoZ6k
-
-Pre-commit <br>
-https://www.youtube.com/watch?v=psjz6rwzMdk
-
-Hooks <br>
-https://www.youtube.com/watch?v=fMYv6-SZsSo
 
 
 
 ---
-
-
-
-
----
-
-
-
-
-
 
 
 https://im-coder.com/warum-sollten-sie-implicitly-unwrapped-optionals-erstellen-da-sie-wissen-dass-es-einen-wert-gibt.html
@@ -401,17 +369,8 @@ Deutsch <br>
 
 https://isolution.pro/de/t/swift
 
-
-
-
-
-
 Links <br>
 https://khawerkhaliq.com/
-
-
-
-
 
 
 Links <br>
@@ -426,8 +385,7 @@ Programmierung Bücher <br>
 
 
 
-iOS <br>
-> [Apps programmieren für iPhone und iPad](https://openbook.rheinwerk-verlag.de/apps_programmieren_fuer_iphone_und_ipad/) Klaus M. Rodewig, Clemens Wagner, 2014, S.1172, DE <br>
+
 
 
 
@@ -438,72 +396,6 @@ Documentation <br>
 > [Self-documenting code in Swift to increase readability](https://www.avanderlee.com/swift/self-documenting-code/) Antoine van der Lee, 2022 <br>
 
 ---
-
-### Swift
-
-
-
----
-
-### SwiftUI
-
-###### Auto Layout
-[Auto Layout in Swift: Writing constraints programmatically](https://www.avanderlee.com/swift/auto-layout-programmatically/) Antoine van der Lee, 2019 <br>
-
-###### Navigation <br>
-[SwiftUI Navigation in iOS 16](https://blog.shipbook.io/swiftui-navigation) Nikita Lazarev-Zubov, 2022 <br>
-
-###### ResultBuilder
-[Result builders in Swift explained with code examples](https://www.avanderlee.com/swift/result-builders/) Antoine van der Lee, 2022 <br>
-
-###### @ViewBuilder
-[@ViewBuilder usage explained with code examples](https://www.avanderlee.com/swiftui/viewbuilder/) Antoine van der Lee, 2022 <br>
-[SwiftUI ViewBuilders Tutorial (2021, Xcode 12, SwiftUI 2.0) - iOS](https://www.youtube.com/watch?v=nokF9nKoXpQ) iOS Academy, 2021, 13 min <br>
-[How to use @ViewBuilder in SwiftUI | Advanced Learning #9](https://www.youtube.com/watch?v=pXmBRK1BjLw) Swiftful Thinking, 24 min <br>
-[How to use SwiftUI ViewBuilder Tutorial](https://www.youtube.com/watch?v=LVQveaHC7qg) <br>
-[Understanding SwiftUI ViewBuilders](https://www.youtube.com/watch?v=IbxBRzTBeC0) Stewart Lynch, 2021, 22 min<br>
-[@ViewBuilder , TupleView , AnyView in SwiftUI || SwiftUI Reusable View](https://www.youtube.com/watch?v=t-NTRDQP3FQ) App Developer, 2022, 17 min <br>
-[SwiftUI View Builder - SwiftUI Custom Views And Containers - SwiftUI 2.0 Tutorials](https://www.youtube.com/watch?v=-rKmwivlh48) Kavsoft, 2021, 8 min <br>
-[Swift UI: ViewBuilder](https://blog.devgenius.io/swift-ui-viewbuilder-2205d424cadc) Mesut G. <br>
-[Using the ViewBuilder Attribute to Implement SwiftUI Views in Methods](https://serialcoder.dev/text-tutorials/swiftui/using-the-viewbuilder-attribute-to-implement-swiftui-views-in-methods/) SerialCoder.dev, 2022 <br>
-
-###### View Modifier
-[How to create a Conditional View Modifier in SwiftUI](https://www.avanderlee.com/swiftui/conditional-view-modifier/) Antoine van der Lee, 2021 <br>
-
-
-
-###### Layout
-> [Working with percentages in SwiftUI layout](https://oleb.net/2023/swiftui-relative-size/0) Ole Begemann, 2023 <br>
-[How the relative size modifier interacts with stack views](https://oleb.net/2023/swiftui-relative-size-in-stacks/) Ole Begemann, 2023 <br>
-
-######
-Render Loop
-[The SwiftUI render loop](https://rensbr.eu/blog/swiftui-render-loop/) Rens Breur, 2022 <br>
-
-###### Refresh
-[Refresh SwiftUI views](https://dev.to/gualtierofr/refresh-swiftui-views-33n) Gualtiero Frigerio, 2021 <br>
-
-###### Image Renderer
-[SwiftUI ImageRenderer: Convert View to Image | iOS 16 Tutorial](https://www.youtube.com/watch?v=nQNnHOeGmU4) Flo, 2022, 5 min <br>
-
-###### Embed YouTube Videos
-[Embedded YouTube videos in SwiftUI](https://blog.devgenius.io/embedded-youtube-videos-in-swiftui-900d3a0e80d4) Marcelo Laprea, 2021 <br>
-[YouTube Design In SwiftUI - YouTube Player In SwiftUI - Auto Rotation of Views In SwiftUI](https://www.youtube.com/watch?v=K1ijyv263QY) Kavsoft, 2020, 22 min <br>
-
-
-
-
-
-
---- 
-
-
-
-
-
----
-
-
 
 
 
@@ -570,11 +462,7 @@ Semsphores <br>
 
 
 
-Snake <br>
-> [Build a Snake Game in Swift Using the Declarative Domain Paradigm](https://betterprogramming.pub/build-a-swift-snake-game-using-declarative-domain-paradigm-7eb34a139017) Manuel Meyer, 2021 <br>
-[How to Create the Snake Game in SwiftUI](https://laptrinhx.com/how-to-create-the-snake-game-in-swiftui-3424479639/) 2020 <br>
-[A snake game developed in SwiftUI](https://iosexample.com/a-snake-game-developed-in-swiftui/) 2022 <br>
-[Snake](https://iosexample.com/tag/snake/) iOS Example <br>
+
 
 Swift Tutorial <br>
 > [Learn Swift Programming](https://www.programiz.com/swift-programming) Programiz <br>
@@ -603,11 +491,7 @@ Swift logo <br>
 [Swift developer tools](https://developer.apple.com/swift/resources/) Apple <br>
 []() <br>
 
-Dependencies <br>
-> [Swift Dependencies](https://github.com/pointfreeco/swift-dependencies) Point Free <br>
-[Swift Package Manager](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md) Apple <br>
-[Building a Library with Swift Package Manager](https://dev.to/appwrite/swift-101-building-a-library-with-swift-package-manager-46h) Jake Barnby, 2021 <br>
-[Managing dependencies using the Swift Package Manager](https://www.swiftbysundell.com/articles/managing-dependencies-using-the-swift-package-manager/) John Sundell, 2019 <br>
+
 
 Layout <br>
 [Layout in SwiftUI Way](https://dev.to/fatbobman/layout-in-swiftui-way-4246) fatbobman <br>
@@ -1177,38 +1061,6 @@ iOS Entwickler-Blog
 https://www.ralfebert.de/ios/ [EN]
 
 
-Stanford University
-CS193p „Developing Apps for iOS”
-https://cs193p.sites.stanford.edu/
-
-1. Course Logistics and Intro to SwiftUI [1:02]
-https://www.youtube.com/watch?v=jbtqIBpUG7g&feature=youtu.be
-2. MVVM and the Swift Type System [1:44]
-https://www.youtube.com/watch?v=4GjXq2Sr55Q&feature=youtu.be
-3. Reactive UI Protocols Layout [1:27]
-https://www.youtube.com/watch?v=SIYdYpPXil4&list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&index=3
-4. Grid enum Optionals [1:21]
-https://www.youtube.com/watch?v=eHEeWzFP6O4&list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&index=4
-5. ViewBuilder Shape ViewModifier [1:02]
-https://www.youtube.com/watch?v=oDKDGCRdSHc
-6. Animation [1:30]
-https://www.youtube.com/watch?v=3krC2c56ceQ
-7. Multithreading EmojiArt [1:31]
-https://www.youtube.com/watch?v=tmx-OwkBWxA
-8. Gestures JSON [1:16]
-https://www.youtube.com/watch?v=mz-rNLWJ0bk
-9. Data Flow [1:13]
-https://www.youtube.com/watch?v=0i152oA3T3s&feature=youtu.be
-10. Modal Presentation and Navigation [1:43]
-https://www.youtube.com/watch?v=CKexGQuIO7E&feature=youtu.be
-11. Enroute Picker [0:49]
-https://www.youtube.com/watch?v=fCfC6m7XUew&feature=youtu.be
-12. Core Data [1:34]
-https://www.youtube.com/watch?v=yOhyOpXvaec&feature=youtu.be
-13. Persistence [1:02]
-https://www.youtube.com/watch?v=fTNPRhGGP-0&feature=youtu.be
-14. UIKit Integration [1:02]
-https://www.youtube.com/watch?v=GRX5Dha_Clw&feature=youtu.be
 
 Plymouth University
 iOS Development in Swift
@@ -1219,12 +1071,8 @@ https://itunes.apple.com/us/course/ios-development-in-swift/id950659946
 
 Others
 
-Cheat Sheet: https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#progressview
-
-Animation:
 
 
-SwiftUILab   SwiftUI 
 
 Links:
 https://github.com/swiftui-lab/About-SwiftUI

@@ -12,6 +12,9 @@ tags: [link, swiftui]
 
 ##### Links
 
+###### Auto Layout
+[Auto Layout in Swift: Writing constraints programmatically](https://www.avanderlee.com/swift/auto-layout-programmatically/) Antoine van der Lee, 2019 <br>
+
 ###### Binding
 
 .constant(true) <br>
@@ -58,6 +61,13 @@ https://www.fivestars.blog/articles/swiftui-patterns-bindings/
 [Neumorphism in SwiftUI](https://github.com/twostraws/NeumorphismSwiftUI) Paul Hudson <br>
 
 
+###### Cheat Sheet 
+[SwiftUI 2.0 Cheat Sheet](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#progressview) SimpleBoilerplates <br>
+
+###### Embed YouTube Videos
+[Embedded YouTube videos in SwiftUI](https://blog.devgenius.io/embedded-youtube-videos-in-swiftui-900d3a0e80d4) Marcelo Laprea, 2021 <br>
+[YouTube Design In SwiftUI - YouTube Player In SwiftUI - Auto Rotation of Views In SwiftUI](https://www.youtube.com/watch?v=K1ijyv263QY) Kavsoft, 2020, 22 min <br>
+
 ###### Gauge
 [SwitUI Gauge in App](https://www.youtube.com/watch?v=YU4eyLiDahg&list=PL5PR3UyfTWvfgx9W8WJ9orQf6N1tx0oxN&index=2&pp=iAQB) iOS Academy, 2021, 10 min <br>
 [Gauge - A view that shows a value within a range.](https://developer.apple.com/documentation/swiftui/gauge) Apple  <br>
@@ -66,9 +76,7 @@ https://www.fivestars.blog/articles/swiftui-patterns-bindings/
 [GaugeStyle](https://developer.apple.com/documentation/swiftui/gaugestyle) Apple <br>
 [How to create a self-sizing gauge component in SwiftUI](https://oliver-epper.de/posts/how-to-create-a-self-sizing-gauge-componen-in-swiftui/) Oliver Epper <br>
 
-
 ###### GeometryReader 
-
 https://swiftui-lab.com/geometryreader-to-the-rescue/
 
 https://swiftwithmajid.com/2020/11/04/how-to-use-geometryreader-without-breaking-swiftui-layout/
@@ -91,6 +99,42 @@ https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-geom
 
 https://www.youtube.com/watch?v=AXGrYI78hIo
 
+###### Image Renderer
+[SwiftUI ImageRenderer: Convert View to Image | iOS 16 Tutorial](https://www.youtube.com/watch?v=nQNnHOeGmU4) Flo, 2022, 5 min <br>
+
+###### Layout
+> [Working with percentages in SwiftUI layout](https://oleb.net/2023/swiftui-relative-size/0) Ole Begemann, 2023 <br>
+[How the relative size modifier interacts with stack views](https://oleb.net/2023/swiftui-relative-size-in-stacks/) Ole Begemann, 2023 <br>
+
+###### Navigation <br>
+[SwiftUI Navigation in iOS 16](https://blog.shipbook.io/swiftui-navigation) Nikita Lazarev-Zubov, 2022 <br>
+
+
+###### Refresh
+[Refresh SwiftUI views](https://dev.to/gualtierofr/refresh-swiftui-views-33n) Gualtiero Frigerio, 2021 <br>
+
+###### Render Loop
+[The SwiftUI render loop](https://rensbr.eu/blog/swiftui-render-loop/) Rens Breur, 2022 <br>
+
+###### ResultBuilder
+[Result builders in Swift explained with code examples](https://www.avanderlee.com/swift/result-builders/) Antoine van der Lee, 2022 <br>
+
+###### @ViewBuilder
+[@ViewBuilder usage explained with code examples](https://www.avanderlee.com/swiftui/viewbuilder/) Antoine van der Lee, 2022 <br>
+[SwiftUI ViewBuilders Tutorial (2021, Xcode 12, SwiftUI 2.0) - iOS](https://www.youtube.com/watch?v=nokF9nKoXpQ) iOS Academy, 2021, 13 min <br>
+[How to use @ViewBuilder in SwiftUI | Advanced Learning #9](https://www.youtube.com/watch?v=pXmBRK1BjLw) Swiftful Thinking, 24 min <br>
+[How to use SwiftUI ViewBuilder Tutorial](https://www.youtube.com/watch?v=LVQveaHC7qg) <br>
+[Understanding SwiftUI ViewBuilders](https://www.youtube.com/watch?v=IbxBRzTBeC0) Stewart Lynch, 2021, 22 min<br>
+[@ViewBuilder , TupleView , AnyView in SwiftUI || SwiftUI Reusable View](https://www.youtube.com/watch?v=t-NTRDQP3FQ) App Developer, 2022, 17 min <br>
+[SwiftUI View Builder - SwiftUI Custom Views And Containers - SwiftUI 2.0 Tutorials](https://www.youtube.com/watch?v=-rKmwivlh48) Kavsoft, 2021, 8 min <br>
+[Swift UI: ViewBuilder](https://blog.devgenius.io/swift-ui-viewbuilder-2205d424cadc) Mesut G. <br>
+[Using the ViewBuilder Attribute to Implement SwiftUI Views in Methods](https://serialcoder.dev/text-tutorials/swiftui/using-the-viewbuilder-attribute-to-implement-swiftui-views-in-methods/) SerialCoder.dev, 2022 <br>
+
+###### View Modifier
+[How to create a Conditional View Modifier in SwiftUI](https://www.avanderlee.com/swiftui/conditional-view-modifier/) Antoine van der Lee, 2021 <br>
+
+
+---
 
 ###### SwiftUILab
 [The SwiftUI Lab](https://swiftui-lab.com/) Javier <br>

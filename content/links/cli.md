@@ -17,6 +17,9 @@ tags: [link, bootstrap, css]
 [Linux-UNIX-Programmierung](https://openbook.rheinwerk-verlag.de/linux_unix_programmierung/) Jürgen Wolf, 2006, S.1216, DE <br>
 [Wie werde ich UNIX-Guru?](https://openbook.rheinwerk-verlag.de/unix_guru/) Arnold Willemer, 2003, DE <br>
 
+###### npm
+[Update NPM Packages easily with GUI | Tutorial | Node.js]() Future Web Design, 2023, 5 min <br>
+
 
 ###### Terminal
 [10 Tips to Run Swift From Your Terminal](https://betterprogramming.pub/10-tips-to-run-swift-from-your-terminal-b5832cd9cd8c) Eric Yang, 2020 <br>

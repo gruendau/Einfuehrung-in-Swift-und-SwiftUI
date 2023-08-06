@@ -215,5 +215,42 @@ Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Sta
 -->
 
 <!--
+Stanford University
+CS193p „Developing Apps for iOS” Spring 2020
+https://cs193p.sites.stanford.edu/
+
+1. Course Logistics and Intro to SwiftUI [1:02]
+https://www.youtube.com/watch?v=jbtqIBpUG7g
+2. MVVM and the Swift Type System [1:44]
+https://www.youtube.com/watch?v=4GjXq2Sr55Q
+3. Reactive UI Protocols Layout [1:27]
+https://www.youtube.com/watch?v=SIYdYpPXil4
+4. Grid enum Optionals [1:21]
+https://www.youtube.com/watch?v=eHEeWzFP6O4
+5. ViewBuilder Shape ViewModifier [1:02]
+https://www.youtube.com/watch?v=oDKDGCRdSHc
+6. Animation [1:30]
+https://www.youtube.com/watch?v=3krC2c56ceQ
+7. Multithreading EmojiArt [1:31]
+https://www.youtube.com/watch?v=tmx-OwkBWxA
+8. Gestures JSON [1:16]
+https://www.youtube.com/watch?v=mz-rNLWJ0bk
+9. Data Flow [1:13]
+https://www.youtube.com/watch?v=0i152oA3T3s
+10. Modal Presentation and Navigation [1:43]
+https://www.youtube.com/watch?v=CKexGQuIO7E
+11. Enroute Picker [0:49]
+https://www.youtube.com/watch?v=fCfC6m7XUew
+12. Core Data [1:34]
+https://www.youtube.com/watch?v=yOhyOpXvaec
+13. Persistence [1:02]
+https://www.youtube.com/watch?v=fTNPRhGGP-0
+14. UIKit Integration [1:02]
+https://www.youtube.com/watch?v=GRX5Dha_Clw
+-->
+
+
+
+<!--
 []() <br>
 -->

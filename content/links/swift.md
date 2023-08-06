@@ -79,6 +79,13 @@ https://medium.com/swift-programming/defer-usage-in-swift-53b51b64d4c7
 https://borgs.cybrilla.com/tils/defer-keyword-in-swift/
 
 
+###### Dependencies
+[Swift Dependencies](https://github.com/pointfreeco/swift-dependencies) Point Free <br>
+[Swift Package Manager](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md) Apple <br>
+[Building a Library with Swift Package Manager](https://dev.to/appwrite/swift-101-building-a-library-with-swift-package-manager-46h) Jake Barnby, 2021 <br>
+[Managing dependencies using the Swift Package Manager](https://www.swiftbysundell.com/articles/managing-dependencies-using-the-swift-package-manager/) John Sundell, 2019 <br>
+
+
 ###### DoTryCatchThrows
 https://www.youtube.com/watch?v=ss50RX7F7nE <br>
 

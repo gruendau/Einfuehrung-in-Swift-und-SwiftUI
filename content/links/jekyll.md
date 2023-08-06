@@ -14,7 +14,10 @@ tags: [link, jekyll]
 
 [Jekyll Tutorial: How To Create a Static Website](https://kinsta.com/blog/jekyll-static-site/) Kinsta, Joel Olawanle, 2023 <br>
 
+##### Videos
+
 
 <!--
 []() <br>
+[]() min <br>
 -->
