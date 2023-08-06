@@ -3,7 +3,7 @@ title: zsh
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
-subtitle: 
+subtitle: Z shell
 
 weight: 20
 
@@ -287,4 +287,5 @@ Option letters:
   -y    equivalent to --shwordsplit
 ```
 
-
+#### Links
+[Z shell](https://de.wikipedia.org/wiki/Z_shell) wiki
