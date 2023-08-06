@@ -30,7 +30,14 @@ https://www.youtube.com/@GitHub <br>
 [Schedule Python Scripts with GitHub Actions FOR FREE | Python Automation](https://www.youtube.com/watch?v=PaGp7Vi5gfM) Patrick Löber, 2022, 13 min <br>
 
 
+###### Github Jekyll
+[Build a Data Science Portfolio with Jekyll & GitHub Pages - Site Configuration](https://www.youtube.com/watch?v=wCOInE7-E0I) Dataslice, 2021, 8 min <br>
+[Build a Data Science Portfolio with Jekyll & GitHub Pages - Adding Posts](https://www.youtube.com/watch?v=Td_NjdrwPkQ) Dataslice, 2021, 11 min <br>
+[Build a Data Science Portfolio with Jekyll & GitHub Pages - Customization](https://www.youtube.com/watch?v=XCaag3dfxsQ) Dataslice, 2021, 12 min <br>
+
+
 <!--
 []() <br>
+[]() min <br>
 -->
 

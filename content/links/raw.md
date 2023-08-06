@@ -447,8 +447,17 @@ Documentation <br>
 
 ### SwiftUI
 
-@ViewBuilder <br>
-> [@ViewBuilder usage explained with code examples](https://www.avanderlee.com/swiftui/viewbuilder/) Antoine van der Lee, 2022 <br>
+###### Auto Layout
+[Auto Layout in Swift: Writing constraints programmatically](https://www.avanderlee.com/swift/auto-layout-programmatically/) Antoine van der Lee, 2019 <br>
+
+###### Navigation <br>
+[SwiftUI Navigation in iOS 16](https://blog.shipbook.io/swiftui-navigation) Nikita Lazarev-Zubov, 2022 <br>
+
+###### ResultBuilder
+[Result builders in Swift explained with code examples](https://www.avanderlee.com/swift/result-builders/) Antoine van der Lee, 2022 <br>
+
+###### @ViewBuilder
+[@ViewBuilder usage explained with code examples](https://www.avanderlee.com/swiftui/viewbuilder/) Antoine van der Lee, 2022 <br>
 [SwiftUI ViewBuilders Tutorial (2021, Xcode 12, SwiftUI 2.0) - iOS](https://www.youtube.com/watch?v=nokF9nKoXpQ) iOS Academy, 2021, 13 min <br>
 [How to use @ViewBuilder in SwiftUI | Advanced Learning #9](https://www.youtube.com/watch?v=pXmBRK1BjLw) Swiftful Thinking, 24 min <br>
 [How to use SwiftUI ViewBuilder Tutorial](https://www.youtube.com/watch?v=LVQveaHC7qg) <br>
@@ -458,57 +467,37 @@ Documentation <br>
 [Swift UI: ViewBuilder](https://blog.devgenius.io/swift-ui-viewbuilder-2205d424cadc) Mesut G. <br>
 [Using the ViewBuilder Attribute to Implement SwiftUI Views in Methods](https://serialcoder.dev/text-tutorials/swiftui/using-the-viewbuilder-attribute-to-implement-swiftui-views-in-methods/) SerialCoder.dev, 2022 <br>
 
-ResultBuilder <br>
-> [Result builders in Swift explained with code examples](https://www.avanderlee.com/swift/result-builders/) Antoine van der Lee, 2022 <br>
+###### View Modifier
+[How to create a Conditional View Modifier in SwiftUI](https://www.avanderlee.com/swiftui/conditional-view-modifier/) Antoine van der Lee, 2021 <br>
 
-Auto Layout <br>
-> [Auto Layout in Swift: Writing constraints programmatically](https://www.avanderlee.com/swift/auto-layout-programmatically/) Antoine van der Lee, 2019 <br>
 
-Layout <br>
+
+###### Layout
 > [Working with percentages in SwiftUI layout](https://oleb.net/2023/swiftui-relative-size/0) Ole Begemann, 2023 <br>
 [How the relative size modifier interacts with stack views](https://oleb.net/2023/swiftui-relative-size-in-stacks/) Ole Begemann, 2023 <br>
 
-Render Loop <br>
-> [The SwiftUI render loop](https://rensbr.eu/blog/swiftui-render-loop/) Rens Breur, 2022 <br>
+######
+Render Loop
+[The SwiftUI render loop](https://rensbr.eu/blog/swiftui-render-loop/) Rens Breur, 2022 <br>
 
-Refresh <br>
-> [Refresh SwiftUI views](https://dev.to/gualtierofr/refresh-swiftui-views-33n) Gualtiero Frigerio, 2021 <br>
+###### Refresh
+[Refresh SwiftUI views](https://dev.to/gualtierofr/refresh-swiftui-views-33n) Gualtiero Frigerio, 2021 <br>
 
-Image Renderer <br>
-> [SwiftUI ImageRenderer: Convert View to Image | iOS 16 Tutorial](https://www.youtube.com/watch?v=nQNnHOeGmU4) Flo, 2022, 5 min <br>
+###### Image Renderer
+[SwiftUI ImageRenderer: Convert View to Image | iOS 16 Tutorial](https://www.youtube.com/watch?v=nQNnHOeGmU4) Flo, 2022, 5 min <br>
 
-Embedded YouTube Videos <br>
-> [Embedded YouTube videos in SwiftUI](https://blog.devgenius.io/embedded-youtube-videos-in-swiftui-900d3a0e80d4) Marcelo Laprea, 2021 <br>
+###### Embed YouTube Videos
+[Embedded YouTube videos in SwiftUI](https://blog.devgenius.io/embedded-youtube-videos-in-swiftui-900d3a0e80d4) Marcelo Laprea, 2021 <br>
 [YouTube Design In SwiftUI - YouTube Player In SwiftUI - Auto Rotation of Views In SwiftUI](https://www.youtube.com/watch?v=K1ijyv263QY) Kavsoft, 2020, 22 min <br>
 
-View Modifier <br>
-> [How to create a Conditional View Modifier in SwiftUI](https://www.avanderlee.com/swiftui/conditional-view-modifier/) Antoine van der Lee, 2021 <br>
 
-foreach <br>
-> [Enumerating elements in ForEach](https://oleb.net/2020/foreach-enumerated/) Ole Begemann, 2020 <br> 
 
-Navigation <br>
-> [SwiftUI Navigation in iOS 16](https://blog.shipbook.io/swiftui-navigation) Nikita Lazarev-Zubov, 2022 <br>
+
+
 
 --- 
 
-### Swift Diverses
 
-UnitTest <br>
-> [Unit and UI Testing in iOS Development](https://blog.shipbook.io/unit-and-ui-testing-in-ios-development) Kustiawanto Halim, 2021 <br>
-
-Debugging SwiftUI Changes <br>
-> [Debugging SwiftUI views: what caused that change?](https://www.avanderlee.com/swiftui/debugging-swiftui-views/) Antoine von der Lee, 2022 <br>
-
-Swift Package Manager <br>
-> [Erstellen und Testen eines Swift-Projekts](https://docs.github.com/de/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-swift) GitHub <br>
-[Swift Package Manager framework creation in Xcode](https://www.avanderlee.com/swift/creating-swift-package-manager-framework/) Antoine von der Lee, 2022 <br>
-
-Swift Package Index <br>
-> [Swift Package Index](https://swiftpackageindex.com/) <br>
-
-Chris Lattner <br>
-> [Chris Lattner on the origins of Swift](https://oleb.net/2019/chris-lattner-swift-origins/) Ole Begemann, 2019 <br>
 
 
 
@@ -569,30 +558,9 @@ Environment <br>
 
 
 
-Git Tutorial <br>
-> [Git Grundlagen - Taggen](https://git-scm.com/book/de/v2/Git-Grundlagen-Taggen) git <br>
-[Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) git <br>
-[Git tags](https://docs.github.com/en/rest/git/tags?apiVersion=2022-11-28) GitHub<br>
-[git tag - Taggen](https://www.atlassian.com/de/git/tutorials/inspecting-a-repository/git-tag) Atlassian <br>
-[Git Tutorial](https://www.toolsqa.com/git/git-tutorial/) Lakshay Sharma <br>
-[Github Tags](https://www.toolsqa.com/git/github-tags/) Harish Rajora, 2021 <br>
-[Managing tags in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags-in-github-desktop) GitHub <br>
-[Git-Grundlagen](https://www.atlassian.com/de/git) Atlassian <br>
-[Git-Befehle](https://www.atlassian.com/de/git/glossary) Atlassian <br>
-[Commits und Änderungen rückgängig machen](https://www.atlassian.com/de/git/tutorials/undoing-changes) Atlassian <br>
-[Einführung in git für Neueinsteiger](https://gist.github.com/Ben-Kaniobi/c528376a76765e99058c) Ben-Kaniobi <br>
 
-Terminal <br>
-> [10 Tips to Run Swift From Your Terminal](https://betterprogramming.pub/10-tips-to-run-swift-from-your-terminal-b5832cd9cd8c) Eric Yang, 2020 <br>
-[Running and Compiling Swift Code in Terminal](https://mahmudahsan.medium.com/running-and-compiling-swift-code-in-terminal-237ee4087a9c) Mahmud Ahsan, 2018 <br>
-[How to create a command line app with Swift](https://towardsdev.com/how-to-create-a-command-line-app-with-swift-2067c1534692) Anurag Ajwani, 2020 <br>
-[Scripting and Compiling Swift on the Command Line](https://jblevins.org/log/swift) Jason Blevins, 2017 <br>
 
-Terminal Benutzerhandbuch <br>
-> [Ausführen von Befehlen und Verwenden von Programmen in Terminal auf dem Mac](https://support.apple.com/de-de/guide/terminal/apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac) Apple <br>
-[How To Write macOS Command Line Tools with Swift](https://blog.smittytone.net/2020/12/22/how-to-write-cli-tools-swift/) Tony Smith <br>
-[The Ultimate Guide To Swift Executables](https://www.fivestars.blog/articles/ultimate-guide-swift-executables/) Federico Zanetello, 2020 <br>
-[A Look Into ArgumentParser](https://www.fivestars.blog/articles/a-look-into-argument-parser/) Federico Zanetello, 2020 <br>
+
 
 Swift Web Crawler <br>
 > [How to Build a Web Crawler in Swift](https://www.fivestars.blog/articles/build-web-crawler-swift/) Federico Zanetello, 2017 <br>
@@ -665,13 +633,6 @@ Package <br>
 Allgemein <br>
 [Coding Tech](https://www.youtube.com/@CodingTech) <br>
 
-Python <br>
-[Indently](https://www.youtube.com/@Indently) <br>
-[Patrick Loeber](https://www.youtube.com/@patloeber/videos) <br>
-[NeuralNine](https://www.youtube.com/@NeuralNine) <br>
-[Carberra](https://www.youtube.com/@Carberra) <br>
-[mCoding, James Murphy](https://www.youtube.com/@mCoding) <br>
-[Python Simplified, Mariya](https://www.youtube.com/@PythonSimplified) <br>
 
 
 [Tony Smith](https://github.com/smittytone/) <br>
@@ -689,10 +650,7 @@ YouTube <br>
 [DataSlice](https://www.youtube.com/@dataslice) <br>
 
 
-Github Jekyll <br>
-> [Build a Data Science Portfolio with Jekyll & GitHub Pages - Site Configuration](https://www.youtube.com/watch?v=wCOInE7-E0I) Dataslice, 2021, 8 min <br>
-[Build a Data Science Portfolio with Jekyll & GitHub Pages - Adding Posts](https://www.youtube.com/watch?v=Td_NjdrwPkQ) Dataslice, 2021, 11 min <br>
-[Build a Data Science Portfolio with Jekyll & GitHub Pages - Customization](https://www.youtube.com/watch?v=XCaag3dfxsQ) Dataslice, 2021, 12 min <br>
+
 
 --- 
 
@@ -711,16 +669,7 @@ https://developer.apple.com/xcode/swiftui/ <br>
 
 [Web Capture](https://github.com/tdamdouni/WebCapture/) Taha Dhiaeddine Amdouni <br>
 
-#### Command line interface CLI
-> [Swift Programming from the Command Line](https://ed.com/command-line-swift/) von ed.com, 2020 <br>
-[Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc) [Sandeep Joshi, 2018] <br>
-[How To Write macOS Command Line Tools with Swift](https://blog.smittytone.net/2020/12/22/how-to-write-cli-tools-swift/) Tony Smith <br>
-[Running and Compiling Swift Code in Terminal](https://mahmudahsan.medium.com/running-and-compiling-swift-code-in-terminal-237ee4087a9c) Mahmud Ahsan, 2018 <br>
-[Creating a command line tool using the Swift Package Manager](https://www.avanderlee.com/swift/command-line-tool-package-manager/) Antoine van der Lee, 2020 <br>
 
-CLI Video <br>
-[Building CLI Tools with Apple Swift](https://www.youtube.com/watch?v=bNWLDOW-Aok) 2022, 8 min <br>
-[]() <br>
  <br>
 
 
@@ -764,22 +713,11 @@ https://code.tutsplus.com/de/tutorials/eine-einfuhrung-in-die-swift-teil-1--cms-
 https://datei.wiki/definition/die-grundlagen-von-apple-swift/ <br>
 https://www.edv-buchversand.de/download/?mode=download&type=chapter&file=sm-284.pdf <br>
 
-##### Functional programming 
-> [Introduction to Functional Programming using Swift](https://flexiple.com/ios/introduction-to-functional-programming-using-swift/) Saravanan V <br>
-[Functional Programming in Swift: An Introduction](https://medium.com/swift2go/functional-programming-in-swift-an-introduction-253c1f420ca9) Tim Beals <br>
-[Beginners guide to functional Swift](https://theswiftdev.com/beginners-guide-to-functional-swift/) Tibor Bödecs <br>
-[Functional Programming in Swift - Beginner's Guide | Swift 5 | 2021](https://digitalbunker.dev/functional-programming-in-swift-beginners-guide-swift-5-2021/) Aryaman Sharda <br>
-[Functional Swift](https://www.objc.io/books/functional-swift/preview) ojbc <br>
-[Functional Programming in Swift: an Unusual yet Powerful Paradigm](https://matteomanferdini.com/swift-functional-programming/) Matteo Manferdini <br>
-[Introduction to Functional Programming in Swift](https://www.kodeco.com/9222-an-introduction-to-functional-programming-in-swift) Kodeco <br>
 
-##### Gauge
-> [SwitUI Gauge in App](https://www.youtube.com/watch?v=YU4eyLiDahg&list=PL5PR3UyfTWvfgx9W8WJ9orQf6N1tx0oxN&index=2&pp=iAQB) iOS Academy, 2021, 10 min <br>
-[Gauge - A view that shows a value within a range.](https://developer.apple.com/documentation/swiftui/gauge) Apple  <br>
-[How to Use SwiftUI Gauge and Create Custom Gauge Styles in iOS 16](https://www.appcoda.com/swiftui-gauge/) Simon Ng, 2022 <br>
-[SwiftUI Gauge](https://sarunw.com/posts/swiftui-gauge/) Sarun, 2022 <br>
-[GaugeStyle](https://developer.apple.com/documentation/swiftui/gaugestyle) Apple <br>
-[How to create a self-sizing gauge component in SwiftUI](https://oliver-epper.de/posts/how-to-create-a-self-sizing-gauge-componen-in-swiftui/) Oliver Epper <br>
+
+
+
+
 https://swiftuirecipes.com/blog/swiftui-gauge-cheatsheet
 
 Recipies:
@@ -789,9 +727,7 @@ Q
 ##### Higher Order Functions
 [Improve your Swift code with higher order functions](https://raulferrer.dev/blog/swift_high_order_functions/) Raul Ferrer <br>
 
-##### HTML Color
-> [HTML Color Codes](https://htmlcolorcodes.com/) Dixon & Moe <br>
-[HTML Color Codes - Tutorials](https://htmlcolorcodes.com/tutorials/html-text-color/) Dixon & Moe <br>
+
 
 ##### Keywords
 https://www.geeksforgeeks.org/swift-keywords/ <br>
@@ -809,19 +745,7 @@ https://swiftbysundell.com/articles/mutating-and-nonmutating-swift-contexts/?ref
 [Git | Teil 1 - Grundlagen | commit, fetch, merge, pull, push](https://www.youtube.com/watch?v=u_sF3cAZddY) <br>
 [Git-Grundlagen für Entwickler - Alles was man zum Einstieg wissen muss](https://www.youtube.com/watch?v=6uvzIMdqV2U) Thomas Huber <br>
 
-##### Operatoren
-https://www.geeksforgeeks.org/swift-operators/ <br>
 
-##### Protokol orientated programming POP
-https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/protocol_oriented_generics.ipynb#scrollTo=c_1u7JSBMx3x <br>
-https://www.toptal.com/swift/introduction-protocol-oriented-programming-swift <br>
-https://www.appcoda.com/protocol-oriented-programming/ <br>
-https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming <br>
-https://blog.devgenius.io/pop-or-protocol-oriented-programming-swift-3d90e006d0b3 <br>
-https://devstreaming-cdn.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf <br>
-
-##### Some vs. any static vs. dynamic dispatch 
-https://swiftsenpai.com/swift/understanding-some-and-any/ <br>
 
 ##### StyleGuide
 > [Swift Style Guide](https://google.github.io/swift/) <br>
@@ -845,31 +769,10 @@ Marks <br>
 []() <br>
 https://www.avanderlee.com/xcode/xcode-mark-line-comment/ <br>
 
-##### SwiftLint
-> [SwiftLint – Getting Started](https://www.swiftlyrush.com/swiftlint-getting-started/) Adam Rush, 2022 <br>
-[SwiftLint](https://github.com/realm/SwiftLint) Realm <br>
-[How to use SwiftLint with Xcode to enforce Swift style and conventions?](https://medium.com/developerinsider/how-to-use-swiftlint-with-xcode-to-enforce-swift-style-and-conventions-368e49e910) Vineet Choudhary, 2018 <br>
-[SwiftLint](https://infinum.com/handbook/ios/tools/swiftlint) iOS Handbook, 2022 <br>
-[How to create a SwiftLint enabled Swift Xcode Project](https://www.delasign.com/blog/swiftlint-enabled-swift-xcode-project/) Oscar de la Hera Gomez, 2023 <br>
-[SwiftLint in Depth](https://www.kodeco.com/38422105-swiftlint-in-depth) Kodeco, 2023 <br>
-[swiftlint](https://docs.fastlane.tools/actions/swiftlint/) fastlane docs<br>
-[SwiftLint Integration in Xcode and GitLab CI](https://blog.canopas.com/swiftlint-integration-in-xcode-and-gitlab-ci-1ae9ef6e5d85) Amisha I., 2022 <br>
-[SwiftLint Makes for Clean Code and Happy Clients](https://martiancraft.com/blog/2022/04/swift-lint/) Eric Welander, 2022 <br>
-[Add SwiftLint to your Xcode Project or Swift Package as a Plugin](https://iosexample.com/add-swiftlint-to-your-xcode-project-or-swift-package-as-a-plugin/) iOS Example, 2023 <br>
-[How to clean up your code formatting with SwiftLint](https://www.hackingwithswift.com/articles/97/how-to-clean-up-your-code-formatting-with-swiftlint) Paul Hudson, 2018 <br>
-[Linting vs Formatting: A Swift Guide — Part 1](https://jasonzurita.com/linting-and-formatting-swift-part-1/) Jason Zurita, 2021 <br>
-[Linting vs Formatting: A Swift Guide — Part 2](https://jasonzurita.com/linting-and-formatting-swift-part-2/) Jason Zurita, 2021 <br>
-[Missing Guide on Swift Code Style](https://www.vadimbulavin.com/swift-code-style/) Vadim Bulavin, 2019 <br>
-[Apply Swift Style and Conventions with SwiftLint](https://batuhangobekli.medium.com/apply-swift-style-and-conventions-with-swiftlint-3cd88dcd2703) Batuhan Gobekli, 2021 <br>
-[Swift Code Formatters](https://nshipster.com/swift-format/) mattt, 2019 <br>
 
 
 
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
-[]() <br>
+
 
 
 ###### Video
@@ -887,38 +790,7 @@ https://www.avanderlee.com/xcode/xcode-mark-line-comment/ <br>
 []() <br>
 https://www.hackingwithswift.com/example-code/language/how-to-check-whether-a-module-is-available-using-canimport <br>
 
-##### Closures escaping, nonescaping, autoclosure
-https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/ <br>
-https://code-examples.net/de/q/2540fcb <br>
-https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d <br>
-https://www.codingem.com/escaping-in-swift/ <br>
 
-##### Control flow
-https://www.advancedswift.com//learn-swift-cpp/#control-flow <br>
-
-##### DoTryCatchThrows
-https://www.youtube.com/watch?v=ss50RX7F7nE <br>
-
-##### Final class
-https://www.hackingwithswift.com/sixty/8/4/final-classes  <br>
-https://www.hackingwithswift.com/quick-start/understanding-swift/which-classes-should-be-declared-as-final <br>
-
-##### For loop
-https://www.programiz.com/swift-programming/for-in-loop <br>
-
-##### Property wrappers
-https://www.avanderlee.com/swift/property-wrappers/  <br>
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/ <br>
-
-##### some, any:
-https://medium.com/@james.daniel.isaiah/a-quick-look-opaque-existential-generic-types-in-swift-4e683a4bc97b <br>
-
-##### === vs. ==
-https://developer.apple.com/documentation/swift/===(_:_:) <br>
-
-##### Where
-https://www.avanderlee.com/swift/where-using-swift/ <br>
-https://www.appypie.com/swift-where-how-to <br>
 
 
 #### Rest
@@ -951,20 +823,7 @@ https://infinum.com/handbook/ios/tools/development-toolbox <br>
 #### SwiftUI Roadmap
 https://karinprater.medium.com/on-the-road-to-learn-swiftui-8b26b528199c <br>
 
-##### Buttons
-> [ActionButton](https://github.com/swiftui-library/action-button) swiftui-library <br>
- <br>
-[FloatingButton](https://github.com/exyte/FloatingButton) Exyte <br>
-[Button Styles](https://github.com/heyjaywilson/swiftui-buttons) Jay Wilson <br>
-[Custom SwiftUI Buttons](https://github.com/agholson/SwiftUI-Custom-Buttons) Andrew Gholson <br>
-[SwiftUI AsyncButton](https://github.com/lorenzofiamingo/swiftui-async-button) Lorenzo Fiamingo <br>
-[swiftui-button](https://github.com/mukeshj8/swiftui-button) Mukesh Jain <br>
-[SwiftUI-Button](https://github.com/arjun011/SwiftUI-Button) Arjun Patel <br>
-[HapticButton](https://github.com/0x0001SUI/HapticButton) 0x0001 <br>
-[SwiftUI_Buttons](https://github.com/loydkim/SwiftUI_Buttons) Kim Loyd <br>
-[SwiftUI: Button styling](https://github.com/silviaespanagil/swiftUI-button-study) Silvia España Gil<br>
-[Neumorphic Buttons](https://designcode.io/swiftui3-neumorphic-buttons) designcode.io <br>
-[Neumorphism in SwiftUI](https://github.com/twostraws/NeumorphismSwiftUI) Paul Hudson <br>
+
 
 
 ---
@@ -977,80 +836,7 @@ https://karinprater.medium.com/on-the-road-to-learn-swiftui-8b26b528199c <br>
 [List of all ZetCode tutorials](https://zetcode.com/all/) ZetCode <br>
 
 ---
-### Processing
-Happy Codi: <br>
-https://happycoding.io/ <br>
 
-Programmers, Artists: <br>
-https://github.com/orgs/processing/people <br>
-
-Naoto Hieda: <br>
-https://naotohieda.com/blog/categories#sketch <br>
-
-Ivan Vlahov: <br>
-https://www.youtube.com/user/ivanvlahov922 <br>
-https://github.com/ivvlspirit <br>
-
-Automation: <br>
-https://www.youtube.com/channel/UCSXGxfwfqRw0DjTx3HCsoog <br>
-https://controlc.com/eb66fa52 <br>
-
-Codeguppy: <br>
-https://codeguppy.com/ <br>
-
-Processing p5js: <br>
-https://p5js.org/ <br>
-
-p5js Dokumentation: <br>
-https://p5js.org//reference <br>
-
-Hallo p5.js: <br>
-http://hello.p5js.org/ <br>
-
-Introduction: <br>
-https://medium.com/@mhiratsuka/what-is-p5-js-and-how-to-use-it-b88f9fee0ab2 <br>
-
-p5-Sound: <br>
-https://p5js.org//reference/#/libraries/p5.sound <br>
-
-Web-Audio: <br>
-https://caniuse.com/#feat=audio-api <br>
-
-Web-Audio-API: <br>
-https://www.w3.org/TR/webaudio <br>
-
-Github: <br>
-https://github.com/processing/p5.js-sound <br>
-
-ProcessingJS: <br>
-http://processingjs.org/ <br>
-
-Processing.js Dokumentation: <br>
-https://www.khanacademy.org/computing/computer-programming/pjs-documentation <br>
-http://processingjs.org//reference <br>
-
-Github: <br>
-https://github.com/processing-js/processing-js/
-https://github.com/processing/processing <br>
-
-Github wiki: <br>
-https://github.com/processing/processing/wiki <br>
-
-Wiki: <br>
-https://en.www.wikipedia.org/wiki/Processing_(programming_language) <br>
-
-Raspberry Pi <br>
-https://pi.processing.org/ <br>
-
-Processing Pi: <br>
-https://py.processing.org/ <br>
-
-Github Processing.py: <br>
-https://github.com/jdf/processing.py/wiki <br>
-https://github.com/jdf/processing-py-site <br>
-
-Open Processing: <br>
-https://www.openprocessing.org/ <br>
 
 giCentre: <br>
 https://www.gicentre.net/software <br>
@@ -1065,8 +851,7 @@ https://github.com/villares/py.processing-play?files= <br>
 https://gist.github.com/marcedwards/ <br>
 
 ---
-### Espurino 
-http://www.espruino.com/ <br>
+
 
 Wiki: <br>
 https://en.www.wikipedia.org/wiki/Espruino <br>
@@ -1078,20 +863,9 @@ https://github.com/espruino <br>
 https://github.com/topics/espruino <br>
 
 ---
-### Tessel
-https://tessel.io/
 
-Tessel-pl: <br>
-https://wiki.tessel.pl/#all-updates <br>
 
-Github: <br>
-https://github.com/tessel <br>
-https://tessel.github.io/t2-start <br>
-https://github.com/topics/tessel <br>
 
----
-### Fritzing
-https://fritzing.org/home/ <br>
 
 
 ---
@@ -1196,52 +970,11 @@ Swift
 https://www.heise.de/news/Programmiersprache-Swift-5-5-krempelt-die-Nebenlaeufigkeit-der-Sprache-um-6196960.html
 
 
-### JavaScript js
-https://molily.de/js/
 
-Corona Simulation:
-https://tquev.github.io/covid-19/
-
-Khan Academy:
-https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse
-
-Javascript Doku:
-https://devdocs.io/javascript/
-
-Daniel Shiffman (The Coding Train):
-https://www.youtube.com/user/shiffman
-
-19 Prototypes:
-https://www.youtube.com/watch?v=hS_WqkyUah8
-
-20 Inheritance of Prototypes:
-https://www.youtube.com/watch?v=CpmE5twq1h0
-
-Tony Alicea:
-Inside javascript:
-https://www.youtube.com/watch?v=Bv_5Zv5c-Ts
-
-Curser
-http://www.javascripter.net/faq/stylesc.htm
 
 
 ---
-### ml5js
-Friendly machine learning for the web! <br>
-https://ml5js.org/ <br>
-https://github.com/ml5js/ml5-library <br>
-https://www.npmjs.com/package/ml5 <br>
-https://ml5js.medium.com/ <br>
-https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76 <br>
 
-Video: <br>
-https://en.www.wikipedia.org/wiki/Daniel_Shiffman <br>
-https://www.youtube.com/watch?v=jmznx0Q1fP0 <br>
-https://www.youtube.com/watch?v=MfvnRFANUGE <br>
-https://ml5js.org/ <br>
-
-Sensor Flow for Javascript: <br>
-https://www.tensorflow.org/js <br>
 
 
 ---
@@ -1282,19 +1015,7 @@ https://soundcloud.com/user-277662840/popular-tracks <br>
 Adrian: <br>
 https://soundcloud.com/adizo/popular-tracks <br>
 
----
-### Django
-Django Web Framework (Python): <br>
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django <br>
 
-Corey Schafer Django Tutorial - 17 Videos: <br>
-https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p <br>
-
-Mike Hibbert Django Tutorials - 34 Videos: <br>
-https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD <br>
-
-Thenewboston Django Tutorials - 40 Videos: <br>
-https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK <br>
 
 
 ### VIM

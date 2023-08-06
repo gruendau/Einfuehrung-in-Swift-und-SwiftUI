@@ -12,6 +12,35 @@ tags: [link, js, p5js]
 
 ##### Links
 
+https://molily.de/js/
+
+Corona Simulation:
+https://tquev.github.io/covid-19/
+
+Khan Academy:
+https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse
+
+Javascript Doku:
+https://devdocs.io/javascript/
+
+Daniel Shiffman (The Coding Train):
+https://www.youtube.com/user/shiffman
+
+19 Prototypes:
+https://www.youtube.com/watch?v=hS_WqkyUah8
+
+20 Inheritance of Prototypes:
+https://www.youtube.com/watch?v=CpmE5twq1h0
+
+Tony Alicea:
+Inside javascript:
+https://www.youtube.com/watch?v=Bv_5Zv5c-Ts
+
+Curser
+http://www.javascripter.net/faq/stylesc.htm
+
+
+
 
 https://freefrontend.com/html-menu-with-javascript/
 
@@ -27,6 +56,24 @@ https://happycoding.io/
 https://p5js.org/
 
 https://p5js.org/examples/
+
+###### ml5js
+Friendly machine learning for the web! <br>
+https://ml5js.org/ <br>
+https://github.com/ml5js/ml5-library <br>
+https://www.npmjs.com/package/ml5 <br>
+https://ml5js.medium.com/ <br>
+https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76 <br>
+
+
+Video: <br>
+https://en.www.wikipedia.org/wiki/Daniel_Shiffman <br>
+https://www.youtube.com/watch?v=jmznx0Q1fP0 <br>
+https://www.youtube.com/watch?v=MfvnRFANUGE <br>
+https://ml5js.org/ <br>
+
+Sensor Flow for Javascript: <br>
+https://www.tensorflow.org/js <br>
 
 
 Videos <br>

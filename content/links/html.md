@@ -22,6 +22,10 @@ https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe
 
 [HTML5-Handbuch](http://webkompetenz.wikidot.com/docs:html-handbuch) Stefan Münz, <br>
 
+###### Color
+[HTML Color Codes](https://htmlcolorcodes.com/) Dixon & Moe <br>
+[HTML Color Codes - Tutorials](https://htmlcolorcodes.com/tutorials/html-text-color/) Dixon & Moe <br>
+
 
 ##### Videos
 

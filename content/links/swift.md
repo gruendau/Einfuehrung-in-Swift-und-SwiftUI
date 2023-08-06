@@ -12,6 +12,7 @@ tags: [link, swift]
 
 ##### Links
 
+
 ###### Any
 [AnyObject, Any, and any: When to use which?](https://www.avanderlee.com/swift/anyobject-any/) Antoine van der Lee, 2022 <br>
 [Existential any in Swift explained with code examples](https://www.avanderlee.com/swift/existential-any/) Antoine van der Lee, 2022 <br>
@@ -19,6 +20,23 @@ tags: [link, swift]
 ###### As, as!, as?, is <br>
 [as, as?, and as!](https://oleb.net/2020/as/) Ole Begemann, 2020 <br>
 
+###### CaseIterable###### 
+[Enumerating enum cases in Swift](https://oleb.net/blog/2018/06/enumerating-enum-cases/) Ole Begemann, 2020 <br>
+
+###### Closures
+[Don't use escaping closures in SwiftUI](https://rensbr.eu/blog/swiftui-escaping-closures/) Rens Breur, 2022 <br>
+
+###### Closures escaping, nonescaping, autoclosure
+https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/ <br>
+https://code-examples.net/de/q/2540fcb <br>
+https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d <br>
+https://www.codingem.com/escaping-in-swift/ <br>
+
+###### Computed Property
+[What is a Computed Property in Swift?](https://www.avanderlee.com/swift/computed-property/) Antoine van der Lee, 2021 <br>
+
+###### Control flow
+https://www.advancedswift.com//learn-swift-cpp/#control-flow <br>
 
 ###### Defer
 
@@ -61,6 +79,29 @@ https://medium.com/swift-programming/defer-usage-in-swift-53b51b64d4c7
 https://borgs.cybrilla.com/tils/defer-keyword-in-swift/
 
 
+###### DoTryCatchThrows
+https://www.youtube.com/watch?v=ss50RX7F7nE <br>
+
+
+###### Enums
+[Mastering Enums in Swift: A Comprehensive Guide](https://medium.com/gitconnected/mastering-enums-in-swift-a-comprehensive-guide-3fb4394445a3) Raúl Ferrer, 2023 <br>
+
+###### Final Class
+https://www.hackingwithswift.com/sixty/8/4/final-classes  <br>
+https://www.hackingwithswift.com/quick-start/understanding-swift/which-classes-should-be-declared-as-final <br>
+
+
+###### foreach
+[Enumerating elements in ForEach](https://oleb.net/2020/foreach-enumerated/) Ole Begemann, 2020 <br> 
+
+###### For loop
+https://www.programiz.com/swift-programming/for-in-loop <br>
+
+###### Generics
+[Understanding generics](https://www.hackingwithswift.com/plus/intermediate-swift/understanding-generics-part-1) Paul Hudson <br>
+[Beginner's guide to modern generic programming in Swift](https://theswiftdev.com/beginners-guide-to-modern-generic-programming-in-swift/) The Swift Dev, 2022 <br>
+
+
 ###### if else 
 []() min <br>
 https://www.programiz.com/swift-programming/if-else-statement
@@ -98,6 +139,13 @@ https://www.hackingwithswift.com/read/0/8/conditional-statements
 
 []() min <br>
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/
+
+
+###### Lazy
+[It’s wrappers all the way down](https://oleb.net/2018/lastindex-reversed/) Ole Begemann, 2018 <br>
+
+###### Operatoren
+https://www.geeksforgeeks.org/swift-operators/ <br>
 
 
 ###### Optional
@@ -145,51 +193,67 @@ https://medium.com/@rudraniwankhade/optional-chaining-in-swift-8b358f2afbdb
 https://www.javatpoint.com/swift-optional-chaining
 
 
-
-###### Closures
-[Don't use escaping closures in SwiftUI](https://rensbr.eu/blog/swiftui-escaping-closures/) Rens Breur, 2022 <br>
-
-###### Enums
-[Mastering Enums in Swift: A Comprehensive Guide](https://medium.com/gitconnected/mastering-enums-in-swift-a-comprehensive-guide-3fb4394445a3) Raúl Ferrer, 2023 <br>
-
-###### Some
-> [Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) Antoine van der Lee, 2022 <br>
-
-
-
-###### Computed Property
-[What is a Computed Property in Swift?](https://www.avanderlee.com/swift/computed-property/) Antoine van der Lee, 2021 <br>
-
-###### Generics
-[Understanding generics](https://www.hackingwithswift.com/plus/intermediate-swift/understanding-generics-part-1) Paul Hudson <br>
-[Beginner's guide to modern generic programming in Swift](https://theswiftdev.com/beginners-guide-to-modern-generic-programming-in-swift/) The Swift Dev, 2022 <br>
-
-
-
 ###### Phantom Types 
 [How to use phantom types in Swift](https://www.hackingwithswift.com/plus/advanced-swift/how-to-use-phantom-types-in-swift) Paul Hudson <br>
 
-###### Random
-[Random numbers in Swift](https://oleb.net/blog/2018/06/random-numbers-in-swift/) Ole Begemann, 2018 <br>
-
-###### CaseIterable###### 
-[Enumerating enum cases in Swift](https://oleb.net/blog/2018/06/enumerating-enum-cases/) Ole Begemann, 2020 <br>
-
-###### Lazy
-[It’s wrappers all the way down](https://oleb.net/2018/lastindex-reversed/) Ole Begemann, 2018 <br>
-
-###### @main
-[How SwiftUI Works? Understanding it](https://medium.com/@3jacksonsmith/how-swiftui-project-works-understanding-it-2ac130fb0c39) Jackson Smith, 2022 <br>
-
-Property wrapper <br>
-> [Property Wrapper in Swift](https://www.ralfebert.de/swift/property-wrapper/) Ralf Ebert, 2021 <br>
+###### Property wrapper
+[Property Wrapper in Swift](https://www.ralfebert.de/swift/property-wrapper/) Ralf Ebert, 2021 <br>
 [The Complete Guide to Property Wrappers in Swift 5](https://www.vadimbulavin.com/swift-5-property-wrappers/) Vadim Bulavin, 2019 <br>
 [Property Wrappers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers) Apple <br>
 [Swift Property Wrappers](https://nshipster.com/propertywrapper/) Mattt, 2019 <br>
 
+https://www.avanderlee.com/swift/property-wrappers/  <br>
+https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/ <br>
+
+###### Random
+[Random numbers in Swift](https://oleb.net/blog/2018/06/random-numbers-in-swift/) Ole Begemann, 2018 <br>
+
+
+###### Some
+[Some keyword in Swift: Opaque types explained with code examples](https://www.avanderlee.com/swift/some-opaque-types/) Antoine van der Lee, 2022 <br>
+
+###### some, any
+https://medium.com/@james.daniel.isaiah/a-quick-look-opaque-existential-generic-types-in-swift-4e683a4bc97b <br>
+
+###### Some vs. any static vs. dynamic dispatch 
+https://swiftsenpai.com/swift/understanding-some-and-any/ <br>
+
+###### === vs. ==
+https://developer.apple.com/documentation/swift/===(_:_:) <br>
+
+###### Where
+https://www.avanderlee.com/swift/where-using-swift/ <br>
+https://www.appypie.com/swift-where-how-to <br>
+
+###### @main
+[How SwiftUI Works? Understanding it](https://medium.com/@3jacksonsmith/how-swiftui-project-works-understanding-it-2ac130fb0c39) Jackson Smith, 2022 <br>
+
+
+
 
 ##### Videos
 
+
+
+
+
+##### Swift Diverses
+
+###### UnitTest
+[Unit and UI Testing in iOS Development](https://blog.shipbook.io/unit-and-ui-testing-in-ios-development) Kustiawanto Halim, 2021 <br>
+
+###### Debugging SwiftUI Changes
+> [Debugging SwiftUI views: what caused that change?](https://www.avanderlee.com/swiftui/debugging-swiftui-views/) Antoine von der Lee, 2022 <br>
+
+###### Swift Package Manager
+[Erstellen und Testen eines Swift-Projekts](https://docs.github.com/de/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-swift) GitHub <br>
+[Swift Package Manager framework creation in Xcode](https://www.avanderlee.com/swift/creating-swift-package-manager-framework/) Antoine von der Lee, 2022 <br>
+
+###### Swift Package Index
+[Swift Package Index](https://swiftpackageindex.com/) <br>
+
+###### Chris Lattner
+[Chris Lattner on the origins of Swift](https://oleb.net/2019/chris-lattner-swift-origins/) Ole Begemann, 2019 <br>
 
 
 <!--
