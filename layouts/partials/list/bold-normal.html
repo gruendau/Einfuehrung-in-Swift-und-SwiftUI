@@ -1,8 +1,8 @@
 <!-- partial bold-normal.html -->
 
 {{ if eq .Kind "page" }}
-    <a style="text-decoration: none;" 
-       href="{{ .RelPermalink }}">{{ "\u00a0\u00a0\u00a0\u00a0\u00a0" }}{{ .Scratch.Get "blanks" }}{{ .Title }}
+    <a style="text-decoration: none" 
+       href="{{ .RelPermalink }}">{{ .Scratch.Get "blanks" }}{{ .Title }}
     </a>
 {{ else }}
     <b>
@@ -13,5 +13,8 @@
 {{ end }}
 
 
+<!--
+{x{ .Scratch.Set "link" "<a style='text-decoration: none;' href='{x{ .RelPermalink }}'>{x{ .Scratch.Get 'blanks' }}{{ .Title }}</a>" }}
+-->
 
     

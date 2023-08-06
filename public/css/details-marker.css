@@ -1,0 +1,21 @@
+/* css: details-marker.css */
+
+/* 
+Hide details marker 
+Apply it with <div class="hide-details-marker">
+*/
+.hide-details-marker
+details > summary::-webkit-details-marker,
+details > summary::marker {
+    display: none;
+}
+
+/* 
+Show details marker 
+Apply it with <div class="show-details-marker">
+*/
+.show-details-marker
+details > summary::-webkit-details-marker,
+details > summary::marker {
+    display: initial;
+}
