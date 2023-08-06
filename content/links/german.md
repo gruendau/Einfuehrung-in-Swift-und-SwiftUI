@@ -22,6 +22,11 @@ tags: [link, swift, swiftui]
   
 <br>
 
+https://www.predic8.de/iOS-swift-app-tutorial.htm <br>
+http://swift.guru/ <br>
+https://letsdev.de/blog/swift-ui-einfache-schnelle-umsetzung-von-user-interfaces <br>
+
+
 <!--
   Template for links in table
   | Name | Autor | Links | Anmerkung |
@@ -38,11 +43,8 @@ tags: [link, swift, swiftui]
   [`home`]() [`blog`]() [`youtube`]() [`github`]() [`twitter`]() [`facebook`]() [`instagram`]() [`email`]
 -->
 
+<!--
+[]() <br>
+-->
 
-
-https://www.predic8.de/iOS-swift-app-tutorial.htm <br>
-
-
-http://swift.guru/ <br>
-https://letsdev.de/blog/swift-ui-einfache-schnelle-umsetzung-von-user-interfaces <br>
 

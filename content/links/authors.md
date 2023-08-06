@@ -5,12 +5,12 @@ draft: false
 
 weight: 20
 
-subtitle: Auflistung von englisch-sprachigen Blogs, ...
+subtitle: 
 
-tags: [link, swift, swiftui]
+tags: [link, swift, swiftui, author]
 ---
 
-### Autoren
+Auflistung von Autoren.
 
 | Name | Autor | Links | Anmerkung |
 | --- | --- | --- | --- |
@@ -24,3 +24,7 @@ tags: [link, swift, swiftui]
   | | | | |
   [`home`]() [`docs`]() [`blog`]() [`youtube`]() [`github`]() [`twitter`]() [`facebook`]() [`instagram`]() [`reddit`]() [`wiki`]() [`email`](mailto:)
 --> 
+
+<!--
+[]() <br>
+-->

@@ -213,3 +213,7 @@ Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Sta
 [15 UIKit Integration](https://www.youtube.com/watch?v=ba7sJ74vDtA) von Paul Hegarty, 76 min <br>
 [16 Multiplatform (macOS + iOS)](https://www.youtube.com/watch?v=At6M7nUQ09E) von Paul Hegarty, 46 min <br>
 -->
+
+<!--
+[]() <br>
+-->

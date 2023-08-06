@@ -10,7 +10,7 @@ subtitle:
 tags: [link]
 ---
 
-[https://www.ii.com/portal/gohugo/](https://www.ii.com/portal/gohugo/) Infinite Ink <br>
+
 
 Wie werde ich iOS Entwickler? <br>
 [`"How to become an iOS Developer"`](https://github.com/pitt500/how-to-become-an-ios-developer) _<sub>`by Pedro Rojas, 2021`</sub>_
@@ -28,84 +28,24 @@ Kivy <br>
 
 Kinsta <br>
 
-> [25 Python Frameworks to Master in 2023](https://kinsta.com/blog/python-frameworks/) Kinsta, Daniel Diaz, 2023 <br>
+[25 Python Frameworks to Master in 2023](https://kinsta.com/blog/python-frameworks/) Kinsta, Daniel Diaz, 2023 <br>
 [How To Craft a Stylish Static Website with Eleventy (11ty)](https://kinsta.com/blog/eleventy/) Kinsta, Joel Olawanle, 2023 <br>
-[Wie man mit Hugo eine rasend schnelle statische Seite erstellt](https://kinsta.com/de/blog/hugo-statische-seite/) Kinsta, Brian Li, 2023 <br>
+
 [Was ist die beste Programmiersprache, die man 2021 lernen sollte?](https://kinsta.com/de/blog/beste-programmiersprache-lernen-sollte/) Kinsta, Brenda Barron, 2021 <br>
 [Top 30 VS Code Extensions for Enhanced Programming Experience](https://kinsta.com/blog/vscode-extensions/) Kinsta, Joel Olawanle, 2023  <br>
 [How To Push Code to GitHub: Step-by-Step](https://kinsta.com/blog/how-to-push-code-to-github/) Kinsta, Jeremy Holcombe, 2023 <br> 
 
 Astro <br>
-> [What Is Astro? An Introduction to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/) Kinsta, Maciek Palmowski, 2023 <br>
+[What Is Astro? An Introduction to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/) Kinsta, Maciek Palmowski, 2023 <br>
 
 [Top 5 Static Site Generators in 2023 (and When to Use Them)](https://kinsta.com/blog/static-site-generator/) Kinsta, Matteo Duò, 2023 <br>
 
 [How Do Apps Make Money? 10 Proven Strategies](https://kinsta.com/blog/how-do-apps-make-money/) Kinsta, Jeremy Holcombe, 2023 <br>
 
-Jekyll <br>
-[Jekyll Tutorial: How To Create a Static Website](https://kinsta.com/blog/jekyll-static-site/) Kinsta, Joel Olawanle, 2023 <br>
 
-
----
-
-
-Docker <br>
-https://lerneprogrammieren.de/ueber-uns/
-
-GitHub <br>
-Verschlüsselung <br>
-[https://docs.github.com/de](http://<a href=)/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">https://docs.github.com/de/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
-
-https://docs.github.com/de
-
-HTML <br>
-Einbinden <br>
-https://www.tutorials.de/threads/html-element-in-html-einbinden.175357/
-
-https://www.html.de/threads/einbinden-einer-html-seite-in-eine-bestehende-html-seite.39128/
-
-https://www.mediaevent.de/html-object-tag/
-
-https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe
-
-https://www.w3schools.io/file/markdown-links/
-
-https://www.w3schools.io/file/markdown-css/
-
-
-Style guide <br>
-https://www.markdownguide.org/basic-syntax
 
 
 ---
-
-Hugo <br>
-
-[Syntax highlighting](https://gohugo.io/content-management/syntax-highlighting/ Hugo <br>
- 
-
-[Chroma Style Gallery]( https://xyproto.github.io/splash/docs/) <br>
-
-[splash](https://xyproto.github.io/splash/) <br>
-
- 
-
-[Edit your site](https://wowchemy.com/docs/getting-started/get-started/) Alice Wu <br>
-
- 
-
-[Menues](https://gohugo.io/content-management/menus/) Hugo <br>
-
- 
-
-[Shortcodes](https://gohugo.io/content-management/shortcodes/) Hugo <br>
-
- 
-
-[Create your own shortcodes]( https://gohugo.io/templates/shortcode-templates/)  Hugo <br>
- 
-
-[]() <br>
 
  
 
@@ -125,26 +65,12 @@ Verbose = ausführlich
 
  
 
-[Hugo Shortcodes](https://jimfrenette.com/hugo/shortcodes/) Jim Frenette <br>
-
-[Hugo Content with Pages and Navigation](https://jimfrenette.com/2019/03/hugo-content-with-pages-nav/) Jim Frenette <br>
 
 
-[]() <br>
-
-[]() <br>
-
-[]() <br>
 
 https://www.youtube.com/embed/GPTPGxnZ4MM
 
 
----
-
-Python Code <br>
-https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3
-
-https://planetpython.org/
 
 
 
@@ -209,10 +135,6 @@ https://www.youtube.com/watch?v=xh4Ok0ex2vU
 
 Tutorials
 
-Python.org:
-https://www.python.org/doc/
-
-
 
 Telusko:
 https://www.youtube.com/user/javaboynavin/featured?disable_polymer=1
@@ -246,74 +168,7 @@ https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
 
 
 Microcontroller <br>
-https://coding-for-tomorrow.de/
 
---- Mikrocontroller ---
-Mikrocontroller.net:
-https://www.mikrocontroller.net/articles/Hauptseite
-
-Gerold Penz:
-https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
-
-Stefan Frings:
-http://www.stefanfrings.de/index.html
-
-
---- Arduino ---
-eHaJo:
-https://www.youtube.com/watch?v=7IEsUs8QFFo
-
-Bender:
-https://www.youtube.com/user/ChristianBender1
-
-DroneBot Workshop:
-https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w
-
-How to Mechatronics:
-https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/
-
-Elegoo Tutorial:
-https://github.com/rmorenojr/ElegooTutorial
-
-Arduino Tutorials:
-https://www.arduino.cc/en/Tutorial/HomePage
-
-Great Scott:
-https://www.youtube.com/user/greatscottlab
-
-
-
---- AVR ---
-AVR Library
-https://www.nongnu.org/avr-libc/
-
-
-
---- ESP32 ---
-DroneBot Workshop:
-https://www.youtube.com/watch?v=xPlN_Tk3VLQ
-
-Laurent Latorre:
-http://www.pomad.fr/node/2
-
-
-
-LED-Matrix by Great Scott:
-LED-Bar
-https://www.youtube.com/watch?v=8pFcZ-ijrDY&list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&index=3
-
-10 x 10 LED-Matrix
-https://www.youtube.com/watch?v=D_QBlFIQk-o
-
-Hamburgtech:
-https://www.youtube.com/user/hamburgtechDE
-
-
-
---- Bascom--- 
-Basic Programmierung von Amtel AVR Microcontollern
-https://de.www.wikipedia.org/wiki/BASCOM
-https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
 
 
 --- DIVERSES ---
@@ -329,14 +184,6 @@ http://www.kreatives-chaos.com/
 
 ---
 
-Espruino <br>
-http://www.espruino.com/
-
-
-https://tessel.io/
-
-Tessel-pl:
-https://wiki.tessel.pl/#all-updates
 
 ___
 
@@ -346,24 +193,7 @@ http://www.sweethome3d.com/de/
 https://www.youtube.com/playlist?list=PLqazFFzUAPc6vIE_JM3Ysis39MrANKxx_
 ___
 
-Raspberry Pi <br>
-https://archive.org/search.php?query=raspberry+pi&and%5B%5D=mediatype%3A%22texts%22&page=18
 
-Befehle <br>
-
-https://maker-tutorials.com/35-raspberry-pi-linux-cli-terminal-befehle/#log-datei-leeren
-
-
-https://www.elektronik-kompendium.de/sites/raspberry-pi/2107041.htm
-
-
-Frank Rost:
-http://informatik.rostfrank.de/
-
-Stefan Frings:
-http://www.stefanfrings.de/
-
-http://www.controllersandpcs.de/
 
 
 http://www.elektronik.nmp24.de/
@@ -420,12 +250,6 @@ Wolfsburg:
 https://www.xplore-dna.net/
 
 
-OpenPLC:
-https://www.openplcproject.com/plcopen-editor/
-
-https://www.openplcproject.com/
-
-https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-arduino-with-openplc-d17632
 
 
 
@@ -471,45 +295,6 @@ https://programmingwithswift.com/viewmodifier-in-swiftui/
 
 ---
 
-Javascript <br>
-https://freefrontend.com/html-menu-with-javascript/
-
-p5js <br>
-https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames
-https://www.p5js.gym-wst.de/de/p5jsplay
-
-https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek
-
-https://happycoding.io/
-
-https://p5js.org/
-
-https://p5js.org/examples/
-
-
-Videos:
-https://www.youtube.com/@StevesMakerspace
-https://www.youtube.com/watch?v=ig0q6vfpD38
-
-https://github.com/StevesMakerspace
-
-mouseX, mouseY
-https://m.youtube.com/watch?v=7A5tKW9HGoM
-
-
-Web Editor:
-https://p5js.net/
-
-Processing <br>
-
-http://dada.compart-bremen.de/
-
-py-Exsamples:
-https://github.com/jdf/processing.py/tree/master/examples.py
-
-https://github.com/villares/py.processing-play?files=1
-
-https://gist.github.com/marcedwards/
 
 
 ---

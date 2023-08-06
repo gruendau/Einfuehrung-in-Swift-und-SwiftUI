@@ -5,9 +5,9 @@ draft: false
 
 weight: 20
 
-subtitle: Auflistung von englisch-sprachigen Blogs, ...
+subtitle: 
 
-tags: [link, swift, swiftui]
+tags: [link, swift, swiftui, app]
 ---
 
 Auflistung von Anwendungen <*applications*> <*apps*>.
@@ -31,4 +31,8 @@ Auflistung von Anwendungen <*applications*> <*apps*>.
   | | | |
   [`home`]() [`docs`]() [`blog`]() [`youtube`]() [`github`]() [`twitter`]() [`facebook`]() [`instagram`]() [`reddit`]() [`wiki`]() [`email`](mailto:)
 --> 
+
+<!--
+[]() <br>
+-->
 

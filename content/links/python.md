@@ -9,3 +9,16 @@ subtitle:
 
 tags: [link, python]
 ---
+
+##### Links
+
+https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3
+
+https://planetpython.org/
+
+https://www.python.org/doc/ <br>
+
+
+<!--
+[]() <br>
+-->

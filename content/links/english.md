@@ -137,8 +137,11 @@ Text ...
   | Name | Autor | Links... | Anmerkung |
   | | | | |
   [`home`]() [`blog`]() [`youtube`]() [`github`]() [`twitter`]() [`facebook`]() [`instagram`]() [`email`](mailto:)
-  
 --> 
+
+<!--
+[]() <br>
+-->
  
 
 
