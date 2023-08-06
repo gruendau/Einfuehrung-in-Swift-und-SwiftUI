@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo.html</link>
+    <description>Recent content in Hugo on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</guid>
+      <description>Hugo CLI Befehle: help completion config convert deploy env gen help import list mod new server version
+Hugo CLI-Befehle: BEFEHL BESCHREIBUNG ---------- ---------------------------------------------------------- completion Generate the autocompletion script for the specified shell config Print the site configuration convert Convert your content to different formats deploy Deploy your site to a Cloud provider. env Print Hugo version and environment info gen A collection of several useful generators. help Help about any command import Import your site from others.</description>
+    </item>
+    
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/intro.html</guid>
+      <description>Hugo Hugo [w] [d] ist eine freie Software zur schnellen Erzeugung statischer Websites &amp;lt;static website generator&amp;gt;.
+Hugo hat einen HTTP-Server [w] zur lokalen Ansicht der erzeugten HTML-Dateien eingebaut. Hugo ist in der Programmiersprache Go [w] geschrieben. Hugo erzeugt die Webseiten aus HTML- [w] oder Markdown-Dateien [w]. Hugo learn theme Netlify Hugo und git CLI-Befehle Auf den Ordner mit dem Projekt gehen. cd documents/programmierung/github/quickstart
+Einen neuen Post anlegen. hugo new posts/my-first-post.md Neue Seite auf den lokalen Server bringen.</description>
+    </item>
+    
+  </channel>
+</rss>

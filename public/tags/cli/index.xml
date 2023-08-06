@@ -9,6 +9,15 @@
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</guid>
+      <description>Inhalt:</description>
+    </item>
+    
+    <item>
+      <title>CLI</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -18,7 +27,16 @@ Hugo CLI-Befehle: BEFEHL BESCHREIBUNG ---------- -------------------------------
     </item>
     
     <item>
-      <title>Einführung</title>
+      <title>CLI Befehle</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</guid>
+      <description>Inhalt:</description>
+    </item>
+    
+    <item>
+      <title>Einführung Swift CLI</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -28,13 +46,12 @@ weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive
     </item>
     
     <item>
-      <title>Befehle</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</link>
+      <title>Swift CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</guid>
-      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
-https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli.html</guid>
+      <description>Inhalt:</description>
     </item>
     
     <item>
@@ -50,13 +67,23 @@ compiling openssl_missing.c compiling ossl.c In file included from ossl.c:10: In
     </item>
     
     <item>
-      <title>Einführung</title>
+      <title>Einführung CLI</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</guid>
       <description>CLI - Command Line Interface Bourne shell syntax. Bourne-compatible shells: sh, bash, zsh and ksh
 Befehle Befehl Anmerkung ls ls: &amp;rsquo;list&#39; alias unalias pwd pwd: &amp;lsquo;print working directory&amp;rsquo; cd cd: &amp;lsquo;change directory&amp;rsquo; cp cp: &amp;lsquo;copy&amp;rsquo; rm rm: &amp;lsquo;remove directory&amp;rsquo; mv mv: &amp;lsquo;move&amp;rsquo; mkdir mkdir: &amp;lsquo;make directory&amp;rsquo; man man: &amp;lsquo;manual&amp;rsquo; touch chmod chmod: &amp;lsquo;change mode&amp;rsquo; ./ ./: &amp;lsquo;run program&amp;rsquo; exit sudo sudo: &amp;lsquo;superuser do&amp;rsquo; shutdown htop unzip apt echo cat cat: &amp;lsquo;concatenate&amp;rsquo; ps kill ping vim Open Source Terminal-Texteditor history passwd passwd: &amp;lsquo;password&amp;rsquo; which shred less tail head grep whoami whoami: &amp;lsquo;who am i&amp;rsquo; whatis wc wc: &amp;lsquo;word count&amp;rsquo; uname uname: &amp;lsquo;unix name&amp;rsquo; neofetch find wget wget: &amp;lsquo;world wide web get&amp;rsquo; Ein Dienstprogramm zum Abrufen von Inhalten aus dem Internet.</description>
+    </item>
+    
+    <item>
+      <title>Einführung CLI-Befehle</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</guid>
+      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
+https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
     </item>
     
     <item>

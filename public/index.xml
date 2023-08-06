@@ -8,16 +8,6 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 18:33:41 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Anordnungen</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</guid>
-      <description>Ein Anordnungen &amp;lt;array&amp;gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort array genutzt.
-let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&amp;lt;Element&amp;gt; Definition // Definition @frozen struct Array&amp;lt;Element&amp;gt; Deklaration // Ein leeres Array für Strings deklarieren var a1: Array&amp;lt;String&amp;gt; = Array() var a2: Array&amp;lt;String&amp;gt; = [] var a3 = Array&amp;lt;String&amp;gt;() var a4: [String] = Array() var a5: [String] = [] var a6 = [String]() print(type(of: a1)) // --&amp;gt; Array&amp;lt;String&amp;gt; print(a1) // --&amp;gt; [] Initialisierung // Ein leeres Array für Strings deklarieren und initialisieren (Werte zuweisen).</description>
-    </item>
-    
-    <item>
       <title>Aufzählungen</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -44,16 +34,6 @@ Hugo CLI-Befehle: BEFEHL BESCHREIBUNG ---------- -------------------------------
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</guid>
       <description>Text &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Einführung</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</guid>
-      <description>Swift CLI Text &amp;hellip;
-weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
     </item>
     
     <item>
@@ -127,6 +107,16 @@ GitHub Pages with Jekyll: Build a Data Science Portfolio with Jekyll &amp;amp; G
       <description>Swift on-line Swift on-line Compiler Mit online-Compilern REPL-CLI-Shells kann man in Swift geschriebene Programme im Browser laufen lassen. Vom CLI werden nur Terminal-Ausgaben unterstützt. GUI-Schnittstellen wie UIKit oder SwiftUI werden nicht unterstützt.
 REPL: &amp;lsquo;Read-Eval-Print-Loop&amp;rsquo;
 Swift on-line Compiler Anmerkungen JDoodle Programiz onlineDGB SwiftFiddle replit Swift Playground myCompiler OneCompiler CodeSpeedy ToolFK Techie Delight sololearn </description>
+    </item>
+    
+    <item>
+      <title>Einführung Swift CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</guid>
+      <description>Swift CLI Text &amp;hellip;
+weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
     </item>
     
     <item>
@@ -253,6 +243,16 @@ let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&
     </item>
     
     <item>
+      <title>Swift Anordnungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</guid>
+      <description>Ein Anordnungen &amp;lt;array&amp;gt; ist eine geordnete Liste von Elementen. Für die Deklarierung wird das Schlüsselwort array genutzt.
+let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&amp;lt;Element&amp;gt; Definition // Definition @frozen struct Array&amp;lt;Element&amp;gt; Deklaration // Ein leeres Array für Strings deklarieren var a1: Array&amp;lt;String&amp;gt; = Array() var a2: Array&amp;lt;String&amp;gt; = [] var a3 = Array&amp;lt;String&amp;gt;() var a4: [String] = Array() var a5: [String] = [] var a6 = [String]() print(type(of: a1)) // --&amp;gt; Array&amp;lt;String&amp;gt; print(a1) // --&amp;gt; [] Initialisierung // Ein leeres Array für Strings deklarieren und initialisieren (Werte zuweisen).</description>
+    </item>
+    
+    <item>
       <title>Swift Lint</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -260,6 +260,29 @@ let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</guid>
       <description>Text &amp;hellip;
 Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
+    </item>
+    
+    <item>
+      <title>Swift Zeichen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</guid>
+      <description>Zeichen &amp;lt;character&amp;gt;
+// Definition @frozen struct Character </description>
+    </item>
+    
+    <item>
+      <title>SWift Zugriffsmodifizierer</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</guid>
+      <description>Zugriffsmodifizierer Swift kennt fünf Zugriffsmodifikatoren (access modifiers) open public internal fileprivate und private.
+open open erlaubt den Zugriff von außerhalb eines Swift Moduls.
+Mit Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+open struct Person { // ... } public public erlaubt den Zugriff von außerhalb eines Swift Moduls. Ohne Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
+public struct Person { // ... } internal internal erlaubt den Zugriff innerhalb eines Swift Moduls.</description>
     </item>
     
     <item>
@@ -312,16 +335,6 @@ let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // st
     </item>
     
     <item>
-      <title>Zeichen</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</guid>
-      <description>Zeichen &amp;lt;character&amp;gt;
-// Definition @frozen struct Character </description>
-    </item>
-    
-    <item>
       <title>Zeichenketten</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -332,35 +345,12 @@ let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // st
     </item>
     
     <item>
-      <title>Zugriffsmodifizierer</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</guid>
-      <description>Zugriffsmodifizierer Swift kennt fünf Zugriffsmodifikatoren (access modifiers) open public internal fileprivate und private.
-open open erlaubt den Zugriff von außerhalb eines Swift Moduls.
-Mit Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
-open struct Person { // ... } public public erlaubt den Zugriff von außerhalb eines Swift Moduls. Ohne Vererbung von Klassen und Überschreiben von Eigenschaften und Methoden.
-public struct Person { // ... } internal internal erlaubt den Zugriff innerhalb eines Swift Moduls.</description>
-    </item>
-    
-    <item>
       <title>A-Z</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/az.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/az.html</guid>
       <description>Text &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Befehle</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</guid>
-      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
-https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
     </item>
     
     <item>
@@ -390,6 +380,17 @@ compiling openssl_missing.c compiling ossl.c In file included from ossl.c:10: In
     
     <item>
       <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</guid>
+      <description>Go ist eine &amp;hellip;.
+Go wird in dem statischen Website Erzeuger Hugo genutzt.
+Links Eine Einführung in Go Tam Hanna Go (Golang): Eine Einführung in 130 Minuten Golo Roden, 2022, 124 min Testen in Go (Golang) in 90 Minuten Golo Roden, 2022, 93 min Funktionale Programmierung in Go (Golang) – das geht?! Golo Roden, 2022, 44 min </description>
+    </item>
+    
+    <item>
+      <title>Einführung CLI</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -399,14 +400,13 @@ Befehle Befehl Anmerkung ls ls: &amp;rsquo;list&#39; alias unalias pwd pwd: &amp
     </item>
     
     <item>
-      <title>Einführung</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</link>
+      <title>Einführung CLI-Befehle</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</guid>
-      <description>Go ist eine &amp;hellip;.
-Go wird in dem statischen Website Erzeuger Hugo genutzt.
-Links Eine Einführung in Go Tam Hanna Go (Golang): Eine Einführung in 130 Minuten Golo Roden, 2022, 124 min Testen in Go (Golang) in 90 Minuten Golo Roden, 2022, 93 min Funktionale Programmierung in Go (Golang) – das geht?! Golo Roden, 2022, 44 min </description>
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</guid>
+      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
+https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
     </item>
     
     <item>

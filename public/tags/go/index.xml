@@ -18,5 +18,14 @@ Go wird in dem statischen Website Erzeuger Hugo genutzt.
 Links Eine Einführung in Go Tam Hanna Go (Golang): Eine Einführung in 130 Minuten Golo Roden, 2022, 124 min Testen in Go (Golang) in 90 Minuten Golo Roden, 2022, 93 min Funktionale Programmierung in Go (Golang) – das geht?! Golo Roden, 2022, 44 min </description>
     </item>
     
+    <item>
+      <title>Go</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go.html</guid>
+      <description>Inhalt:</description>
+    </item>
+    
   </channel>
 </rss>

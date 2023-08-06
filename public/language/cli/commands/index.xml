@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLI Befehle on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</link>
+    <description>Recent content in CLI Befehle on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brew</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/brew.html</guid>
+      <description>Paketverwaltung Homebrew.
+Links: wiki von wiki
+home von homebrew github von homebrew
+compiling openssl_missing.c compiling ossl.c In file included from ossl.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here # define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert) ^ 1 warning generated. compiling ossl_asn1.c In file included from ossl_asn1.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.</description>
+    </item>
+    
+    <item>
+      <title>Einführung CLI-Befehle</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</guid>
+      <description>sw_vers &amp;gt; sw_vers ProductName:	macOS ProductVersion:	12.6.6 BuildVersion:	21G646 Links: A-Z Index of the Apple macOS command line von Simon Sheppard
+https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route</description>
+    </item>
+    
+    <item>
+      <title>ls</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html</guid>
+      <description>ls Auflistung (ls: &amp;rsquo;list&amp;rsquo;) des Inhalts des Verzeichnisses &amp;lt;directories&amp;gt;.
+ls [OPTIONS] [FILES] &amp;gt; ls Desktop Documents ... Options -l Lange Liste &amp;lt;long listing format&amp;gt;
+&amp;gt; ls -l total 0 drwx------@ 16 test staff 512 23 Jun 19:31 Desktop drwx------@ 11 test staff 352 17 Jun 10:39 Documents ... -a Versteckte Dateien anzeigen
+&amp;gt; ls -la total 272 drwxr-xr-x+ 37 test staff 1184 25 Jun 16:39 . drwxr-xr-x 5 root admin 160 3 Mai 09:53 .</description>
+    </item>
+    
+    <item>
+      <title>system_profiler</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/system_profiler.html</guid>
+      <description>system_profiler Gibt Systemdaten des Rechners aus.
+Inhalt:
+-listDataTypes SPDeveloperToolsDataType SPHardwareDataType SPPowerDataType SPSoftwareDataType -listDataTypes &amp;gt; system_profiler -listDataTypes Available Datatypes: SPParallelATADataType SPUniversalAccessDataType SPSecureElementDataType SPApplicationsDataType SPAudioDataType SPBluetoothDataType SPCameraDataType SPCardReaderDataType SPiBridgeDataType SPDeveloperToolsDataType SPDiagnosticsDataType SPDisabledSoftwareDataType SPDiscBurningDataType SPEthernetDataType SPExtensionsDataType SPFibreChannelDataType SPFireWireDataType SPFirewallDataType SPFontsDataType SPFrameworksDataType SPDisplaysDataType SPHardwareDataType SPInstallHistoryDataType SPInternationalDataType SPLegacySoftwareDataType SPNetworkLocationDataType SPLogsDataType SPManagedClientDataType SPMemoryDataType SPNVMeDataType SPNetworkDataType SPPCIDataType SPParallelSCSIDataType SPPowerDataType SPPrefPaneDataType SPPrintersSoftwareDataType SPPrintersDataType SPConfigurationProfileDataType SPRawCameraDataType SPSASDataType SPSerialATADataType SPSPIDataType SPSmartCardsDataType SPSoftwareDataType SPStartupItemDataType SPStorageDataType SPSyncServicesDataType SPThunderboltDataType SPUSBDataType SPNetworkVolumeDataType SPWWANDataType SPAirPortDataType SPDeveloperToolsDataType &amp;gt; system_profiler SPDeveloperToolsDataType Developer: Developer Tools: Version: 13.</description>
+    </item>
+    
+  </channel>
+</rss>

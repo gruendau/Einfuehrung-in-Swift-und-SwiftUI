@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLI on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</link>
+    <description>Recent content in CLI on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</guid>
+      <description>CLI - Command Line Interface Bourne shell syntax. Bourne-compatible shells: sh, bash, zsh and ksh
+Befehle Befehl Anmerkung ls ls: &amp;rsquo;list&#39; alias unalias pwd pwd: &amp;lsquo;print working directory&amp;rsquo; cd cd: &amp;lsquo;change directory&amp;rsquo; cp cp: &amp;lsquo;copy&amp;rsquo; rm rm: &amp;lsquo;remove directory&amp;rsquo; mv mv: &amp;lsquo;move&amp;rsquo; mkdir mkdir: &amp;lsquo;make directory&amp;rsquo; man man: &amp;lsquo;manual&amp;rsquo; touch chmod chmod: &amp;lsquo;change mode&amp;rsquo; ./ ./: &amp;lsquo;run program&amp;rsquo; exit sudo sudo: &amp;lsquo;superuser do&amp;rsquo; shutdown htop unzip apt echo cat cat: &amp;lsquo;concatenate&amp;rsquo; ps kill ping vim Open Source Terminal-Texteditor history passwd passwd: &amp;lsquo;password&amp;rsquo; which shred less tail head grep whoami whoami: &amp;lsquo;who am i&amp;rsquo; whatis wc wc: &amp;lsquo;word count&amp;rsquo; uname uname: &amp;lsquo;unix name&amp;rsquo; neofetch find wget wget: &amp;lsquo;world wide web get&amp;rsquo; Ein Dienstprogramm zum Abrufen von Inhalten aus dem Internet.</description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html</guid>
+      <description>Text &amp;hellip;
+test@Tests-MBP ~ % zsh --help Usage: zsh [&amp;lt;options&amp;gt;] [&amp;lt;argument&amp;gt; ...] Special options: --help show this message, then exit --version show zsh version number, then exit -b end option processing, like -- -c take first argument as a command to execute -o OPTION set an option by name (see below) Normal options are named. An option may be turned on by `-o OPTION&amp;#39;, `--OPTION&amp;#39;, `+o no_OPTION&amp;#39; or `+-no-OPTION&amp;#39;. An option may be turned off by `-o no_OPTION&amp;#39;, `--no-OPTION&amp;#39;,`+o OPTION&amp;#39; or `+-OPTION&amp;#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

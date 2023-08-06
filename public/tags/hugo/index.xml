@@ -28,5 +28,14 @@ Hugo hat einen HTTP-Server [w] zur lokalen Ansicht der erzeugten HTML-Dateien ei
 Einen neuen Post anlegen. hugo new posts/my-first-post.md Neue Seite auf den lokalen Server bringen.</description>
     </item>
     
+    <item>
+      <title>Hugo</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo.html</guid>
+      <description>Inhalt:</description>
+    </item>
+    
   </channel>
 </rss>

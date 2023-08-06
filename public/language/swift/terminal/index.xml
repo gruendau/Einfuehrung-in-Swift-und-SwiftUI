@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift Programme auf dem Terminal on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal.html</link>
+    <description>Recent content in Swift Programme auf dem Terminal on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal/intro.html</guid>
+      <description>Swift Programm auf dem Terminal Der einfachste Weg ein Swift Programm zu erstellen und laufen zu lassen ist das Program in einen Text Editor zu schreiben und dann auf dem Terminal laufen zu lassen.
+Swift REPL auf dem Terminal: Das Terminal offen und swift eintippen. Es werden dann einige Angaben zu Swift ausgegeben und nach dem Prompt 1&amp;gt; kann man seinen Programm Code eingeben. Beendet wird Swift REPL durch die Eingabe von :quit.</description>
+    </item>
+    
+  </channel>
+</rss>

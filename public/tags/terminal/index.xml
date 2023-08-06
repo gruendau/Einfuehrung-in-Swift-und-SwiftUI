@@ -17,5 +17,14 @@
 Swift REPL auf dem Terminal: Das Terminal offen und swift eintippen. Es werden dann einige Angaben zu Swift ausgegeben und nach dem Prompt 1&amp;gt; kann man seinen Programm Code eingeben. Beendet wird Swift REPL durch die Eingabe von :quit.</description>
     </item>
     
+    <item>
+      <title>Swift Programme auf dem Terminal</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal.html</guid>
+      <description>Inhalt:</description>
+    </item>
+    
   </channel>
 </rss>

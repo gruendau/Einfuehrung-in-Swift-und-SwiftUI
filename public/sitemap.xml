@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</loc>
-    <lastmod>2023-08-05T23:29:42+02:00</lastmod>
-  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/enumerations.html</loc>
     <lastmod>2023-08-05T23:07:07+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/bootstrap.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</loc>
+    <lastmod>2023-08-06T02:49:27+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo/cli.html</loc>
     <lastmod>2023-08-05T20:47:23+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</loc>
+    <lastmod>2023-08-06T02:49:27+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html</loc>
     <lastmod>2023-08-02T22:50:26+02:00</lastmod>
-  </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</loc>
-    <lastmod>2023-08-05T23:42:30+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</loc>
     <lastmod>2023-08-05T20:52:12+02:00</lastmod>
@@ -38,8 +41,23 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</loc>
     <lastmod>2023-08-06T00:45:03+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/html/html.html</loc>
     <lastmod>2023-08-04T21:23:41+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/hugo.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/javascript.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/jekyll.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/classes.html</loc>
     <lastmod>2023-08-05T22:38:38+02:00</lastmod>
@@ -56,14 +74,23 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apple.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</loc>
     <lastmod>2023-08-05T20:42:03+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/operators.html</loc>
     <lastmod>2023-08-05T23:11:06+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/programms.html</loc>
     <lastmod>2023-08-06T00:58:41+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/python.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</loc>
     <lastmod>2023-08-06T00:36:18+02:00</lastmod>
@@ -77,8 +104,26 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</loc>
     <lastmod>2023-08-05T23:48:23+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/terminal.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
@@ -95,23 +140,20 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/variables.html</loc>
     <lastmod>2023-08-05T23:20:25+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</loc>
     <lastmod>2023-08-05T22:50:20+02:00</lastmod>
-  </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/character.html</loc>
-    <lastmod>2023-08-05T22:44:00+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/strings.html</loc>
     <lastmod>2023-08-05T23:20:25+02:00</lastmod>
   </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/access-modifiers.html</loc>
-    <lastmod>2023-08-05T22:50:20+02:00</lastmod>
-  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/az.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
-  </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands.html</loc>
-    <lastmod>2023-08-05T20:22:51+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</loc>
     <lastmod>2023-08-05T23:39:44+02:00</lastmod>
@@ -122,14 +164,20 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/ccs.html</loc>
     <lastmod>2023-08-04T19:46:18+02:00</lastmod>
   </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</loc>
-    <lastmod>2023-08-05T20:22:51+02:00</lastmod>
-  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go/intro.html</loc>
     <lastmod>2023-08-05T23:33:07+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/intro.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/intro.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/go.html</loc>
+    <lastmod>2023-08-06T02:27:08+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/html.html</loc>
-    <lastmod>2023-08-04T19:46:18+02:00</lastmod>
+    <lastmod>2023-08-06T02:27:08+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
@@ -156,7 +204,7 @@
     <lastmod>2023-08-06T00:50:32+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/zsh.html</loc>
-    <lastmod>2023-08-06T00:54:03+02:00</lastmod>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools.html</loc>
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
@@ -201,43 +249,40 @@
     <lastmod>2023-08-03T00:38:08+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/access-modifier.html</loc>
-    <lastmod>2023-08-05T22:50:20+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/array.html</loc>
-    <lastmod>2023-08-05T23:29:42+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/associatedtype.html</loc>
     <lastmod>2023-08-05T19:30:38+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/bootstrap.html</loc>
-    <lastmod>2023-08-06T01:00:39+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/character.html</loc>
-    <lastmod>2023-08-05T22:44:00+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/class.html</loc>
     <lastmod>2023-08-05T22:38:38+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/cli.html</loc>
-    <lastmod>2023-08-06T00:54:03+02:00</lastmod>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/commands.html</loc>
-    <lastmod>2023-08-05T20:22:51+02:00</lastmod>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/compiler.html</loc>
-    <lastmod>2023-08-06T00:45:03+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/constant.html</loc>
     <lastmod>2023-08-05T22:44:00+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/css.html</loc>
-    <lastmod>2023-08-06T01:00:39+02:00</lastmod>
-  </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary.html</loc>
-    <lastmod>2023-08-06T00:50:32+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/dictionary.html</loc>
-    <lastmod>2023-08-06T00:50:32+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/intro.html</loc>
     <lastmod>2023-08-06T01:03:07+02:00</lastmod>
@@ -246,19 +291,22 @@
     <lastmod>2023-08-05T23:07:07+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/github.html</loc>
-    <lastmod>2023-08-05T23:50:51+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/go.html</loc>
-    <lastmod>2023-08-05T23:33:07+02:00</lastmod>
+    <lastmod>2023-08-06T02:27:08+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/html.html</loc>
-    <lastmod>2023-08-06T01:00:39+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/hugo.html</loc>
-    <lastmod>2023-08-05T23:57:17+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/jekyll.html</loc>
-    <lastmod>2023-08-05T20:39:21+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/js.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/keyboard.html</loc>
     <lastmod>2023-08-06T00:47:42+02:00</lastmod>
@@ -270,7 +318,10 @@
     <lastmod>2023-08-05T23:48:23+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/mac.html</loc>
-    <lastmod>2023-08-06T00:58:41+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/misc.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/modifier.html</loc>
     <lastmod>2023-08-05T23:39:44+02:00</lastmod>
@@ -281,26 +332,32 @@
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/programm.html</loc>
     <lastmod>2023-08-06T00:58:41+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/python.html</loc>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/set.html</loc>
     <lastmod>2023-08-05T23:14:55+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/keywords/some.html</loc>
     <lastmod>2023-08-05T19:44:23+02:00</lastmod>
   </url><url>
+    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/ssg.html</loc>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
+  </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/string.html</loc>
     <lastmod>2023-08-05T23:20:25+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swift.html</loc>
-    <lastmod>2023-08-05T23:54:24+02:00</lastmod>
+    <lastmod>2023-08-06T02:49:27+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swiftui.html</loc>
     <lastmod>2023-08-05T23:39:44+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags.html</loc>
-    <lastmod>2023-08-06T01:00:39+02:00</lastmod>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/terminal.html</loc>
-    <lastmod>2023-08-05T23:54:24+02:00</lastmod>
+    <lastmod>2023-08-06T02:42:36+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/tool.html</loc>
     <lastmod>2023-08-06T00:01:09+02:00</lastmod>
@@ -312,7 +369,7 @@
     <lastmod>2023-08-01T20:58:22+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/zsh.html</loc>
-    <lastmod>2023-08-06T00:54:03+02:00</lastmod>
+    <lastmod>2023-08-06T03:00:35+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/</loc>
     <lastmod>2023-08-05T19:14:08+02:00</lastmod>
@@ -321,8 +378,5 @@
     <lastmod>2023-08-06T00:41:59+02:00</lastmod>
   </url><url>
     <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/categories.html</loc>
-  </url><url>
-    <loc>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc.html</loc>
-    <lastmod>2023-08-06T00:41:59+02:00</lastmod>
   </url>
 </urlset>

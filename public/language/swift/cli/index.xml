@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift CLI on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli.html</link>
+    <description>Recent content in Swift CLI on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung Swift CLI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/intro.html</guid>
+      <description>Swift CLI Text &amp;hellip;
+weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
+    </item>
+    
+  </channel>
+</rss>
