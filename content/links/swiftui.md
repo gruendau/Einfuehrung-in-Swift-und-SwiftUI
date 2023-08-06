@@ -92,6 +92,45 @@ https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-geom
 https://www.youtube.com/watch?v=AXGrYI78hIo
 
 
+###### SwiftUILab
+https://swiftui-lab.com/
+
+https://swiftui-lab.com/swiftui-animations-part1/
+https://swiftui-lab.com/swiftui-animations-part2/
+
+https://swiftui-lab.com/swiftui-animations-part3/
+
+https://swiftui-lab.com/trigonometric-recipes-for-swiftui/
+
+https://swiftui-lab.com/modal-dismiss-gesture/
+
+https://swiftui-lab.com/alignment-guides/
+
+https://swiftui-lab.com/advanced-transitions/
+
+https://swiftui-lab.com/frame-behaviors/
+
+https://swiftui-lab.com/custom-styling/
+
+https://swiftui-lab.com/state-changes/
+https://swiftui-lab.com/swiftui-id/
+https://swiftui-lab.com/equatableview/
+https://swiftui-lab.com/drag-drop-with-swiftui/
+https://swiftui-lab.com/a-powerful-combo/
+https://swiftui-lab.com/working-with-focus-on-swiftui-views/
+https://swiftui-lab.com/wwdc-2020-is-here/
+https://swiftui-lab.com/backward-compatibility/
+https://swiftui-lab.com/matchedgeometryeffect-part1/
+https://github.com/swiftui-lab/swiftui-hero-animations
+https://swiftui-lab.com/swiftui-layout-magic/
+https://swiftui-lab.com/geometryreader-to-the-rescue/
+https://swiftui-lab.com/view-extensions-for-better-code-readability/
+https://swiftui-lab.com/scrollview-pull-to-refresh/
+https://swiftui-lab.com/communicating-with-the-view-tree-part-1/
+https://swiftui-lab.com/communicating-with-the-view-tree-part-2/
+https://swiftui-lab.com/communicating-with-the-view-tree-part-3/
+
+
 
 
 

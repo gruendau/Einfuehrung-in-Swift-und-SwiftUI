@@ -1038,16 +1038,7 @@ https://github.com/tancredi/python-console-snake <br>
 
 ### Terminal
 
-#### Colors
-https://www.geeksforgeeks.org/print-colors-python-terminal/ <br>
-https://www.quora.com/Is-there-a-Clear-screen-function-in-Python?share=1 <br>
-https://docs.python.org/2/howto/curses.html <br>
-https://pypi.org/project/terminaltables/ <br>
-https://hg.python.org/cpython/file/2.7/Demo/curses/ <br>
-https://liftoff.github.io/GateOne/Developer/termio.html <br>
-http://urwid.org/manual/index.html <br>
-https://www.scivision.dev/dynamic-update-inplace-terminal-text-python/ <br>
-https://code.activestate.com/recipes/475116-using-terminfo-for-portable-color-output-cursor-co/ <br>
+
 
 Thanks @Chronial for pointing this out! I note however that the docs for os.get_terminal_size() says that shutil.get_terminal_size() is the high-level call that should normally be used. <br>
 https://stackoverflow.com/questions/2122385/dynamic-terminal-printing-with-python <br>
@@ -1077,13 +1068,7 @@ https://www.youtube.com/watch?v=B1J6Ou4q8vE <br>
 
 ### NEU
 
-Python:
-https://www.youtube.com/@Indently
-https://www.youtube.com/@patloeber/videos
-https://www.youtube.com/@NeuralNine
-https://www.youtube.com/@Carberra
-https://www.youtube.com/@mCoding
-https://www.youtube.com/@PythonSimplified
+
 
 
 Allgemein:
@@ -1178,43 +1163,7 @@ Brian Voong
 https://www.youtube.com/playlist?list=PL0dzCUj1L5JH5wDLTKAmzFgsuxum-_5K4
 
 
-SwiftUILab
-https://swiftui-lab.com/
 
-https://swiftui-lab.com/swiftui-animations-part1/
-https://swiftui-lab.com/swiftui-animations-part2/
-
-https://swiftui-lab.com/swiftui-animations-part3/
-
-https://swiftui-lab.com/trigonometric-recipes-for-swiftui/
-
-https://swiftui-lab.com/modal-dismiss-gesture/
-
-https://swiftui-lab.com/alignment-guides/
-
-https://swiftui-lab.com/advanced-transitions/
-
-https://swiftui-lab.com/frame-behaviors/
-
-https://swiftui-lab.com/custom-styling/
-
-https://swiftui-lab.com/state-changes/
-https://swiftui-lab.com/swiftui-id/
-https://swiftui-lab.com/equatableview/
-https://swiftui-lab.com/drag-drop-with-swiftui/
-https://swiftui-lab.com/a-powerful-combo/
-https://swiftui-lab.com/working-with-focus-on-swiftui-views/
-https://swiftui-lab.com/wwdc-2020-is-here/
-https://swiftui-lab.com/backward-compatibility/
-https://swiftui-lab.com/matchedgeometryeffect-part1/
-https://github.com/swiftui-lab/swiftui-hero-animations
-https://swiftui-lab.com/swiftui-layout-magic/
-https://swiftui-lab.com/geometryreader-to-the-rescue/
-https://swiftui-lab.com/view-extensions-for-better-code-readability/
-https://swiftui-lab.com/scrollview-pull-to-refresh/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-1/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-2/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-3/
 
 
 Codingenieur

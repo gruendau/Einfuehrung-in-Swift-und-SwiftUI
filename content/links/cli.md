@@ -39,6 +39,18 @@ tags: [link, bootstrap, css]
 [Creating a command line tool using the Swift Package Manager](https://www.avanderlee.com/swift/command-line-tool-package-manager/) Antoine van der Lee, 2020 <br>
 
 
+###### Colors
+https://www.geeksforgeeks.org/print-colors-python-terminal/ <br>
+https://www.quora.com/Is-there-a-Clear-screen-function-in-Python?share=1 <br>
+https://docs.python.org/2/howto/curses.html <br>
+https://pypi.org/project/terminaltables/ <br>
+https://hg.python.org/cpython/file/2.7/Demo/curses/ <br>
+https://liftoff.github.io/GateOne/Developer/termio.html <br>
+http://urwid.org/manual/index.html <br>
+https://www.scivision.dev/dynamic-update-inplace-terminal-text-python/ <br>
+https://code.activestate.com/recipes/475116-using-terminfo-for-portable-color-output-cursor-co/ <br>
+
+
 ##### Videos
 [Building CLI Tools with Apple Swift](https://www.youtube.com/watch?v=bNWLDOW-Aok) 2022, 8 min <br>
 []() <br>
