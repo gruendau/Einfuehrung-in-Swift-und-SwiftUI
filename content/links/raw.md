@@ -10,6 +10,8 @@ subtitle:
 tags: [link]
 ---
 
+[https://www.ii.com/portal/gohugo/](https://www.ii.com/portal/gohugo/) Infinite Ink <br>
+
 Wie werde ich iOS Entwickler? <br>
 [`"How to become an iOS Developer"`](https://github.com/pitt500/how-to-become-an-ios-developer) _<sub>`by Pedro Rojas, 2021`</sub>_
 
