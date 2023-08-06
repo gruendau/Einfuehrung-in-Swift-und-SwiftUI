@@ -1,11 +1,13 @@
 ---
-title: Vorlesungen der Stanford University
+title: Vorlesungen der Stanford University zu SwiftUI
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
 weight: 40
 
 subtitle: Vorlesungen zu Swift, SwiftUI and UIKit
+
+tags: [link, swift, swiftui, stanford]
 ---
 
 Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden ... zum Staunen, zum Verstehen und schlußendlich zum Genießen.

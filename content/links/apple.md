@@ -6,6 +6,8 @@ draft: false
 weight: 10
 
 subtitle: Links von Apple zu Swift, SwiftUI, UIKit, ...
+
+tags: [link, apple]
 ---
 
 <br>

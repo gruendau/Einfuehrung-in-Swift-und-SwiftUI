@@ -1,11 +1,13 @@
 ---
-title: Links in deutscher Sprache
+title: Swift/SwiftUI Links in deutscher Sprache
 date: 2023-07-22T20:49:19+02:00
 draft: false
 
 weight: 30
 
 subtitle: Auflistung von deutsch-sprachigen Blogs, ... 
+
+tags: [link, swift, swiftui]
 ---
 
 | Name | Autor | Links | Anmerkung |
