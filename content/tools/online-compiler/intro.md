@@ -33,3 +33,11 @@ REPL: 'Read-Eval-Print-Loop'
 | [ToolFK](https://www.toolfk.com/de/tools/online-run-swift.html)  |             |
 | [Techie Delight](https://techiedelight.com/compiler/swift)       |             |
 | [sololearn](https://www.sololearn.com/compiler-playground/swift) |             |
+
+
+#### Links
+[6 guter Online-Python-Compiler zum Ausführen von Code im Browser](https://geekflare.com/de/online-python-compiler/) Geekflare, 2023 <br>
+
+<!--
+[]()
+-->
