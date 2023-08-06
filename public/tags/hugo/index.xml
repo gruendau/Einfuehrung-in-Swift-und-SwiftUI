@@ -37,5 +37,15 @@ Einen neuen Post anlegen. hugo new posts/my-first-post.md Neue Seite auf den lok
       <description>Inhalt:</description>
     </item>
     
+    <item>
+      <title>Hugo Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/hugo.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/hugo.html</guid>
+      <description>Links in Zusammenhang mit dem statischen Webseiten-Generator Hugo.
+Links https://www.ii.com/portal/gohugo/ Infinite Ink Syntax highlighting Hugo Chroma Style Gallery splash Edit your site Alice Wu Menues Hugo Shortcodes Hugo Create your own shortcodes Hugo Wie man mit Hugo eine rasend schnelle statische Seite erstellt Kinsta, Brian Li, 2023 Hugo Shortcodes Jim Frenette Hugo Content with Pages and Navigation Jim Frenette </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stanford on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/stanford.html</link>
+    <description>Recent content in stanford on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/stanford/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vorlesungen der Stanford University zu SwiftUI</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/stanford.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/stanford.html</guid>
+      <description>Die Vorlesungen (CS193p) werden von Paul Hegarty gehalten und wurden von der Stanford University öffentlich zugänglich gemacht. Diese verlinkten Videos haben ein anspruchsvolles Niveau und sollten dreimal angeschaut werden &amp;hellip; zum Staunen, zum Verstehen und schlußendlich zum Genießen.
+Thank you Paul, thank you Stanford!
+Stanford CS193p - Swift 3 with UIKit - Spring 2017 Video Dauer 01 Introduction to iOS 10, Xcode 8 and Swift 3 84 min 02 MVC; iOS, Xcode and Swift Demonstration 85 min 03 More Swift and the Foundation Framework 85 min 04 Views 81 min 05 Gestures and Multiple MVCs 81 min 06 Multiple MVCs, View Controller Lifecycle 84 min 07 Error Handling, Extensions, Protocols, Delegation 79 min 08 Multithreading and Text Field 77 min 09 Table View 90 min 10 Core Data 91 min 11 Core Data Demo 76 min 12 Autolayout 51 min 13 Timer and Animation 81 min 14 Dynamic Animation Demo 82 min 15 More Segues 83 min 16 Alerts and Action Sheets 72 min 17 Accessibility 43 min rauf runter</description>
+    </item>
+    
+  </channel>
+</rss>

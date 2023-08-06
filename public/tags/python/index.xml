@@ -16,5 +16,16 @@
       <description>Inhalt:</description>
     </item>
     
+    <item>
+      <title>Python Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</guid>
+      <description>Links https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3
+https://planetpython.org/
+https://www.python.org/doc/ </description>
+    </item>
+    
   </channel>
 </rss>

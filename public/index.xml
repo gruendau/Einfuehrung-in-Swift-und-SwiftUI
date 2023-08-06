@@ -37,6 +37,15 @@ Hugo CLI-Befehle: BEFEHL BESCHREIBUNG ---------- -------------------------------
     </item>
     
     <item>
+      <title>Docker Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/docker.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/docker.html</guid>
+      <description>Links https://lerneprogrammieren.de/ueber-uns/</description>
+    </item>
+    
+    <item>
       <title>Einführung</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -120,6 +129,17 @@ weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive
     </item>
     
     <item>
+      <title>GitHub Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/github.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/github.html</guid>
+      <description>Links https://docs.github.com/de
+Verschlüsselung [https://docs.github.com/de](http://&amp;lt;a href=)/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https&amp;quot;&amp;gt;https://docs.github.com/de/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+GitHub action https://www.youtube.com/@GitHub What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions! Davide Benvegnu, 2019, 15 min Get Started With Github Actions Kahan Data Solutions, 2021, 11 min Schedule Python Scripts with GitHub Actions FOR FREE | Python Automation Patrick Löber, 2022, 13 min </description>
+    </item>
+    
+    <item>
       <title>HTML</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/html/html.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -128,6 +148,60 @@ weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive
       <description>…
 Links:
 Typografische Zeichen in XML und HTML wiki </description>
+    </item>
+    
+    <item>
+      <title>HTML Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/html.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/html.html</guid>
+      <description>Links https://www.tutorials.de/threads/html-element-in-html-einbinden.175357/
+https://www.html.de/threads/einbinden-einer-html-seite-in-eine-bestehende-html-seite.39128/
+https://www.mediaevent.de/html-object-tag/
+https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe</description>
+    </item>
+    
+    <item>
+      <title>Hugo Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/hugo.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/hugo.html</guid>
+      <description>Links in Zusammenhang mit dem statischen Webseiten-Generator Hugo.
+Links https://www.ii.com/portal/gohugo/ Infinite Ink Syntax highlighting Hugo Chroma Style Gallery splash Edit your site Alice Wu Menues Hugo Shortcodes Hugo Create your own shortcodes Hugo Wie man mit Hugo eine rasend schnelle statische Seite erstellt Kinsta, Brian Li, 2023 Hugo Shortcodes Jim Frenette Hugo Content with Pages and Navigation Jim Frenette </description>
+    </item>
+    
+    <item>
+      <title>JavaScript Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/javascript.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/javascript.html</guid>
+      <description>Links https://freefrontend.com/html-menu-with-javascript/
+p5js https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames
+https://www.p5js.gym-wst.de/de/p5jsplay
+https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek
+https://happycoding.io/
+https://p5js.org/
+https://p5js.org/examples/
+Videos https://www.youtube.com/@StevesMakerspace https://www.youtube.com/watch?v=ig0q6vfpD38
+https://github.com/StevesMakerspace
+mouseX, mouseY https://m.youtube.com/watch?v=7A5tKW9HGoM
+Web Editor https://p5js.net/
+Processing http://dada.compart-bremen.de/
+py-Examples https://github.com/jdf/processing.py/tree/master/examples.py
+https://github.com/villares/py.processing-play?files=1
+https://gist.github.com/marcedwards/</description>
+    </item>
+    
+    <item>
+      <title>Jekyll Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/jekyll.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/jekyll.html</guid>
+      <description>Links Jekyll Tutorial: How To Create a Static Website Kinsta, Joel Olawanle, 2023 </description>
     </item>
     
     <item>
@@ -168,7 +242,11 @@ Typografische Zeichen in XML und HTML wiki </description>
       <description>Netlify Hugo with Netlify CMS and Github Pages GitHub repo
 Hugo Official home docu themes showcases github
 Links (deutsch) Eine statische Website mit Hugo generieren Thomas Leister, 2017 Ein eigenes Theme erstellen Thomas Leister, 2017 Links (englisch) Website Meine Website-Inhaberschaft bei Google bestätigen Google
-GitHub action What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions!</description>
+Python Top 10 Python One Liners YOU MUST KNOW! Patrick Löber, 2022, 5 min defekt https://www.youtube.com%2Fwatch%3Fv%3DmFFXuXjVgkU
+Go https://www.youtube.com/watch?v=50ewcV8PsI4
+Docker Docker Docker https://www.youtube.com/watch?v=Tyy1BUEmhwg
+Mathplotlib https://www.youtube.com/watch?v=MU73e__Luo0
+NumPy https://www.youtube.com/watch?v=TyIE3py-rFQ</description>
     </item>
     
     <item>
@@ -189,6 +267,46 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/github/mermaid.html</guid>
       <description>Mermaid Flowcharts - Basic Syntax &amp;ldquo;Flowcharts - Basic Syntax&amp;rdquo;
 graph LR A(Start) --&amp;gt; B(Stop) </description>
+    </item>
+    
+    <item>
+      <title>Micro-Controller Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/micro-controller.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/micro-controller.html</guid>
+      <description>Links https://coding-for-tomorrow.de/
+Mikrocontroller Mikrocontroller.net: https://www.mikrocontroller.net/articles/Hauptseite
+Gerold Penz: https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
+Stefan Frings: http://www.stefanfrings.de/index.html
+Arduino eHaJo: https://www.youtube.com/watch?v=7IEsUs8QFFo
+Bender: https://www.youtube.com/user/ChristianBender1
+DroneBot Workshop: https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w
+How to Mechatronics: https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/
+Elegoo Tutorial: https://github.com/rmorenojr/ElegooTutorial
+Arduino Tutorials: https://www.arduino.cc/en/Tutorial/HomePage
+Great Scott: https://www.youtube.com/user/greatscottlab
+AVR AVR Library https://www.nongnu.org/avr-libc/
+ESP32 DroneBot Workshop: https://www.youtube.com/watch?v=xPlN_Tk3VLQ
+Laurent Latorre: http://www.pomad.fr/node/2
+LED-Matrix by Great Scott: LED-Bar https://www.youtube.com/watch?v=8pFcZ-ijrDY&amp;amp;list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&amp;amp;index=3
+10 x 10 LED-Matrix https://www.youtube.com/watch?v=D_QBlFIQk-o
+Hamburgtech: https://www.youtube.com/user/hamburgtechDE
+Bascom Basic Programmierung von Amtel AVR Microcontollern https://de.www.wikipedia.org/wiki/BASCOM https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
+Espruino http://www.espruino.com/
+https://tessel.io/
+Tessel-pl: https://wiki.tessel.pl/#all-updates</description>
+    </item>
+    
+    <item>
+      <title>Open PLC Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/open-plc.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/open-plc.html</guid>
+      <description>Links https://www.openplcproject.com/plcopen-editor/
+https://www.openplcproject.com/
+https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-arduino-with-openplc-d17632</description>
     </item>
     
     <item>
@@ -223,13 +341,24 @@ Mein MacBook Hardware Overview: Model Name: MacBook Pro Model Identifier: MacBoo
     </item>
     
     <item>
+      <title>Python Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</guid>
+      <description>Links https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3
+https://planetpython.org/
+https://www.python.org/doc/ </description>
+    </item>
+    
+    <item>
       <title>Roh</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</guid>
       <description>Wie werde ich iOS Entwickler? &amp;quot;How to become an iOS Developer&amp;quot; by Pedro Rojas, 2021
-iOS Development Toolbox A collaborative list of tools for iOS development iOS Handbook, 2020 Fastlane Tools Getting Started with Fastlane.swift Fastlane docs Kivy Kivy crash course 6: Kivy properties Alexander Taylor, 2014, 10 min Kinsta 25 Python Frameworks to Master in 2023 Kinsta, Daniel Diaz, 2023 How To Craft a Stylish Static Website with Eleventy (11ty) Kinsta, Joel Olawanle, 2023 Wie man mit Hugo eine rasend schnelle statische Seite erstellt Kinsta, Brian Li, 2023 Was ist die beste Programmiersprache, die man 2021 lernen sollte?</description>
+iOS Development Toolbox A collaborative list of tools for iOS development iOS Handbook, 2020 Fastlane Tools Getting Started with Fastlane.swift Fastlane docs Kivy Kivy crash course 6: Kivy properties Alexander Taylor, 2014, 10 min Kinsta 25 Python Frameworks to Master in 2023 Kinsta, Daniel Diaz, 2023 How To Craft a Stylish Static Website with Eleventy (11ty) Kinsta, Joel Olawanle, 2023 Was ist die beste Programmiersprache, die man 2021 lernen sollte?</description>
     </item>
     
     <item>
@@ -293,15 +422,6 @@ public struct Person { // ... } internal internal erlaubt den Zugriff innerhalb 
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/mac/keyboard.html</guid>
       <description>Apple MacBook Pro Tastatur Die Tastaturbelegung vom Apple MacBook Pro.
 Erste Tastaturreihe Taste - ^ 1 2 3 4 5 6 7 8 9 0 ß hoch ° ! &amp;quot; § $ % &amp;amp; / ( ) = ? alt „ ¡ “ ¶ ¢ [ ] | { } ≠ ¿ hoch + alt “ ¬ ” # £ ﬁ ^ \ ˜ · ¯ ˙ Zweite Tastaturreihe Taste - q w e r t z u i o p ü + hoch Q W E R T Z U I O P Ü * alt « ∑ € ® † Ω ¨ ⁄ ø π • ± hoch + alt » „ ‰ ¸ ˝ ˇ Á Û Ø ∏ °  Dritte Tastaturreihe Taste - a s d f g h j k l ö ä # hoch A S D F G H J K L Ö Ä &#39; alt å ‚ ∂ ƒ © ª º ∆ @ œ æ ‘ hoch + alt Å Í ™ Ï Ì Ó ı ˆ ﬂ Œ Æ ’ Viere Tastaturreihe Taste - &amp;lt; y x c v b n m , .</description>
-    </item>
-    
-    <item>
-      <title>Technik</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/tech.html</guid>
-      <description>Autoren Name Autor Links Anmerkung TechWorld with Nana Nana Janashia home youtube github gitlab twitter LinkedIn email Anwendungen Name Autor Links Anmerkung Apple home youtube github facebook instagram reddit wiki Docker home docs youtube github twitter facebook linkedin reddit wiki email GitHub home docs blog youtube github twitter facebook twitch linkedin tiktoc wiki Kinsta home docs blog youtube github twitter facebook instagram reddit email WordPress-Hosting Netlify home docs blog tutorials cli youtube github twitter facebook linkedin wiki email Swift home docs blog github twitter reddit wiki Twitter home docs youtube github twitter facebook instagram reddit wiki </description>
     </item>
     
     <item>
@@ -387,6 +507,16 @@ Code des Templates: &amp;lt;!-- Navigation top --&amp;gt; [__`home`__][home] [__
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html</guid>
       <description>Ansicht des Templates a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Sonderzeichen Code des Templates [`a`](#a) [`b`](#b) [`c`](#c) [`d`](#d) [`e`](#e) [`f`](#f) [`g`](#g) [`h`](#h) [`i`](#i) [`j`](#j) [`k`](#k) [`l`](#l) [`m`](#m) [`n`](#n) [`o`](#o) [`p`](#p) [`q`](#q) [`r`](#r) [`s`](#s) [`t`](#t) [`u`](#u) [`v`](#v) [`w`](#w) [`x`](#x) [`y`](#y) [`z`](#z) [`Sonderzeichen`](#Sonderzeichen) ### A []() []() []() []() []() []() ### B []() []() []() []() []() []() ### C []() []() []() []() []() []() ### D []() []() []() []() []() []() ### E []() []() []() []() []() []() ### F []() []() []() []() []() []() ### G []() []() []() []() []() []() ### H []() []() []() []() []() []() ### I []() []() []() []() []() []() ### J []() []() []() []() []() []() ### K []() []() []() []() []() []() ### L []() []() []() []() []() []() ### M []() []() []() []() []() []() ### N []() []() []() []() []() []() ### O []() []() []() []() []() []() ### P []() []() []() []() []() []() ### Q []() []() []() []() []() []() ### R []() []() []() []() []() []() ### S []() []() []() []() []() []() ### T []() []() []() []() []() []() ### U []() []() []() []() []() []() ### V []() []() []() []() []() []() ### W []() []() []() []() []() []() ### X []() []() []() []() []() []() ### Y []() []() []() []() []() []() ### Z []() []() []() []() []() []() ### Sonderzeichen []() []() []() []() []() []() </description>
+    </item>
+    
+    <item>
+      <title>Anwendungen</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apps.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apps.html</guid>
+      <description>Auflistung von Anwendungen &amp;lt;applications&amp;gt; &amp;lt;apps&amp;gt;.
+Name Links Anmerkung Apple home youtube github facebook instagram reddit wiki Docker home docs youtube github twitter facebook linkedin reddit wiki email GitHub home docs blog youtube github twitter facebook twitch linkedin tiktoc wiki Kinsta home docs blog youtube github twitter facebook instagram reddit email WordPress-Hosting Netlify home docs blog tutorials cli youtube github twitter facebook linkedin wiki email Swift home docs blog github twitter reddit wiki Twitter home docs youtube github twitter facebook instagram reddit wiki </description>
     </item>
     
     <item>
@@ -517,16 +647,6 @@ Ebene 0 Ebene 1 Ebene 2 Ebene 3 Ebene 4 Ebene 5 Ebene 6 home a-z seiten struktur
     </item>
     
     <item>
-      <title>Links in englischer Sprache</title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</link>
-      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</guid>
-      <description>Text &amp;hellip;
-Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexander Grebenyuk home blog github twitter mastodon Alexey Naumov home blog github twitter Andrew Bancroft home github twitter Antoine von der Lee home github twitter twitter stack instagram email AppCoda home blog github twitter facebook instagram Artturi Jalli home github gist email - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Benoit Pasquier home github twitter Bolt UIX home youtube github twitter facebook instagram medium byby.</description>
-    </item>
-    
-    <item>
       <title>ls</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli/commands/ls.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -536,6 +656,17 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
 ls [OPTIONS] [FILES] &amp;gt; ls Desktop Documents ... Options -l Lange Liste &amp;lt;long listing format&amp;gt;
 &amp;gt; ls -l total 0 drwx------@ 16 test staff 512 23 Jun 19:31 Desktop drwx------@ 11 test staff 352 17 Jun 10:39 Documents ... -a Versteckte Dateien anzeigen
 &amp;gt; ls -la total 272 drwxr-xr-x+ 37 test staff 1184 25 Jun 16:39 . drwxr-xr-x 5 root admin 160 3 Mai 09:53 .</description>
+    </item>
+    
+    <item>
+      <title>Markdown Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/markdown.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/markdown.html</guid>
+      <description>Links https://www.w3schools.io/file/markdown-links/
+https://www.w3schools.io/file/markdown-css/
+Style guide https://www.markdownguide.org/basic-syntax</description>
     </item>
     
     <item>
@@ -586,6 +717,26 @@ E enum else extension
 F fallthrough false fileprivate final for
 G get guard
 H I if import in indirect infix init inout internal is</description>
+    </item>
+    
+    <item>
+      <title>Swift/SwiftUI Autoren</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/authors.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/authors.html</guid>
+      <description>Auflistung von Autoren.
+Name Autor Links Anmerkung TechWorld with Nana Nana Janashia home youtube github gitlab twitter LinkedIn email </description>
+    </item>
+    
+    <item>
+      <title>Swift/SwiftUI Links in englischer Sprache</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</guid>
+      <description>Text &amp;hellip;
+Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexander Grebenyuk home blog github twitter mastodon Alexey Naumov home blog github twitter Andrew Bancroft home github twitter Antoine von der Lee home github twitter twitter stack instagram email AppCoda home blog github twitter facebook instagram Artturi Jalli home github gist email - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Benoit Pasquier home github twitter Bolt UIX home youtube github twitter facebook instagram medium byby.</description>
     </item>
     
     <item>
@@ -676,7 +827,7 @@ bootstrap 5</description>
     </item>
     
     <item>
-      <title>Links in deutscher Sprache</title>
+      <title>Swift/SwiftUI Links in deutscher Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/german.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
@@ -695,7 +846,7 @@ Ein Impressum wird für private, nicht gewerbliche Webseiten von Gesetzgeber nic
     </item>
     
     <item>
-      <title>Vorlesungen der Stanford University</title>
+      <title>Vorlesungen der Stanford University zu SwiftUI</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/stanford.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
