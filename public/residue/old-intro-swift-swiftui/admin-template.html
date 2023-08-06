@@ -1,0 +1,437 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Admin Template - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm disabled" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html"
+                               role="button">
+                               zurück   
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../residue/old-intro-swift-swiftui/admin-template.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Admin Template
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <!-- Navigation top -->
+<p><a href="./home" title="home"><strong><code>home</code></strong></a> <a href="./home-pages" title="home-pages"><strong><code>seiten</code></strong></a> <a href="./home-az" title="home-az"><strong><code>a-z</code></strong></a> <a href="./admin-github" title="admin-github"><strong><code>&lt;--</code></strong></a> <a href="./wiki-admin" title="wiki-admin"><strong><code>hoch</code></strong></a> <a href="./admin-template_keyword" title="admin-template_keyword"><strong><code>--&gt;</code></strong></a> <a href="#links"><strong><code>runter</code></strong></a> <em><code>home/admin/template</code></em></p>
+<!-- Navigation links -->
+<br>
+<h3 id="ansicht-des-templates">Ansicht des Templates:</h3>
+<!-- Navigation top -->
+<p><a href="./home" title="home"><strong><code>home</code></strong></a> <a href="./home-pages" title="home-pages"><strong><code>seiten</code></strong></a> <a href="./home-az" title="home-az"><strong><code>a-z</code></strong></a> <a href="./admin-github" title="admin-github"><strong><code>&lt;--</code></strong></a> <a href="./wiki-admin" title="wiki-admin"><strong><code>hoch</code></strong></a> <a href="./admin-template_keyword" title="admin-template_keyword"><strong><code>--&gt;</code></strong></a> <a href="#links"><strong><code>runter</code></strong></a> <em><code>home/xxx</code></em></p>
+<!-- Navigation links -->
+<!-- CONTENT START ############################################## -->
+<h2 id="title">TITLE</h2>
+<p>Text &hellip;</p>
+<!-- Content navigation -->
+<p><a href="#"></a> <a href="#"></a> <a href="#"></a></p>
+<!-- ToDos -->
+<!-- 
+-->
+<!--
+### CHAPTER
+
+#### SUBCHAPTER
+-->
+<!-- Program code -->
+<!--
+```swift
+// Programmcode
+```
+-->
+<!-- CONTENT END ############################################## -->
+<!-- Navigation [__`rauf`__][top] [__`runter`__][bottom] -->
+<!-- Links --> <br>
+<h5 id="links">Links:</h5>
+<!--
+[`TEXT`](LINK) _<sub>von apple documentation</sub>_
+[`TEXT`](LINK) _<sub>von swift.org</sub>_   
+[`TEXT`](LINK) _<sub>von AUTHOR, YEAR</sub>_
+-->
+<!--
+##### Videos:
+[`TEXT`](LINK) _<sub>von AUTHOR, YEAR, Xmin</sub>_
+-->
+<!-- Navigation bottom --> <br>
+<!-- Ersatz Sprungmarke, wenn keine '##### Links:' vorhanden ist. -->
+<!-- ###### <sub>_</sub> -->
+<p><a href="./home" title="home"><strong><code>home</code></strong></a> <a href="./home-pages" title="home-pages"><strong><code>seiten</code></strong></a> <a href="./home-az" title="home-az"><strong><code>a-z</code></strong></a> <a href="./admin-github" title="admin-github"><strong><code>&lt;--</code></strong></a> <a href="./wiki-admin" title="wiki-admin"><strong><code>hoch</code></strong></a> <a href="./admin-template_keyword" title="admin-template_keyword"><strong><code>--&gt;</code></strong></a> <a href="#"><strong><code>rauf</code></strong></a></p>
+<br>
+<h3 id="code-des-templates">Code des Templates:</h3>
+<pre tabindex="0"><code>&lt;!-- Navigation top --&gt;
+[__`home`__][home] [__`seiten`__][seiten] [__`a-z`__][content] [__`&lt;--`__][left] [__`hoch`__][up] [__`--&gt;`__][right] [__`runter`__][bottom] _`home/xxx`_
+
+&lt;!-- Navigation links --&gt;
+[home]:     ./home &#34;home&#34;
+[seiten]:   ./home-pages &#34;home-pages&#34;
+[content]:  ./home-az &#34;home-az&#34;
+[left]:     ./xxx &#34;&#34;
+[up]:       ./home &#34;&#34;
+[right]:    ./xxx &#34;&#34;
+[top]:      #
+[bottom]:   #links
+
+&lt;!-- CONTENT START ############################################## --&gt;
+
+## TITLE
+
+Text ...
+
+&lt;!-- Content navigation --&gt;
+[](#) [](#) [](#)
+
+&lt;!-- ToDos --&gt;
+&lt;!-- 
+--&gt;
+
+&lt;!--
+### CHAPTER
+
+#### SUBCHAPTER
+--&gt;
+
+&lt;!-- Program code --&gt;
+&lt;!--
+```swift
+// Programmcode
+```
+--&gt;
+
+&lt;!-- CONTENT END ############################################## --&gt;
+
+&lt;!-- Navigation [__`rauf`__][top] [__`runter`__][bottom] --&gt;
+
+&lt;!-- Links --&gt; &lt;br&gt;
+##### Links:
+&lt;!--   
+[`TEXT`](LINK) _&lt;sub&gt;von apple documentation&lt;/sub&gt;_
+[`TEXT`](LINK) _&lt;sub&gt;von swift.org&lt;/sub&gt;_   
+[`TEXT`](LINK) _&lt;sub&gt;von AUTHOR, YEAR&lt;/sub&gt;_
+--&gt;
+
+&lt;!--
+##### Videos:
+[`TEXT`](LINK) _&lt;sub&gt;von AUTHOR, YEAR, Xmin&lt;/sub&gt;_
+--&gt;
+
+&lt;!-- Navigation bottom --&gt; &lt;br&gt;
+&lt;!-- Ersatz Sprungmarke, wenn keine &#39;##### Links:&#39; vorhanden ist. --&gt;
+&lt;!-- ###### &lt;sub&gt;_&lt;/sub&gt; --&gt;
+[__`home`__][home] [__`seiten`__][seiten] [__`a-z`__][content] 
+[__`&lt;--`__][left] [__`hoch`__][up] [__`--&gt;`__][right] [__`rauf`__][top]
+</code></pre><!-- Navigation bottom --> <br>
+<!-- ###### <sub>_</sub> Ersatz Sprungmarke, wenn keine '##### Links:' vorhanden ist. -->
+<p><a href="./home" title="home"><strong><code>home</code></strong></a> <a href="./home-pages" title="home-pages"><strong><code>seiten</code></strong></a> <a href="./home-az" title="home-az"><strong><code>a-z</code></strong></a> <a href="./admin-github" title="admin-github"><strong><code>&lt;--</code></strong></a> <a href="./wiki-admin" title="wiki-admin"><strong><code>hoch</code></strong></a> <a href="./admin-template_keyword" title="admin-template_keyword"><strong><code>--&gt;</code></strong></a> <a href="#"><strong><code>rauf</code></strong></a></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

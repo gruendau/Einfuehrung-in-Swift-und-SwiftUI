@@ -8,15 +8,16 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Widmung</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</guid>
       <description>Diese Einführung in Swift und SwiftUI
 ist meiner liebsten Tante Hanna gewidmet,
 die kurz nach ihrem 86. Geburtstag im April 2023
-bei guter Gesundheit viel zu früh verstorben ist.</description>
+bei guter Gesundheit viel zu früh verstorben ist.
+Einbindung von Bildern in Hugo – Infos und eigener Render Hook Andreas Mandalka</description>
     </item>
     
   </channel>

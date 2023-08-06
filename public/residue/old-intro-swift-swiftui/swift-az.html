@@ -1,0 +1,515 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>Swift AZ - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-az.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/readme_.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/readme_.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-intro.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-az.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../residue/old-intro-swift-swiftui/swift-az.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        Swift AZ
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="swift-a-z">Swift A-Z</h2>
+<!-- Content navigation -->
+<p><a href="#a"><code>a</code></a> <a href="#b"><code>b</code></a> <a href="#c"><code>c</code></a> <a href="#d"><code>d</code></a> <a href="#e"><code>e</code></a> <a href="#f"><code>f</code></a> <a href="#g"><code>g</code></a> <a href="#h"><code>h</code></a> <a href="#i"><code>i</code></a> <a href="#j"><code>j</code></a> <a href="#k"><code>k</code></a> <a href="#l"><code>l</code></a> <a href="#m"><code>m</code></a> <a href="#n"><code>n</code></a> <a href="#o"><code>o</code></a> <a href="#p"><code>p</code></a> <a href="#q"><code>q</code></a> <a href="#r"><code>r</code></a> <a href="#s"><code>s</code></a> <a href="#t"><code>t</code></a> <a href="#u"><code>u</code></a> <a href="#v"><code>v</code></a> <a href="#w"><code>w</code></a> <a href="#x"><code>x</code></a> <a href="#y"><code>y</code></a> <a href="#z"><code>z</code></a> <a href="#Sonderzeichen"><code>Sonderzeichen</code></a></p>
+<h3 id="a">A</h3>
+<p><a href=""><code>Any *</code></a>
+<a href="./swift-keyword-any"><em><code>any</code></em></a>
+<a href="./swift-intro-arrays"><code>Arrays</code></a>
+<a href="./swift-keyword-as"><em><code>as</code></em></a>
+<a href="./swift-keyword-associatedtype"><em><code>associatedtype</code></em></a>
+<a href="./swift-keyword-associativity"><em><code>associativity</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="b">B</h3>
+<p><a href="./swift-keyword-break"><em><code>break</code></em></a>
+<a href=""><code>body *</code></a>
+<a href=""><code>Bool *</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="c">C</h3>
+<p><a href="./swift-keyword-case"><em><code>case</code></em></a>
+<a href="./swift-keyword-catch"><em><code>catch</code></em></a>
+<a href="./swift-keyword-class"><em><code>class</code></em></a>
+<a href="./swift-intro-constants"><code>Constant</code></a>
+<a href="./swift-intro-collections"><code>Collection</code></a>
+<a href=""><code>Constructor *</code></a>
+<a href="./swift-keyword-continue"><em><code>continue</code></em></a>
+<a href="./swift-keyword-convenience"><em><code>convenience</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="d">D</h3>
+<p><a href="./swift-keyword-default"><em><code>default</code></em></a>
+<a href="./swift-keyword-defer"><em><code>defer</code></em></a>
+<a href="./swift-keyword-deinit"><em><code>deinit</code></em></a>
+<a href="./swift-intro-dictionaries"><code>Dictionary</code></a>
+<a href="./swift-keyword-didset"><em><code>didSet</code></em></a>
+<a href="./swift-keyword-do"><em><code>do</code></em></a>
+<a href="./swift-keyword-dynamic"><em><code>dynamic</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="e">E</h3>
+<p><a href="./swift-keyword-enum"><em><code>enum</code></em></a>
+<a href="./swift-keyword-else"><em><code>else</code></em></a>
+<a href="./swift-keyword-extension"><em><code>extension</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="f">F</h3>
+<p><a href="./swift-keyword-fallthrough"><em><code>fallthrough</code></em></a>
+<a href="./swift-keyword-false"><em><code>false</code></em></a>
+<a href=""><code>File *</code></a>
+<a href="./swift-keyword-fileprivate"><em><code>fileprivate</code></em></a>
+<a href="./swift-keyword-final"><em><code>final</code></em></a>
+<a href="./swift-keyword-for"><em><code>for</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="g">G</h3>
+<p><a href=""><code>Generics *</code></a>
+<a href="./swift-keyword-get"><code>get</code></a>
+<a href="./swift-keyword-guard"><code>guard</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="h">H</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="i">I</h3>
+<p><a href="./swift-keyword-if"><em><code>if</code></em></a>
+<a href="./swift-keyword-import"><em><code>import</code></em></a>
+<a href="./swift-keyword-in"><em><code>in</code></em></a>
+<a href="./swift-keyword-indirect"><em><code>indirect</code></em></a>
+<a href="./swift-keyword-infix"><em><code>infix</code></em></a>
+<a href="./swift-keyword-init"><em><code>init</code></em></a>
+<a href=""><code>Initializer *</code></a>
+<a href="./swift-keyword-inout"><em><code>inout</code></em></a>
+<a href=""><code>Instance *</code></a>
+<a href=""><code>Int *</code></a>
+<a href="./swift-keyword-internal"><em><code>internal</code></em></a>
+<a href="./swift-keyword-is"><em><code>is</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="j">J</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="k">K</h3>
+<p><a href="./swift-keywords"><code>keyword</code></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a>
+<a href="./swift-intro-classes"><code>Klasse</code></a>
+<a href="./swift-intro-collections"><code>Kollektion</code></a>
+<a href="./swift-intro-constants"><code>Konstante</code></a></p>
+<h3 id="l">L</h3>
+<p><a href="./swift-keyword-lazy"><em><code>lazy</code></em></a>
+<a href="./swift-keyword-left"><em><code>left</code></em></a>
+<a href="./swift-keyword-let"><em><code>let</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="m">M</h3>
+<p><a href="./swift-intro-methodes"><code>Methode</code></a>
+<a href=""><code>Modul *</code></a>
+<a href="./swift-keyword-mutating"><em><code>mutating</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="n">N</h3>
+<p><a href="./swift-keyword-nil"><em><code>nil</code></em></a>
+<a href="./swift-keyword-none"><em><code>none</code></em></a>
+<a href="./swift-keyword-nonmutating"><em><code>nonmutating</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="o">O</h3>
+<p><a href=""><code>Object *</code></a>
+<a href="./swift-keyword-open"><em><code>open</code></em></a>
+<a href="./swift-intro-opaque_types"><code>Opaque type</code></a>
+<a href="./swift-keyword-operator"><em><code>operator</code></em></a>
+<a href="./swift-keyword-optional"><em><code>optional</code></em></a>
+<a href="./swift-intro-optional_types"><code>Optional type</code></a>
+<a href="./swift-keyword-override"><em><code>override</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="p">P</h3>
+<p><a href=""><code>Package *</code></a>
+<a href="./swift-keyword-postfix"><em><code>postfix</code></em></a>
+<a href="./swift-keyword-precedence"><em><code>precedence</code></em></a>
+<a href="./swift-keyword-prefix"><em><code>prefix</code></em></a>
+<a href="./swift-intro-properties"><code>Property</code></a>
+<a href="./swift-keyword-protocol"><em><code>protocol</code></em></a>
+<a href="./swift-intro-protokols"><code>Protokolle</code></a>
+<a href="./swift-keyword-private"><em><code>private</code></em></a>
+<a href="./swift-keyword-public"><em><code>public</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="q">Q</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="r">R</h3>
+<p><a href="./swift-keyword-repeat"><em><code>repeat</code></em></a>
+<a href="./swift-keyword-required"><em><code>required</code></em></a>
+<a href="./swift-keyword-rethrows"><em><code>rethrows</code></em></a>
+<a href="./swift-keyword-return"><em><code>return</code></em></a>
+<a href="./swift-keyword-right"><em><code>right</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="s">S</h3>
+<p><a href="./swift-keyword-self"><em><code>self</code></em></a>
+<a href="./swift-keyword-capitalself"><em><code>Self</code></em></a>
+<a href="./swift-keyword-set"><em><code>set</code></em></a>
+<a href="./swift-intro-sets"><code>Set</code></a>
+<a href="./swift-keyword-some"><em><code>some</code></em></a>
+<a href="./swift-keyword-static"><em><code>static</code></em></a>
+<a href="./swift-intro-strings"><code>String</code></a>
+<a href="./swift-keyword-struct"><em><code>struct</code></em></a>
+<a href="./swift-keyword-subscript"><em><code>subscript</code></em></a>
+<a href="./swift-keyword-super"><em><code>super</code></em></a>
+<a href="./swift-keyword-switch"><em><code>switch</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="t">T</h3>
+<p><a href="./swift-keyword-throw"><em><code>throw</code></em></a>
+<a href="./swift-keyword-throws"><em><code>throws</code></em></a>
+<a href="./swift-keyword-true"><em><code>true</code></em></a>
+<a href="./swift-keyword-try"><em><code>try</code></em></a>
+<a href="./swift-keyword-type"><em><code>Type</code></em></a>
+<a href="./swift-intro-types"><code>Types</code></a>
+<a href="./swift-keyword-typealias"><em><code>typealias</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="u">U</h3>
+<p><a href="./swift-keyword-unowned"><em><code>unowned</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="v">V</h3>
+<p><a href="./swift-keyword-var"><em><code>var</code></em></a>
+<a href="./swift-intro-variables"><code>Variable</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="w">W</h3>
+<p><a href="./swift-keyword-weak"><em><code>weak</code></em></a>
+<a href="./swift-keyword-where"><em><code>where</code></em></a>
+<a href="./swift-keyword-while"><em><code>while</code></em></a>
+<a href="./swift-keyword-willset"><em><code>willSet</code></em></a>
+<a href="./swift-intro-dictionaries"><code>Wörterbuch</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="x">X</h3>
+<p><a href=""><code>XCode</code></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="y">Y</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="z">Z</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="sonderzeichen">Sonderzeichen</h3>
+<p><a href="./swift-keyword-underscore"><em><code>-</code></em></a>
+<a href=""><code>!</code></a>
+<a href=""><code>?</code></a>
+<a href=""><code>#</code></a>
+<a href="./swift-keyword-hash-available"><em><code>#available</code></em></a>
+<a href="./swift-keyword-hash-colorliteral"><em><code>#colorLiteral</code></em></a>
+<a href="./swift-keyword-hash-column"><em><code>#column</code></em></a>
+<a href="./swift-keyword-hash-dsohandle"><em><code>#dsohandle</code></em></a>
+<a href="./swift-keyword-hash-elseif"><em><code>#elseif</code></em></a>
+<a href="./swift-keyword-hash-else"><em><code>#else</code></em></a>
+<a href="./swift-keyword-hash-endif"><em><code>#endif</code></em></a>
+<a href="./swift-keyword-hash-error"><em><code>#error</code></em></a>
+<a href="./swift-keyword-hash-fileid"><em><code>#fileID</code></em></a>
+<a href="./swift-keyword-hash-fileliteral"><em><code>#fileLiteral</code></em></a>
+<a href="./swift-keyword-hash-filepath"><em><code>#filePath</code></em></a>
+<a href="./swift-keyword-hash-file"><em><code>#file</code></em></a>
+<a href="./swift-keyword-hash-function"><em><code>#function</code></em></a>
+<a href="./swift-keyword-hash-if"><em><code>#if</code></em></a>
+<a href="./swift-keyword-hash-imageliteral"><em><code>#imageLiteral</code></em></a>
+<a href="./swift-keyword-hash-keypath"><em><code>#keyPath</code></em></a>
+<a href="./swift-keyword-hash-line"><em><code>#line</code></em></a>
+<a href="./swift-keyword-hash-selector"><em><code>#selector</code></em></a>
+<a href="./swift-keyword-hash-sourcelocation"><em><code>#sourceLocation</code></em></a>
+<a href="./swift-keyword-hash-warning"><em><code>#warning</code></em></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

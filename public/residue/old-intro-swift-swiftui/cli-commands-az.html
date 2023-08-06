@@ -1,0 +1,482 @@
+
+
+<!doctype html>
+
+<html lang="de">
+
+  <head>
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+
+  body {
+    background-color: #DDDDDD;
+  }
+
+  div.csBorder {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+  }
+
+  span.csAnnotation {
+    color: green;
+    font-size: 10px;
+  }
+  span.csRed {
+    color: red;
+  }
+  span.csKey {
+    color: red;
+    font-weight: bold;
+  }
+  span.csKeyDesc {
+    color: slategray;
+    font-style: italic;
+    font-size: small
+  }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<title>CLI Befehle AZ - Einführung in Swift und SwiftUI</title>
+  </head>
+
+  <body>
+    
+    
+    <header>
+      
+
+
+
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning px-2 pb-2 ">
+    
+    <div class="row">
+        <div class="col">
+
+            <span class="h2 text-primary">
+
+                
+                Einführung in Swift und SwiftUI
+
+                <br>
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+
+                        
+
+                        
+                        <a class="btn btn-primary btn-sm" 
+                           href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/" 
+                           title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/cli-commands-az.html"
+                           role="button">
+                           home
+                        </a>
+
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html"
+                               role="button">
+                               zurück
+                            </a>
+                        
+
+                                                
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui.html"
+                               role="button">
+                               hoch
+                            </a>
+                        
+
+                        
+                        
+                        
+                        
+                        
+                        
+                            <a class="btn btn-primary btn-sm" 
+                               href="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home.html" 
+                               title="/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/cli-commands-az.html"
+                               role="button">
+                               vor   
+                            </a>
+                        
+
+                        
+
+<sub>
+    <font size="2">
+        
+        ../residue/old-intro-swift-swiftui/cli-commands-az.html
+    </font>
+</sub>
+
+
+
+
+
+
+                        &nbsp; 
+                        
+
+<sub>
+    <font size="2">
+        
+        20
+    </font>
+</sub>
+
+                        
+
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example"></div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </header>
+
+    <main>
+
+      
+      
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        <main class="mt-0 pt-2 mb-0 pb-2">
+    
+
+
+
+      
+      
+
+
+
+
+       
+      
+
+
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            
+            <h3 id="top"></h3>
+
+            
+            
+
+
+
+
+            
+            
+            
+
+<div class="text-left pb-2">
+
+    
+    <h1 class="h2 h3">
+        CLI Befehle AZ
+    </h1>
+
+    
+    <h2 class="text-secondary h3 h4 h5">
+        
+    </h2>
+    
+</div>
+
+
+            
+                
+                <h2 id="inhalt-cli-befehle-a-z">Inhalt CLI-Befehle A-Z</h2>
+<p><a href="#a"><code>a</code></a> <a href="#b"><code>b</code></a> <a href="#c"><code>c</code></a> <a href="#d"><code>d</code></a> <a href="#e"><code>e</code></a> <a href="#f"><code>f</code></a> <a href="#g"><code>g</code></a> <a href="#h"><code>h</code></a> <a href="#i"><code>i</code></a> <a href="#j"><code>j</code></a> <a href="#k"><code>k</code></a> <a href="#l"><code>l</code></a> <a href="#m"><code>m</code></a> <a href="#n"><code>n</code></a> <a href="#o"><code>o</code></a> <a href="#p"><code>p</code></a> <a href="#q"><code>q</code></a> <a href="#r"><code>r</code></a> <a href="#s"><code>s</code></a> <a href="#t"><code>t</code></a> <a href="#u"><code>u</code></a> <a href="#v"><code>v</code></a> <a href="#w"><code>w</code></a> <a href="#x"><code>x</code></a> <a href="#y"><code>y</code></a> <a href="#z"><code>z</code></a> <a href="#Sonderzeichen"><code>Sonderzeichen</code></a></p>
+<h3 id="a">A</h3>
+<p><a href="./cli-befehl-alias"><code>alias</code></a>
+<a href="./cli-befehl-apt"><code>apt</code></a>
+<a href="./cli-befehl-awk"><code>awk</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="b">B</h3>
+<p><a href="./cli-befehl-bc"><code>bc</code></a>
+<a href="./cli-befehl-brew"><code>brew</code></a>
+<a href="./cli-befehl-bunzip2"><code>bunzip2</code></a>
+<a href="./cli-befehl-bzip2"><code>bzip2</code></a>
+<a href="./cli-befehl-bzip2recover"><code>bzip2recover</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="c">C</h3>
+<p><a href="./cli-befehl-cat"><code>cat</code></a>
+<a href="./cli-befehl-cd"><code>cd</code></a>
+<a href="./cli-befehl-chflags"><code>chflags</code></a>
+<a href="./cli-befehl-chgrp"><code>chgrp</code></a>
+<a href="./cli-befehl-chmod"><code>chmod</code></a>
+<a href="./cli-befehl-chown"><code>chown</code></a>
+<a href="./cli-befehl-uncompress"><code>compress</code></a>
+<a href="./cli-befehl-cp"><code>cp</code></a></p>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="d">D</h3>
+<p><a href="./cli-befehl-diskutil"><code>diskutil</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="e">E</h3>
+<p><a href="./cli-befehl-echo"><code>echo</code></a>
+<a href="./cli-befehl-exit"><code>exit</code></a>
+<a href="./cli-befehl-expect"><code>expect</code></a>
+<a href="./cli-befehl-expr"><code>expr</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="f">F</h3>
+<p><a href="./cli-befehl-false"><code>false</code></a>
+<a href="./cli-befehl-find"><code>find</code></a>
+<a href="./cli-befehl-fsck"><code>fsck</code></a>
+<a href="./cli-befehl-fsck_msdos"><code>fsck_msdos</code></a>
+<a href="./cli-befehl-fsck_hfs"><code>fsck_hfs</code></a>
+<a href="./cli-befehl-funzip"><code>funzip</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="g">G</h3>
+<p><a href="./cli-befehl-GetFileInfo"><code>GetFileInfo</code></a>
+<a href="./cli-befehl-grep"><code>grep</code></a>
+<a href="./cli-befehl-gunzip"><code>gunzip</code></a>
+<a href="./cli-befehl-gzcat"><code>gzcat</code></a>
+<a href="./cli-befehl-gzip"><code>gzip</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="h">H</h3>
+<p><a href="./cli-befehl-hdiutil"><code>hdiutil</code></a>
+<a href="./cli-befehl-head"><code>head</code></a>
+<a href="./cli-befehl-history"><code>history</code></a>
+<a href="./cli-befehl-htop"><code>htop</code></a></p>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="i">I</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="j">J</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="k">K</h3>
+<p><a href="./cli-befehl-kill"><code>kill</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="l">L</h3>
+<p><a href="./cli-befehl-less"><code>less</code></a>
+<a href="./cli-befehl-ln"><code>ln</code></a>
+<a href="./cli-befehl-ls"><code>ls</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="m">M</h3>
+<p><a href="./cli-befehl-man"><code>man</code></a>
+<a href="./cli-befehl-mkdir"><code>mkdir</code></a>
+<a href="./cli-befehl-mkdir"><code>mkdir</code></a>
+<a href="./cli-befehl-mkfifo"><code>mkfifo</code></a>
+<a href="./cli-befehl-mount"><code>mount</code></a>
+<a href="./cli-befehl-umount"><code>umount</code></a>
+<a href="./cli-befehl-mount_afp"><code>mount_afp</code></a>
+<a href="./cli-befehl-mount_cd9660"><code>mount_cd9660</code></a>
+<a href="./cli-befehl-mount_cddafs"><code>mount_cddafs</code></a>
+<a href="./cli-befehl-mount_fdesc"><code>mount_fdesc</code></a>
+<a href="./cli-befehl-mount_ftp"><code>mount_ftp</code></a>
+<a href="./cli-befehl-mount_hfs"><code>mount_hfs</code></a>
+<a href="./cli-befehl-mount_msdos"><code>mount_msdos</code></a>
+<a href="./cli-befehl-mount_nfs"><code>mount_nfs</code></a>
+<a href="./cli-befehl-mount_ntfs"><code>mount_ntfs</code></a>
+<a href="./cli-befehl-mount_smbfs"><code>mount_smbfs</code></a>
+<a href="./cli-befehl-mount_udf"><code>mount_udf</code></a>
+<a href="./cli-befehl-mount_url"><code>mount_url</code></a>
+<a href="./cli-befehl-mount_webdav"><code>mount_webdav</code></a>
+<a href="./cli-befehl-mv"><code>mv</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="n">N</h3>
+<p><a href="./cli-befehl-neofetch"><code>neofetch</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="o">O</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="p">P</h3>
+<p><a href="./cli-befehl-passwd"><code>passwd</code></a>
+<a href="./cli-befehl-perl"><code>perl</code></a>
+<a href="./cli-befehl-ping"><code>ping</code></a>
+<a href="./cli-befehl-ps"><code>ps</code></a>
+<a href="./cli-befehl-pwd"><code>pwd</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="q">Q</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="r">R</h3>
+<p><a href="./cli-befehl-rm"><code>rm</code></a>
+<a href="./cli-befehl-rmdir"><code>rmdir</code></a><br>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="s">S</h3>
+<p><a href="./cli-befehl-sed"><code>sed</code></a>
+<a href="./cli-befehl-SetFile"><code>SetFile</code></a>
+<a href="./cli-befehl-shred"><code>shred</code></a>
+<a href="./cli-befehl-shutdown"><code>shutdown</code></a>
+<a href="./cli-befehl-sleep"><code>sleep</code></a>
+<a href="./cli-befehl-sort"><code>sort</code></a>
+<a href="./cli-befehl-stat"><code>stat</code></a>
+<a href="./cli-befehl-sudo"><code>sudo</code></a>
+<a href="./cli-befehl-sw_vers"><code>sw_vers</code></a>
+<a href="./cli-befehl-system_profiler"><code>system_profiler</code></a> <br>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="t">T</h3>
+<p><a href="./cli-befehl-tail"><code>tail</code></a>
+<a href="./cli-befehl-tar"><code>tar</code></a>
+<a href="./cli-befehl-tee"><code>tee</code></a>
+<a href="./cli-befehl-touch"><code>touch</code></a>
+<a href="./cli-befehl-tr"><code>tr</code></a>
+<a href="./cli-befehl-true"><code>true</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="u">U</h3>
+<p><a href="./cli-befehl-unalias"><code>unalias</code></a>
+<a href="./cli-befehl-uname"><code>uname</code></a>
+<a href="./cli-befehl-uncompress"><code>uncompress</code></a>
+<a href="./cli-befehl-uniq"><code>uniq</code></a><br>
+<a href="./cli-befehl-unzip"><code>unzip</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="v">V</h3>
+<p><a href="./cli-befehl-vim"><code>vim</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="w">W</h3>
+<p><a href="./cli-befehl-wc"><code>wc</code></a>
+<a href="./cli-befehl-wget"><code>wget</code></a>
+<a href="./cli-befehl-whatis"><code>whatis</code></a>
+<a href="./cli-befehl-which"><code>which</code></a>
+<a href="./cli-befehl-whoami"><code>whoami</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="x">X</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="y">Y</h3>
+<p><a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="z">Z</h3>
+<p><a href="./cli-befehl-zcat"><code>zcat</code></a>
+<a href="./cli-befehl-zip"><code>zip</code></a>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+<h3 id="sonderzeichen">Sonderzeichen</h3>
+<p><a href="./cli-befehl-run_program"><code>./</code></a>
+<a href="./cli-befehl-run_last_command"><code>!!</code></a><br>
+<a href=""></a> <a href=""></a> <a href=""></a> <a href=""></a></p>
+
+            
+            
+            
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>
+
+
+      
+      
+      
+
+    </main>
+
+    
+    <footer>
+      
+
+
+
+    <div>
+
+
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pt-1 pb-1">
+    
+    <div class="row">
+        <div class="col">
+            
+            <span class="text-primary fs-6">
+
+                
+                <div class="d-flex justify-content-between">
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/copyright.html>&copy;2023 by volker</a>
+                    </div>
+
+                    
+                    <div class="col-example"></div>
+
+                    
+                    <div class="col-example">
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/about.html>über</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/contact.html>kontakt</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/site/impressum.html>impressum</a>
+                        <a style="text-decoration: none" href=https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin.html>admin</a>
+                    </div>
+
+                </div>
+
+            </span>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </footer>
+
+    
+
+  </body>
+
+</html>
+

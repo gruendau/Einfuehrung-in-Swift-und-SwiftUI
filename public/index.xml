@@ -106,7 +106,7 @@ GitHub Pages with Jekyll: Build a Data Science Portfolio with Jekyll &amp;amp; G
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/online-compiler/intro.html</guid>
       <description>Swift on-line Swift on-line Compiler Mit online-Compilern REPL-CLI-Shells kann man in Swift geschriebene Programme im Browser laufen lassen. Vom CLI werden nur Terminal-Ausgaben unterstützt. GUI-Schnittstellen wie UIKit oder SwiftUI werden nicht unterstützt.
 REPL: &amp;lsquo;Read-Eval-Print-Loop&amp;rsquo;
-Swift on-line Compiler Anmerkungen JDoodle Programiz onlineDGB SwiftFiddle replit Swift Playground myCompiler OneCompiler CodeSpeedy ToolFK Techie Delight sololearn </description>
+Swift on-line Compiler Anmerkungen JDoodle Programiz onlineDGB SwiftFiddle replit Swift Playground myCompiler OneCompiler CodeSpeedy ToolFK Techie Delight sololearn Links 6 guter Online-Python-Compiler zum Ausführen von Code im Browser Geekflare, 2023 </description>
     </item>
     
     <item>
@@ -325,6 +325,19 @@ var v1: String = &amp;#34;volker&amp;#34; var v2 = &amp;#34;volker&amp;#34; // B
     </item>
     
     <item>
+      <title>Widmung</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</guid>
+      <description>Diese Einführung in Swift und SwiftUI
+ist meiner liebsten Tante Hanna gewidmet,
+die kurz nach ihrem 86. Geburtstag im April 2023
+bei guter Gesundheit viel zu früh verstorben ist.
+Einbindung von Bildern in Hugo – Infos und eigener Render Hook Andreas Mandalka</description>
+    </item>
+    
+    <item>
       <title>Wörterbücher</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -354,6 +367,29 @@ let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // st
     </item>
     
     <item>
+      <title>Admin Template</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template.html</guid>
+      <description>home seiten a-z &amp;lt;-- hoch --&amp;gt; runter home/admin/template
+Ansicht des Templates: home seiten a-z &amp;lt;-- hoch --&amp;gt; runter home/xxx
+TITLE Text &amp;hellip;
+Links: home seiten a-z &amp;lt;-- hoch --&amp;gt; rauf
+Code des Templates: &amp;lt;!-- Navigation top --&amp;gt; [__`home`__][home] [__`seiten`__][seiten] [__`a-z`__][content] [__`&amp;lt;--`__][left] [__`hoch`__][up] [__`--&amp;gt;`__][right] [__`runter`__][bottom] _`home/xxx`_ &amp;lt;!-- Navigation links --&amp;gt; [home]: ./home &amp;#34;home&amp;#34; [seiten]: ./home-pages &amp;#34;home-pages&amp;#34; [content]: ./home-az &amp;#34;home-az&amp;#34; [left]: ./xxx &amp;#34;&amp;#34; [up]: ./home &amp;#34;&amp;#34; [right]: ./xxx &amp;#34;&amp;#34; [top]: # [bottom]: #links &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>Admin Template AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/admin-template-az.html</guid>
+      <description>Ansicht des Templates a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Sonderzeichen Code des Templates [`a`](#a) [`b`](#b) [`c`](#c) [`d`](#d) [`e`](#e) [`f`](#f) [`g`](#g) [`h`](#h) [`i`](#i) [`j`](#j) [`k`](#k) [`l`](#l) [`m`](#m) [`n`](#n) [`o`](#o) [`p`](#p) [`q`](#q) [`r`](#r) [`s`](#s) [`t`](#t) [`u`](#u) [`v`](#v) [`w`](#w) [`x`](#x) [`y`](#y) [`z`](#z) [`Sonderzeichen`](#Sonderzeichen) ### A []() []() []() []() []() []() ### B []() []() []() []() []() []() ### C []() []() []() []() []() []() ### D []() []() []() []() []() []() ### E []() []() []() []() []() []() ### F []() []() []() []() []() []() ### G []() []() []() []() []() []() ### H []() []() []() []() []() []() ### I []() []() []() []() []() []() ### J []() []() []() []() []() []() ### K []() []() []() []() []() []() ### L []() []() []() []() []() []() ### M []() []() []() []() []() []() ### N []() []() []() []() []() []() ### O []() []() []() []() []() []() ### P []() []() []() []() []() []() ### Q []() []() []() []() []() []() ### R []() []() []() []() []() []() ### S []() []() []() []() []() []() ### T []() []() []() []() []() []() ### U []() []() []() []() []() []() ### V []() []() []() []() []() []() ### W []() []() []() []() []() []() ### X []() []() []() []() []() []() ### Y []() []() []() []() []() []() ### Z []() []() []() []() []() []() ### Sonderzeichen []() []() []() []() []() []() </description>
+    </item>
+    
+    <item>
       <title>Benutzerdefinierter Modifikator</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/kits/swiftui/modifiers/custom-modifiers.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -376,6 +412,17 @@ Links: modifier(_:) von Apple ViewModifier von Apple Declaring a custom view von
 Links: wiki von wiki
 home von homebrew github von homebrew
 compiling openssl_missing.c compiling ossl.c In file included from ossl.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.1.1_1/include/openssl/ts.h:426:11: note: previous definition is here # define TS_VERIFY_CTS_set_certs(ctx, cert) TS_VERIFY_CTX_set_certs(ctx,cert) ^ 1 warning generated. compiling ossl_asn1.c In file included from ossl_asn1.c:10: In file included from ./ossl.h:177: ./openssl_missing.h:195:11: warning: &amp;#39;TS_VERIFY_CTS_set_certs&amp;#39; macro redefined [-Wmacro-redefined] # define TS_VERIFY_CTS_set_certs(ctx, crts) ((ctx)-&amp;gt;certs=(crts)) ^ /usr/local/Cellar/openssl@3/3.</description>
+    </item>
+    
+    <item>
+      <title>CLI Befehle AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/cli-commands-az.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/cli-commands-az.html</guid>
+      <description>Inhalt CLI-Befehle A-Z a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A alias apt awk B bc brew bunzip2 bzip2 bzip2recover C cat cd chflags chgrp chmod chown compress cp
+D diskutil E echo exit expect expr F false find fsck fsck_msdos fsck_hfs funzip G GetFileInfo grep gunzip gzcat gzip H hdiutil head history htop</description>
     </item>
     
     <item>
@@ -410,6 +457,66 @@ https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-ma
     </item>
     
     <item>
+      <title>Home</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home.html</guid>
+      <description>home seiten a-z &amp;lt;-- hoch --&amp;gt; runter home
+Einführung in Swift und SwiftUI Einführung in die 2014 vorgestellte Programmiersprache Swift, die inzwischen Objective-C bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI SwiftUI, das bei Apple das etablierte GUI UIKit ergänzt und ablöst.
+${\color{white} Die \ Seiten \ werden \ seit \ Juni \ 2023 \ aufgebaut.}$
+seiten a-z struktur links
+Swift swift
+a-z einführung schlüsselwörter links online-compiler SwiftUI swiftui</description>
+    </item>
+    
+    <item>
+      <title>Home AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-az.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-az.html</guid>
+      <description>Inhalt A&amp;hellip;Z a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A Swift: any Any Array as associatedtype associativity SwiftUI: B Swift: break body Bool SwiftUI: C Swift: case catch class Constant Constructor continue convenience SwiftUI: D Swift: default defer deinit Dictionary didSet do dynamic SwiftUI: E Swift: enum else extension SwiftUI: F Swift: fallthrough false File fileprivate final for SwiftUI: G Swift: Generic get guard SwiftUI: H Swift: SwiftUI: I Swift: if import in indirect infix init Initializer inout Instance Int internal is SwiftUI: J Swift: SwiftUI: K Swift: Keyboard Keyword SwiftUI: L Swift: lazy left let SwiftUI: M Swift: Methode Modul mutating SwiftUI: N Swift: nil none nonmutating SwiftUI: O Swift: Object open Optional Opaque type operator optional override SwiftUI: P Swift: Package postfix precedence prefix Property Protocol private public SwiftUI: Q Swift: SwiftUI: R Swift: repeat required rethrows return right SwiftUI: S Swift: self Self set Set some static String struct subscript super Swift SwiftUI switch SwiftUI: T Swift: throw throws true try Type typealias SwiftUI: U Swift: unowned SwiftUI: V Swift: var SwiftUI: W Swift: weak where while willSet SwiftUI: X Swift: XCode SwiftUI: Y Swift: SwiftUI: Z Swift: SwiftUI: Sonderzeichen Swift: - !</description>
+    </item>
+    
+    <item>
+      <title>Home Pages</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-pages.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-pages.html</guid>
+      <description>Auflistung aller Seiten Nachfolgend sind die Seiten thematisch aufgeführt.
+Swift und SwiftUI einführung in swift und swiftui swift swiftui
+Links links linksammlung links roh Swift/SwiftUI: apple german english stanford CLI: cli XCode: xcode GitHub: github
+Übersichten seiten a-z struktur links
+Werkzeuge werkzeuge xcode online-compiler github
+Programmiersprachen swift objective_c ${\color{red} leer }$ cli python javascript ${\color{red} leer }$ ruby ${\color{red} leer }$ html ${\color{red} leer }$
+Allgemein allgemein admin
+[rauf][top] [runter][bottom]</description>
+    </item>
+    
+    <item>
+      <title>Home Struktur</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-structure.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-structure.html</guid>
+      <description>Aufbau der Seiten Die nachfolgende Tabelle verdeutlich den strukturellen Aufbau der Einführung in Swift und SwiftUI mit Hilfe von sieben Ebenen.
+Aufbau der Einführung:
+Ebene 0 Ebene 1 Ebene 2 Ebene 3 Ebene 4 Ebene 5 Ebene 6 home a-z seiten struktur allgemein links linksammlung links roh wörterbuch info literatur tastatur seitenaufbau admin template template key template cli template az sprachen swift a-z einführung schlüsselwörter any as links apple german english stanford terminal kits swiftui a-z ansichten text button list slider hstack vstack zstack group modifizierer custom modifiers uikit ${\color{red} leer }$ mapkit ${\color{red} leer }$ objective c ${\color{red} leer }$ cli a-z befehle ls python links javascript ${\color{red} leer }$ links ${\color{red} leer }$ ruby ${\color{red} leer }$ links ${\color{red} leer }$ html ${\color{red} leer }$ links ${\color{red} leer }$ werkzeuge xcode online-compiler github |||| ``</description>
+    </item>
+    
+    <item>
+      <title>Home wiki</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-wiki.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/home-wiki.html</guid>
+      <description>Allgemein Link Beschreibung info Informationen über Einführung in Swift und SwiftUI seitenaufbau wörterbuch links literatur und videos cli github macbook tastatur admin </description>
+    </item>
+    
+    <item>
       <title>Links in englischer Sprache</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/english.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -429,6 +536,56 @@ Name Autor Links Anmerkung Advanced Swift Robert Pieta home github twitter Alexa
 ls [OPTIONS] [FILES] &amp;gt; ls Desktop Documents ... Options -l Lange Liste &amp;lt;long listing format&amp;gt;
 &amp;gt; ls -l total 0 drwx------@ 16 test staff 512 23 Jun 19:31 Desktop drwx------@ 11 test staff 352 17 Jun 10:39 Documents ... -a Versteckte Dateien anzeigen
 &amp;gt; ls -la total 272 drwxr-xr-x+ 37 test staff 1184 25 Jun 16:39 . drwxr-xr-x 5 root admin 160 3 Mai 09:53 .</description>
+    </item>
+    
+    <item>
+      <title>Read Me</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/readme_.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/readme_.html</guid>
+      <description>Einführung in Swift und SwiftUI Einführung in die 2014 vorgestellte Programmiersprache Swift, die inzwischen Objective-C bei Apple 🍎 als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI SwiftUI, das bei Apple das etablierte GUI UIKit ergänzt und ablöst.
+Viel Freude beim Lesen 🥰!
+los geht&#39;s
+Einführung in Swift und SwiftUI - ©2023 by volker</description>
+    </item>
+    
+    <item>
+      <title>Swift AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-az.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-az.html</guid>
+      <description>Swift A-Z a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A Any * any Arrays as associatedtype associativity B break body * Bool * C case catch class Constant Collection Constructor * continue convenience D default defer deinit Dictionary didSet do dynamic E enum else extension F fallthrough false File * fileprivate final for G Generics * get guard H I if import in indirect infix init Initializer * inout Instance * Int * internal is J K keyword Klasse Kollektion Konstante</description>
+    </item>
+    
+    <item>
+      <title>Swift Einführung AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-intro.html</guid>
+      <description>Einführung A-Z a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A Ablaufkontrolle
+Arrays B Basis Typen C Closures D Dictionaries E Eigenschaften Enumerationen F Funktionen G H I Indexierung J K Klassen Kollektionen Konstanten L M Methoden N O Opaque Typen Optionale Typen P Protokolle Q R S Sets Strukturen T Typen U V Variablen W X Y Z Zeichen Zeichenketten Zugriffsmodifizierer </description>
+    </item>
+    
+    <item>
+      <title>Swift Schüsselwörter AZ</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-keywords.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/swift-keywords.html</guid>
+      <description>Swift Schlüsselwörter A-Z a b c d e f g h i j k l m n o p q r s t u v w x y z Sonderzeichen
+A any as associatedtype associativity
+B break
+C case catch class continue convenience
+D default defer deinit didSet do dynamic
+E enum else extension
+F fallthrough false fileprivate final for
+G get guard
+H I if import in indirect infix init inout internal is</description>
     </item>
     
     <item>
@@ -468,6 +625,16 @@ ist eine statische Webseite die mit Hugo generiert wurde.</description>
     </item>
     
     <item>
+      <title>Wiki Info</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/wiki-info.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/residue/old-intro-swift-swiftui/wiki-info.html</guid>
+      <description>Informationen über Einführung Text Die Einführung in Swift und SwiftUI
+ist in deutscher Sprache geschrieben. die Code-Bespiele sind im Repository aufgeführt. verwendet folgende Hervorhebungen. Hervorhebung Beschreibung Link Links im Text sind in blauer Schrift dargestellt. Link Links außerhalb der Texte sind hervorgehoben in blauer Schrift dargestellt. home Links für die Navigation sind hervorgehoben, fett und in blauer Schrift dargestellt. class Begriffe der Programmiersprache sind im Text hervorgehoben dargestellt. &amp;lt;english&amp;gt; Englische Begriffe sind kursiv in spitzen Klammern angegeben.</description>
+    </item>
+    
+    <item>
       <title>Wörterbuch</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/dictionary/dictionary.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -477,6 +644,15 @@ ist eine statische Webseite die mit Hugo generiert wurde.</description>
 Englisch &amp;ndash;&amp;gt; Deutsch Google Translate LEO
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 Englisch Deutsch access Zugang default voreingestellt execute ausführen file Datei get bekommen key Schlüssel load laden modifier Modifikator overwrite überschreiben parameter Parameter print ausdrucken repository Lager set festlegen value Wert Deutsch &amp;ndash;&amp;gt; Englisch Google Translate LEO</description>
+    </item>
+    
+    <item>
+      <title>YAML</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/frameworks/yaml/intro.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/frameworks/yaml/intro.html</guid>
+      <description>Links YAML wiki YAML yaml.org Einführung in YAML für Anfänger Geekflare, 2021 </description>
     </item>
     
     <item>
@@ -594,18 +770,6 @@ Schlüsselwörter für Deklarationen Schlüsselwort Anmerkung associatedtype Ein
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/xcode.html</guid>
       <description>Text &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/misc/dediction.html</guid>
-      <description>Diese Einführung in Swift und SwiftUI
-ist meiner liebsten Tante Hanna gewidmet,
-die kurz nach ihrem 86. Geburtstag im April 2023
-bei guter Gesundheit viel zu früh verstorben ist.</description>
     </item>
     
   </channel>
