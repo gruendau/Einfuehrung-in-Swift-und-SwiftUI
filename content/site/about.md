@@ -60,7 +60,10 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 
 <br>
 
+<!--
 ###### Links
+-->
+
 <!--
 | Thema | Link | Anmerkung |
 | --- | --- | --- |
@@ -73,11 +76,13 @@ Ich bin Volker, wohne in Niedergründau im schönen Hessen und programmiere einw
 <br>
 -->
 
+<!--
 * Hugo: [home][l1] [doku][d1] [wiki][w1]
 * Bootstrap 5: [home][l7] [doku][d7] [wiki][w7]
 * GitHub-Pages: [home][l2] [doku][d2] [wiki][w2]
 * GitHub: [home][l3] [doku][d3] [wiki][w3]
 * Git: [home][l4] [doku][d4] [wiki][w4]
+-->
 
 <br>
 

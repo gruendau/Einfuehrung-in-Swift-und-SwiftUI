@@ -22,21 +22,26 @@
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/javascript.html</guid>
-      <description>Links https://freefrontend.com/html-menu-with-javascript/
+      <description>Links https://molily.de/js/
+Corona Simulation: https://tquev.github.io/covid-19/
+Khan Academy: https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse
+Javascript Doku: https://devdocs.io/javascript/
+Daniel Shiffman (The Coding Train): https://www.youtube.com/user/shiffman
+19 Prototypes: https://www.youtube.com/watch?v=hS_WqkyUah8
+20 Inheritance of Prototypes: https://www.youtube.com/watch?v=CpmE5twq1h0
+Tony Alicea: Inside javascript: https://www.youtube.com/watch?v=Bv_5Zv5c-Ts
+Curser http://www.javascripter.net/faq/stylesc.htm
+https://freefrontend.com/html-menu-with-javascript/
 p5js https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames
 https://www.p5js.gym-wst.de/de/p5jsplay
 https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek
 https://happycoding.io/
 https://p5js.org/
 https://p5js.org/examples/
-Videos https://www.youtube.com/@StevesMakerspace https://www.youtube.com/watch?v=ig0q6vfpD38
+ml5js Friendly machine learning for the web! https://ml5js.org/ https://github.com/ml5js/ml5-library https://www.npmjs.com/package/ml5 https://ml5js.medium.com/ https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76 Video: https://en.www.wikipedia.org/wiki/Daniel_Shiffman https://www.youtube.com/watch?v=jmznx0Q1fP0 https://www.youtube.com/watch?v=MfvnRFANUGE https://ml5js.org/ Sensor Flow for Javascript: https://www.tensorflow.org/js Videos https://www.youtube.com/@StevesMakerspace https://www.youtube.com/watch?v=ig0q6vfpD38
 https://github.com/StevesMakerspace
 mouseX, mouseY https://m.youtube.com/watch?v=7A5tKW9HGoM
-Web Editor https://p5js.net/
-Processing http://dada.compart-bremen.de/
-py-Examples https://github.com/jdf/processing.py/tree/master/examples.py
-https://github.com/villares/py.processing-play?files=1
-https://gist.github.com/marcedwards/</description>
+Web Editor https://p5js.</description>
     </item>
     
   </channel>

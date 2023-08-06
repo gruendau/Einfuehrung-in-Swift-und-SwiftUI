@@ -55,5 +55,14 @@ Layout Letztes Update-Datum der Seite anzeigen. Fixed Header and Footer. 2023-07
 // Allgemein class EineKlasse { // Definition des Inhalts der Klasse } // Beispiel class Person { // Property var name: String = &amp;#34;volker&amp;#34; // Methode func gruesse () -&amp;gt; String { return &amp;#34;Hallo &amp;#34; + name } } &amp;hellip; und hier geht der Text irgendwie weiter!</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-hide-arrow.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/admin/test-hide-arrow.html</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

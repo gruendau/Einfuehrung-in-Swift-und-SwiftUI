@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+ <style>
+
+.hide-details-marker
+details > summary::-webkit-details-marker,
+details > summary::marker {
+  display: none;
+}
+
+/* none vs. initial */
+  
+</style> 
+
+
+</head>
+<body>
+  <div class="hide-details-marker">
+  <details>
+    <summary >Click to Toggle Details</summary>
+    <p>Content inside the details element.</p>
+  </details>
+  </div>
+
+  <details>
+    <summary >Click to Toggle Details</summary>
+    <p>Content inside the details element.</p>
+  </details>
+  
+</body>
+</html>
+
+
+
+

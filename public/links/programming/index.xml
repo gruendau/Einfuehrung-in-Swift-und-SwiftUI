@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programmierung Links on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming.html</link>
+    <description>Recent content in Programmierung Links on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Funktionale Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/functional.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/functional.html</guid>
+      <description>Links Introduction to Functional Programming using Swift Saravanan V Functional Programming in Swift: An Introduction Tim Beals Beginners guide to functional Swift Tibor Bödecs Functional Programming in Swift - Beginner&amp;rsquo;s Guide | Swift 5 | 2021 Aryaman Sharda Functional Swift ojbc Functional Programming in Swift: an Unusual yet Powerful Paradigm Matteo Manferdini Introduction to Functional Programming in Swift Kodeco Videos </description>
+    </item>
+    
+    <item>
+      <title>Objekt orientierte Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/object-orientated.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/object-orientated.html</guid>
+      <description>Links Videos </description>
+    </item>
+    
+    <item>
+      <title>Protokoll orientierte Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/protokoll-orientated.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/protokoll-orientated.html</guid>
+      <description>Links https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/protocol_oriented_generics.ipynb#scrollTo=c_1u7JSBMx3x https://www.toptal.com/swift/introduction-protocol-oriented-programming-swift https://www.appcoda.com/protocol-oriented-programming/ https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming https://blog.devgenius.io/pop-or-protocol-oriented-programming-swift-3d90e006d0b3 https://devstreaming-cdn.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf Videos </description>
+    </item>
+    
+  </channel>
+</rss>

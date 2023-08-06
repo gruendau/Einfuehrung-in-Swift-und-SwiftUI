@@ -1,0 +1,16 @@
+<!-- partial details-marker-onoff.html -->
+
+{{ if eq .Kind "page" }}
+<div class="hide-details-marker">
+    <details style="list-style: none;">
+        <summary class="hide-arrow">
+            {{ partial "list/bold-normal" . }}
+             </summary>
+{{ else }}
+<div>
+    <details style="list-style: none;">
+        <summary class="hide-arrow">
+            {{ partial "list/bold-normal" . }}
+        </summary>
+{{ end }}   
+

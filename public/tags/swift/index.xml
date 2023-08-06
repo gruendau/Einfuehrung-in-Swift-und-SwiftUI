@@ -23,7 +23,7 @@ enum Namen { case volker case nils } </description>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</guid>
-      <description>Inhalt:</description>
+      <description>Inhalt </description>
     </item>
     
     <item>
@@ -107,6 +107,15 @@ let set: Set = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Set&
     </item>
     
     <item>
+      <title>Swift</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift.html</guid>
+      <description>Inhalt </description>
+    </item>
+    
+    <item>
       <title>Swift Anordnungen</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/arrays.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -126,6 +135,15 @@ let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&a
     </item>
     
     <item>
+      <title>Swift Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift.html</guid>
+      <description>Links Any AnyObject, Any, and any: When to use which? Antoine van der Lee, 2022 Existential any in Swift explained with code examples Antoine van der Lee, 2022 As, as!, as?, is as, as?, and as! Ole Begemann, 2020 CaseIterable###### Enumerating enum cases in Swift Ole Begemann, 2020 Closures Don&amp;rsquo;t use escaping closures in SwiftUI Rens Breur, 2022 Closures escaping, nonescaping, autoclosure https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/ https://code-examples.net/de/q/2540fcb https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d https://www.codingem.com/escaping-in-swift/ Computed Property What is a Computed Property in Swift?</description>
+    </item>
+    
+    <item>
       <title>Swift Lint</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -133,6 +151,16 @@ let array = [&amp;#34;volker&amp;#34;, &amp;#34;nils&amp;#34;] // struct Array&a
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/lint.html</guid>
       <description>Text &amp;hellip;
 Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
+    </item>
+    
+    <item>
+      <title>SWift Lint Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</guid>
+      <description>Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint Realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 swiftlint fastlane docs
+SwiftLint Integration in Xcode and GitLab CI Amisha I., 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 How to clean up your code formatting with SwiftLint Paul Hudson, 2018 Linting vs Formatting: A Swift Guide — Part 1 Jason Zurita, 2021 Linting vs Formatting: A Swift Guide — Part 2 Jason Zurita, 2021 Missing Guide on Swift Code Style Vadim Bulavin, 2019 Apply Swift Style and Conventions with SwiftLint Batuhan Gobekli, 2021 Swift Code Formatters mattt, 2019 Videos </description>
     </item>
     
     <item>
@@ -194,6 +222,15 @@ var v1: String = &amp;#34;volker&amp;#34; var v2 = &amp;#34;volker&amp;#34; // B
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/intro/dictionaries.html</guid>
       <description>Ein Wörterbuch &amp;lt;dictionary&amp;gt; ist eine Liste von ungeordneten Schlüssel/Wert &amp;lt;key/value&amp;gt; Paaren. Für die Deklarierung wird das Schlüsselwort dictionary genutzt.
 let wörterbuch = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;] // struct Dictionary&amp;lt;Key : Hashable, Value&amp;gt; // Definition @frozen struct Dictionary&amp;lt;Key, Value&amp;gt; where Key : Hashable var PersonenDictionary = [1: &amp;#34;volker&amp;#34;, 2: &amp;#34;nils&amp;#34;, 7: &amp;#34;martin&amp;#34;, 5: &amp;#34;Michael&amp;#34;] for (key, value) in PersonenDictionary { print(String(key) + value) } Links: buch Hashable</description>
+    </item>
+    
+    <item>
+      <title>Xxx</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</guid>
+      <description></description>
     </item>
     
     <item>

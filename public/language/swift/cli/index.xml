@@ -17,5 +17,14 @@
 weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive general-purpose programming language SYNOPSIS To invoke the Swift REPL (Read-Eval-Print-Loop): swift To execute a Swift program: swift program.swift &amp;lt;arguments&amp;gt; To work with the Swift Package Manager: swift build|package|run|test [options] &amp;lt;inputs&amp;gt; To invoke the Swift compiler: swiftc [options] &amp;lt;inputs&amp;gt; A list of supported options is available through the &amp;#34;-help&amp;#34; option: swift -help swift build -help swiftc -help DESCRIPTION Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</description>
     </item>
     
+    <item>
+      <title>Xxx</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

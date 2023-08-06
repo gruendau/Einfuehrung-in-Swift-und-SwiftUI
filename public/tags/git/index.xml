@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/git.html</link>
+    <description>Recent content in git on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/git.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/git.html</guid>
+      <description>Links Git Tutorial Git Grundlagen - Taggen git Git Basics - Tagging git Git tags GitHub
+git tag - Taggen Atlassian Git Tutorial Lakshay Sharma Github Tags Harish Rajora, 2021 Managing tags in GitHub Desktop GitHub Git-Grundlagen Atlassian Git-Befehle Atlassian Commits und Änderungen rückgängig machen Atlassian Einführung in git für Neueinsteiger Ben-Kaniobi Git Valentin Haenel, Julius Plenz, 2016, S., DE
+Git magic Benjamin Bellee, Armin Stebich, 2007, DE Pro git Videos Lerne GitHub in 30 Minuten Mario Laurich, 2022, 25 min Lerne Git in 30 Minuten Mario Laurich, 2021, 30 min Lerne Git Branch und Merge in 30 Minuten Mario Laurich, 2021, 24 min Lerne Git in der Shell richtig anzuwenden Mario Laurich, 2022, 74 min Git Tutorial - In 40 Minuten Git lernen für Anfänger LerneProgrammieren.</description>
+    </item>
+    
+  </channel>
+</rss>

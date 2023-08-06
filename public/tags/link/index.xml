@@ -8,12 +8,71 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/link/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bootstrap Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/bootstrap.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/bootstrap.html</guid>
+      <description>Links Bootstrap wiki Youtub Icon Bootstrap Video </description>
+    </item>
+    
+    <item>
+      <title>CLI Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/cli.html</guid>
+      <description>Links Shell Shell-Programmierung Jürgen Wolf, 2004, S.782, DE Linux-UNIX-Programmierung Jürgen Wolf, 2006, S.1216, DE Wie werde ich UNIX-Guru? Arnold Willemer, 2003, DE npm Update NPM Packages easily with GUI | Tutorial | Node.js Future Web Design, 2023, 5 min Terminal 10 Tips to Run Swift From Your Terminal Eric Yang, 2020 Running and Compiling Swift Code in Terminal Mahmud Ahsan, 2018 How to create a command line app with Swift Anurag Ajwani, 2020 Scripting and Compiling Swift on the Command Line Jason Blevins, 2017 Terminal Benutzerhandbuch Ausführen von Befehlen und Verwenden von Programmen in Terminal auf dem Mac Apple How To Write macOS Command Line Tools with Swift Tony Smith The Ultimate Guide To Swift Executables Federico Zanetello, 2020 A Look Into ArgumentParser Federico Zanetello, 2020 Command line interface CLI Swift Programming from the Command Line von ed.</description>
+    </item>
+    
+    <item>
+      <title>Django Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/django.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/django.html</guid>
+      <description>Links Django Web Framework (Python): https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django Corey Schafer Django Tutorial - 17 Videos: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p Mike Hibbert Django Tutorials - 34 Videos: https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD Thenewboston Django Tutorials - 40 Videos: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK Videos </description>
+    </item>
+    
+    <item>
       <title>Docker Links</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/docker.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/docker.html</guid>
-      <description>Links https://lerneprogrammieren.de/ueber-uns/</description>
+      <description>Links https://lerneprogrammieren.de/ueber-uns/
+Videos min https://www.youtube.com/watch?v=SOdtw8milyw
+min https://www.youtube.com/watch?v=YFl2mCHdv24
+min https://www.youtube.com/watch?v=DESdVoKhIxY
+min https://www.youtube.com/watch?v=0jC5B9iTF_g
+min https://www.youtube.com/watch?v=3YP0eUHdLc8
+min https://www.youtube.com/watch?v=DESdVoKhIxY
+min https://www.youtube.com/watch?v=WcQ3-M4-jik
+min https://www.youtube.com/watch?v=3c-iBn73dDE
+min https://www.youtube.com/watch?v=bKFMS5C4CG0
+min https://www.youtube.com/watch?v=OU6xOM0SE4o
+min https://www.youtube.com/watch?v=xrUGEoUpa3s
+min https://www.youtube.com/@DockerIo/videos</description>
+    </item>
+    
+    <item>
+      <title>Funktionale Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/functional.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/functional.html</guid>
+      <description>Links Introduction to Functional Programming using Swift Saravanan V Functional Programming in Swift: An Introduction Tim Beals Beginners guide to functional Swift Tibor Bödecs Functional Programming in Swift - Beginner&amp;rsquo;s Guide | Swift 5 | 2021 Aryaman Sharda Functional Swift ojbc Functional Programming in Swift: an Unusual yet Powerful Paradigm Matteo Manferdini Introduction to Functional Programming in Swift Kodeco Videos </description>
+    </item>
+    
+    <item>
+      <title>Git Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/git.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/git.html</guid>
+      <description>Links Git Tutorial Git Grundlagen - Taggen git Git Basics - Tagging git Git tags GitHub
+git tag - Taggen Atlassian Git Tutorial Lakshay Sharma Github Tags Harish Rajora, 2021 Managing tags in GitHub Desktop GitHub Git-Grundlagen Atlassian Git-Befehle Atlassian Commits und Änderungen rückgängig machen Atlassian Einführung in git für Neueinsteiger Ben-Kaniobi Git Valentin Haenel, Julius Plenz, 2016, S., DE
+Git magic Benjamin Bellee, Armin Stebich, 2007, DE Pro git Videos Lerne GitHub in 30 Minuten Mario Laurich, 2022, 25 min Lerne Git in 30 Minuten Mario Laurich, 2021, 30 min Lerne Git Branch und Merge in 30 Minuten Mario Laurich, 2021, 24 min Lerne Git in der Shell richtig anzuwenden Mario Laurich, 2022, 74 min Git Tutorial - In 40 Minuten Git lernen für Anfänger LerneProgrammieren.</description>
     </item>
     
     <item>
@@ -24,7 +83,7 @@
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/github.html</guid>
       <description>Links https://docs.github.com/de
 Verschlüsselung [https://docs.github.com/de](http://&amp;lt;a href=)/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https&amp;quot;&amp;gt;https://docs.github.com/de/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
-GitHub action https://www.youtube.com/@GitHub What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions! Davide Benvegnu, 2019, 15 min Get Started With Github Actions Kahan Data Solutions, 2021, 11 min Schedule Python Scripts with GitHub Actions FOR FREE | Python Automation Patrick Löber, 2022, 13 min </description>
+GitHub action https://www.youtube.com/@GitHub What is GitHub Actions? GitHub, 2022, 1 min GitHub Actions Crash Course Laith Harb, 2022, 43 min GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker Nana Janashia, 2021, 33 min GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) Davide Benvegnu, 2021, 86 min Automate EVERYTHING with GitHub Actions! Davide Benvegnu, 2019, 15 min Get Started With Github Actions Kahan Data Solutions, 2021, 11 min Schedule Python Scripts with GitHub Actions FOR FREE | Python Automation Patrick Löber, 2022, 13 min Github Jekyll Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Site Configuration Dataslice, 2021, 8 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Adding Posts Dataslice, 2021, 11 min Build a Data Science Portfolio with Jekyll &amp;amp; GitHub Pages - Customization Dataslice, 2021, 12 min </description>
     </item>
     
     <item>
@@ -36,7 +95,9 @@ GitHub action https://www.youtube.com/@GitHub What is GitHub Actions? GitHub, 20
       <description>Links https://www.tutorials.de/threads/html-element-in-html-einbinden.175357/
 https://www.html.de/threads/einbinden-einer-html-seite-in-eine-bestehende-html-seite.39128/
 https://www.mediaevent.de/html-object-tag/
-https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe</description>
+https://wiki.selfhtml.org/wiki/HTML/Elemente/iframe
+HTML5-Handbuch Stefan Münz, Color HTML Color Codes Dixon &amp;amp; Moe HTML Color Codes - Tutorials Dixon &amp;amp; Moe Videos 01 02 03
+04 05 06 07</description>
     </item>
     
     <item>
@@ -50,26 +111,40 @@ Links https://www.ii.com/portal/gohugo/ Infinite Ink Syntax highlighting Hugo Ch
     </item>
     
     <item>
+      <title>iOS Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/ios.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/ios.html</guid>
+      <description>Links Apps programmieren für iPhone und iPad Klaus M. Rodewig, Clemens Wagner, 2014, S.1172, DE Videos </description>
+    </item>
+    
+    <item>
       <title>JavaScript Links</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/javascript.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/javascript.html</guid>
-      <description>Links https://freefrontend.com/html-menu-with-javascript/
+      <description>Links https://molily.de/js/
+Corona Simulation: https://tquev.github.io/covid-19/
+Khan Academy: https://www.khanacademy.org/computing/computer-programming/pjs-documentation#docs-mouse
+Javascript Doku: https://devdocs.io/javascript/
+Daniel Shiffman (The Coding Train): https://www.youtube.com/user/shiffman
+19 Prototypes: https://www.youtube.com/watch?v=hS_WqkyUah8
+20 Inheritance of Prototypes: https://www.youtube.com/watch?v=CpmE5twq1h0
+Tony Alicea: Inside javascript: https://www.youtube.com/watch?v=Bv_5Zv5c-Ts
+Curser http://www.javascripter.net/faq/stylesc.htm
+https://freefrontend.com/html-menu-with-javascript/
 p5js https://www.p5js.gym-wst.de/de/p5jsgrundlagen/frames
 https://www.p5js.gym-wst.de/de/p5jsplay
 https://www.codecentric.de/wissens-hub/blog/p5js-zeichnen-mit-der-open-source-javascript-bibliothek
 https://happycoding.io/
 https://p5js.org/
 https://p5js.org/examples/
-Videos https://www.youtube.com/@StevesMakerspace https://www.youtube.com/watch?v=ig0q6vfpD38
+ml5js Friendly machine learning for the web! https://ml5js.org/ https://github.com/ml5js/ml5-library https://www.npmjs.com/package/ml5 https://ml5js.medium.com/ https://medium.com/ml5js/a-new-code-of-conduct-and-license-for-ml5-js-6b0e4c109b76 Video: https://en.www.wikipedia.org/wiki/Daniel_Shiffman https://www.youtube.com/watch?v=jmznx0Q1fP0 https://www.youtube.com/watch?v=MfvnRFANUGE https://ml5js.org/ Sensor Flow for Javascript: https://www.tensorflow.org/js Videos https://www.youtube.com/@StevesMakerspace https://www.youtube.com/watch?v=ig0q6vfpD38
 https://github.com/StevesMakerspace
 mouseX, mouseY https://m.youtube.com/watch?v=7A5tKW9HGoM
-Web Editor https://p5js.net/
-Processing http://dada.compart-bremen.de/
-py-Examples https://github.com/jdf/processing.py/tree/master/examples.py
-https://github.com/villares/py.processing-play?files=1
-https://gist.github.com/marcedwards/</description>
+Web Editor https://p5js.</description>
     </item>
     
     <item>
@@ -78,7 +153,7 @@ https://gist.github.com/marcedwards/</description>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/jekyll.html</guid>
-      <description>Links Jekyll Tutorial: How To Create a Static Website Kinsta, Joel Olawanle, 2023 </description>
+      <description>Links Jekyll Tutorial: How To Create a Static Website Kinsta, Joel Olawanle, 2023 Videos </description>
     </item>
     
     <item>
@@ -114,9 +189,6 @@ Thema Links Anmerkung Apple home github Developer developer Develop developer XC
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/micro-controller.html</guid>
       <description>Links https://coding-for-tomorrow.de/
-Mikrocontroller Mikrocontroller.net: https://www.mikrocontroller.net/articles/Hauptseite
-Gerold Penz: https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
-Stefan Frings: http://www.stefanfrings.de/index.html
 Arduino eHaJo: https://www.youtube.com/watch?v=7IEsUs8QFFo
 Bender: https://www.youtube.com/user/ChristianBender1
 DroneBot Workshop: https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w
@@ -125,15 +197,35 @@ Elegoo Tutorial: https://github.com/rmorenojr/ElegooTutorial
 Arduino Tutorials: https://www.arduino.cc/en/Tutorial/HomePage
 Great Scott: https://www.youtube.com/user/greatscottlab
 AVR AVR Library https://www.nongnu.org/avr-libc/
+Bascom Basic Programmierung von Amtel AVR Microcontollern https://de.www.wikipedia.org/wiki/BASCOM https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
+Espruino http://www.espruino.com/
 ESP32 DroneBot Workshop: https://www.youtube.com/watch?v=xPlN_Tk3VLQ
 Laurent Latorre: http://www.pomad.fr/node/2
+Mikrocontroller Mikrocontroller.net: https://www.mikrocontroller.net/articles/Hauptseite
+Gerold Penz: https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
+Stefan Frings: http://www.stefanfrings.de/index.html
 LED-Matrix by Great Scott: LED-Bar https://www.youtube.com/watch?v=8pFcZ-ijrDY&amp;amp;list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&amp;amp;index=3
 10 x 10 LED-Matrix https://www.youtube.com/watch?v=D_QBlFIQk-o
 Hamburgtech: https://www.youtube.com/user/hamburgtechDE
-Bascom Basic Programmierung von Amtel AVR Microcontollern https://de.www.wikipedia.org/wiki/BASCOM https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
-Espruino http://www.espruino.com/
-https://tessel.io/
-Tessel-pl: https://wiki.tessel.pl/#all-updates</description>
+Raspberry Pi https://archive.org/search.php?query=raspberry+pi&amp;amp;and%5B%5D=mediatype%3A%22texts%22&amp;amp;page=18</description>
+    </item>
+    
+    <item>
+      <title>Netlify Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/netlify.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/netlify.html</guid>
+      <description>Links Netlify CLI - Getting started Netlify Tutorials How to Publish an HTML Website on Netlify or GitHub Pages Vasyl Lagutin, 2021 Videos 15 Netlify Tutorials Netlify Netlify Tutorial - How to build and deploy websites using Netlify Free Code Camp, 2019, 213 min CI/CD CI/CD wiki </description>
+    </item>
+    
+    <item>
+      <title>Objekt orientierte Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/object-orientated.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/object-orientated.html</guid>
+      <description>Links Videos </description>
     </item>
     
     <item>
@@ -148,6 +240,34 @@ https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-
     </item>
     
     <item>
+      <title>Processing Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/processing.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/processing.html</guid>
+      <description>Links Happy Codi: https://happycoding.io/ Programmers, Artists: https://github.com/orgs/processing/people Naoto Hieda: https://naotohieda.com/blog/categories#sketch Ivan Vlahov: https://www.youtube.com/user/ivanvlahov922 https://github.com/ivvlspirit Automation: https://www.youtube.com/channel/UCSXGxfwfqRw0DjTx3HCsoog https://controlc.com/eb66fa52 Codeguppy: https://codeguppy.com/ Processing p5js: https://p5js.org/ p5js Dokumentation: https://p5js.org//reference Hallo p5.js: http://hello.p5js.org/ Introduction: https://medium.com/@mhiratsuka/what-is-p5-js-and-how-to-use-it-b88f9fee0ab2 p5-Sound: https://p5js.org//reference/#/libraries/p5.sound Web-Audio: https://caniuse.com/#feat=audio-api Web-Audio-API: https://www.w3.org/TR/webaudio Github: https://github.com/processing/p5.js-sound ProcessingJS: http://processingjs.org/ Processing.js Dokumentation: https://www.khanacademy.org/computing/computer-programming/pjs-documentation http://processingjs.org//reference Github: https://github.com/processing-js/processing-js/ https://github.com/processing/processing Github wiki: https://github.com/processing/processing/wiki Wiki: https://en.www.wikipedia.org/wiki/Processing_(programming_language) Raspberry Pi https://pi.processing.org/ Processing Pi: https://py.processing.org/ Github Processing.py: https://github.com/jdf/processing.py/wiki https://github.com/jdf/processing-py-site Open Processing: https://www.openprocessing.org/ Fritzing https://fritzing.org/home/ Tessel https://tessel.io/
+Tessel-pl: https://wiki.</description>
+    </item>
+    
+    <item>
+      <title>Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming.html</guid>
+      <description>Inhalt </description>
+    </item>
+    
+    <item>
+      <title>Protokoll orientierte Programmierung Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/protokoll-orientated.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/programming/protokoll-orientated.html</guid>
+      <description>Links https://colab.research.google.com/github/tensorflow/swift/blob/main/docs/site/tutorials/protocol_oriented_generics.ipynb#scrollTo=c_1u7JSBMx3x https://www.toptal.com/swift/introduction-protocol-oriented-programming-swift https://www.appcoda.com/protocol-oriented-programming/ https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming https://blog.devgenius.io/pop-or-protocol-oriented-programming-swift-3d90e006d0b3 https://devstreaming-cdn.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf Videos </description>
+    </item>
+    
+    <item>
       <title>Python Links</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
@@ -155,7 +275,7 @@ https://create.arduino.cc/projecthub/Seafox_C/using-plc-languages-to-control-an-
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/python.html</guid>
       <description>Links https://code.activestate.com/recipes/langs/python/tags/meta:min_python_3/?page=3
 https://planetpython.org/
-https://www.python.org/doc/ </description>
+https://www.python.org/doc/ Indently Patrick Loeber NeuralNine Carberra mCoding, James Murphy Python Simplified, Mariya </description>
     </item>
     
     <item>
@@ -166,6 +286,59 @@ https://www.python.org/doc/ </description>
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/raw.html</guid>
       <description>Wie werde ich iOS Entwickler? &amp;quot;How to become an iOS Developer&amp;quot; by Pedro Rojas, 2021
 iOS Development Toolbox A collaborative list of tools for iOS development iOS Handbook, 2020 Fastlane Tools Getting Started with Fastlane.swift Fastlane docs Kivy Kivy crash course 6: Kivy properties Alexander Taylor, 2014, 10 min Kinsta 25 Python Frameworks to Master in 2023 Kinsta, Daniel Diaz, 2023 How To Craft a Stylish Static Website with Eleventy (11ty) Kinsta, Joel Olawanle, 2023 Was ist die beste Programmiersprache, die man 2021 lernen sollte?</description>
+    </item>
+    
+    <item>
+      <title>Sass Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/sass.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/sass.html</guid>
+      <description>Links Videos min min min </description>
+    </item>
+    
+    <item>
+      <title>Swift Games Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui-games.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui-games.html</guid>
+      <description>Links Snake Build a Snake Game in Swift Using the Declarative Domain Paradigm Manuel Meyer, 2021 How to Create the Snake Game in SwiftUI 2020 A snake game developed in SwiftUI 2022 Snake iOS Example Videos </description>
+    </item>
+    
+    <item>
+      <title>Swift Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift.html</guid>
+      <description>Links Any AnyObject, Any, and any: When to use which? Antoine van der Lee, 2022 Existential any in Swift explained with code examples Antoine van der Lee, 2022 As, as!, as?, is as, as?, and as! Ole Begemann, 2020 CaseIterable###### Enumerating enum cases in Swift Ole Begemann, 2020 Closures Don&amp;rsquo;t use escaping closures in SwiftUI Rens Breur, 2022 Closures escaping, nonescaping, autoclosure https://www.geeksforgeeks.org/escaping-and-non-escaping-closures-in-swift/ https://code-examples.net/de/q/2540fcb https://medium.com/swiftcommmunity/what-do-mean-escaping-and-nonescaping-closures-in-swift-d404d721f39d https://www.codingem.com/escaping-in-swift/ Computed Property What is a Computed Property in Swift?</description>
+    </item>
+    
+    <item>
+      <title>SWift Lint Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</guid>
+      <description>Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint Realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 swiftlint fastlane docs
+SwiftLint Integration in Xcode and GitLab CI Amisha I., 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 How to clean up your code formatting with SwiftLint Paul Hudson, 2018 Linting vs Formatting: A Swift Guide — Part 1 Jason Zurita, 2021 Linting vs Formatting: A Swift Guide — Part 2 Jason Zurita, 2021 Missing Guide on Swift Code Style Vadim Bulavin, 2019 Apply Swift Style and Conventions with SwiftLint Batuhan Gobekli, 2021 Swift Code Formatters mattt, 2019 Videos </description>
+    </item>
+    
+    <item>
+      <title>SwiftUI Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui.html</guid>
+      <description>Links Auto Layout Auto Layout in Swift: Writing constraints programmatically Antoine van der Lee, 2019 Binding .constant(true) How to create constant bindings Paul Hudsin, 2021 How to create custom bindings Paul Hudson, 2021 Two-way bindings in SwiftUI Paul Hudson, 2022 How to animate changes in binding values Paul Hudson, 2022 https://www.ralfebert.de/ios/swiftui-bindings/
+https://www.waldo.com/blog/complete-guide-to-swiftui-binding
+What is the @Binding property wrapper?
+https://www.hackingwithswift.com/quick-start/swiftui/bindings-and-forms
+https://swiftwithmajid.com/2020/04/08/binding-in-swiftui/
+https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22affd9a
+https://www.fivestars.blog/articles/swiftui-patterns-bindings/
+Buttons ActionButton swiftui-library FloatingButton Exyte Button Styles Jay Wilson Custom SwiftUI Buttons Andrew Gholson SwiftUI AsyncButton Lorenzo Fiamingo swiftui-button Mukesh Jain SwiftUI-Button Arjun Patel HapticButton 0x0001 SwiftUI_Buttons Kim Loyd SwiftUI: Button styling Silvia España Gil</description>
     </item>
     
     <item>

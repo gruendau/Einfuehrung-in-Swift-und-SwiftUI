@@ -17,5 +17,15 @@
 Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint realm SwiftLint realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 SwiftLint fastlane docs SwiftLint Integration in Xcode and GitLab CI Amisha I, 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 SwiftLint Now Supports Swift 5.</description>
     </item>
     
+    <item>
+      <title>SWift Lint Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swift-lint.html</guid>
+      <description>Links SwiftLint – Getting Started Adam Rush, 2022 SwiftLint Realm How to use SwiftLint with Xcode to enforce Swift style and conventions? Vineet Choudhary, 2018 SwiftLint iOS Handbook, 2022 How to create a SwiftLint enabled Swift Xcode Project Oscar de la Hera Gomez, 2023 SwiftLint in Depth Kodeco, 2023 swiftlint fastlane docs
+SwiftLint Integration in Xcode and GitLab CI Amisha I., 2022 SwiftLint Makes for Clean Code and Happy Clients Eric Welander, 2022 Add SwiftLint to your Xcode Project or Swift Package as a Plugin iOS Example, 2023 How to clean up your code formatting with SwiftLint Paul Hudson, 2018 Linting vs Formatting: A Swift Guide — Part 1 Jason Zurita, 2021 Linting vs Formatting: A Swift Guide — Part 2 Jason Zurita, 2021 Missing Guide on Swift Code Style Vadim Bulavin, 2019 Apply Swift Style and Conventions with SwiftLint Batuhan Gobekli, 2021 Swift Code Formatters mattt, 2019 Videos </description>
+    </item>
+    
   </channel>
 </rss>

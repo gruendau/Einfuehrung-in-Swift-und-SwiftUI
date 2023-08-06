@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>django on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/django.html</link>
+    <description>Recent content in django on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/django.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/django.html</guid>
+      <description>Links Django Web Framework (Python): https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django Corey Schafer Django Tutorial - 17 Videos: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p Mike Hibbert Django Tutorials - 34 Videos: https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD Thenewboston Django Tutorials - 40 Videos: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK Videos </description>
+    </item>
+    
+  </channel>
+</rss>

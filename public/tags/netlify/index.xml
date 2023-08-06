@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netlify on Einführung in Swift und SwiftUI</title>
+    <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/netlify.html</link>
+    <description>Recent content in netlify on Einführung in Swift und SwiftUI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netlify Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/netlify.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/netlify.html</guid>
+      <description>Links Netlify CLI - Getting started Netlify Tutorials How to Publish an HTML Website on Netlify or GitHub Pages Vasyl Lagutin, 2021 Videos 15 Netlify Tutorials Netlify Netlify Tutorial - How to build and deploy websites using Netlify Free Code Camp, 2019, 213 min CI/CD CI/CD wiki </description>
+    </item>
+    
+  </channel>
+</rss>

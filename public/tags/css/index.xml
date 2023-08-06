@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>Bootstrap Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/bootstrap.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/bootstrap.html</guid>
+      <description>Links Bootstrap wiki Youtub Icon Bootstrap Video </description>
+    </item>
+    
+    <item>
+      <title>CLI Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/cli.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/cli.html</guid>
+      <description>Links Shell Shell-Programmierung Jürgen Wolf, 2004, S.782, DE Linux-UNIX-Programmierung Jürgen Wolf, 2006, S.1216, DE Wie werde ich UNIX-Guru? Arnold Willemer, 2003, DE npm Update NPM Packages easily with GUI | Tutorial | Node.js Future Web Design, 2023, 5 min Terminal 10 Tips to Run Swift From Your Terminal Eric Yang, 2020 Running and Compiling Swift Code in Terminal Mahmud Ahsan, 2018 How to create a command line app with Swift Anurag Ajwani, 2020 Scripting and Compiling Swift on the Command Line Jason Blevins, 2017 Terminal Benutzerhandbuch Ausführen von Befehlen und Verwenden von Programmen in Terminal auf dem Mac Apple How To Write macOS Command Line Tools with Swift Tony Smith The Ultimate Guide To Swift Executables Federico Zanetello, 2020 A Look Into ArgumentParser Federico Zanetello, 2020 Command line interface CLI Swift Programming from the Command Line von ed.</description>
+    </item>
+    
+    <item>
       <title>Einführung</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tools/bootstrap/intro.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>

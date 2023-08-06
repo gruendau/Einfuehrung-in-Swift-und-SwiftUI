@@ -13,7 +13,7 @@
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/cli.html</guid>
-      <description>Inhalt:</description>
+      <description>Inhalt </description>
     </item>
     
     <item>
@@ -52,6 +52,15 @@ weswift(1) Swift Documentation swift(1) NAME swift -- Safe, fast, and expressive
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli.html</guid>
       <description>Inhalt:</description>
+    </item>
+    
+    <item>
+      <title>Xxx</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/language/swift/cli/xxx.html</guid>
+      <description></description>
     </item>
     
     <item>

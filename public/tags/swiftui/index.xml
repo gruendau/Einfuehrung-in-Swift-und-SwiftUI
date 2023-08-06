@@ -8,6 +8,31 @@
     <language>de-DE</language>
     <lastBuildDate>Sat, 22 Jul 2023 20:49:19 +0200</lastBuildDate><atom:link href="https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Swift Games Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui-games.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui-games.html</guid>
+      <description>Links Snake Build a Snake Game in Swift Using the Declarative Domain Paradigm Manuel Meyer, 2021 How to Create the Snake Game in SwiftUI 2020 A snake game developed in SwiftUI 2022 Snake iOS Example Videos </description>
+    </item>
+    
+    <item>
+      <title>SwiftUI Links</title>
+      <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui.html</link>
+      <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>
+      
+      <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/swiftui.html</guid>
+      <description>Links Auto Layout Auto Layout in Swift: Writing constraints programmatically Antoine van der Lee, 2019 Binding .constant(true) How to create constant bindings Paul Hudsin, 2021 How to create custom bindings Paul Hudson, 2021 Two-way bindings in SwiftUI Paul Hudson, 2022 How to animate changes in binding values Paul Hudson, 2022 https://www.ralfebert.de/ios/swiftui-bindings/
+https://www.waldo.com/blog/complete-guide-to-swiftui-binding
+What is the @Binding property wrapper?
+https://www.hackingwithswift.com/quick-start/swiftui/bindings-and-forms
+https://swiftwithmajid.com/2020/04/08/binding-in-swiftui/
+https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22affd9a
+https://www.fivestars.blog/articles/swiftui-patterns-bindings/
+Buttons ActionButton swiftui-library FloatingButton Exyte Button Styles Jay Wilson Custom SwiftUI Buttons Andrew Gholson SwiftUI AsyncButton Lorenzo Fiamingo swiftui-button Mukesh Jain SwiftUI-Button Arjun Patel HapticButton 0x0001 SwiftUI_Buttons Kim Loyd SwiftUI: Button styling Silvia España Gil</description>
+    </item>
+    
+    <item>
       <title>Anwendungen</title>
       <link>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/apps.html</link>
       <pubDate>Sat, 22 Jul 2023 20:49:19 +0200</pubDate>

@@ -4,10 +4,8 @@
 
     <!-- 1. Ebene -->
     {{ range .Pages }}
-    <details>
-        <summary>
-            {{ partial "list/bold-normal" . }}
-        </summary>
+    {{ .Scratch.Set "blanks" "" }}
+    {{ partial "list/details-marker-onoff" . }}
         <!--
         <span class="csKeyDesc">{{ .Params.subtitle }}</span>
         padding-left: 10;
@@ -15,11 +13,8 @@
 
         <!-- 2. Ebene -->
         {{ range .Pages }}
-        <details>
-            <summary>
-                &nbsp;&nbsp;&nbsp;
-                {{ partial "list/bold-normal" . }}
-            </summary>
+        {{ .Scratch.Set "blanks" "\u00a0\u00a0\u00a0" }}
+        {{ partial "list/details-marker-onoff" . }}
             <!--
              &nbsp;
             <span class="csKeyDesc">{{ .Params.subtitle }}</span>
@@ -27,11 +22,8 @@
             
             <!-- 3. Ebene -->
             {{ range .Pages }}
-            <details>
-                <summary>
-                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                    {{ partial "list/bold-normal" . }}
-                </summary>
+            {{ .Scratch.Set "blanks" "\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0" }}
+            {{ partial "list/details-marker-onoff" . }}
                 <!--
                  &nbsp;
                 <span class="csKeyDesc">{{ .Params.subtitle }}</span>
@@ -39,11 +31,8 @@
                 
                 <!-- 5. Ebene -->
                 {{ range .Pages }}
-                <details>
-                    <summary>
-                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                        {{ partial "list/bold-normal" . }}
-                    </summary>
+                {{ .Scratch.Set "blanks" "\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0" }}
+                {{ partial "list/details-marker-onoff" . }}
                     <!--
                      &nbsp;
                     <span class="csKeyDesc">{{ .Params.subtitle }}</span>
@@ -68,9 +57,11 @@
             {{ end }}
 
         </details>
+        </div>
         {{ end }}
         
     </details>
+    </div>
     {{ end }}
 
 </div>

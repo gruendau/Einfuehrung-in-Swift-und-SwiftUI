@@ -1,4 +1,30 @@
+
+/*
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+*/
+
+/* Remove the custom arrow and restore the default disclosure arrow 
+summary::before {
+    content: none;
+  }
+*/ 
+
+ /* Remove the custom arrow and restore the default disclosure arrow 
+summary::-webkit-details-marker,
+summary::before {
+  content: initial;
+}
+*/
+
+/* Custom class to hide the arrow */
+.hide-arrow summary::before {
+    display: none;
+  }
+
+/* Custom class to hide the arrow */
+.show-arrow summary::before {
+    display: initial;
+  }

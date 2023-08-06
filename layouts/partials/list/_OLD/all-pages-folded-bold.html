@@ -1,0 +1,76 @@
+<!-- partial all-pages-folded-bold.html -->
+
+<div class="list">
+
+    <!-- 1. Ebene -->
+    {{ range .Pages }}
+    <details style="list-style: none;">
+        <summary class="hide-arrow">
+            {{ partial "list/bold-normal" . }}
+        </summary>
+        <!--
+        <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+        padding-left: 10;
+        -->
+
+        <!-- 2. Ebene -->
+        {{ range .Pages }}
+        <details>
+            <summary>
+                &nbsp;&nbsp;&nbsp;
+                {{ partial "list/bold-normal" . }}
+            </summary>
+            <!--
+             &nbsp;
+            <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+            -->
+            
+            <!-- 3. Ebene -->
+            {{ range .Pages }}
+            <details>
+                <summary>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    {{ partial "list/bold-normal" . }}
+                </summary>
+                <!--
+                 &nbsp;
+                <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                -->
+                
+                <!-- 5. Ebene -->
+                {{ range .Pages }}
+                <details>
+                    <summary>
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        {{ partial "list/bold-normal" . }}
+                    </summary>
+                    <!--
+                     &nbsp;
+                    <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                    -->
+
+                    <!-- 6. Ebene -->
+                    {{ range .Pages }}
+                    <section class="list-item">
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        {{ partial "list/bold-normal" . }}
+                        &nbsp;
+                        <!--
+                        <span class="csKeyDesc">{{ .Params.subtitle }}</span>
+                        -->
+                    </section> 
+                    {{ end }}
+
+                </details>
+                {{ end }}
+
+            </details>  
+            {{ end }}
+
+        </details>
+        {{ end }}
+        
+    </details>
+    {{ end }}
+
+</div>

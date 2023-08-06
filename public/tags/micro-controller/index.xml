@@ -14,9 +14,6 @@
       
       <guid>https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/links/micro-controller.html</guid>
       <description>Links https://coding-for-tomorrow.de/
-Mikrocontroller Mikrocontroller.net: https://www.mikrocontroller.net/articles/Hauptseite
-Gerold Penz: https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
-Stefan Frings: http://www.stefanfrings.de/index.html
 Arduino eHaJo: https://www.youtube.com/watch?v=7IEsUs8QFFo
 Bender: https://www.youtube.com/user/ChristianBender1
 DroneBot Workshop: https://www.youtube.com/channel/UCzml9bXoEM0itbcE96CB03w
@@ -25,15 +22,17 @@ Elegoo Tutorial: https://github.com/rmorenojr/ElegooTutorial
 Arduino Tutorials: https://www.arduino.cc/en/Tutorial/HomePage
 Great Scott: https://www.youtube.com/user/greatscottlab
 AVR AVR Library https://www.nongnu.org/avr-libc/
+Bascom Basic Programmierung von Amtel AVR Microcontollern https://de.www.wikipedia.org/wiki/BASCOM https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
+Espruino http://www.espruino.com/
 ESP32 DroneBot Workshop: https://www.youtube.com/watch?v=xPlN_Tk3VLQ
 Laurent Latorre: http://www.pomad.fr/node/2
+Mikrocontroller Mikrocontroller.net: https://www.mikrocontroller.net/articles/Hauptseite
+Gerold Penz: https://halvar.at/elektronik/mikrocontroller_wie_anfangen/
+Stefan Frings: http://www.stefanfrings.de/index.html
 LED-Matrix by Great Scott: LED-Bar https://www.youtube.com/watch?v=8pFcZ-ijrDY&amp;amp;list=PLAROrg3NQn7dGvRHDanboi4-mZ0AnUaxj&amp;amp;index=3
 10 x 10 LED-Matrix https://www.youtube.com/watch?v=D_QBlFIQk-o
 Hamburgtech: https://www.youtube.com/user/hamburgtechDE
-Bascom Basic Programmierung von Amtel AVR Microcontollern https://de.www.wikipedia.org/wiki/BASCOM https://halvar.at/elektronik/kleiner_bascom_avr_kurs/
-Espruino http://www.espruino.com/
-https://tessel.io/
-Tessel-pl: https://wiki.tessel.pl/#all-updates</description>
+Raspberry Pi https://archive.org/search.php?query=raspberry+pi&amp;amp;and%5B%5D=mediatype%3A%22texts%22&amp;amp;page=18</description>
     </item>
     
   </channel>
