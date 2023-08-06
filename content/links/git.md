@@ -16,6 +16,11 @@ tags: [link, git]
 [Update NPM Packages easily with GUI | Tutorial | Node.js]() Future Web Design, 2023, 5 min <br>
 
 
+[Git](http://gitbu.ch/pr01.html) Valentin Haenel, Julius Plenz, 2016, S., DE<br>
+[Git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/) Benjamin Bellee, Armin Stebich, 2007, DE <br>
+[Pro git](https://git-scm.com/book/de/v2) <br>
+
+
 ###### Videos
 
 [](https://www.youtube.com/watch?v=N-vFTYEqguU) min <br>

@@ -12,6 +12,10 @@ tags: [link, bootstrap, css]
 
 ##### Links
 
+###### Shell
+[Shell-Programmierung](https://openbook.rheinwerk-verlag.de/shell_programmierung/) Jürgen Wolf, 2004, S.782, DE <br>
+[Linux-UNIX-Programmierung](https://openbook.rheinwerk-verlag.de/linux_unix_programmierung/) Jürgen Wolf, 2006, S.1216, DE <br>
+[Wie werde ich UNIX-Guru?](https://openbook.rheinwerk-verlag.de/unix_guru/) Arnold Willemer, 2003, DE <br>
 
 ##### Videos
 

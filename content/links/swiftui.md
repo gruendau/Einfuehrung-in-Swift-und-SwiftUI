@@ -42,6 +42,33 @@ https://betterprogramming.pub/what-is-binding-in-swiftui-how-to-use-it-206d22aff
 https://www.fivestars.blog/articles/swiftui-patterns-bindings/
 
 
+###### GeometryReader 
+
+https://swiftui-lab.com/geometryreader-to-the-rescue/
+
+https://swiftwithmajid.com/2020/11/04/how-to-use-geometryreader-without-breaking-swiftui-layout/
+
+https://www.hackingwithswift.com/quick-start/swiftui/how-to-provide-relative-sizes-using-geometryreader
+
+https://www.rootstrap.com/blog/how-to-use-geometryreader-in-swiftui
+
+https://daddycoding.com/2020/02/26/swiftui-geometryreader/
+
+https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader
+
+https://medium.com/devtechie/geometryreader-in-swiftui-b888a8ab349f
+
+https://www.swiftanytime.com/blog/geometry-reader-in-swiftui
+
+https://ishtiz.com/swiftui/mastering-geometryreader-in-swiftui
+
+https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-geometryreader
+
+https://www.youtube.com/watch?v=AXGrYI78hIo
+
+
+
+
 
 ##### Videos
 
