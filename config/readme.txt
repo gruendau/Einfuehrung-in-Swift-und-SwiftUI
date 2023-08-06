@@ -1,0 +1,1 @@
+[Compartmentalizing Hugo Settings With a config Directory ](https://www.ii.com/hugo-config-directory/) Infinite Ink
