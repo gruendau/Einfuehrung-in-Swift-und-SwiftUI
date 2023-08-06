@@ -93,45 +93,39 @@ https://www.youtube.com/watch?v=AXGrYI78hIo
 
 
 ###### SwiftUILab
-https://swiftui-lab.com/
+[The SwiftUI Lab](https://swiftui-lab.com/) Javier <br>
 
-https://swiftui-lab.com/swiftui-animations-part1/
-https://swiftui-lab.com/swiftui-animations-part2/
+[01 Advanced SwiftUI Animations – Paths](https://swiftui-lab.com/swiftui-animations-part1/) Javier, 2019 <br>
+[02 Advanced SwiftUI Animations – GeometryEffect](https://swiftui-lab.com/swiftui-animations-part2/) Javier, 2019 <br>
+[03 Advanced SwiftUI Animations – AnimatableModifier](https://swiftui-lab.com/swiftui-animations-part3/) Javier, 2019 <br>
 
-https://swiftui-lab.com/swiftui-animations-part3/
+[Trigonometric Recipes for SwiftUI](https://swiftui-lab.com/trigonometric-recipes-for-swiftui/) Javier, 2019 <br>
+[Dismiss Gesture for SwiftUI Modals](https://swiftui-lab.com/modal-dismiss-gesture/) Javier, 2019 <br>
+[Alignment Guides in SwiftUI](https://swiftui-lab.com/alignment-guides/) Javier, 2019 <br>
+[Advanced SwiftUI Transitions](https://swiftui-lab.com/advanced-transitions/) Javier, 2019 <br>
+[Frame Behaviors with SwiftUI](https://swiftui-lab.com/frame-behaviors/) Javier, 2019 <br>
+[SwiftUI Custom Styling](https://swiftui-lab.com/custom-styling/) Javier, 2019 <br>
+[Safely Updating The View State](https://swiftui-lab.com/state-changes/) Javier, 2019 <br>
+[id(_): Identifying SwiftUI Views](https://swiftui-lab.com/swiftui-id/) Javier, 2019 <br>
+[The Mystery Behind View Equality](https://swiftui-lab.com/equatableview/) Javier, 2019 <br>
+[Drag & Drop with SwiftUI](https://swiftui-lab.com/drag-drop-with-swiftui/) Javier, 2020 <br>
+[The Power of the Hosting+Representable Combo](https://swiftui-lab.com/a-powerful-combo/) Javier, 2020 <br>
+[Working with Focus on SwiftUI Views](https://swiftui-lab.com/working-with-focus-on-swiftui-views/) Javier, 2020 <br>
+[WWDC 2020 Has Come and Gone](https://swiftui-lab.com/wwdc-2020-is-here/) Javier, 2020 <br>
+[Backward Compatibility with SwiftUI](https://swiftui-lab.com/backward-compatibility/) Javier, 2020 <br>
 
-https://swiftui-lab.com/trigonometric-recipes-for-swiftui/
+[01 MatchedGeometryEffect (Hero Animations)](https://swiftui-lab.com/matchedgeometryeffect-part1/) Javier, 2020 <br>
+[02 MatchedGeometryEffect](https://swiftui-lab.com/matchedgeometryeffect-part2/) Javier, 2020 <br>
 
-https://swiftui-lab.com/modal-dismiss-gesture/
+[swiftui-hero-animations](https://github.com/swiftui-lab/swiftui-hero-animations) Javier, 2020 <br>
+[SwiftUI’s Layout Magic](https://swiftui-lab.com/swiftui-layout-magic/) Javier, 2019 <br>
+[GeometryReader to the Rescue](https://swiftui-lab.com/geometryreader-to-the-rescue/) Javier, 2019 <br>
+[View Extensions for Better Code Readability](https://swiftui-lab.com/view-extensions-for-better-code-readability/) Javier, 2019 <br>
+[ScrollView – Pull to Refresh](https://swiftui-lab.com/scrollview-pull-to-refresh/) Javier, 2019 <br>
 
-https://swiftui-lab.com/alignment-guides/
-
-https://swiftui-lab.com/advanced-transitions/
-
-https://swiftui-lab.com/frame-behaviors/
-
-https://swiftui-lab.com/custom-styling/
-
-https://swiftui-lab.com/state-changes/
-https://swiftui-lab.com/swiftui-id/
-https://swiftui-lab.com/equatableview/
-https://swiftui-lab.com/drag-drop-with-swiftui/
-https://swiftui-lab.com/a-powerful-combo/
-https://swiftui-lab.com/working-with-focus-on-swiftui-views/
-https://swiftui-lab.com/wwdc-2020-is-here/
-https://swiftui-lab.com/backward-compatibility/
-https://swiftui-lab.com/matchedgeometryeffect-part1/
-https://github.com/swiftui-lab/swiftui-hero-animations
-https://swiftui-lab.com/swiftui-layout-magic/
-https://swiftui-lab.com/geometryreader-to-the-rescue/
-https://swiftui-lab.com/view-extensions-for-better-code-readability/
-https://swiftui-lab.com/scrollview-pull-to-refresh/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-1/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-2/
-https://swiftui-lab.com/communicating-with-the-view-tree-part-3/
-
-
-
+[01 Inspecting the View Tree – PreferenceKey](https://swiftui-lab.com/communicating-with-the-view-tree-part-1/) Javier, 2019 <br>
+[02 Inspecting the View Tree – AnchorPreferences](https://swiftui-lab.com/communicating-with-the-view-tree-part-2/) Javier, 2019 <br>
+[03 Inspecting the View Tree – Nested Views](https://swiftui-lab.com/communicating-with-the-view-tree-part-3/) Javier, 2019 <br>
 
 
 ##### Videos
