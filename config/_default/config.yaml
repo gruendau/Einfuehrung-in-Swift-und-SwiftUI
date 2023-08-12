@@ -1,12 +1,11 @@
 # config.yaml
 
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
-# baseURL: https://gruendau.github.io/
 languageCode: de-DE
-title: Einführung in Swift und SwiftUI
+#title: Einführung in Swift und SwiftUI
 
 # URL
-# https://privat.albicker.org/blog/2017-02-03-hugo-die-plage-mit-den-urls.html
+# LInk: https://privat.albicker.org/blog/2017-02-03-hugo-die-plage-mit-den-urls.html
 uglyURLs: true        # /admin.html
 relativeURLs: false
 canonifyURLs: false   # /admin/   <-- Hugo default Einstellung
@@ -15,9 +14,10 @@ canonifyURLs: false   # /admin/   <-- Hugo default Einstellung
 # Site Parameter    
 # --------------------------------------- 
 params:
-  # home: einfuehrung-in-swift-und-swiftui/
-  slogan: we love Swift!
-  headerTitle: Einführung in Swift und SwiftUI
+  
+  head:
+    #title: Einführung in Swift und SwiftUI
+    #slogan: we love Swift!
 
   layout:
     fixedHeader: true
@@ -54,7 +54,6 @@ css: ["css/main.css"]
 js: ["js/main.js"]
 
 
-
 # ---------------------------------------
 # Goldmark Markdown
 # ---------------------------------------
@@ -65,6 +64,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
 
 # ---------------------------------------
 # Git

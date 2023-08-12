@@ -57,10 +57,12 @@
 
 <!-- Wird als Seitenname mit Slogan angezeigt -->
 <title>
-  {{- if .IsHome -}}
-  {{- .Site.Title -}}
-  {{- with .Site.Params.slogan }} ... {{ . }}{{ end -}}
-  {{- else -}}
-  {{- .Title }} - {{ .Site.Title -}}
-  {{- end -}}
+  {{ if .IsHome }}
+  {{ with .Site.Params.Head }}
+  {{ .title }}
+    {{ with .slogan }} 
+      ... {{ . }} 
+    {{ end }}
+  {{ end }}
+  {{ end }}
 </title>
