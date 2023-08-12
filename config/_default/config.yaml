@@ -16,8 +16,8 @@ canonifyURLs: false   # /admin/   <-- Hugo default Einstellung
 params:
   
   head:
-    #title: Einführung in Swift und SwiftUI
-    #slogan: we love Swift!
+    title: Einführung in Swift und SwiftUI
+    slogan: we love Swift!
 
   layout:
     fixedHeader: true
