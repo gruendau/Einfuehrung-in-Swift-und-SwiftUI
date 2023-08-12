@@ -1,0 +1,14 @@
+<!-- partial title-and-slogan.html -->
+
+<!-- Used in head.html -->
+
+<title>
+    {{ if .IsHome }}
+    {{ with .Site.Params.Head }}
+    {{ .title }}
+      {{ with .slogan }} 
+        ... {{ . }} 
+      {{ end }}
+    {{ end }}
+    {{ end }}
+  </title>

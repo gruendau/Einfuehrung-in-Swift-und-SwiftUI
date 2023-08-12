@@ -1,0 +1,17 @@
+<!-- partial fixed-footer.html -->
+
+<!-- Used in baseof.html -->
+
+{{ with .Site.Params.Layout }}
+
+    <!-- footer -->
+    {{ if not .fixedFooter }}
+        <main class="mb-0 pb-2">
+    {{ end }}
+
+    <!-- fixed footer -->
+    {{ if .fixedFooter }}
+        <main class="mb-5 pb-2">
+    {{ end }}
+
+{{ end }}

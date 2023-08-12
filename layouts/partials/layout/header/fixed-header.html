@@ -1,0 +1,17 @@
+<!-- partial fixed-header.html -->
+
+<!-- Used in baseof.html -->
+
+{{ with .Site.Params.Layout }}
+
+    <!-- header -->
+    {{ if not .fixedHeader }} 
+        <main class="mt-0 pt-2">
+    {{ end }}
+
+    <!-- fixed header -->
+    {{ if .fixedHeader }} 
+        <main class="mt-5 pt-5" >
+    {{ end }}
+
+{{ end }}

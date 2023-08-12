@@ -19,6 +19,9 @@ params:
     title: Einführung in Swift und SwiftUI
     slogan: we love Swift!
 
+  header:
+    title: Einführung in Swift und SwiftUI
+
   layout:
     fixedHeader: true
     fixedFooter: true
