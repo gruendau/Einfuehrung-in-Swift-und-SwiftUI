@@ -1,11 +1,11 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Sample Workflow for building and deploying a Hugo site to GitHub Pages
+#
+# Source: https://gohugo.io/hosting-and-deployment/hosting-on-github/#procedure
+#
+
 name: Deploy Hugo site to Pages
 
-# on: [push, pull_request, workflow_dispatch]
-
 on:
-#  dynamic:
-  
   # Runs on pushes targeting the default branch
   push:
     branches:
@@ -36,7 +36,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      #HUGO_VERSION: 0.115.1
       HUGO_VERSION: 0.115.4
     steps:
       - name: Install Hugo CLI
@@ -81,3 +80,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+
+
