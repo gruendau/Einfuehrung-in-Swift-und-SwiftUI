@@ -1,0 +1,20 @@
+/* css: header.css */
+
+@import url('css/main.css');
+
+div.csHeader {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+
+  }
+
+/*
+<div class="csBorder">
+<div class="container-fluid rounded bg-warning">
+<div class="px-2 pb-2">
+    <!-- position-sticky -->
+    <div class="row">
+        <div class="col">
+*/
