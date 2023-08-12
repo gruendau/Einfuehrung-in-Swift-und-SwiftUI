@@ -1,4 +1,4 @@
-# hugo.yaml
+# config.yaml
 
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
 # baseURL: https://gruendau.github.io/
