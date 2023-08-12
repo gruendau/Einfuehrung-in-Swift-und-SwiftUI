@@ -19,12 +19,12 @@ params:
   slogan: we love Swift!
   headerTitle: Einführung in Swift und SwiftUI
 
-  switches:
-    # Layout
+  layout:
     fixedHeader: true
     fixedFooter: true
 
-    stickyHeader: false
+    # stickyHeader: true
+  switches:
 
     # Admin
     #   Layout
