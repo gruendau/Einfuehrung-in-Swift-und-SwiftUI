@@ -22,8 +22,6 @@
                 <!-- Title -->
                 {{ .Site.Params.Header.title }}
 
-                <br>
-
                 <!-- Buttons -->
                 <div class="d-flex justify-content-between">
 
@@ -57,10 +55,7 @@
                                zurück
                             </a>
                         {{ else }}
-                            <a class="btn btn-primary btn-sm disabled" 
-                               href="{{ .RelPermalink }}" 
-                               title="{{ .RelPermalink }}"
-                               role="button">
+                            <a class="btn btn-primary btn-sm disabled">
                                zurück   
                             </a>
                         {{ end }}
@@ -75,10 +70,7 @@
                                hoch
                             </a>
                         {{ else }}
-                            <a class="btn btn-primary btn-sm disabled" 
-                               href="{{ .RelPermalink }}" 
-                               title="{{ .RelPermalink }}"
-                               role="button">
+                            <a class="btn btn-primary btn-sm disabled">
                                hoch  
                             </a>
                         {{ end }}
@@ -100,10 +92,7 @@
                                vor   
                             </a>
                         {{ else }}
-                            <a class="btn btn-primary btn-sm disabled"
-                               href="{{ .RelPermalink }}" 
-                               title="{{ .RelPermalink }}"
-                               role="button">
+                            <a class="btn btn-primary btn-sm disabled">
                                vor   
                             </a>
                         {{ end }}
@@ -115,7 +104,6 @@
                         <!--
                         {{ partial "show/wordcount" . }}
                         {{ partial "show/readingtime" . }}
-                        
                         -->
 
                     </div>
