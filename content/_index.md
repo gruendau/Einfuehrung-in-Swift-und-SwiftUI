@@ -12,7 +12,7 @@ subtitle: "Einstiegsseite der Einführung in Swift und SwiftUI"
 
 Einführung in die 2014 vorgestellte Programmiersprache `Swift`, die inzwischen `Objective-C` bei Apple als Hauptprogrammiersprache abgelöst hat und Einführung in das 2019 vorgestellte deklarative GUI `SwiftUI`, das bei Apple das etablierte GUI `UIKit` ergänzt und ablöst. 
 
-Viel Freude beim Lesen!
+Viel Freude beim Lesen!xxx
 
 #### Motivation
 Swift ist eine moderne Programmiersprache die alles kann. SwiftUI ist ein ebenso modernes GUI. Beides wird vor allem für die `iPhone-Programmierung` eingesetzt.
