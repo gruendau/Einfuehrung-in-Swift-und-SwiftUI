@@ -1,4 +1,4 @@
 /node-modules/
-# /public/
+/public/
 /resources/
 .hugo-build-lock
