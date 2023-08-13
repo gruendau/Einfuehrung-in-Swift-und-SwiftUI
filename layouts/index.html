@@ -4,7 +4,7 @@
 
 <!-- Menu -->
 <aside class="menu">
-    {{ partial "menu/menu" }}
+    {{ partial "menu/menu" . }}
 </aside>
 
 <!-- Table of content -->
@@ -24,7 +24,7 @@
             {{ partial "show/layout-index" . }}
 
             <!-- Navigation -->
-            {{ partial "navigation" }}
+            {{ partial "navigation-buttons" }}
 
             <!-- Title, Subtitle -->
             {{ partial "content/title-subtitle" . }}
@@ -35,7 +35,14 @@
             </div>
 
             <!-- Inhaltsverzeichnis -->
+            <h4>Inhalt</h4>
             {{ partial "list/all-pages-folded-marker-bold" . }}
+
+            <br>
+
+            <!-- Menu -->
+            <h4>Menü</h4>
+            {{ partial "menu/menu-section" . }}
 
             <!-- Hugo Variablen anzeigen -->
             {{ if .Site.Params.showHugoVariablesAll }}

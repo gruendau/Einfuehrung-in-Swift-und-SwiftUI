@@ -1,28 +1,10 @@
-<!-- menu -->
+<!-- layout/partials: menu -->
 
-<div class="container-fluid">
-    <div class="px-2 pt-2">
-        <div class="row">
-            <div class="col">
 
-                <span class="h3">
-                    Menü
-                    
-                </span>
+<dev>
 
-                <!-- Inhaltsverzeichnis -->
-                <p>
-                {{ .content }}
-                {{ partial "list/menu-test" . }}
-                </p>
+    <h3>Menü</h3>
 
-                <p>
-                {{ .content }}
-                {{ partial "list/all-pages-folded-marker-bold" . }}
-                </p>
+    {{ partial "menu/menu-section" . }}
 
-            </div>
-        </div>
-
-    </div>
-</div>
+</dev>

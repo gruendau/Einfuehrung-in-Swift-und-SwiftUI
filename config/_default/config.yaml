@@ -1,5 +1,8 @@
 # config.yaml
 
+# Navigation / Menu
+sectionPagesMenu: main
+
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
 languageCode: de-DE
 #title: Einführung in Swift und SwiftUI
@@ -9,6 +12,8 @@ languageCode: de-DE
 uglyURLs: true        # /admin.html
 relativeURLs: false
 canonifyURLs: false   # /admin/   <-- Hugo default Einstellung
+
+
 
 # ---------------------------------------
 # Site Parameter    
