@@ -1,18 +1,23 @@
-<!-- toc -->
+<!-- layout/partials: toc -->
 
+<aside class="toc">
 
-<div class="container-fluid">
-    <div class="px-2 pt-2">
-
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
 
-                <span class="h3">
-                    TOC
-                </span>
+                <!-- Title -->
+                <div class="toc toc-title">
+                    {{ partial "toc/title" . }}
+                </div>
+
+                <!-- Menu -->
+                <div class="toc toc-content">
+                    {{ partial "toc/content" . }}
+                </div>
 
             </div>
         </div>
-
     </div>
-</div>
+
+</aside>

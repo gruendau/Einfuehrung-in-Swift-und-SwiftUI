@@ -1,5 +1,8 @@
-/* css: aside.css */
+/* css: menu-and-toc.css */
 
+/*
+aside-Element
+*/
 aside {
     width: 20%;
     padding: 0%;
@@ -16,6 +19,9 @@ aside.toc {
     margin-left: 1%; 
   }
 
+/*
+Menu <MenÜ>
+*/  
 div.menu {
   background-color: #CCCCCC;
   margin-top: 0.6em; 
@@ -27,17 +33,30 @@ div.menu {
   }
 
 div.menu-title {
+  padding-bottom: 0.1em;
   }
 
 div.menu-content {
   margin-bottom: 0.6em;
   }
 
+/*
+Table of Content <Seiteninhalt>
+*/
 div.toc {
-    background-color: #CCCCCC;
-    margin-top: 1%; 
-    margin-bottom: 1%;
-    padding: 1%;
+  background-color: #CCCCCC;
+  margin-top: 0.6em; 
+  margin-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   }
 
+div.toc-title {
+  padding-bottom: 0.1em;
+  }
 
+div.toc-content {
+  margin-bottom: 0.6em;
+  }
