@@ -24,22 +24,8 @@
       <!-- Layout anzeigen -->
       {{ partial "show/layout-base" . }}
 
-      <!-- Menu -->
-      <aside class="left">
-          {{ partial "menu/menu" }}
-          {{ block "menu" . }}{{ end }}
-      </aside>
-
-      <!-- Table of content -->
-      <aside class="right">
-        {{ partial "toc/toc" }}
-      </aside>
-
       <!-- Content -->
-      <div style="margin-left:25%; margin-right:25%;">
-        {{ partial "navigation" }}
-        {{ block "main" . }}{{ end }}
-      </div>
+      {{ block "main" . }}{{ end }}
 
       <!-- Hugo Variablen anzeigen -->
       {{ if .Site.Params.showHugoVariablesAll }}

@@ -12,7 +12,8 @@
 
 <div class="csBorder">
 <div class="container-fluid rounded bg-warning">
-<div class="px-2 pb-2">
+
+<div class="px-2 pv-2">
     
     <div class="row">
         <div class="col">
@@ -33,97 +34,3 @@
 </div>
 
 
-
-<!-- Buttons -->
-<div class="d-flex justify-content-between">
-
-    <!-- links Navigation -->
-    <div class="col-example">
-
-        <!--
-        Link: https://discourse.gohugo.io/t/wrap-around-with-previnsection-nextinsection/25629/5
-        -->
-
-        <!-- Button home -->
-        <a class="btn btn-primary btn-sm" 
-           href="{{ .Site.BaseURL }}" 
-           title="{{ .RelPermalink }}"
-           role="button">
-           home
-        </a>
-
-        <!-- Button zurück -->
-        {{ $next := .NextInSection }}
-        <!--
-        {x{ if not $next }} 
-            {x{ $next = index .CurrentSection.Pages (sub (len .CurrentSection.Pages) 1) }}
-        {x{ end }}
-        -->
-        {{ with $next }}
-            <a class="btn btn-primary btn-sm" 
-               href="{{ .RelPermalink }}" 
-               title="{{ .RelPermalink }}"
-               role="button">
-               zurück
-            </a>
-        {{ else }}
-            <a class="btn btn-primary btn-sm disabled">
-               zurück   
-            </a>
-        {{ end }}
-
-        <!-- Button hoch -->                        
-        {{ $up := .Parent }}
-        {{ with $up }}
-            <a class="btn btn-primary btn-sm" 
-               href="{{ .RelPermalink }}" 
-               title="{{ .RelPermalink }}"
-               role="button">
-               hoch
-            </a>
-        {{ else }}
-            <a class="btn btn-primary btn-sm disabled">
-               hoch  
-            </a>
-        {{ end }}
-
-        
-        <!-- Button vor -->
-        {{ $prev := .Page.PrevInSection }}
-        <!--
-        {x{ if not $prev }}
-            {x{ $prev = index .CurrentSection.Pages 0 }}
-        {x{ end }}
-        -->
-        
-        {{ if $prev }}
-            <a class="btn btn-primary btn-sm" 
-               href="{{ $prev.RelPermalink }}" 
-               title="{{ .RelPermalink }}"
-               role="button">
-               vor   
-            </a>
-        {{ else }}
-            <a class="btn btn-primary btn-sm disabled">
-               vor   
-            </a>
-        {{ end }}
-
-        {{ partial "show/link" . }}
-        &nbsp; 
-        {{ partial "show/weight" . }}
-
-        <!--
-        {{ partial "show/wordcount" . }}
-        {{ partial "show/readingtime" . }}
-        -->
-
-    </div>
-
-    <!--- mitte -->
-    <div class="col-example"></div>
-
-    <!-- rechts -->
-    <div class="col-example"></div>
-
-</div>

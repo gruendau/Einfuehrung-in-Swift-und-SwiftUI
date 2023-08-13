@@ -1,0 +1,26 @@
+/* css: content.css */
+
+div.content {
+    background-color: #DDDDDD;
+    margin-left: 21%; 
+    margin-right: 21%;
+  }
+
+div.navigation {
+    background-color: #CCCCCC;
+    padding: 1%;
+  }
+
+div.title {
+    background-color: #CCCCCC;
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    padding: 1%;
+  }
+
+div.text {
+    background-color: #CCCCCC;
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    padding: 1%;
+  }  

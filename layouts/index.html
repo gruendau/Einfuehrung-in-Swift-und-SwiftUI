@@ -2,7 +2,18 @@
 
 <!-- index.html -->
 
-<div class="container-fluid px-2">
+<!-- Menu -->
+<aside class="menu">
+    {{ partial "menu/menu" }}
+</aside>
+
+<!-- Table of content -->
+<aside class="toc">
+  {{ partial "toc/toc" }}
+</aside>
+
+<div class="content">
+<div class="container-fluid">
      <div class="row">
         <div class="col">
 
@@ -12,11 +23,16 @@
             <!-- Layout anzeigen -->
             {{ partial "show/layout-index" . }}
 
+            <!-- Navigation -->
+            {{ partial "navigation" }}
+
             <!-- Title, Subtitle -->
             {{ partial "content/title-subtitle" . }}
 
             <!-- Content -->
+            <div class="text">
             {{ .Content }}
+            </div>
 
             <!-- Inhaltsverzeichnis -->
             {{ partial "list/all-pages-folded-marker-bold" . }}
@@ -32,5 +48,7 @@
         </div>
     </div>
 </div>
+</div>
+
 
 {{ end }}

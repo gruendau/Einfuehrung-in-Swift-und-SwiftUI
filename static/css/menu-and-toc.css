@@ -1,0 +1,18 @@
+/* css: aside.css */
+
+aside {
+    width: 20%;
+    padding-left: 0%;
+    padding-right: 0dvh;
+    background-color: #DDDDDD;
+  }
+  
+  aside.menu {
+    float: left;
+    margin-right: 1%;
+  }
+  
+  aside.toc {
+    float: right;
+    margin-left: 1%; 
+  }

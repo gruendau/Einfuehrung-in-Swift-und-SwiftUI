@@ -4,26 +4,9 @@
 Color of the background of the website
 */
 body {
-  background-color: #DDDDDD;
+  background-color: #000000;
 }
 
-aside {
-  width: 20%;
-  padding-left: 15px;
-  padding-right: 15px;
-  /*
-  font-style: italic;
-  background-color: lightgray;
-  */
-}
-
-aside.right {
-  float: right;
-}
-
-aside.left {
-  float: left;
-}
 
 
 /*
@@ -32,7 +15,6 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 */
-
 
 div.csBorder {
   border-radius: 5px;
