@@ -1,0 +1,40 @@
+<!-- partial content-single.html -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+
+            <!-- Sprungmarke -->
+            <h3 id="top"></h3>
+
+            <!-- Layout anzeigen -->
+            {{ partial "show/layout-single" . }}
+
+            <!-- Navigation -->
+            {{ partial "navigation-buttons" }}
+
+            
+            <!-- Title, Subtitle -->
+            {{ partial "content/title-subtitle" . }}
+
+            <!-- Content -->
+            <div class="text">
+                {{ .Content }}
+            </div>
+
+            <!--
+            {x{ if not .Site.Params.showHugoVariablesAll }}
+                {x{ .Content }}
+            {x{ end }}
+            -->
+
+            <!--
+            {x{ .Page.TableOfContents }}
+            -->
+            
+            <!-- Sprungmarke -->
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>

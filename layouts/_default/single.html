@@ -2,32 +2,6 @@
 
 <!-- single.html -->
 
-<div class="container-fluid px-2">
-    <div class="row">
-        <div class="col">
-
-            <!-- Sprungmarke -->
-            <h3 id="top"></h3>
-
-            <!-- Layout anzeigen -->
-            {{ partial "show/layout-single" . }}
-
-            
-            <!-- Title, Subtitle -->
-            {{ partial "content/title-subtitle" . }}
-
-            {{ if not .Site.Params.showHugoVariablesAll }}
-                <!-- Content -->
-                {{ .Content }}
-            {{ end }}
-
-            {{ .Page.TableOfContents }}
-            
-            <!-- Sprungmarke -->
-            <h3 id="bottom"></h3>
-
-        </div>
-    </div>
-</div>
+{{ partial "content/content-single" . }}
 
 {{ end }}

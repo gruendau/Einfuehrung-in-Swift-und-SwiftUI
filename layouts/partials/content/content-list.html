@@ -1,0 +1,45 @@
+<!-- partial content-list.html -->
+
+<div class="container-fluid px-2">
+    <div class="row">
+        <div class="col">
+
+            <!-- Sprungmarke -->
+            <h3 id="top"></h3>
+
+            <!-- Layout anzeigen -->
+            {{ partial "show/layout-list" . }}
+            
+            <!-- Title, Subtitle -->
+            {{ partial "content/title-subtitle" . }}
+
+            {{ if not .Site.Params.showHugoVariablesAll }}
+                <!-- Content -->
+                {{ .Content }}
+
+                <ul class="posts">
+
+                    {{ range .Data.Pages }}
+                        {{ if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) }}
+                        <li class="post">
+                            <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+                            <!--
+                            <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} 
+                                <span class="draft-label">DRAFT</span> 
+                                {{ end }}
+                            </span>
+                            -->
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                    
+                </ul>
+
+            {{ end }}
+
+            <!-- Sprungmarke -->
+            <h3 id="bottom"></h3>
+
+        </div>
+    </div>
+</div>

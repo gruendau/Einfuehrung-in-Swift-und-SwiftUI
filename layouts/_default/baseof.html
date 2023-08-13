@@ -4,46 +4,64 @@
 
 <html lang="de">
 
-  <head>
-    {{ partial "head" . }}
-  </head>
+<head>
+  {{ partial "head" . }}
+</head>
 
-  <body>
-    
-    <!-- Header -->
-    <header>
-      {{ partial "header" . }}
-    </header>
+<body>
 
-    <main>
+  <!-- Header -->
+  <header>
+    {{ partial "header" . }}
+  </header>
 
-      <!-- Layout für header modes -->
-      {{ partial "header/fixed-header" . }}
-      {{ partial "footer/fixed-footer" . }}
+  <main>
 
-      <!-- Layout anzeigen -->
-      {{ partial "show/layout-base" . }}
+    <!-- Layout für header modes -->
+    {{ partial "header/fixed-header" . }}
+    {{ partial "footer/fixed-footer" . }}
 
-      <!-- Content -->
+    <!-- Layout anzeigen -->
+    {{ partial "show/layout-base" . }}
+
+    <!-- Content -->
+    <!-- Menu -->
+    <aside class="menu">
+      ...menu...
+      {{ partial "menu/menu" . }}
+    </aside>
+
+    <!-- Table of content -->
+    <aside class="toc">
+      ...toc...
+      {{ partial "toc/toc" . }}
+    </aside>
+
+    <div class="content">
+      ...content...
       {{ block "main" . }}{{ end }}
+      <!--
+      {x{ partial "content/content-home" . }}
+      -->
+    </div>
 
-      <!-- Hugo Variablen anzeigen -->
-      {{ if .Site.Params.showHugoVariablesAll }}
-        {{ partial "admin/hugo-variables-all" . }}
-      {{ end }}
+    <!-- Hugo Variablen anzeigen -->
+    {{ if .Site.Params.showHugoVariablesAll }}
+    {{ partial "admin/hugo-variables-all" . }}
+    {{ end }}
 
-    </main>
+  </main>
 
-    <!-- Footer -->
-    <footer>
-      {{ partial "footer" . }}
-    </footer>
+  <!-- Footer -->
+  <footer>
+    {{ partial "footer" . }}
+  </footer>
 
-    <!--
+  <!--
     {{ partial "script-footer" . }}
     -->
 
-  </body>
+</body>
 
 </html>
 

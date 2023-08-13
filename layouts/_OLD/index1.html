@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<!-- index.html -->
+
+<!-- Menu -->
+<div>
+    {{ partial "menu/menu" . }}
+</div>
+
+<!-- Table of content -->
+<div>
+    {{ partial "toc/toc" . }}
+</div>
+
+<div class="content">
+    {{ partial "content/content-home" . }}
+</div>
+
+{{ end }}
+
+
+

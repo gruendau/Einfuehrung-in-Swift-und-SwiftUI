@@ -1,6 +1,6 @@
 <!-- layout/partials: toc -->
 
-<aside class="toc">
+
 
     <div class="container-fluid">
         <div class="row">
@@ -11,9 +11,7 @@
                     {{ partial "toc/title" . }}
                 </div>
 
-                {{ .Page.TableOfContents }}
-
-                <!-- Menu -->
+                <!-- Table of content -->
                 <div class="toc toc-content">
                     {{ partial "toc/content" . }}
                 </div>
@@ -22,4 +20,3 @@
         </div>
     </div>
 
-</aside>
