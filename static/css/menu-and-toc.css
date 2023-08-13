@@ -2,17 +2,42 @@
 
 aside {
     width: 20%;
-    padding-left: 0%;
-    padding-right: 0dvh;
+    padding: 0%;
     background-color: #DDDDDD;
   }
   
-  aside.menu {
+aside.menu {
     float: left;
     margin-right: 1%;
   }
   
-  aside.toc {
+aside.toc {
     float: right;
     margin-left: 1%; 
   }
+
+div.menu {
+  background-color: #CCCCCC;
+  margin-top: 0.6em; 
+  margin-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  }
+
+div.menu-title {
+  }
+
+div.menu-content {
+  margin-bottom: 0.6em;
+  }
+
+div.toc {
+    background-color: #CCCCCC;
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    padding: 1%;
+  }
+
+

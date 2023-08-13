@@ -1,0 +1,44 @@
+<!-- partial content.html -->
+
+<div class="container-fluid">
+    <div class="row">
+       <div class="col">
+
+           <!-- Sprungmarke -->
+           <h3 id="top"></h3>
+
+           <!-- Layout anzeigen -->
+           {{ partial "show/layout-index" . }}
+
+           <!-- Navigation -->
+           {{ partial "navigation-buttons" }}
+
+           <!-- Title, Subtitle -->
+           {{ partial "content/title-subtitle" . }}
+
+           <!-- Content -->
+           <div class="text">
+           {{ .Content }}
+           </div>
+
+           <!-- Inhaltsverzeichnis -->
+           <h4>Inhalt</h4>
+           {{ partial "list/all-pages-folded-marker-bold" . }}
+
+           <br>
+
+           <!-- Menu -->
+           <h4>Menü</h4>
+           {{ partial "menu/section" . }}
+
+           <!-- Hugo Variablen anzeigen -->
+           {{ if .Site.Params.showHugoVariablesAll }}
+               {{ partial "admin/hugo-variables-all" . }}
+           {{ end }}
+
+           <!-- Sprungmarke -->
+           <h3 id="bottom"></h3>
+
+       </div>
+   </div>
+</div>

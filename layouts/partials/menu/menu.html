@@ -1,10 +1,23 @@
 <!-- layout/partials: menu -->
 
+<aside class="menu">
 
-<dev>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
 
-    <h3>Menü</h3>
+                <!-- Title -->
+                <div class="menu menu-title">
+                    {{ partial "menu/title" . }}
+                </div>
 
-    {{ partial "menu/menu-section" . }}
+                <!-- Menu -->
+                <div class="menu menu-content">
+                    {{ partial "menu/section" . }}
+                </div>
 
-</dev>
+            </div>
+        </div>
+    </div>
+
+</aside>
