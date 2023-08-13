@@ -4,6 +4,8 @@ date: 2023-07-22T18:33:41+02:00
 draft: false
 
 subtitle: "Einstiegsseite der Einführung in Swift und SwiftUI"
+
+toc: true
 ---
 
 <!--
@@ -23,6 +25,9 @@ Mit dem Aufbau dieser Anleitung wurde im Juni 2023 begonnen ... und es dauert un
 
 #### Widmung
 Diese Anleitung ist meiner liebsten Tante Hanna gewidmet.
+
+#### TOC
+{{< toc >}}
 
 
 <!-- Links -->

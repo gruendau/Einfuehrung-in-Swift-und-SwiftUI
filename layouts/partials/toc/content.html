@@ -4,7 +4,4 @@
 Link: 
 -->
 
-{{ range .Site.Menus.main }}
-   <a href="{{ .URL }}">{{ .Name }}</a>
-   <br>
-{{ end }}
+{{ .Page.TableOfContents }}
