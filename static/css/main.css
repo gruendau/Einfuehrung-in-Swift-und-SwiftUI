@@ -7,6 +7,23 @@ body {
   background-color: #DDDDDD;
 }
 
+aside {
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*
+  font-style: italic;
+  background-color: lightgray;
+  */
+}
+
+aside.right {
+  float: right;
+}
+
+aside.left {
+  float: left;
+}
 
 
 /*

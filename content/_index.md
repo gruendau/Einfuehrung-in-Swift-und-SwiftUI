@@ -24,8 +24,6 @@ Mit dem Aufbau dieser Anleitung wurde im Juni 2023 begonnen ... und es dauert un
 #### Widmung
 Diese Anleitung ist meiner liebsten Tante Hanna gewidmet.
 
-#### Inhalt
-
 
 <!-- Links -->
 [w1]: https://de.wikipedia.org/wiki/Swift_(Programmiersprache) "wikipedia"

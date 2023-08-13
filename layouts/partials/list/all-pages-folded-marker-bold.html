@@ -3,6 +3,8 @@
 <div class="list">
 
     <!-- 1. Ebene -->
+
+
     {{ range .Pages }}
     {{ .Scratch.Set "blanks" "" }}
     {{ partial "list/details-marker-onoff" . }}
