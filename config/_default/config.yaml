@@ -7,10 +7,11 @@ autoHeadingID: true
 
 # TOC
 markup:
-  tableOfContents:
-    startLevel: 1
-    endLevel: 6
-    ordered: false
+  goldmark:
+    tableOfContents:
+      startLevel: 1
+      endLevel: 6
+      ordered: false
 
 baseURL: https://gruendau.github.io/einfuehrung-in-swift-und-swiftui/
 languageCode: de-DE
